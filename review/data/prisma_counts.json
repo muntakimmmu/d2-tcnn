@@ -1,0 +1,32 @@
+{
+ "queries": 70,
+ "retrieved": 7000,
+ "duplicates_removed": 4763,
+ "unique": 2237,
+ "other_methods_records": 6,
+ "auto_excl_not_tourism": 1061,
+ "auto_excl_no_region": 578,
+ "auto_excl_no_forecast_sust": 203,
+ "auto_pass1": 395,
+ "auto_excl_stage2": 303,
+ "pool": 92,
+ "pool_included": 37,
+ "pool_excluded": 55,
+ "supp_assessed": 6,
+ "supp_included": 5,
+ "total_included": 42,
+ "excl_reasons": {
+  "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)": 33,
+  "Tourism-growth nexus only (no demand forecasting/modelling of tourism outcome, no sustainability dimension)": 9,
+  "Outside geographic scope (not Middle East)": 5,
+  "Non-English full record or conference proceedings": 2,
+  "Eligibility not determinable from metadata (region or tourism link unconfirmed)": 2,
+  "Operational/crowd/health prediction, not tourism demand or sustainability": 4
+ },
+ "theme": {
+  "F": 16,
+  "D": 11,
+  "S": 15
+ },
+ "has_abstract": 33
+}

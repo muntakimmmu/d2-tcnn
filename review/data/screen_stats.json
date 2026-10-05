@@ -1,0 +1,9 @@
+{
+ "identified_unique": 2237,
+ "excl_not_tourism": 1061,
+ "excl_no_region_signal": 578,
+ "excl_no_forecast_or_sust": 203,
+ "passed_rule_screen": 395,
+ "passed_with_abstract": 322,
+ "passed_saudi": 147
+}

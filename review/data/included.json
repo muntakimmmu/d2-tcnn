@@ -1,0 +1,1314 @@
+[
+ {
+  "title": "The Power of Travel Search Data in Forecasting the Tourism Demand in Dubai",
+  "authors": [
+   {
+    "family": "Rashad",
+    "given": "Ahmed Shoukry"
+   }
+  ],
+  "year": 2022,
+  "journal": "Forecasting",
+  "volume": "4",
+  "pages": "674-684",
+  "has_abstract": true,
+  "key": "Rashad2022",
+  "doi": "10.3390/forecast4030036",
+  "theme": "F",
+  "country": "UAE (Dubai)",
+  "outcome": "tourism demand (travel search data)",
+  "data": "monthly, 2019-01 to 2022-04",
+  "family": "C",
+  "benchmark": "y",
+  "metrics": "n/r",
+  "future": "n",
+  "sustainability": "none",
+  "from_pool": true
+ },
+ {
+  "title": "Forecasting T\u00fcrkiye's International Tourism Demand",
+  "authors": [
+   {
+    "family": "Kurtulay",
+    "given": "Zeynep"
+   },
+   {
+    "family": "K\u0131z\u0131l\u0131rmak",
+    "given": "\u0130smail"
+   }
+  ],
+  "year": 2024,
+  "journal": "Journal of Global Tourism and Technology Research",
+  "volume": "5",
+  "pages": "12-26",
+  "has_abstract": true,
+  "key": "Kurtulay2024",
+  "doi": "10.54493/jgttr.1408566",
+  "theme": "F",
+  "country": "Turkiye",
+  "outcome": "international visitor demand",
+  "data": "monthly, 2002-01 to 2023-08",
+  "family": "C",
+  "benchmark": "y",
+  "metrics": "n/r",
+  "future": "n",
+  "sustainability": "none",
+  "from_pool": true
+ },
+ {
+  "title": "Forecasting Regional Tourism Demand in Morocco from Traditional and AI-Based Methods to Ensemble Modeling",
+  "authors": [
+   {
+    "family": "Ouassou",
+    "given": "El houssin"
+   },
+   {
+    "family": "Taya",
+    "given": "Hafsa"
+   }
+  ],
+  "year": 2022,
+  "journal": "Forecasting",
+  "volume": "4",
+  "pages": "420-437",
+  "has_abstract": true,
+  "key": "Ouassou2022",
+  "doi": "10.3390/forecast4020024",
+  "theme": "F",
+  "country": "Morocco",
+  "outcome": "regional tourist arrivals",
+  "data": "annual, 1999-2018",
+  "family": "H",
+  "benchmark": "y",
+  "metrics": "n/r",
+  "future": "n",
+  "sustainability": "none",
+  "from_pool": true
+ },
+ {
+  "title": "Forecasting inbound tourist arrivals to Iran post-COVID-19 pandemic: a small data approach using grey models",
+  "authors": [
+   {
+    "family": "Ahmadian",
+    "given": "Mohamad"
+   }
+  ],
+  "year": 2026,
+  "journal": "Journal of Tourism Futures",
+  "volume": null,
+  "pages": "1-15",
+  "has_abstract": true,
+  "key": "Ahmadian2026",
+  "doi": "10.1108/jtf-10-2024-0219",
+  "theme": "F",
+  "country": "Iran",
+  "outcome": "inbound tourist arrivals",
+  "data": "2020-2023 (small sample)",
+  "family": "G",
+  "benchmark": "y",
+  "metrics": "MAE, RMSE",
+  "future": "y (2024-26)",
+  "sustainability": "none",
+  "from_pool": true
+ },
+ {
+  "title": "Machine Learning and Artificial Intelligence for a Sustainable Tourism: A Case Study on Saudi Arabia",
+  "authors": [
+   {
+    "family": "Louati",
+    "given": "Ali"
+   },
+   {
+    "family": "Louati",
+    "given": "Hassen"
+   },
+   {
+    "family": "Alharbi",
+    "given": "Meshal"
+   },
+   {
+    "family": "Kariri",
+    "given": "Elham"
+   },
+   {
+    "family": "Khawaji",
+    "given": "Turki"
+   },
+   {
+    "family": "Almubaddil",
+    "given": "Yasser"
+   },
+   {
+    "family": "Aldwsary",
+    "given": "Sultan"
+   }
+  ],
+  "year": 2024,
+  "journal": "Information",
+  "volume": "15",
+  "pages": "516",
+  "has_abstract": true,
+  "key": "Louati2024",
+  "doi": "10.3390/info15090516",
+  "theme": "F",
+  "country": "Saudi Arabia",
+  "outcome": "tourist spending; economic landscape",
+  "data": "2015-2021",
+  "family": "H",
+  "benchmark": "y",
+  "metrics": "n/r",
+  "future": "y (2022-30)",
+  "sustainability": "economic, sustainable development (stated)",
+  "from_pool": true
+ },
+ {
+  "title": "Predicting tourism growth in Saudi Arabia with machine learning models for vision 2030 perspective",
+  "authors": [
+   {
+    "family": "Alsulami",
+    "given": "Amjad Ghazai"
+   },
+   {
+    "family": "Alharbi",
+    "given": "Amal"
+   },
+   {
+    "family": "Khan",
+    "given": "Usman Ali"
+   },
+   {
+    "family": "Al-Hejri",
+    "given": "Aymen M."
+   },
+   {
+    "family": "Alshamrani",
+    "given": "Sultan S."
+   },
+   {
+    "family": "Almotiri",
+    "given": "Jasem"
+   }
+  ],
+  "year": 2026,
+  "journal": "Scientific Reports",
+  "volume": "16",
+  "pages": "2556",
+  "has_abstract": false,
+  "key": "Alsulami2026",
+  "doi": "10.1038/s41598-025-32509-6",
+  "theme": "F",
+  "country": "Saudi Arabia",
+  "outcome": "tourism growth",
+  "data": "n/r (abstract unavailable)",
+  "family": "M",
+  "benchmark": "n/r",
+  "metrics": "n/r",
+  "future": "n/r",
+  "sustainability": "none (not assessable)",
+  "from_pool": true
+ },
+ {
+  "title": "Forecasting hotel room prices in selected GCC cities using deep learning",
+  "authors": [
+   {
+    "family": "Al Shehhi",
+    "given": "Mohammed"
+   },
+   {
+    "family": "Karathanasopoulos",
+    "given": "Andreas"
+   }
+  ],
+  "year": 2020,
+  "journal": "Journal of Hospitality and Tourism Management",
+  "volume": "42",
+  "pages": "40-50",
+  "has_abstract": false,
+  "key": "AlShehhi2020",
+  "doi": "10.1016/j.jhtm.2019.11.003",
+  "theme": "F",
+  "country": "GCC cities",
+  "outcome": "hotel room prices",
+  "data": "n/r (abstract unavailable)",
+  "family": "M",
+  "benchmark": "n/r",
+  "metrics": "n/r",
+  "future": "n/r",
+  "sustainability": "none (not assessable)",
+  "from_pool": true
+ },
+ {
+  "title": "Machine Learning-Based Tourism Demand Prediction Using Tourism Instability Indicators",
+  "authors": [
+   {
+    "family": "Zamzami",
+    "given": "Ikhlas Fuad"
+   }
+  ],
+  "year": 2026,
+  "journal": "Sustainability",
+  "volume": "18",
+  "pages": "5503",
+  "has_abstract": true,
+  "key": "Zamzami2026",
+  "doi": "10.3390/su18115503",
+  "theme": "F",
+  "country": "Saudi Arabia",
+  "outcome": "tourism demand (tourist numbers)",
+  "data": "2015-2024",
+  "family": "M",
+  "benchmark": "y",
+  "metrics": "MAE, RMSE, R2",
+  "future": "n",
+  "sustainability": "none (instability proxy)",
+  "from_pool": true
+ },
+ {
+  "title": "Forecasting the Tourism Demand of T\u00fcrkiye Using Artificial Neural Network (ANN) Approach",
+  "authors": [
+   {
+    "family": "Tuncsiper  Ph.D",
+    "given": "Dr. Cagatay"
+   }
+  ],
+  "year": 2023,
+  "journal": "INTERNATIONAL JOURNAL OF SOCIAL SCIENCE AND EDUCATION RESEARCH STUDIES",
+  "volume": "03",
+  "pages": null,
+  "has_abstract": true,
+  "key": "Tuncsiper2023",
+  "doi": "10.55677/ijssers/v03i3y2023-20",
+  "theme": "F",
+  "country": "Turkiye",
+  "outcome": "tourist numbers; tourism revenue",
+  "data": "monthly, 2008-2022",
+  "family": "M",
+  "benchmark": "n",
+  "metrics": "n/r",
+  "future": "n",
+  "sustainability": "none",
+  "from_pool": true
+ },
+ {
+  "title": "A novel hybrid deep learning approachfor tourism demand forecasting",
+  "authors": [
+   {
+    "family": "Laaroussi",
+    "given": "Houria"
+   },
+   {
+    "family": "Guerouate",
+    "given": "Fatima"
+   },
+   {
+    "family": "Sbihi",
+    "given": "Mohamed"
+   }
+  ],
+  "year": 2023,
+  "journal": "International Journal of Electrical and Computer Engineering (IJECE)",
+  "volume": "13",
+  "pages": "1989",
+  "has_abstract": true,
+  "key": "Laaroussi2023",
+  "doi": "10.11591/ijece.v13i2.pp1989-1996",
+  "theme": "F",
+  "country": "Morocco (Marrakech)",
+  "outcome": "tourist arrivals",
+  "data": "monthly",
+  "family": "H",
+  "benchmark": "y",
+  "metrics": "n/r",
+  "future": "n",
+  "sustainability": "none",
+  "from_pool": true
+ },
+ {
+  "title": "Forecasting Hotel Prices in Selected Middle East and North Africa Region (MENA) Cities with New Forecasting Tools",
+  "authors": [
+   {
+    "family": "Al Shehhi",
+    "given": "Mohammed"
+   },
+   {
+    "family": "Karathanasopoulos",
+    "given": "Andreas"
+   }
+  ],
+  "year": 2018,
+  "journal": "Theoretical Economics Letters",
+  "volume": "08",
+  "pages": "1623-1638",
+  "has_abstract": false,
+  "key": "AlShehhi2018",
+  "doi": "10.4236/tel.2018.89104",
+  "theme": "F",
+  "country": "MENA cities",
+  "outcome": "hotel prices",
+  "data": "n/r (abstract unavailable)",
+  "family": "M",
+  "benchmark": "n/r",
+  "metrics": "n/r",
+  "future": "n/r",
+  "sustainability": "none (not assessable)",
+  "from_pool": true
+ },
+ {
+  "title": "A Comparative Study on Modelling and Forecasting Tourism Revenues: The Case of Turkey",
+  "authors": [
+   {
+    "family": "\u00c7UHADAR",
+    "given": "Murat"
+   }
+  ],
+  "year": 2020,
+  "journal": "Advances in Hospitality and Tourism Research (AHTR)",
+  "volume": "8",
+  "pages": "235-255",
+  "has_abstract": true,
+  "key": "Cuhadar2020",
+  "doi": "10.30519/ahtr.765394",
+  "theme": "F",
+  "country": "Turkiye",
+  "outcome": "tourism revenues",
+  "data": "n/r",
+  "family": "M",
+  "benchmark": "y",
+  "metrics": "n/r",
+  "future": "n",
+  "sustainability": "none",
+  "from_pool": true
+ },
+ {
+  "title": "Tourism demand modelling and forecasting using data mining techniques in multivariate time series: a case study in Turkey",
+  "authors": [
+   {
+    "family": "CANKURT",
+    "given": "Sel\u00e7uk"
+   },
+   {
+    "family": "SUBA\u015eI",
+    "given": "Abd\u00fclhamit"
+   }
+  ],
+  "year": 2016,
+  "journal": "TURKISH JOURNAL OF ELECTRICAL ENGINEERING &amp; COMPUTER SCIENCES",
+  "volume": "24",
+  "pages": "3388-3404",
+  "has_abstract": false,
+  "key": "Cankurt2016",
+  "doi": "10.3906/elk-1311-134",
+  "theme": "F",
+  "country": "Turkiye",
+  "outcome": "tourism demand",
+  "data": "n/r (abstract unavailable)",
+  "family": "M",
+  "benchmark": "n/r",
+  "metrics": "n/r",
+  "future": "n/r",
+  "sustainability": "none (not assessable)",
+  "from_pool": true
+ },
+ {
+  "title": "Modeling Tourism Demand in Turkey (2008\u20132024): Time-Series Approaches for Sustainable Growth",
+  "authors": [
+   {
+    "family": "Bilek",
+    "given": "G\u00fcnal"
+   }
+  ],
+  "year": 2025,
+  "journal": "Sustainability",
+  "volume": "17",
+  "pages": "1396",
+  "has_abstract": true,
+  "key": "Bilek2025",
+  "doi": "10.3390/su17041396",
+  "theme": "F",
+  "country": "Turkiye",
+  "outcome": "tourism demand",
+  "data": "monthly, 2008-2024",
+  "family": "C",
+  "benchmark": "y",
+  "metrics": "n/r",
+  "future": "n",
+  "sustainability": "framing only (\"sustainable growth\")",
+  "from_pool": true
+ },
+ {
+  "title": "Forecasting the Tourist Arrival Volumes and Tourism Income with Combined ANN Architecture in the Post COVID-19 Period: The Case of Turkey",
+  "authors": [
+   {
+    "family": "Kayral",
+    "given": "\u0130hsan Erdem"
+   },
+   {
+    "family": "Sar\u0131",
+    "given": "Tu\u011fba"
+   },
+   {
+    "family": "Tando\u011fan Aktepe",
+    "given": "Nisa \u015eansel"
+   }
+  ],
+  "year": 2023,
+  "journal": "Sustainability",
+  "volume": "15",
+  "pages": "15924",
+  "has_abstract": true,
+  "key": "Kayral2023",
+  "doi": "10.3390/su152215924",
+  "theme": "F",
+  "country": "Turkiye",
+  "outcome": "tourist arrivals; tourism income",
+  "data": "n/r",
+  "family": "H",
+  "benchmark": "y",
+  "metrics": "n/r",
+  "future": "y (scenarios)",
+  "sustainability": "none",
+  "from_pool": true
+ },
+ {
+  "title": "Forecasting The Number of International Muslims Umrah Visitors in Makkah to 2030",
+  "authors": [
+   {
+    "family": "Alamoudi",
+    "given": "Ahmad"
+   },
+   {
+    "family": "Abed",
+    "given": "Seraj"
+   }
+  ],
+  "year": 2020,
+  "journal": "International Journal of Advanced Engineering Research and Applications",
+  "volume": "6",
+  "pages": "137-148",
+  "has_abstract": true,
+  "key": "Alamoudi2020",
+  "doi": "10.46593/ijaera.2020.v06i08.001",
+  "theme": "F",
+  "country": "Saudi Arabia (Makkah)",
+  "outcome": "international Umrah visitors",
+  "data": "annual, 33 years",
+  "family": "C",
+  "benchmark": "y",
+  "metrics": "n/r",
+  "future": "y (2020-30)",
+  "sustainability": "none (Vision 2030 target only)",
+  "from_pool": false
+ },
+ {
+  "title": "The seasonality of religious tourism and the impact of the Arbaeen pilgrimage on hotel occupancy in Karbala",
+  "authors": [
+   {
+    "family": "Shmoto",
+    "given": "Ali Khaleel"
+   }
+  ],
+  "year": 2026,
+  "journal": "alarbaeen",
+  "volume": "2",
+  "pages": null,
+  "has_abstract": true,
+  "key": "Shmoto2026",
+  "doi": "10.64704/alarbaeen.202604020435",
+  "theme": "D",
+  "country": "Iraq (Karbala)",
+  "outcome": "hotel occupancy seasonality",
+  "data": "monthly, 5 years, 27 hotels",
+  "family": "C",
+  "benchmark": "n",
+  "metrics": "n/a",
+  "future": "n",
+  "sustainability": "none",
+  "from_pool": true
+ },
+ {
+  "title": "Study of international tourism demand in Middle East by panel data model",
+  "authors": [
+   {
+    "family": "Rafiei Darani",
+    "given": "Hadi"
+   },
+   {
+    "family": "Asghari",
+    "given": "Hadi"
+   }
+  ],
+  "year": 2018,
+  "journal": "International Journal of Culture, Tourism and Hospitality Research",
+  "volume": "12",
+  "pages": "80-88",
+  "has_abstract": true,
+  "key": "Rafiei2018",
+  "doi": "10.1108/ijcthr-03-2017-0030",
+  "theme": "D",
+  "country": "Middle East (panel)",
+  "outcome": "international tourism demand",
+  "data": "annual panel, 1995-2013",
+  "family": "C",
+  "benchmark": "n",
+  "metrics": "n/a",
+  "future": "n",
+  "sustainability": "none",
+  "from_pool": true
+ },
+ {
+  "title": "The Impacts of Oil Price Shocks on Tourism Receipts for Selected Middle East and North Africa (MENA) Countries: Do Structural Breaks Matter?",
+  "authors": [
+   {
+    "family": "Kisswani",
+    "given": "Khalid M."
+   },
+   {
+    "family": "Kisswani",
+    "given": "Amjad M."
+   },
+   {
+    "family": "Harraf",
+    "given": "Arezou"
+   }
+  ],
+  "year": 2020,
+  "journal": "Tourism Analysis",
+  "volume": "25",
+  "pages": "383-394",
+  "has_abstract": true,
+  "key": "Kisswani2020",
+  "doi": "10.3727/108354220x15758301241891",
+  "theme": "D",
+  "country": "MENA (panel)",
+  "outcome": "tourism receipts",
+  "data": "n/r",
+  "family": "C",
+  "benchmark": "n",
+  "metrics": "n/a",
+  "future": "n",
+  "sustainability": "none",
+  "from_pool": true
+ },
+ {
+  "title": "Dynamics of tourism demand in Turkey: Panel data analysis using gravity model",
+  "authors": [
+   {
+    "family": "Ulucak",
+    "given": "Recep"
+   },
+   {
+    "family": "Y\u00fccel",
+    "given": "Ali G\u00f6khan"
+   },
+   {
+    "family": "\u0130lkay",
+    "given": "Salih \u00c7a\u011fr\u0131"
+   }
+  ],
+  "year": 2020,
+  "journal": "Tourism Economics",
+  "volume": "26",
+  "pages": "1394-1414",
+  "has_abstract": true,
+  "key": "Ulucak2020",
+  "doi": "10.1177/1354816620901956",
+  "theme": "D",
+  "country": "Turkiye",
+  "outcome": "international arrivals (gravity)",
+  "data": "1998-2017, 25 origins",
+  "family": "C",
+  "benchmark": "n",
+  "metrics": "n/a",
+  "future": "n",
+  "sustainability": "framing (\"sustainable tourism\")",
+  "from_pool": true
+ },
+ {
+  "title": "The effect of tourism source market structure on international tourism revenues in Turkey",
+  "authors": [
+   {
+    "family": "A\u011fazade",
+    "given": "Seymur"
+   }
+  ],
+  "year": 2021,
+  "journal": "Tourism Economics",
+  "volume": "28",
+  "pages": "714-727",
+  "has_abstract": true,
+  "key": "Agazade2021",
+  "doi": "10.1177/13548166211055985",
+  "theme": "D",
+  "country": "Turkiye",
+  "outcome": "tourism revenues",
+  "data": "monthly, 2008-01 to 2019-09",
+  "family": "C",
+  "benchmark": "n",
+  "metrics": "n/a",
+  "future": "n",
+  "sustainability": "none",
+  "from_pool": true
+ },
+ {
+  "title": "Geopolitical and economic risks and tourism in Tunisia: A wavelet-based analysis",
+  "authors": [
+   {
+    "family": "Hamida",
+    "given": "Hela ben"
+   },
+   {
+    "family": "Aloui",
+    "given": "Chaker"
+   }
+  ],
+  "year": 2025,
+  "journal": "Tourism and Hospitality Research",
+  "volume": null,
+  "pages": "14673584251350551",
+  "has_abstract": true,
+  "key": "Hamida2025",
+  "doi": "10.1177/14673584251350551",
+  "theme": "D",
+  "country": "Tunisia",
+  "outcome": "tourist arrivals vs geopolitical risk",
+  "data": "monthly, 1993-2023",
+  "family": "C",
+  "benchmark": "n",
+  "metrics": "n/a",
+  "future": "n",
+  "sustainability": "none",
+  "from_pool": true
+ },
+ {
+  "title": "Institutional Quality and Tourism Growth Nexus in MENA Countries",
+  "authors": [
+   {
+    "family": "Wada",
+    "given": "Isah"
+   }
+  ],
+  "year": 2021,
+  "journal": "The Romanian Economic Journal",
+  "volume": null,
+  "pages": null,
+  "has_abstract": true,
+  "key": "Wada2021",
+  "doi": "10.24818/rej/2021/81/01",
+  "theme": "D",
+  "country": "MENA (panel)",
+  "outcome": "international arrivals",
+  "data": "2012-2018",
+  "family": "C",
+  "benchmark": "n",
+  "metrics": "n/a",
+  "future": "n",
+  "sustainability": "none",
+  "from_pool": true
+ },
+ {
+  "title": "Climate and Tourist Location in Saudi Arabia: A Spatial and Econometric Analysis of the Climatic Determinants of Tourist Area Selection",
+  "authors": [
+   {
+    "family": "Chouari",
+    "given": "Walid"
+   }
+  ],
+  "year": 2025,
+  "journal": "Journal of Cultural Analysis and Social Change",
+  "volume": null,
+  "pages": "2404-2412",
+  "has_abstract": true,
+  "key": "Chouari2025",
+  "doi": "10.64753/jcasc.v10i3.2758",
+  "theme": "D",
+  "country": "Saudi Arabia",
+  "outcome": "regional/seasonal tourist flows vs climate",
+  "data": "2005-2024",
+  "family": "C",
+  "benchmark": "n",
+  "metrics": "n/a",
+  "future": "n",
+  "sustainability": "environmental (climate)",
+  "from_pool": true
+ },
+ {
+  "title": "Reduced Climate Vulnerability, Visa Liberalization and Tourism Development in Saudi Arabia: Evidence Under Vision 2030 Framework",
+  "authors": [
+   {
+    "family": "Abuhulaibah",
+    "given": "Talal F."
+   }
+  ],
+  "year": 2026,
+  "journal": "Sustainability",
+  "volume": "18",
+  "pages": "7602",
+  "has_abstract": true,
+  "key": "Abuhulaibah2026",
+  "doi": "10.3390/su18157602",
+  "theme": "D",
+  "country": "Saudi Arabia",
+  "outcome": "tourism development",
+  "data": "annual, 1995-2024",
+  "family": "C",
+  "benchmark": "n",
+  "metrics": "n/a",
+  "future": "n",
+  "sustainability": "environmental (climate vulnerability)",
+  "from_pool": true
+ },
+ {
+  "title": "Hard, Green, and Heritage Infrastructure and Regional Tourism Spending in Saudi Arabia: Insights for Vision 2030 and SDG 11",
+  "authors": [
+   {
+    "family": "Alfehaid",
+    "given": "Muhannad Mohammed"
+   }
+  ],
+  "year": 2026,
+  "journal": "Sustainable Development",
+  "volume": "34",
+  "pages": "7443-7455",
+  "has_abstract": true,
+  "key": "Alfehaid2026",
+  "doi": "10.1002/sd.70756",
+  "theme": "D",
+  "country": "Saudi Arabia",
+  "outcome": "regional tourism spending",
+  "data": "13 regions, 2024",
+  "family": "C",
+  "benchmark": "n",
+  "metrics": "n/a",
+  "future": "n",
+  "sustainability": "environmental (green infrastructure), SDG",
+  "from_pool": true
+ },
+ {
+  "title": "Tourism Transformation and Oil Price Dynamics in Saudi Arabia: An ARDL Analysis of Religious and Non-Religious Tourism",
+  "authors": [
+   {
+    "family": "Mabrouk",
+    "given": "Fatma"
+   },
+   {
+    "family": "Alanzi",
+    "given": "Eman"
+   }
+  ],
+  "year": 2026,
+  "journal": "Sustainability",
+  "volume": "18",
+  "pages": "6295",
+  "has_abstract": true,
+  "key": "Mabrouk2026",
+  "doi": "10.3390/su18126295",
+  "theme": "D",
+  "country": "Saudi Arabia",
+  "outcome": "religious/non-religious tourism demand",
+  "data": "quarterly, 2015Q1-2024Q4",
+  "family": "C",
+  "benchmark": "n",
+  "metrics": "n/a",
+  "future": "n",
+  "sustainability": "none",
+  "from_pool": true
+ },
+ {
+  "title": "THE ROLE OF RELIGIOUS TOURISM IN SUSTAINABLE DEVELOPMENT IN SAUDI ARABIA: EVIDENCE FROM QUANTILE NON-CAUSALITY TEST",
+  "authors": [
+   {
+    "family": "TRIKI",
+    "given": "Mohamed Bilel"
+   }
+  ],
+  "year": 2019,
+  "journal": "GeoJournal of Tourism and Geosites",
+  "volume": "27",
+  "pages": "1321-1333",
+  "has_abstract": false,
+  "key": "Triki2019",
+  "doi": "10.30892/gtg.27417-436",
+  "theme": "S",
+  "country": "Saudi Arabia",
+  "outcome": "sustainable development (religious tourism)",
+  "data": "n/r (abstract unavailable)",
+  "family": "C",
+  "benchmark": "n/r",
+  "metrics": "n/a",
+  "future": "n",
+  "sustainability": "economic/sustainable development (title)",
+  "from_pool": true
+ },
+ {
+  "title": "The Tourism\u2013Energy\u2013Trade Openness Nexus and Transport CO2 Emissions in the Middle East: Evidence from an ARDL Approach",
+  "authors": [
+   {
+    "family": "Bin Surayhid",
+    "given": "Fulwah"
+   },
+   {
+    "family": "Binsuwadan",
+    "given": "Jawaher"
+   },
+   {
+    "family": "Alanzi",
+    "given": "Eman"
+   }
+  ],
+  "year": 2026,
+  "journal": "Sustainability",
+  "volume": "18",
+  "pages": "6245",
+  "has_abstract": true,
+  "key": "BinSurayhid2026",
+  "doi": "10.3390/su18126245",
+  "theme": "S",
+  "country": "Middle East (10 countries)",
+  "outcome": "transport CO2 emissions",
+  "data": "annual, 2000-2020",
+  "family": "C",
+  "benchmark": "n",
+  "metrics": "n/a",
+  "future": "n",
+  "sustainability": "environmental",
+  "from_pool": true
+ },
+ {
+  "title": "Modeling Energy, Education, Trade, and Tourism-Induced Environmental Kuznets Curve (EKC) Hypothesis: Evidence from the Middle East",
+  "authors": [
+   {
+    "family": "Voumik",
+    "given": "Liton Chandra"
+   },
+   {
+    "family": "Md. Nafi",
+    "given": "Shohel"
+   },
+   {
+    "family": "Bekun",
+    "given": "Festus Victor"
+   },
+   {
+    "family": "Haseki",
+    "given": "Murat Ismet"
+   }
+  ],
+  "year": 2023,
+  "journal": "Sustainability",
+  "volume": "15",
+  "pages": "4919",
+  "has_abstract": true,
+  "key": "Voumik2023",
+  "doi": "10.3390/su15064919",
+  "theme": "S",
+  "country": "Middle East (10 countries)",
+  "outcome": "CO2 emissions (EKC)",
+  "data": "annual, 1997-2019",
+  "family": "C",
+  "benchmark": "n",
+  "metrics": "n/a",
+  "future": "n",
+  "sustainability": "environmental",
+  "from_pool": true
+ },
+ {
+  "title": "The impact of tourism on carbon (CO2) Emissions: An empirical analysis of Turkiye",
+  "authors": [
+   {
+    "family": "BAHAR",
+    "given": "Ozan"
+   },
+   {
+    "family": "DEM\u0130R",
+    "given": "Emre"
+   }
+  ],
+  "year": 2023,
+  "journal": "Journal of Tourism Theory and Research",
+  "volume": "9",
+  "pages": "53-60",
+  "has_abstract": true,
+  "key": "Bahar2023",
+  "doi": "10.24288/jttr.1252689",
+  "theme": "S",
+  "country": "Turkiye",
+  "outcome": "CO2 emissions",
+  "data": "annual, 1984-2021",
+  "family": "C",
+  "benchmark": "n",
+  "metrics": "n/a",
+  "future": "n",
+  "sustainability": "environmental",
+  "from_pool": true
+ },
+ {
+  "title": "The Role of Tourism Development in Promoting Income Equality: A Case Study of GCC Countries",
+  "authors": [
+   {
+    "family": "Alnafisah",
+    "given": "Nouf"
+   }
+  ],
+  "year": 2025,
+  "journal": "Sustainability",
+  "volume": "17",
+  "pages": "4272",
+  "has_abstract": true,
+  "key": "Alnafisah2025",
+  "doi": "10.3390/su17104272",
+  "theme": "S",
+  "country": "GCC",
+  "outcome": "income equality",
+  "data": "quarterly, 2014Q1-2023Q4",
+  "family": "C",
+  "benchmark": "n",
+  "metrics": "n/a",
+  "future": "n",
+  "sustainability": "social",
+  "from_pool": true
+ },
+ {
+  "title": "The impact of tourism on sustainable development in GCC countries",
+  "authors": [
+   {
+    "family": "Zmami",
+    "given": "Mourad"
+   },
+   {
+    "family": "Ben-Salha",
+    "given": "Ousama"
+   }
+  ],
+  "year": 2024,
+  "journal": "Journal of Tourism Management Research",
+  "volume": "11",
+  "pages": "153-166",
+  "has_abstract": true,
+  "key": "Zmami2024",
+  "doi": "10.18488/31.v11i2.3808",
+  "theme": "S",
+  "country": "GCC",
+  "outcome": "three sustainable-development pillars",
+  "data": "n/r",
+  "family": "C",
+  "benchmark": "n",
+  "metrics": "n/a",
+  "future": "n",
+  "sustainability": "economic, social, environmental",
+  "from_pool": true
+ },
+ {
+  "title": "The Nexus between tourism-energy-environmental degradation: Does financial development matter in GCC countries?",
+  "authors": [
+   {
+    "family": "Farooq",
+    "given": "Umar"
+   },
+   {
+    "family": "Tabash",
+    "given": "Mosab I"
+   },
+   {
+    "family": "Saleh Al-Faryan",
+    "given": "Mamdouh Abdulaziz"
+   },
+   {
+    "family": "I\u015f\u0131k",
+    "given": "Cem"
+   },
+   {
+    "family": "Dogru",
+    "given": "Tarik"
+   }
+  ],
+  "year": 2023,
+  "journal": "Tourism Economics",
+  "volume": "30",
+  "pages": "680-701",
+  "has_abstract": true,
+  "key": "Farooq2023a",
+  "doi": "10.1177/13548166231174812",
+  "theme": "S",
+  "country": "GCC (6 countries)",
+  "outcome": "CO2 emissions",
+  "data": "annual, 2000-2019",
+  "family": "C",
+  "benchmark": "n",
+  "metrics": "n/a",
+  "future": "n",
+  "sustainability": "environmental",
+  "from_pool": true
+ },
+ {
+  "title": "Sustainability of Tourism and Economic Development in Three Religious Tourism Destinations: The Critical Role of Fossil Fuel Energy on Air Pollution and Human Health",
+  "authors": [
+   {
+    "family": "Bildirici",
+    "given": "Melike"
+   },
+   {
+    "family": "Ersin",
+    "given": "\u00d6zg\u00fcr \u00d6mer"
+   }
+  ],
+  "year": 2025,
+  "journal": "Sustainability",
+  "volume": "17",
+  "pages": "6351",
+  "has_abstract": true,
+  "key": "Bildirici2025",
+  "doi": "10.3390/su17146351",
+  "theme": "S",
+  "country": "Saudi Arabia, Turkiye (+Italy)",
+  "outcome": "pollution, air quality, life expectancy",
+  "data": "annual, 1975-2019",
+  "family": "C",
+  "benchmark": "n",
+  "metrics": "n/a",
+  "future": "n",
+  "sustainability": "environmental, social",
+  "from_pool": true
+ },
+ {
+  "title": "Environmental Impact of Urbanization, Bank Credits, and Energy Use in the UAE\u2014A Tourism-Induced EKC Model",
+  "authors": [
+   {
+    "family": "Majumdar",
+    "given": "Sudipa"
+   },
+   {
+    "family": "Paris",
+    "given": "Cody Morris"
+   }
+  ],
+  "year": 2022,
+  "journal": "Sustainability",
+  "volume": "14",
+  "pages": "7834",
+  "has_abstract": true,
+  "key": "Majumdar2022",
+  "doi": "10.3390/su14137834",
+  "theme": "S",
+  "country": "UAE",
+  "outcome": "CO2 emissions (EKC)",
+  "data": "annual, 1984-2019",
+  "family": "C",
+  "benchmark": "n",
+  "metrics": "n/a",
+  "future": "n",
+  "sustainability": "environmental",
+  "from_pool": true
+ },
+ {
+  "title": "Innovation and sustainability drivers of post-COVID tourism and hotel recovery in Jordan: Evidence from 2010\u20132024",
+  "authors": [
+   {
+    "family": "Harazneh",
+    "given": "Ibrahim"
+   },
+   {
+    "family": "Odeh Falah Al-shamaileh",
+    "given": "Maher"
+   },
+   {
+    "family": "A. A. Jawabreh",
+    "given": "Omar"
+   },
+   {
+    "family": "A. ALzghoul",
+    "given": "Yahya"
+   },
+   {
+    "family": "Helalat",
+    "given": "Abdullah"
+   },
+   {
+    "family": "Harasis",
+    "given": "Ahmad"
+   }
+  ],
+  "year": 2026,
+  "journal": "Problems and Perspectives in Management",
+  "volume": "24",
+  "pages": "120-131",
+  "has_abstract": true,
+  "key": "Harazneh2026",
+  "doi": "10.21511/ppm.24(2).2026.09",
+  "theme": "S",
+  "country": "Jordan",
+  "outcome": "post-COVID recovery index",
+  "data": "annual, 2010-2024",
+  "family": "C",
+  "benchmark": "n",
+  "metrics": "n/a",
+  "future": "n",
+  "sustainability": "environmental (EPI), innovation",
+  "from_pool": true
+ },
+ {
+  "title": "Modelling the causality of sustainable tourism in Qatar: an empirical study",
+  "authors": [
+   {
+    "family": "Nair",
+    "given": "Girish K."
+   },
+   {
+    "family": "Choudhary",
+    "given": "Nidhi"
+   }
+  ],
+  "year": 2016,
+  "journal": "International Journal of Sustainable Society",
+  "volume": "8",
+  "pages": "242",
+  "has_abstract": false,
+  "key": "Nair2016",
+  "doi": "10.1504/ijssoc.2016.079082",
+  "theme": "S",
+  "country": "Qatar",
+  "outcome": "sustainable tourism causality",
+  "data": "n/r (abstract unavailable)",
+  "family": "C",
+  "benchmark": "n/r",
+  "metrics": "n/a",
+  "future": "n",
+  "sustainability": "sustainable tourism (title)",
+  "from_pool": true
+ },
+ {
+  "title": "Saudi Arabia's path to carbon neutrality: Analysis of the role of Hajj pilgrimage, energy consumption, and economic growth",
+  "authors": [
+   {
+    "family": "Raihan",
+    "given": "Asif"
+   },
+   {
+    "family": "Rahman",
+    "given": "Syed Masiur"
+   },
+   {
+    "family": "Sarker",
+    "given": "Tapan"
+   }
+  ],
+  "year": 2025,
+  "journal": "Innovation and Green Development",
+  "volume": "4",
+  "pages": "100203",
+  "has_abstract": false,
+  "key": "Raihan2025",
+  "doi": "10.1016/j.igd.2024.100203",
+  "theme": "S",
+  "country": "Saudi Arabia",
+  "outcome": "carbon neutrality (Hajj)",
+  "data": "n/r (abstract unavailable)",
+  "family": "C",
+  "benchmark": "n/r",
+  "metrics": "n/a",
+  "future": "n",
+  "sustainability": "environmental (title)",
+  "from_pool": false
+ },
+ {
+  "title": "Pilgrimage Tourism, Economic growth & Energy consumption: Their Impact on Carbon Emission in Saudi Arabia \u0627\u0644\u0633\u064a\u0627\u062d\u0629 \u0627\u0644\u062f\u064a\u0646\u064a\u0629\u060c \u0627\u0644\u0646\u0645\u0648 \u0627\u0644\u0627\u0642\u062a\u0635\u0627\u062f\u064a \u0648\u0627\u0633\u062a\u0647\u0644\u0627\u0643 \u0627\u0644\u0637\u0627\u0642\u0629: \u062a\u0623\u062b\u064a\u0631\u0647\u0627 \u0639\u0644\u0649 \u0627\u0646\u0628\u0639\u0627\u062b \u0627\u0644\u0643\u0631\u0628\u0648\u0646 \u0641\u064a \u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u0627\u0644\u0633\u0639\u0648\u062f\u064a\u0629",
+  "authors": [
+   {
+    "family": "Naseem",
+    "given": "Sana"
+   }
+  ],
+  "year": 2025,
+  "journal": "Journal of Economic Studies",
+  "volume": "17",
+  "pages": null,
+  "has_abstract": true,
+  "key": "Naseem2025",
+  "doi": "10.33948/esj-ksu-17-2-8",
+  "theme": "S",
+  "country": "Saudi Arabia",
+  "outcome": "CO2 emissions (pilgrimage)",
+  "data": "annual, 1996-2022",
+  "family": "C",
+  "benchmark": "n",
+  "metrics": "n/a",
+  "future": "n",
+  "sustainability": "environmental",
+  "from_pool": false
+ },
+ {
+  "title": "Investigating the nexus between CO 2 emissions, economic growth, energy consumption and pilgrimage tourism in Saudi Arabia",
+  "authors": [
+   {
+    "family": "Ozturk",
+    "given": "Ilhan"
+   },
+   {
+    "family": "Aslan",
+    "given": "Alper"
+   },
+   {
+    "family": "Altinoz",
+    "given": "Buket"
+   }
+  ],
+  "year": 2021,
+  "journal": "Economic Research-Ekonomska Istra\u017eivanja",
+  "volume": "35",
+  "pages": "3083-3098",
+  "has_abstract": false,
+  "key": "Ozturk2021",
+  "doi": "10.1080/1331677x.2021.1985577",
+  "theme": "S",
+  "country": "Saudi Arabia",
+  "outcome": "CO2 emissions (pilgrimage)",
+  "data": "n/r (abstract unavailable)",
+  "family": "C",
+  "benchmark": "n/r",
+  "metrics": "n/a",
+  "future": "n",
+  "sustainability": "environmental (title)",
+  "from_pool": false
+ },
+ {
+  "title": "Economic growth, foreign investment, tourism, and electricity production as determinants of environmental quality: empirical evidence from GCC region",
+  "authors": [
+   {
+    "family": "Farooq",
+    "given": "Umar"
+   },
+   {
+    "family": "Tabash",
+    "given": "Mosab I."
+   },
+   {
+    "family": "Anagreh",
+    "given": "Suhaib"
+   },
+   {
+    "family": "Al-Rdaydeh",
+    "given": "Mahmoud"
+   },
+   {
+    "family": "Habib",
+    "given": "Samar"
+   }
+  ],
+  "year": 2023,
+  "journal": "Environmental Science and Pollution Research",
+  "volume": "30",
+  "pages": "45768-45780",
+  "has_abstract": false,
+  "key": "Farooq2023b",
+  "doi": "10.1007/s11356-023-25545-0",
+  "theme": "S",
+  "country": "GCC",
+  "outcome": "environmental quality",
+  "data": "n/r (abstract unavailable)",
+  "family": "C",
+  "benchmark": "n/r",
+  "metrics": "n/a",
+  "future": "n",
+  "sustainability": "environmental (title)",
+  "from_pool": false
+ }
+]

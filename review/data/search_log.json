@@ -1,0 +1,428 @@
+{
+ "database": "Crossref REST API",
+ "filter": "2015-01-01..2026-12-31, journal-article",
+ "queries": [
+  {
+   "query": "tourism demand forecasting Saudi Arabia",
+   "date": "2026-10-05",
+   "total_results_reported": 412893,
+   "retrieved": 100
+  },
+  {
+   "query": "tourist arrivals forecasting Saudi Arabia",
+   "date": "2026-10-05",
+   "total_results_reported": 206248,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism forecasting machine learning Saudi Arabia",
+   "date": "2026-10-05",
+   "total_results_reported": 1685238,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism forecasting deep learning Saudi Arabia",
+   "date": "2026-10-05",
+   "total_results_reported": 1771597,
+   "retrieved": 100
+  },
+  {
+   "query": "hotel occupancy forecasting Saudi Arabia",
+   "date": "2026-10-05",
+   "total_results_reported": 218316,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism sustainability prediction Saudi Arabia",
+   "date": "2026-10-05",
+   "total_results_reported": 894148,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism CO2 emissions Saudi Arabia",
+   "date": "2026-10-05",
+   "total_results_reported": 423634,
+   "retrieved": 100
+  },
+  {
+   "query": "sustainable tourism modelling Saudi Arabia",
+   "date": "2026-10-05",
+   "total_results_reported": 884515,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism demand forecasting Middle East",
+   "date": "2026-10-05",
+   "total_results_reported": 630664,
+   "retrieved": 100
+  },
+  {
+   "query": "tourist arrivals forecasting Middle East",
+   "date": "2026-10-05",
+   "total_results_reported": 424968,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism forecasting machine learning Middle East",
+   "date": "2026-10-05",
+   "total_results_reported": 1899471,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism forecasting deep learning Middle East",
+   "date": "2026-10-05",
+   "total_results_reported": 1985114,
+   "retrieved": 100
+  },
+  {
+   "query": "hotel occupancy forecasting Middle East",
+   "date": "2026-10-05",
+   "total_results_reported": 437099,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism sustainability prediction Middle East",
+   "date": "2026-10-05",
+   "total_results_reported": 1111210,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism CO2 emissions Middle East",
+   "date": "2026-10-05",
+   "total_results_reported": 641367,
+   "retrieved": 100
+  },
+  {
+   "query": "sustainable tourism modelling Middle East",
+   "date": "2026-10-05",
+   "total_results_reported": 1101189,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism demand forecasting GCC",
+   "date": "2026-10-05",
+   "total_results_reported": 319454,
+   "retrieved": 100
+  },
+  {
+   "query": "tourist arrivals forecasting GCC",
+   "date": "2026-10-05",
+   "total_results_reported": 112281,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism forecasting machine learning GCC",
+   "date": "2026-10-05",
+   "total_results_reported": 1594056,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism forecasting deep learning GCC",
+   "date": "2026-10-05",
+   "total_results_reported": 1680493,
+   "retrieved": 100
+  },
+  {
+   "query": "hotel occupancy forecasting GCC",
+   "date": "2026-10-05",
+   "total_results_reported": 124380,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism sustainability prediction GCC",
+   "date": "2026-10-05",
+   "total_results_reported": 801859,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism CO2 emissions GCC",
+   "date": "2026-10-05",
+   "total_results_reported": 330019,
+   "retrieved": 100
+  },
+  {
+   "query": "sustainable tourism modelling GCC",
+   "date": "2026-10-05",
+   "total_results_reported": 792073,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism demand forecasting Hajj Umrah",
+   "date": "2026-10-05",
+   "total_results_reported": 323426,
+   "retrieved": 100
+  },
+  {
+   "query": "tourist arrivals forecasting Hajj Umrah",
+   "date": "2026-10-05",
+   "total_results_reported": 116271,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism forecasting machine learning Hajj Umrah",
+   "date": "2026-10-05",
+   "total_results_reported": 1597894,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism forecasting deep learning Hajj Umrah",
+   "date": "2026-10-05",
+   "total_results_reported": 1684325,
+   "retrieved": 100
+  },
+  {
+   "query": "hotel occupancy forecasting Hajj Umrah",
+   "date": "2026-10-05",
+   "total_results_reported": 128367,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism sustainability prediction Hajj Umrah",
+   "date": "2026-10-05",
+   "total_results_reported": 805908,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism CO2 emissions Hajj Umrah",
+   "date": "2026-10-05",
+   "total_results_reported": 334023,
+   "retrieved": 100
+  },
+  {
+   "query": "sustainable tourism modelling Hajj Umrah",
+   "date": "2026-10-05",
+   "total_results_reported": 796103,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism demand forecasting Gulf Cooperation Council",
+   "date": "2026-10-05",
+   "total_results_reported": 426549,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism sustainability Gulf Cooperation Council",
+   "date": "2026-10-05",
+   "total_results_reported": 553013,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism demand forecasting GCC",
+   "date": "2026-10-05",
+   "total_results_reported": 319454,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism sustainability GCC",
+   "date": "2026-10-05",
+   "total_results_reported": 446420,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism demand forecasting Middle East",
+   "date": "2026-10-05",
+   "total_results_reported": 630664,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism sustainability Middle East",
+   "date": "2026-10-05",
+   "total_results_reported": 756893,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism demand forecasting MENA",
+   "date": "2026-10-05",
+   "total_results_reported": 331865,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism sustainability MENA",
+   "date": "2026-10-05",
+   "total_results_reported": 458825,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism demand forecasting Dubai",
+   "date": "2026-10-05",
+   "total_results_reported": 320131,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism sustainability Dubai",
+   "date": "2026-10-05",
+   "total_results_reported": 447184,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism demand forecasting UAE",
+   "date": "2026-10-05",
+   "total_results_reported": 323571,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism sustainability UAE",
+   "date": "2026-10-05",
+   "total_results_reported": 450488,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism demand forecasting United Arab Emirates",
+   "date": "2026-10-05",
+   "total_results_reported": 549400,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism sustainability United Arab Emirates",
+   "date": "2026-10-05",
+   "total_results_reported": 675840,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism demand forecasting Qatar",
+   "date": "2026-10-05",
+   "total_results_reported": 323738,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism sustainability Qatar",
+   "date": "2026-10-05",
+   "total_results_reported": 450720,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism demand forecasting Oman",
+   "date": "2026-10-05",
+   "total_results_reported": 328493,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism sustainability Oman",
+   "date": "2026-10-05",
+   "total_results_reported": 455487,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism demand forecasting Bahrain",
+   "date": "2026-10-05",
+   "total_results_reported": 319661,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism sustainability Bahrain",
+   "date": "2026-10-05",
+   "total_results_reported": 446731,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism demand forecasting Kuwait",
+   "date": "2026-10-05",
+   "total_results_reported": 323597,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism sustainability Kuwait",
+   "date": "2026-10-05",
+   "total_results_reported": 450655,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism demand forecasting Jordan",
+   "date": "2026-10-05",
+   "total_results_reported": 362023,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism sustainability Jordan",
+   "date": "2026-10-05",
+   "total_results_reported": 488890,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism demand forecasting Egypt",
+   "date": "2026-10-05",
+   "total_results_reported": 388672,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism sustainability Egypt",
+   "date": "2026-10-05",
+   "total_results_reported": 515428,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism demand forecasting Turkey",
+   "date": "2026-10-05",
+   "total_results_reported": 382632,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism sustainability Turkey",
+   "date": "2026-10-05",
+   "total_results_reported": 509550,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism demand forecasting Iran",
+   "date": "2026-10-05",
+   "total_results_reported": 426257,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism sustainability Iran",
+   "date": "2026-10-05",
+   "total_results_reported": 553094,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism demand forecasting Morocco",
+   "date": "2026-10-05",
+   "total_results_reported": 336617,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism sustainability Morocco",
+   "date": "2026-10-05",
+   "total_results_reported": 463578,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism demand forecasting Tunisia",
+   "date": "2026-10-05",
+   "total_results_reported": 326643,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism sustainability Tunisia",
+   "date": "2026-10-05",
+   "total_results_reported": 453654,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism demand forecasting Lebanon",
+   "date": "2026-10-05",
+   "total_results_reported": 323843,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism sustainability Lebanon",
+   "date": "2026-10-05",
+   "total_results_reported": 450895,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism demand forecasting Israel",
+   "date": "2026-10-05",
+   "total_results_reported": 351835,
+   "retrieved": 100
+  },
+  {
+   "query": "tourism sustainability Israel",
+   "date": "2026-10-05",
+   "total_results_reported": 478874,
+   "retrieved": 100
+  }
+ ],
+ "n_retrieved_total": 7000,
+ "n_unique_doi": 2237
+}

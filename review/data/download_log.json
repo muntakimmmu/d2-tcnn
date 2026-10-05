@@ -14,6 +14,11 @@
     "https://web.archive.org/web/2026id_/https://doi.org/10.3390/su18157602",
     "archive",
     false
+   ],
+   [
+    "https://doi.org/10.3390/su18157602",
+    "browser",
+    false
    ]
   ]
  },
@@ -31,6 +36,11 @@
    [
     "https://web.archive.org/web/2026id_/https://hdl.handle.net/20.500.12868/5139",
     "archive",
+    false
+   ],
+   [
+    "https://hdl.handle.net/20.500.12868/5139",
+    "browser",
     false
    ]
   ]
@@ -61,6 +71,11 @@
    [
     "https://web.archive.org/web/2026id_/https://jcasc.com/index.php/jcasc/article/download/2758/855",
     "archive",
+    false
+   ],
+   [
+    "https://jcasc.com/index.php/jcasc/article/download/2758/855",
+    "browser",
     false
    ]
   ]
@@ -98,6 +113,11 @@
    [
     "https://web.archive.org/web/2026id_/https://www.mdpi.com/2071-1050/18/12/6295/pdf?version=1781789923",
     "archive",
+    false
+   ],
+   [
+    "https://www.mdpi.com/2071-1050/18/12/6295/pdf?version=1781789923",
+    "browser",
     false
    ]
   ]
@@ -144,7 +164,8 @@
     "archive",
     true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 12,
@@ -160,6 +181,11 @@
    [
     "https://web.archive.org/web/2026id_/https://doi.org/10.1108/jtf-10-2024-0219",
     "archive",
+    false
+   ],
+   [
+    "https://doi.org/10.1108/jtf-10-2024-0219",
+    "browser",
     false
    ]
   ]
@@ -185,7 +211,8 @@
     "archive",
     true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 14,
@@ -205,7 +232,8 @@
     "200",
     true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 16,
@@ -218,7 +246,8 @@
     "200",
     true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 17,
@@ -236,7 +265,8 @@
     "archive",
     true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 18,
@@ -256,7 +286,8 @@
     "200",
     true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 20,
@@ -274,7 +305,8 @@
     "archive",
     true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 21,
@@ -287,7 +319,8 @@
     "200",
     true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 22,
@@ -300,7 +333,8 @@
     "200",
     true
    ]
-  ]
+  ],
+  "title_match": 0.86
  },
  {
   "n": 23,
@@ -321,6 +355,11 @@
    [
     "https://web.archive.org/web/2026id_/https://www.mdpi.com/2078-2489/15/9/516/pdf?version=1724425794",
     "archive",
+    false
+   ],
+   [
+    "https://www.mdpi.com/2078-2489/15/9/516/pdf?version=1724425794",
+    "browser",
     false
    ]
   ]
@@ -346,7 +385,8 @@
     "archive",
     true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 25,
@@ -369,7 +409,8 @@
     "archive",
     true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 26,
@@ -382,7 +423,8 @@
     "200",
     true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 27,
@@ -398,6 +440,11 @@
    [
     "https://web.archive.org/web/2026id_/https://doi.org/10.3390/su18115503",
     "archive",
+    false
+   ],
+   [
+    "https://doi.org/10.3390/su18115503",
+    "browser",
     false
    ]
   ]
@@ -418,7 +465,8 @@
     "archive",
     true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 29,
@@ -436,7 +484,8 @@
     "200",
     true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 30,
@@ -454,7 +503,8 @@
     "archive",
     true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 31,
@@ -475,6 +525,11 @@
    [
     "https://web.archive.org/web/2026id_/https://www.mdpi.com/2071-1050/18/12/6245/pdf?version=1781701997",
     "archive",
+    false
+   ],
+   [
+    "https://www.mdpi.com/2071-1050/18/12/6245/pdf?version=1781701997",
+    "browser",
     false
    ]
   ]
@@ -504,7 +559,8 @@
     "200",
     true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 35,
@@ -532,7 +588,8 @@
     "archive",
     true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 36,
@@ -552,7 +609,8 @@
     "200",
     true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 38,
@@ -594,6 +652,21 @@
     "https://web.archive.org/web/2026id_/https://doi.org/10.1080/1331677X.2021.1985577",
     "archive",
     false
+   ],
+   [
+    "https://www.tandfonline.com/doi/pdf/10.1080/1331677X.2021.1985577?needAccess=true",
+    "browser",
+    false
+   ],
+   [
+    "https://hrcak.srce.hr/302498",
+    "browser",
+    false
+   ],
+   [
+    "https://doi.org/10.1080/1331677X.2021.1985577",
+    "browser",
+    false
    ]
   ]
  },
@@ -612,6 +685,11 @@
     "https://web.archive.org/web/2026id_/https://doi.org/10.1016/j.igd.2024.100203",
     "archive",
     false
+   ],
+   [
+    "https://doi.org/10.1016/j.igd.2024.100203",
+    "browser",
+    false
    ]
   ]
  },
@@ -619,7 +697,7 @@
   "n": 40,
   "doi": "10.30892/gtg.27417-436",
   "oa_status": "gold",
-  "file": null,
+  "file": "fulltext/40.pdf",
   "tried": [
    [
     "https://doi.org/10.30892/gtg.27417-436",
@@ -645,8 +723,24 @@
     "https://web.archive.org/web/2026id_/https://doaj.org/article/bdd59ac31e9744e1801c5ceea4726bd5",
     "archive",
     false
+   ],
+   [
+    "https://doi.org/10.30892/gtg.27417-436",
+    "browser",
+    false
+   ],
+   [
+    "https://doaj.org/article/bdd59ac31e9744e1801c5ceea4726bd5",
+    "browser",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://doi.org/10.30892/gtg.27417-436",
+    "s2",
+    true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 41,
@@ -664,7 +758,8 @@
     "archive",
     true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 42,
@@ -677,7 +772,8 @@
     "200",
     true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 43,
@@ -695,7 +791,8 @@
     "archive",
     true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 44,
@@ -708,7 +805,8 @@
     "200",
     true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 45,
@@ -721,7 +819,7 @@
   "n": 46,
   "doi": "10.1016/j.heliyon.2023.e18385",
   "oa_status": "gold",
-  "file": null,
+  "file": "fulltext/46.xml",
   "tried": [
    [
     "https://doi.org/10.1016/j.heliyon.2023.e18385",
@@ -757,8 +855,29 @@
     "https://web.archive.org/web/2026id_/https://doaj.org/article/26bb0585aff1486fb09a511ac109efd5",
     "archive",
     false
+   ],
+   [
+    "https://doi.org/10.1016/j.heliyon.2023.e18385",
+    "browser",
+    false
+   ],
+   [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10375847/pdf/main.pdf",
+    "browser",
+    false
+   ],
+   [
+    "https://doaj.org/article/26bb0585aff1486fb09a511ac109efd5",
+    "browser",
+    false
+   ],
+   [
+    "PMC10375847",
+    "europepmc-xml",
+    true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 47,
@@ -783,7 +902,8 @@
     "200",
     true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 49,
@@ -848,7 +968,8 @@
     "archive",
     true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 56,
@@ -866,7 +987,8 @@
     "200",
     true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 57,
@@ -889,6 +1011,11 @@
    [
     "https://web.archive.org/web/2026id_/http://hdl.handle.net/10397/9005",
     "archive",
+    false
+   ],
+   [
+    "http://hdl.handle.net/10397/9005",
+    "browser",
     false
    ]
   ]
@@ -918,7 +1045,8 @@
     "200",
     true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 62,
@@ -938,7 +1066,7 @@
   "n": 64,
   "doi": "10.1016/j.annals.2018.12.001",
   "oa_status": "bronze",
-  "file": null,
+  "file": "fulltext/64.pdf",
   "tried": [
    [
     "https://www.sciencedirect.com/science/article/pii/S0160738318301312",
@@ -969,8 +1097,24 @@
     "https://web.archive.org/web/2026id_/http://ira.lib.polyu.edu.hk/bitstream/10397/99278/1/Song_Review_Research_Tourism.pdf",
     "archive",
     false
+   ],
+   [
+    "https://www.sciencedirect.com/science/article/pii/S0160738318301312",
+    "browser",
+    false
+   ],
+   [
+    "http://ira.lib.polyu.edu.hk/bitstream/10397/99278/1/Song_Review_Research_Tourism.pdf",
+    "browser",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/http://ira.lib.polyu.edu.hk/bitstream/10397/99278/1/Song_Review_Research_Tourism.pdf",
+    "s2",
+    true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 65,
@@ -1016,6 +1160,16 @@
     "https://web.archive.org/web/2026id_/http://ira.lib.polyu.edu.hk/bitstream/10397/107074/1/Wu_Tourism_Hospitality_Forecasting.pdf",
     "archive",
     false
+   ],
+   [
+    "https://doi.org/10.1177/10963480231223151",
+    "browser",
+    false
+   ],
+   [
+    "http://ira.lib.polyu.edu.hk/bitstream/10397/107074/1/Wu_Tourism_Hospitality_Forecasting.pdf",
+    "browser",
+    false
    ]
   ]
  },
@@ -1040,13 +1194,14 @@
     "archive",
     true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 69,
   "doi": "10.1016/j.tmp.2020.100715",
   "oa_status": "green",
-  "file": null,
+  "file": "fulltext/69.xml",
   "tried": [
    [
     "https://www.ncbi.nlm.nih.gov/pmc/articles/7334661",
@@ -1057,8 +1212,19 @@
     "https://web.archive.org/web/2026id_/https://www.ncbi.nlm.nih.gov/pmc/articles/7334661",
     "archive",
     false
+   ],
+   [
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/7334661",
+    "browser",
+    false
+   ],
+   [
+    "PMC7334661",
+    "europepmc-xml",
+    true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 70,
@@ -1093,7 +1259,8 @@
     "archive",
     true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 72,
@@ -1124,6 +1291,11 @@
     "https://web.archive.org/web/2026id_/https://figshare.com/articles/journal_contribution/Tourism_demand_forecasting_a_deep_learning_approach/20769325",
     "archive",
     false
+   ],
+   [
+    "https://figshare.com/articles/journal_contribution/Tourism_demand_forecasting_a_deep_learning_approach/20769325",
+    "browser",
+    false
    ]
   ]
  },
@@ -1147,6 +1319,11 @@
     "https://web.archive.org/web/2026id_/https://www.sciencedirect.com/science/article/pii/S0169207019301128/pdf",
     "archive",
     false
+   ],
+   [
+    "https://www.sciencedirect.com/science/article/pii/S0169207019301128/pdf",
+    "browser",
+    false
    ]
   ]
  },
@@ -1169,6 +1346,11 @@
    [
     "https://web.archive.org/web/2026id_/https://www.sciencedirect.com/science/article/pii/S0169207021001874/pdf",
     "archive",
+    false
+   ],
+   [
+    "https://www.sciencedirect.com/science/article/pii/S0169207021001874/pdf",
+    "browser",
     false
    ]
   ]
@@ -1199,7 +1381,8 @@
     "200",
     true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 78,
@@ -1217,7 +1400,8 @@
     "200",
     true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 79,
@@ -1237,7 +1421,8 @@
     "200",
     true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 81,
@@ -1295,7 +1480,8 @@
     "archive",
     true
    ]
-  ]
+  ],
+  "title_match": 1.0
  },
  {
   "n": 82,
@@ -1326,6 +1512,16 @@
    [
     "https://web.archive.org/web/2026id_/https://figshare.com/articles/journal_contribution/Tourism_Demand_Forecasting_A_Decomposed_Deep_Learning_Approach/20701177",
     "archive",
+    false
+   ],
+   [
+    "https://openresearch-repository.anu.edu.au/bitstreams/935b3d1f-941e-4b41-bde4-fee77214e6d0/download",
+    "browser",
+    false
+   ],
+   [
+    "https://figshare.com/articles/journal_contribution/Tourism_Demand_Forecasting_A_Decomposed_Deep_Learning_Approach/20701177",
+    "browser",
     false
    ]
   ]

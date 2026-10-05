@@ -1,111 +1,111 @@
-# Papers to download (all DOIs verified in Crossref)
+# Papers: open-access status and download status
 
-Open each via https://doi.org/<DOI>. Priority: A (needed for full-text extraction), then B, then C.
+Access from Unpaywall. `got` = PDF/XML downloaded here (sent as zip). `get manually` = open access but the host is blocked from this environment; use the OA link from your own browser. `closed` = needs library access.
 
 
 ## A. Included studies — Demand modelling
 
-| # | Authors | Year | Title | Journal | DOI |
-|---|---|---|---|---|---|
-| 1 | Abuhulaibah | 2026 | Reduced Climate Vulnerability, Visa Liberalization and Tourism Development in Saudi Arabia: Evidence Under Vision 2030 Framework | Sustainability | [10.3390/su18157602](https://doi.org/10.3390/su18157602) |
-| 2 | Ağazade | 2021 | The effect of tourism source market structure on international tourism revenues in Turkey | Tourism Economics | [10.1177/13548166211055985](https://doi.org/10.1177/13548166211055985) |
-| 3 | Alfehaid | 2026 | Hard, Green, and Heritage Infrastructure and Regional Tourism Spending in Saudi Arabia: Insights for Vision 2030 and SDG 11 | Sustainable Development | [10.1002/sd.70756](https://doi.org/10.1002/sd.70756) |
-| 4 | Chouari | 2025 | Climate and Tourist Location in Saudi Arabia: A Spatial and Econometric Analysis of the Climatic Determinants of Tourist Area Selection | Journal of Cultural Analysis and Social Change | [10.64753/jcasc.v10i3.2758](https://doi.org/10.64753/jcasc.v10i3.2758) |
-| 5 | Hamida & Aloui | 2025 | Geopolitical and economic risks and tourism in Tunisia: A wavelet-based analysis | Tourism and Hospitality Research | [10.1177/14673584251350551](https://doi.org/10.1177/14673584251350551) |
-| 6 | Kisswani et al. | 2020 | The Impacts of Oil Price Shocks on Tourism Receipts for Selected Middle East and North Africa (MENA) Countries: Do Structural Breaks Matter? | Tourism Analysis | [10.3727/108354220x15758301241891](https://doi.org/10.3727/108354220x15758301241891) |
-| 7 | Mabrouk & Alanzi | 2026 | Tourism Transformation and Oil Price Dynamics in Saudi Arabia: An ARDL Analysis of Religious and Non-Religious Tourism | Sustainability | [10.3390/su18126295](https://doi.org/10.3390/su18126295) |
-| 8 | Rafiei Darani & Asghari | 2018 | Study of international tourism demand in Middle East by panel data model | International Journal of Culture, Tourism and Hospitality Research | [10.1108/ijcthr-03-2017-0030](https://doi.org/10.1108/ijcthr-03-2017-0030) |
-| 9 | Shmoto | 2026 | The seasonality of religious tourism and the impact of the Arbaeen pilgrimage on hotel occupancy in Karbala | alarbaeen | [10.64704/alarbaeen.202604020435](https://doi.org/10.64704/alarbaeen.202604020435) |
-| 10 | Ulucak et al. | 2020 | Dynamics of tourism demand in Turkey: Panel data analysis using gravity model | Tourism Economics | [10.1177/1354816620901956](https://doi.org/10.1177/1354816620901956) |
-| 11 | Wada | 2021 | Institutional Quality and Tourism Growth Nexus in MENA Countries | The Romanian Economic Journal | [10.24818/rej/2021/81/01](https://doi.org/10.24818/rej/2021/81/01) |
+| # | Paper | Access | Status | Link |
+|---|---|---|---|---|
+| 1 | Abuhulaibah (2026). Reduced Climate Vulnerability, Visa Liberalization and Tourism Development in Saudi Arabia: Evidence Under Vision 2030 Framework. *Sustainability* | gold | get manually | [OA copy](https://doi.org/10.3390/su18157602) |
+| 2 | Ağazade (2021). The effect of tourism source market structure on international tourism revenues in Turkey. *Tourism Economics* | green | get manually | [OA copy](https://hdl.handle.net/20.500.12868/5139) |
+| 3 | Alfehaid (2026). Hard, Green, and Heritage Infrastructure and Regional Tourism Spending in Saudi Arabia: Insights for Vision 2030 and SDG 11. *Sustainable Development* | closed | closed | [DOI](https://doi.org/10.1002/sd.70756) |
+| 4 | Chouari (2025). Climate and Tourist Location in Saudi Arabia: A Spatial and Econometric Analysis of the Climatic Determinants of Tourist Area Selection. *Journal of Cultural Analysis and Social Change* | gold | get manually | [OA copy](https://jcasc.com/index.php/jcasc/article/download/2758/855) |
+| 5 | Hamida & Aloui (2025). Geopolitical and economic risks and tourism in Tunisia: A wavelet-based analysis. *Tourism and Hospitality Research* | closed | closed | [DOI](https://doi.org/10.1177/14673584251350551) |
+| 6 | Kisswani et al. (2020). The Impacts of Oil Price Shocks on Tourism Receipts for Selected Middle East and North Africa (MENA) Countries: Do Structural Breaks Matter?. *Tourism Analysis* | closed | closed | [DOI](https://doi.org/10.3727/108354220x15758301241891) |
+| 7 | Mabrouk & Alanzi (2026). Tourism Transformation and Oil Price Dynamics in Saudi Arabia: An ARDL Analysis of Religious and Non-Religious Tourism. *Sustainability* | gold | get manually | [OA copy](https://www.mdpi.com/2071-1050/18/12/6295/pdf?version=1781789923) |
+| 8 | Rafiei Darani & Asghari (2018). Study of international tourism demand in Middle East by panel data model. *International Journal of Culture, Tourism and Hospitality Research* | closed | closed | [DOI](https://doi.org/10.1108/ijcthr-03-2017-0030) |
+| 9 | Shmoto (2026). The seasonality of religious tourism and the impact of the Arbaeen pilgrimage on hotel occupancy in Karbala. *alarbaeen* | closed | closed | [DOI](https://doi.org/10.64704/alarbaeen.202604020435) |
+| 10 | Ulucak et al. (2020). Dynamics of tourism demand in Turkey: Panel data analysis using gravity model. *Tourism Economics* | closed | closed | [DOI](https://doi.org/10.1177/1354816620901956) |
+| 11 | Wada (2021). Institutional Quality and Tourism Growth Nexus in MENA Countries. *The Romanian Economic Journal* | gold | got | [OA copy](https://doi.org/10.24818/rej/2021/81/01) |
 
 ## A. Included studies — Forecasting
 
-| # | Authors | Year | Title | Journal | DOI |
-|---|---|---|---|---|---|
-| 12 | Ahmadian | 2026 | Forecasting inbound tourist arrivals to Iran post-COVID-19 pandemic: a small data approach using grey models | Journal of Tourism Futures | [10.1108/jtf-10-2024-0219](https://doi.org/10.1108/jtf-10-2024-0219) |
-| 13 | Al Shehhi & Karathanasopoulos | 2018 | Forecasting Hotel Prices in Selected Middle East and North Africa Region (MENA) Cities with New Forecasting Tools | Theoretical Economics Letters | [10.4236/tel.2018.89104](https://doi.org/10.4236/tel.2018.89104) |
-| 14 | Al Shehhi & Karathanasopoulos | 2020 | Forecasting hotel room prices in selected GCC cities using deep learning | Journal of Hospitality and Tourism Management | [10.1016/j.jhtm.2019.11.003](https://doi.org/10.1016/j.jhtm.2019.11.003) |
-| 15 | Alamoudi & Abed | 2020 | Forecasting The Number of International Muslims Umrah Visitors in Makkah to 2030 | International Journal of Advanced Engineering Research and Applications | [10.46593/ijaera.2020.v06i08.001](https://doi.org/10.46593/ijaera.2020.v06i08.001) |
-| 16 | Alsulami et al. | 2026 | Predicting tourism growth in Saudi Arabia with machine learning models for vision 2030 perspective | Scientific Reports | [10.1038/s41598-025-32509-6](https://doi.org/10.1038/s41598-025-32509-6) |
-| 17 | Bilek | 2025 | Modeling Tourism Demand in Turkey (2008–2024): Time-Series Approaches for Sustainable Growth | Sustainability | [10.3390/su17041396](https://doi.org/10.3390/su17041396) |
-| 18 | Cankurt & Subaşi | 2016 | Tourism demand modelling and forecasting using data mining techniques in multivariate time series: a case study in Turkey | TURKISH JOURNAL OF ELECTRICAL ENGINEERING & COMPUTER SCIENCES | [10.3906/elk-1311-134](https://doi.org/10.3906/elk-1311-134) |
-| 19 | Çuhadar | 2020 | A Comparative Study on Modelling and Forecasting Tourism Revenues: The Case of Turkey | Advances in Hospitality and Tourism Research (AHTR) | [10.30519/ahtr.765394](https://doi.org/10.30519/ahtr.765394) |
-| 20 | Kayral et al. | 2023 | Forecasting the Tourist Arrival Volumes and Tourism Income with Combined ANN Architecture in the Post COVID-19 Period: The Case of Turkey | Sustainability | [10.3390/su152215924](https://doi.org/10.3390/su152215924) |
-| 21 | Kurtulay & Kızılırmak | 2024 | Forecasting Türkiye's International Tourism Demand | Journal of Global Tourism and Technology Research | [10.54493/jgttr.1408566](https://doi.org/10.54493/jgttr.1408566) |
-| 22 | Laaroussi et al. | 2023 | A novel hybrid deep learning approachfor tourism demand forecasting | International Journal of Electrical and Computer Engineering (IJECE) | [10.11591/ijece.v13i2.pp1989-1996](https://doi.org/10.11591/ijece.v13i2.pp1989-1996) |
-| 23 | Louati et al. | 2024 | Machine Learning and Artificial Intelligence for a Sustainable Tourism: A Case Study on Saudi Arabia | Information | [10.3390/info15090516](https://doi.org/10.3390/info15090516) |
-| 24 | Ouassou & Taya | 2022 | Forecasting Regional Tourism Demand in Morocco from Traditional and AI-Based Methods to Ensemble Modeling | Forecasting | [10.3390/forecast4020024](https://doi.org/10.3390/forecast4020024) |
-| 25 | Rashad | 2022 | The Power of Travel Search Data in Forecasting the Tourism Demand in Dubai | Forecasting | [10.3390/forecast4030036](https://doi.org/10.3390/forecast4030036) |
-| 26 | Tuncsiper | 2023 | Forecasting the Tourism Demand of Türkiye Using Artificial Neural Network (ANN) Approach | INTERNATIONAL JOURNAL OF SOCIAL SCIENCE AND EDUCATION RESEARCH STUDIES | [10.55677/ijssers/v03i3y2023-20](https://doi.org/10.55677/ijssers/v03i3y2023-20) |
-| 27 | Zamzami | 2026 | Machine Learning-Based Tourism Demand Prediction Using Tourism Instability Indicators | Sustainability | [10.3390/su18115503](https://doi.org/10.3390/su18115503) |
+| # | Paper | Access | Status | Link |
+|---|---|---|---|---|
+| 12 | Ahmadian (2026). Forecasting inbound tourist arrivals to Iran post-COVID-19 pandemic: a small data approach using grey models. *Journal of Tourism Futures* | gold | get manually | [OA copy](https://doi.org/10.1108/jtf-10-2024-0219) |
+| 13 | Al Shehhi & Karathanasopoulos (2018). Forecasting Hotel Prices in Selected Middle East and North Africa Region (MENA) Cities with New Forecasting Tools. *Theoretical Economics Letters* | gold | got | [OA copy](http://www.scirp.org/journal/PaperDownload.aspx?paperID=85293) |
+| 14 | Al Shehhi & Karathanasopoulos (2020). Forecasting hotel room prices in selected GCC cities using deep learning. *Journal of Hospitality and Tourism Management* | closed | closed | [DOI](https://doi.org/10.1016/j.jhtm.2019.11.003) |
+| 15 | Alamoudi & Abed (2020). Forecasting The Number of International Muslims Umrah Visitors in Makkah to 2030. *International Journal of Advanced Engineering Research and Applications* | hybrid | got | [OA copy](https://doi.org/10.46593/ijaera.2020.v06i08.001) |
+| 16 | Alsulami et al. (2026). Predicting tourism growth in Saudi Arabia with machine learning models for vision 2030 perspective. *Scientific Reports* | gold | got | [OA copy](https://www.nature.com/articles/s41598-025-32509-6.pdf) |
+| 17 | Bilek (2025). Modeling Tourism Demand in Turkey (2008–2024): Time-Series Approaches for Sustainable Growth. *Sustainability* | gold | got | [OA copy](https://www.mdpi.com/2071-1050/17/4/1396/pdf?version=1739009302) |
+| 18 | Cankurt & Subaşi (2016). Tourism demand modelling and forecasting using data mining techniques in multivariate time series: a case study in Turkey. *TURKISH JOURNAL OF ELECTRICAL ENGINEERING & COMPUTER SCIENCES* | closed | closed | [DOI](https://doi.org/10.3906/elk-1311-134) |
+| 19 | Çuhadar (2020). A Comparative Study on Modelling and Forecasting Tourism Revenues: The Case of Turkey. *Advances in Hospitality and Tourism Research (AHTR)* | gold | got | [OA copy](https://dergipark.org.tr/en/download/article-file/1190938) |
+| 20 | Kayral et al. (2023). Forecasting the Tourist Arrival Volumes and Tourism Income with Combined ANN Architecture in the Post COVID-19 Period: The Case of Turkey. *Sustainability* | gold | got | [OA copy](https://www.mdpi.com/2071-1050/15/22/15924/pdf?version=1700008354) |
+| 21 | Kurtulay & Kızılırmak (2024). Forecasting Türkiye's International Tourism Demand. *Journal of Global Tourism and Technology Research* | bronze | got | [OA copy](https://dergipark.org.tr/en/download/article-file/3615014) |
+| 22 | Laaroussi et al. (2023). A novel hybrid deep learning approachfor tourism demand forecasting. *International Journal of Electrical and Computer Engineering (IJECE)* | gold | got | [OA copy](https://ijece.iaescore.com/index.php/IJECE/article/download/27196/16401) |
+| 23 | Louati et al. (2024). Machine Learning and Artificial Intelligence for a Sustainable Tourism: A Case Study on Saudi Arabia. *Information* | gold | get manually | [OA copy](https://www.mdpi.com/2078-2489/15/9/516/pdf?version=1724425794) |
+| 24 | Ouassou & Taya (2022). Forecasting Regional Tourism Demand in Morocco from Traditional and AI-Based Methods to Ensemble Modeling. *Forecasting* | gold | got | [OA copy](https://www.mdpi.com/2571-9394/4/2/24/pdf?version=1649229685) |
+| 25 | Rashad (2022). The Power of Travel Search Data in Forecasting the Tourism Demand in Dubai. *Forecasting* | gold | got | [OA copy](https://www.mdpi.com/2571-9394/4/3/36/pdf?version=1658411586) |
+| 26 | Tuncsiper (2023). Forecasting the Tourism Demand of Türkiye Using Artificial Neural Network (ANN) Approach. *INTERNATIONAL JOURNAL OF SOCIAL SCIENCE AND EDUCATION RESEARCH STUDIES* | hybrid | got | [OA copy](https://ijssers.org/wp-content/uploads/2023/03/20-2103-2023.pdf) |
+| 27 | Zamzami (2026). Machine Learning-Based Tourism Demand Prediction Using Tourism Instability Indicators. *Sustainability* | gold | get manually | [OA copy](https://doi.org/10.3390/su18115503) |
 
 ## A. Included studies — Sustainability
 
-| # | Authors | Year | Title | Journal | DOI |
-|---|---|---|---|---|---|
-| 28 | Alnafisah | 2025 | The Role of Tourism Development in Promoting Income Equality: A Case Study of GCC Countries | Sustainability | [10.3390/su17104272](https://doi.org/10.3390/su17104272) |
-| 29 | Bahar & Demir | 2023 | The impact of tourism on carbon (CO2) Emissions: An empirical analysis of Turkiye | Journal of Tourism Theory and Research | [10.24288/jttr.1252689](https://doi.org/10.24288/jttr.1252689) |
-| 30 | Bildirici & Ersin | 2025 | Sustainability of Tourism and Economic Development in Three Religious Tourism Destinations: The Critical Role of Fossil Fuel Energy on Air Pollution and Human Health | Sustainability | [10.3390/su17146351](https://doi.org/10.3390/su17146351) |
-| 31 | Bin Surayhid et al. | 2026 | The Tourism–Energy–Trade Openness Nexus and Transport CO2 Emissions in the Middle East: Evidence from an ARDL Approach | Sustainability | [10.3390/su18126245](https://doi.org/10.3390/su18126245) |
-| 32 | Farooq et al. | 2023 | The Nexus between tourism-energy-environmental degradation: Does financial development matter in GCC countries? | Tourism Economics | [10.1177/13548166231174812](https://doi.org/10.1177/13548166231174812) |
-| 33 | Farooq et al. | 2023 | Economic growth, foreign investment, tourism, and electricity production as determinants of environmental quality: empirical evidence from GCC region | Environmental Science and Pollution Research | [10.1007/s11356-023-25545-0](https://doi.org/10.1007/s11356-023-25545-0) |
-| 34 | Harazneh et al. | 2026 | Innovation and sustainability drivers of post-COVID tourism and hotel recovery in Jordan: Evidence from 2010–2024 | Problems and Perspectives in Management | [10.21511/ppm.24(2).2026.09](https://doi.org/10.21511/ppm.24(2).2026.09) |
-| 35 | Majumdar & Paris | 2022 | Environmental Impact of Urbanization, Bank Credits, and Energy Use in the UAE—A Tourism-Induced EKC Model | Sustainability | [10.3390/su14137834](https://doi.org/10.3390/su14137834) |
-| 36 | Nair & Choudhary | 2016 | Modelling the causality of sustainable tourism in Qatar: an empirical study | International Journal of Sustainable Society | [10.1504/ijssoc.2016.079082](https://doi.org/10.1504/ijssoc.2016.079082) |
-| 37 | Naseem | 2025 | Pilgrimage Tourism, Economic Growth & Energy Consumption: Their Impact on Carbon Emission in Saudi Arabia | Journal of Economic Studies | [10.33948/esj-ksu-17-2-8](https://doi.org/10.33948/esj-ksu-17-2-8) |
-| 38 | Ozturk et al. | 2021 | Investigating the nexus between CO 2 emissions, economic growth, energy consumption and pilgrimage tourism in Saudi Arabia | Economic Research-Ekonomska Istraživanja | [10.1080/1331677x.2021.1985577](https://doi.org/10.1080/1331677x.2021.1985577) |
-| 39 | Raihan et al. | 2025 | Saudi Arabia's path to carbon neutrality: Analysis of the role of Hajj pilgrimage, energy consumption, and economic growth | Innovation and Green Development | [10.1016/j.igd.2024.100203](https://doi.org/10.1016/j.igd.2024.100203) |
-| 40 | Triki | 2019 | THE ROLE OF RELIGIOUS TOURISM IN SUSTAINABLE DEVELOPMENT IN SAUDI ARABIA: EVIDENCE FROM QUANTILE NON-CAUSALITY TEST | GeoJournal of Tourism and Geosites | [10.30892/gtg.27417-436](https://doi.org/10.30892/gtg.27417-436) |
-| 41 | Voumik et al. | 2023 | Modeling Energy, Education, Trade, and Tourism-Induced Environmental Kuznets Curve (EKC) Hypothesis: Evidence from the Middle East | Sustainability | [10.3390/su15064919](https://doi.org/10.3390/su15064919) |
-| 42 | Zmami & Ben-Salha | 2024 | The impact of tourism on sustainable development in GCC countries | Journal of Tourism Management Research | [10.18488/31.v11i2.3808](https://doi.org/10.18488/31.v11i2.3808) |
+| # | Paper | Access | Status | Link |
+|---|---|---|---|---|
+| 28 | Alnafisah (2025). The Role of Tourism Development in Promoting Income Equality: A Case Study of GCC Countries. *Sustainability* | gold | got | [OA copy](https://www.mdpi.com/2071-1050/17/10/4272/pdf?version=1746707602) |
+| 29 | Bahar & Demir (2023). The impact of tourism on carbon (CO2) Emissions: An empirical analysis of Turkiye. *Journal of Tourism Theory and Research* | gold | got | [OA copy](https://dergipark.org.tr/en/download/article-file/2959108) |
+| 30 | Bildirici & Ersin (2025). Sustainability of Tourism and Economic Development in Three Religious Tourism Destinations: The Critical Role of Fossil Fuel Energy on Air Pollution and Human Health. *Sustainability* | gold | got | [OA copy](https://www.mdpi.com/2071-1050/17/14/6351/pdf?version=1752214061) |
+| 31 | Bin Surayhid et al. (2026). The Tourism–Energy–Trade Openness Nexus and Transport CO2 Emissions in the Middle East: Evidence from an ARDL Approach. *Sustainability* | gold | get manually | [OA copy](https://www.mdpi.com/2071-1050/18/12/6245/pdf?version=1781701997) |
+| 32 | Farooq et al. (2023). The Nexus between tourism-energy-environmental degradation: Does financial development matter in GCC countries?. *Tourism Economics* | closed | closed | [DOI](https://doi.org/10.1177/13548166231174812) |
+| 33 | Farooq et al. (2023). Economic growth, foreign investment, tourism, and electricity production as determinants of environmental quality: empirical evidence from GCC region. *Environmental Science and Pollution Research* | closed | closed | [DOI](https://doi.org/10.1007/s11356-023-25545-0) |
+| 34 | Harazneh et al. (2026). Innovation and sustainability drivers of post-COVID tourism and hotel recovery in Jordan: Evidence from 2010–2024. *Problems and Perspectives in Management* | gold | got | [OA copy](https://www.businessperspectives.org/images/pdf/applications/publishing/templates/article/assets/24257/PPM_2026_02_Harazneh.pdf) |
+| 35 | Majumdar & Paris (2022). Environmental Impact of Urbanization, Bank Credits, and Energy Use in the UAE—A Tourism-Induced EKC Model. *Sustainability* | gold | got | [OA copy](https://www.mdpi.com/2071-1050/14/13/7834/pdf?version=1656331944) |
+| 36 | Nair & Choudhary (2016). Modelling the causality of sustainable tourism in Qatar: an empirical study. *International Journal of Sustainable Society* | closed | closed | [DOI](https://doi.org/10.1504/ijssoc.2016.079082) |
+| 37 | Naseem (2025). Pilgrimage Tourism, Economic Growth & Energy Consumption: Their Impact on Carbon Emission in Saudi Arabia. *Journal of Economic Studies* | bronze | got | [OA copy](https://japksu.com/index.php/esj/article/download/714/109) |
+| 38 | Ozturk et al. (2021). Investigating the nexus between CO 2 emissions, economic growth, energy consumption and pilgrimage tourism in Saudi Arabia. *Economic Research-Ekonomska Istraživanja* | hybrid | get manually | [OA copy](https://www.tandfonline.com/doi/pdf/10.1080/1331677X.2021.1985577?needAccess=true) |
+| 39 | Raihan et al. (2025). Saudi Arabia's path to carbon neutrality: Analysis of the role of Hajj pilgrimage, energy consumption, and economic growth. *Innovation and Green Development* | gold | get manually | [OA copy](https://doi.org/10.1016/j.igd.2024.100203) |
+| 40 | Triki (2019). THE ROLE OF RELIGIOUS TOURISM IN SUSTAINABLE DEVELOPMENT IN SAUDI ARABIA: EVIDENCE FROM QUANTILE NON-CAUSALITY TEST. *GeoJournal of Tourism and Geosites* | gold | got | [OA copy](https://doi.org/10.30892/gtg.27417-436) |
+| 41 | Voumik et al. (2023). Modeling Energy, Education, Trade, and Tourism-Induced Environmental Kuznets Curve (EKC) Hypothesis: Evidence from the Middle East. *Sustainability* | gold | got | [OA copy](https://www.mdpi.com/2071-1050/15/6/4919/pdf?version=1678415890) |
+| 42 | Zmami & Ben-Salha (2024). The impact of tourism on sustainable development in GCC countries. *Journal of Tourism Management Research* | gold | got | [OA copy](https://archive.conscientiabeam.com/index.php/31/article/download/3808/8180) |
 
 ## B. Prior reviews (comparison set)
 
-| # | Authors | Year | Title | Journal | DOI |
-|---|---|---|---|---|---|
-| 43 | Ajuhari et al. | 2023 | Systematic Literature Review on Methods of Assessing Carrying Capacity in Recreation and Tourism Destinations | Sustainability | [10.3390/su15043474](https://doi.org/10.3390/su15043474) |
-| 44 | Alhejaili & Ahmad | 2025 | ENVIRONMENTAL, SOCIAL, AND GOVERNANCE (ESG) PRACTICES IN THE HOSPITALITY SECTOR OF SAUDI ARABIA: LITERATURE REVIEW | Journal of Tourism, Hospitality and Environment Management | [10.35631/jthem.1039004](https://doi.org/10.35631/jthem.1039004) |
-| 45 | Collins-Kreiner | 2020 | A review of research into religion and tourism Launching the Annals of Tourism Research Curated Collection on religion and tourism | Annals of Tourism Research | [10.1016/j.annals.2020.102892](https://doi.org/10.1016/j.annals.2020.102892) |
-| 46 | Dowlut & Gobin-Rahimbux | 2023 | Forecasting resort hotel tourism demand using deep learning techniques – A systematic literature review | Heliyon | [10.1016/j.heliyon.2023.e18385](https://doi.org/10.1016/j.heliyon.2023.e18385) |
-| 47 | Henderson | 2014 | Global Gulf Cities and Tourism: A Review of Abu Dhabi, Doha and Dubai | Tourism Recreation Research | [10.1080/02508281.2014.11081329](https://doi.org/10.1080/02508281.2014.11081329) |
-| 48 | Henriques & Nobre Pereira | 2024 | Hotel demand forecasting models and methods using artificial intelligence: A systematic literature review | Tourism & Management Studies | [10.18089/tms.20240304](https://doi.org/10.18089/tms.20240304) |
-| 49 | Huang & Zheng | 2022 | Hotel demand forecasting: a comprehensive literature review | Tourism Review | [10.1108/tr-07-2022-0367](https://doi.org/10.1108/tr-07-2022-0367) |
-| 50 | Jiao & Chen | 2018 | Tourism forecasting: A review of methodological developments over the last decade | Tourism Economics | [10.1177/1354816618812588](https://doi.org/10.1177/1354816618812588) |
-| 51 | Li et al. | 2021 | Review of tourism forecasting research with internet data | Tourism Management | [10.1016/j.tourman.2020.104245](https://doi.org/10.1016/j.tourman.2020.104245) |
-| 52 | Li et al. | 2021 | A scientometric review of tourism carrying capacity research: Cooperation, hotspots, and prospect | Journal of Cleaner Production | [10.1016/j.jclepro.2021.129278](https://doi.org/10.1016/j.jclepro.2021.129278) |
-| 53 | Liu et al. | 2018 | Hot topics and emerging trends in tourism forecasting research: A scientometric review | Tourism Economics | [10.1177/1354816618810564](https://doi.org/10.1177/1354816618810564) |
-| 54 | Liu et al. | 2023 | Tourism Carbon Emissions: A Systematic Review of Research Based on Bibliometric Methods | Journal of Quality Assurance in Hospitality & Tourism | [10.1080/1528008x.2023.2266861](https://doi.org/10.1080/1528008x.2023.2266861) |
-| 55 | Long et al. | 2022 | Tourism Environmental Carrying Capacity Review, Hotspot, Issue, and Prospect | International Journal of Environmental Research and Public Health | [10.3390/ijerph192416663](https://doi.org/10.3390/ijerph192416663) |
-| 56 | Majid et al. | 2023 | Intelligent automation for sustainable tourism: a systematic review | Journal of Sustainable Tourism | [10.1080/09669582.2023.2246681](https://doi.org/10.1080/09669582.2023.2246681) |
-| 57 | Mishra et al. | 2021 | Tourism and carbon emissions: a bibliometric review of the last three decades: 1990–2021 | Tourism Review | [10.1108/tr-07-2021-0310](https://doi.org/10.1108/tr-07-2021-0310) |
-| 58 | Peng et al. | 2014 | A meta-analysis of international tourism demand forecasting and implications for practice | Tourism Management | [10.1016/j.tourman.2014.04.005](https://doi.org/10.1016/j.tourman.2014.04.005) |
-| 59 | Rasoolimanesh et al. | 2020 | A systematic scoping review of sustainable tourism indicators in relation to the sustainable development goals | Journal of Sustainable Tourism | [10.1080/09669582.2020.1775621](https://doi.org/10.1080/09669582.2020.1775621) |
-| 60 | Saleh et al. | 2021 | Tourism research for the GCC region: Current status and future research directions | Tourism Economics | [10.1177/1354816621999968](https://doi.org/10.1177/1354816621999968) |
-| 61 | Iqbal & Aftab | 2025 | Exploring Tourism's Contribution to Saudi Arabia's Vision 2030: Aligning with UN SDG 8 for Sustainable Growth | International Journal of Sustainable Development and Planning | [10.18280/ijsdp.200333](https://doi.org/10.18280/ijsdp.200333) |
-| 62 | Scott & Gössling | 2022 | A review of research into tourism and climate change - Launching the annals of tourism research curated collection on tourism and climate change | Annals of Tourism Research | [10.1016/j.annals.2022.103409](https://doi.org/10.1016/j.annals.2022.103409) |
-| 63 | Sha | 2020 | The Early Warning Model of Tourism Environmental Carrying Capacity Measurement in Coast and Island Regions | Journal of Coastal Research | [10.2112/si103-217.1](https://doi.org/10.2112/si103-217.1) |
-| 64 | Song et al. | 2019 | A review of research on tourism demand forecasting: Launching the Annals of Tourism Research Curated Collection on tourism demand forecasting | Annals of Tourism Research | [10.1016/j.annals.2018.12.001](https://doi.org/10.1016/j.annals.2018.12.001) |
-| 65 | Sun et al. | 2022 | Does tourism increase or decrease carbon emissions? A systematic review | Annals of Tourism Research | [10.1016/j.annals.2022.103502](https://doi.org/10.1016/j.annals.2022.103502) |
-| 66 | Wu et al. | 2023 | Tourism forecasting research: a bibliometric visualization review (1999–2022) | Tourism Review | [10.1108/tr-03-2023-0169](https://doi.org/10.1108/tr-03-2023-0169) |
-| 67 | Wu et al. | 2024 | Tourism and Hospitality Forecasting With Big Data: A Systematic Review of the Literature | Journal of Hospitality & Tourism Research | [10.1177/10963480231223151](https://doi.org/10.1177/10963480231223151) |
-| 68 | Ye et al. | 2020 | Analysis of Early Warning Spatial and Temporal Differences of Tourism Carrying Capacity in China’s Island Cities | Sustainability | [10.3390/su12041328](https://doi.org/10.3390/su12041328) |
-| 69 | Zhang et al. | 2020 | Knowledge mapping of tourism demand forecasting research | Tourism Management Perspectives | [10.1016/j.tmp.2020.100715](https://doi.org/10.1016/j.tmp.2020.100715) |
+| # | Paper | Access | Status | Link |
+|---|---|---|---|---|
+| 43 | Ajuhari et al. (2023). Systematic Literature Review on Methods of Assessing Carrying Capacity in Recreation and Tourism Destinations. *Sustainability* | gold | got | [OA copy](https://www.mdpi.com/2071-1050/15/4/3474/pdf?version=1676361300) |
+| 44 | Alhejaili & Ahmad (2025). ENVIRONMENTAL, SOCIAL, AND GOVERNANCE (ESG) PRACTICES IN THE HOSPITALITY SECTOR OF SAUDI ARABIA: LITERATURE REVIEW. *Journal of Tourism, Hospitality and Environment Management* | gold | got | [OA copy](https://gaexcellence.com/jthem/article/download/4877/4505) |
+| 45 | Collins-Kreiner (2020). A review of research into religion and tourism Launching the Annals of Tourism Research Curated Collection on religion and tourism. *Annals of Tourism Research* | closed | closed | [DOI](https://doi.org/10.1016/j.annals.2020.102892) |
+| 46 | Dowlut & Gobin-Rahimbux (2023). Forecasting resort hotel tourism demand using deep learning techniques – A systematic literature review. *Heliyon* | gold | got | [OA copy](https://pmc.ncbi.nlm.nih.gov/articles/PMC10375847/pdf/main.pdf) |
+| 47 | Henderson (2014). Global Gulf Cities and Tourism: A Review of Abu Dhabi, Doha and Dubai. *Tourism Recreation Research* | closed | closed | [DOI](https://doi.org/10.1080/02508281.2014.11081329) |
+| 48 | Henriques & Nobre Pereira (2024). Hotel demand forecasting models and methods using artificial intelligence: A systematic literature review. *Tourism & Management Studies* | gold | got | [OA copy](https://dialnet.unirioja.es/descarga/articulo/9532037.pdf) |
+| 49 | Huang & Zheng (2022). Hotel demand forecasting: a comprehensive literature review. *Tourism Review* | closed | closed | [DOI](https://doi.org/10.1108/tr-07-2022-0367) |
+| 50 | Jiao & Chen (2018). Tourism forecasting: A review of methodological developments over the last decade. *Tourism Economics* | closed | closed | [DOI](https://doi.org/10.1177/1354816618812588) |
+| 51 | Li et al. (2021). Review of tourism forecasting research with internet data. *Tourism Management* | closed | closed | [DOI](https://doi.org/10.1016/j.tourman.2020.104245) |
+| 52 | Li et al. (2021). A scientometric review of tourism carrying capacity research: Cooperation, hotspots, and prospect. *Journal of Cleaner Production* | closed | closed | [DOI](https://doi.org/10.1016/j.jclepro.2021.129278) |
+| 53 | Liu et al. (2018). Hot topics and emerging trends in tourism forecasting research: A scientometric review. *Tourism Economics* | closed | closed | [DOI](https://doi.org/10.1177/1354816618810564) |
+| 54 | Liu et al. (2023). Tourism Carbon Emissions: A Systematic Review of Research Based on Bibliometric Methods. *Journal of Quality Assurance in Hospitality & Tourism* | closed | closed | [DOI](https://doi.org/10.1080/1528008x.2023.2266861) |
+| 55 | Long et al. (2022). Tourism Environmental Carrying Capacity Review, Hotspot, Issue, and Prospect. *International Journal of Environmental Research and Public Health* | gold | got | [OA copy](https://www.mdpi.com/1660-4601/19/24/16663/pdf?version=1670822668) |
+| 56 | Majid et al. (2023). Intelligent automation for sustainable tourism: a systematic review. *Journal of Sustainable Tourism* | hybrid | got | [OA copy](https://www.tandfonline.com/doi/pdf/10.1080/09669582.2023.2246681?needAccess=true&role=button) |
+| 57 | Mishra et al. (2021). Tourism and carbon emissions: a bibliometric review of the last three decades: 1990–2021. *Tourism Review* | closed | closed | [DOI](https://doi.org/10.1108/tr-07-2021-0310) |
+| 58 | Peng et al. (2014). A meta-analysis of international tourism demand forecasting and implications for practice. *Tourism Management* | green | get manually | [OA copy](http://hdl.handle.net/10397/9005) |
+| 59 | Rasoolimanesh et al. (2020). A systematic scoping review of sustainable tourism indicators in relation to the sustainable development goals. *Journal of Sustainable Tourism* | closed | closed | [DOI](https://doi.org/10.1080/09669582.2020.1775621) |
+| 60 | Saleh et al. (2021). Tourism research for the GCC region: Current status and future research directions. *Tourism Economics* | closed | closed | [DOI](https://doi.org/10.1177/1354816621999968) |
+| 61 | Iqbal & Aftab (2025). Exploring Tourism's Contribution to Saudi Arabia's Vision 2030: Aligning with UN SDG 8 for Sustainable Growth. *International Journal of Sustainable Development and Planning* | hybrid | got | [OA copy](https://iieta.org/download/file/fid/162908) |
+| 62 | Scott & Gössling (2022). A review of research into tourism and climate change - Launching the annals of tourism research curated collection on tourism and climate change. *Annals of Tourism Research* | closed | closed | [DOI](https://doi.org/10.1016/j.annals.2022.103409) |
+| 63 | Sha (2020). The Early Warning Model of Tourism Environmental Carrying Capacity Measurement in Coast and Island Regions. *Journal of Coastal Research* | closed | closed | [DOI](https://doi.org/10.2112/si103-217.1) |
+| 64 | Song et al. (2019). A review of research on tourism demand forecasting: Launching the Annals of Tourism Research Curated Collection on tourism demand forecasting. *Annals of Tourism Research* | bronze | got | [OA copy](https://www.sciencedirect.com/science/article/pii/S0160738318301312) |
+| 65 | Sun et al. (2022). Does tourism increase or decrease carbon emissions? A systematic review. *Annals of Tourism Research* | closed | closed | [DOI](https://doi.org/10.1016/j.annals.2022.103502) |
+| 66 | Wu et al. (2023). Tourism forecasting research: a bibliometric visualization review (1999–2022). *Tourism Review* | closed | closed | [DOI](https://doi.org/10.1108/tr-03-2023-0169) |
+| 67 | Wu et al. (2024). Tourism and Hospitality Forecasting With Big Data: A Systematic Review of the Literature. *Journal of Hospitality & Tourism Research* | hybrid | get manually | [OA copy](http://ira.lib.polyu.edu.hk/bitstream/10397/107074/1/Wu_Tourism_Hospitality_Forecasting.pdf) |
+| 68 | Ye et al. (2020). Analysis of Early Warning Spatial and Temporal Differences of Tourism Carrying Capacity in China’s Island Cities. *Sustainability* | gold | got | [OA copy](https://www.mdpi.com/2071-1050/12/4/1328/pdf?version=1581991799) |
+| 69 | Zhang et al. (2020). Knowledge mapping of tourism demand forecasting research. *Tourism Management Perspectives* | green | got | [OA copy](https://www.ncbi.nlm.nih.gov/pmc/articles/7334661) |
 
 ## C. Background / methods
 
-| # | Authors | Year | Title | Journal | DOI |
-|---|---|---|---|---|---|
-| 70 | Diebold & Mariano | 1995 | Comparing Predictive Accuracy | Journal of Business & Economic Statistics | [10.1080/07350015.1995.10524599](https://doi.org/10.1080/07350015.1995.10524599) |
-| 71 | Gusenbauer & Haddaway | 2020 | Which academic search systems are suitable for systematic reviews or meta‐analyses? Evaluating retrieval qualities of Google Scholar, PubMed, and 26 other resources | Research Synthesis Methods | [10.1002/jrsm.1378](https://doi.org/10.1002/jrsm.1378) |
-| 72 | Hansen et al. | 2011 | The Model Confidence Set | Econometrica | [10.3982/ecta5771](https://doi.org/10.3982/ecta5771) |
-| 73 | Hyndman & Koehler | 2006 | Another look at measures of forecast accuracy | International Journal of Forecasting | [10.1016/j.ijforecast.2006.03.001](https://doi.org/10.1016/j.ijforecast.2006.03.001) |
-| 74 | Law et al. | 2019 | Tourism demand forecasting: A deep learning approach | Annals of Tourism Research | [10.1016/j.annals.2019.01.014](https://doi.org/10.1016/j.annals.2019.01.014) |
-| 75 | Makridakis et al. | 2020 | The M4 Competition: 100,000 time series and 61 forecasting methods | International Journal of Forecasting | [10.1016/j.ijforecast.2019.04.014](https://doi.org/10.1016/j.ijforecast.2019.04.014) |
-| 76 | Makridakis et al. | 2022 | M5 accuracy competition: Results, findings, and conclusions | International Journal of Forecasting | [10.1016/j.ijforecast.2021.11.013](https://doi.org/10.1016/j.ijforecast.2021.11.013) |
-| 77 | Page et al. | 2021 | The PRISMA 2020 statement: an updated guideline for reporting systematic reviews | BMJ | [10.1136/bmj.n71](https://doi.org/10.1136/bmj.n71) |
-| 78 | Page et al. | 2021 | PRISMA 2020 explanation and elaboration: updated guidance and exemplars for reporting systematic reviews | BMJ | [10.1136/bmj.n160](https://doi.org/10.1136/bmj.n160) |
-| 79 | Sun et al. | 2019 | Forecasting tourist arrivals with machine learning and internet search index | Tourism Management | [10.1016/j.tourman.2018.07.010](https://doi.org/10.1016/j.tourman.2018.07.010) |
-| 80 | Tricco et al. | 2018 | PRISMA Extension for Scoping Reviews (PRISMA-ScR): Checklist and Explanation | Annals of Internal Medicine | [10.7326/m18-0850](https://doi.org/10.7326/m18-0850) |
-| 81 | Wolff et al. | 2019 | PROBAST: A Tool to Assess the Risk of Bias and Applicability of Prediction Model Studies | Annals of Internal Medicine | [10.7326/m18-1376](https://doi.org/10.7326/m18-1376) |
-| 82 | Zhang et al. | 2020 | Tourism Demand Forecasting: A Decomposed Deep Learning Approach | Journal of Travel Research | [10.1177/0047287520919522](https://doi.org/10.1177/0047287520919522) |
+| # | Paper | Access | Status | Link |
+|---|---|---|---|---|
+| 70 | Diebold & Mariano (1995). Comparing Predictive Accuracy. *Journal of Business & Economic Statistics* | closed | closed | [DOI](https://doi.org/10.1080/07350015.1995.10524599) |
+| 71 | Gusenbauer & Haddaway (2020). Which academic search systems are suitable for systematic reviews or meta‐analyses? Evaluating retrieval qualities of Google Scholar, PubMed, and 26 other resources. *Research Synthesis Methods* | hybrid | got | [OA copy](https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/jrsm.1378) |
+| 72 | Hansen et al. (2011). The Model Confidence Set. *Econometrica* | closed | closed | [DOI](https://doi.org/10.3982/ecta5771) |
+| 73 | Hyndman & Koehler (2006). Another look at measures of forecast accuracy. *International Journal of Forecasting* | closed | closed | [DOI](https://doi.org/10.1016/j.ijforecast.2006.03.001) |
+| 74 | Law et al. (2019). Tourism demand forecasting: A deep learning approach. *Annals of Tourism Research* | green | get manually | [OA copy](https://figshare.com/articles/journal_contribution/Tourism_demand_forecasting_a_deep_learning_approach/20769325) |
+| 75 | Makridakis et al. (2020). The M4 Competition: 100,000 time series and 61 forecasting methods. *International Journal of Forecasting* | hybrid | get manually | [OA copy](https://www.sciencedirect.com/science/article/pii/S0169207019301128/pdf) |
+| 76 | Makridakis et al. (2022). M5 accuracy competition: Results, findings, and conclusions. *International Journal of Forecasting* | hybrid | get manually | [OA copy](https://www.sciencedirect.com/science/article/pii/S0169207021001874/pdf) |
+| 77 | Page et al. (2021). The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. *BMJ* | hybrid | got | [OA copy](https://www.bmj.com/content/bmj/372/bmj.n71.full.pdf) |
+| 78 | Page et al. (2021). PRISMA 2020 explanation and elaboration: updated guidance and exemplars for reporting systematic reviews. *BMJ* | hybrid | got | [OA copy](https://www.bmj.com/content/bmj/372/bmj.n160.full.pdf) |
+| 79 | Sun et al. (2019). Forecasting tourist arrivals with machine learning and internet search index. *Tourism Management* | closed | closed | [DOI](https://doi.org/10.1016/j.tourman.2018.07.010) |
+| 80 | Tricco et al. (2018). PRISMA Extension for Scoping Reviews (PRISMA-ScR): Checklist and Explanation. *Annals of Internal Medicine* | green | got | [OA copy](https://eprints.whiterose.ac.uk/id/eprint/136633/1/PRISMA_ScR_Manuscript_July6th_clean_1_.pdf) |
+| 81 | Wolff et al. (2019). PROBAST: A Tool to Assess the Risk of Bias and Applicability of Prediction Model Studies. *Annals of Internal Medicine* | green | got | [OA copy](http://eprints.keele.ac.uk/5884/1/R%20Riley%20-%20PROBAST%20A%20tool%20to%20assess%20the%20risk%20of%20bias....pdf) |
+| 82 | Zhang et al. (2020). Tourism Demand Forecasting: A Decomposed Deep Learning Approach. *Journal of Travel Research* | green | get manually | [OA copy](https://openresearch-repository.anu.edu.au/bitstreams/935b3d1f-941e-4b41-bde4-fee77214e6d0/download) |

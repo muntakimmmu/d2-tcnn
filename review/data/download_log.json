@@ -1,0 +1,1333 @@
+[
+ {
+  "n": 1,
+  "doi": "10.3390/su18157602",
+  "oa_status": "gold",
+  "file": null,
+  "tried": [
+   [
+    "https://doi.org/10.3390/su18157602",
+    "403",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://doi.org/10.3390/su18157602",
+    "archive",
+    false
+   ]
+  ]
+ },
+ {
+  "n": 2,
+  "doi": "10.1177/13548166211055985",
+  "oa_status": "green",
+  "file": null,
+  "tried": [
+   [
+    "https://hdl.handle.net/20.500.12868/5139",
+    "200",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://hdl.handle.net/20.500.12868/5139",
+    "archive",
+    false
+   ]
+  ]
+ },
+ {
+  "n": 3,
+  "doi": "10.1002/sd.70756",
+  "oa_status": "closed",
+  "file": null,
+  "tried": []
+ },
+ {
+  "n": 4,
+  "doi": "10.64753/jcasc.v10i3.2758",
+  "oa_status": "gold",
+  "file": null,
+  "tried": [
+   [
+    "https://jcasc.com/index.php/jcasc/article/download/2758/855",
+    "404",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://jcasc.com/index.php/jcasc/article/download/2758/855",
+    "archive",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://jcasc.com/index.php/jcasc/article/download/2758/855",
+    "archive",
+    false
+   ]
+  ]
+ },
+ {
+  "n": 5,
+  "doi": "10.1177/14673584251350551",
+  "oa_status": "closed",
+  "file": null,
+  "tried": []
+ },
+ {
+  "n": 6,
+  "doi": "10.3727/108354220x15758301241891",
+  "oa_status": "closed",
+  "file": null,
+  "tried": []
+ },
+ {
+  "n": 7,
+  "doi": "10.3390/su18126295",
+  "oa_status": "gold",
+  "file": null,
+  "tried": [
+   [
+    "https://www.mdpi.com/2071-1050/18/12/6295/pdf?version=1781789923",
+    "403",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://www.mdpi.com/2071-1050/18/12/6295/pdf?version=1781789923",
+    "archive",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://www.mdpi.com/2071-1050/18/12/6295/pdf?version=1781789923",
+    "archive",
+    false
+   ]
+  ]
+ },
+ {
+  "n": 8,
+  "doi": "10.1108/ijcthr-03-2017-0030",
+  "oa_status": "closed",
+  "file": null,
+  "tried": []
+ },
+ {
+  "n": 9,
+  "doi": "10.64704/alarbaeen.202604020435",
+  "oa_status": "closed",
+  "file": null,
+  "tried": []
+ },
+ {
+  "n": 10,
+  "doi": "10.1177/1354816620901956",
+  "oa_status": "closed",
+  "file": null,
+  "tried": []
+ },
+ {
+  "n": 11,
+  "doi": "10.24818/rej/2021/81/01",
+  "oa_status": "gold",
+  "file": "fulltext/11.pdf",
+  "tried": [
+   [
+    "https://doi.org/10.24818/rej/2021/81/01",
+    "403",
+    false
+   ],
+   [
+    "https://doaj.org/article/79df1543b6b948338c494cf5752c5d6d",
+    "403",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://doi.org/10.24818/rej/2021/81/01",
+    "archive",
+    true
+   ]
+  ]
+ },
+ {
+  "n": 12,
+  "doi": "10.1108/jtf-10-2024-0219",
+  "oa_status": "gold",
+  "file": null,
+  "tried": [
+   [
+    "https://doi.org/10.1108/jtf-10-2024-0219",
+    "403",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://doi.org/10.1108/jtf-10-2024-0219",
+    "archive",
+    false
+   ]
+  ]
+ },
+ {
+  "n": 13,
+  "doi": "10.4236/tel.2018.89104",
+  "oa_status": "gold",
+  "file": "fulltext/13.pdf",
+  "tried": [
+   [
+    "http://www.scirp.org/journal/PaperDownload.aspx?paperID=85293",
+    "403",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/http://www.scirp.org/journal/PaperDownload.aspx?paperID=85293",
+    "archive",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/http://www.scirp.org/journal/PaperDownload.aspx?paperID=85293",
+    "archive",
+    true
+   ]
+  ]
+ },
+ {
+  "n": 14,
+  "doi": "10.1016/j.jhtm.2019.11.003",
+  "oa_status": "closed",
+  "file": null,
+  "tried": []
+ },
+ {
+  "n": 15,
+  "doi": "10.46593/ijaera.2020.v06i08.001",
+  "oa_status": "hybrid",
+  "file": "fulltext/15.pdf",
+  "tried": [
+   [
+    "https://doi.org/10.46593/ijaera.2020.v06i08.001",
+    "200",
+    true
+   ]
+  ]
+ },
+ {
+  "n": 16,
+  "doi": "10.1038/s41598-025-32509-6",
+  "oa_status": "gold",
+  "file": "fulltext/16.pdf",
+  "tried": [
+   [
+    "https://www.nature.com/articles/s41598-025-32509-6.pdf",
+    "200",
+    true
+   ]
+  ]
+ },
+ {
+  "n": 17,
+  "doi": "10.3390/su17041396",
+  "oa_status": "gold",
+  "file": "fulltext/17.pdf",
+  "tried": [
+   [
+    "https://www.mdpi.com/2071-1050/17/4/1396/pdf?version=1739009302",
+    "403",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://www.mdpi.com/2071-1050/17/4/1396/pdf?version=1739009302",
+    "archive",
+    true
+   ]
+  ]
+ },
+ {
+  "n": 18,
+  "doi": "10.3906/elk-1311-134",
+  "oa_status": "closed",
+  "file": null,
+  "tried": []
+ },
+ {
+  "n": 19,
+  "doi": "10.30519/ahtr.765394",
+  "oa_status": "gold",
+  "file": "fulltext/19.pdf",
+  "tried": [
+   [
+    "https://dergipark.org.tr/en/download/article-file/1190938",
+    "200",
+    true
+   ]
+  ]
+ },
+ {
+  "n": 20,
+  "doi": "10.3390/su152215924",
+  "oa_status": "gold",
+  "file": "fulltext/20.pdf",
+  "tried": [
+   [
+    "https://www.mdpi.com/2071-1050/15/22/15924/pdf?version=1700008354",
+    "403",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://www.mdpi.com/2071-1050/15/22/15924/pdf?version=1700008354",
+    "archive",
+    true
+   ]
+  ]
+ },
+ {
+  "n": 21,
+  "doi": "10.54493/jgttr.1408566",
+  "oa_status": "bronze",
+  "file": "fulltext/21.pdf",
+  "tried": [
+   [
+    "https://dergipark.org.tr/en/download/article-file/3615014",
+    "200",
+    true
+   ]
+  ]
+ },
+ {
+  "n": 22,
+  "doi": "10.11591/ijece.v13i2.pp1989-1996",
+  "oa_status": "gold",
+  "file": "fulltext/22.pdf",
+  "tried": [
+   [
+    "https://ijece.iaescore.com/index.php/IJECE/article/download/27196/16401",
+    "200",
+    true
+   ]
+  ]
+ },
+ {
+  "n": 23,
+  "doi": "10.3390/info15090516",
+  "oa_status": "gold",
+  "file": null,
+  "tried": [
+   [
+    "https://www.mdpi.com/2078-2489/15/9/516/pdf?version=1724425794",
+    "403",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://www.mdpi.com/2078-2489/15/9/516/pdf?version=1724425794",
+    "archive",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://www.mdpi.com/2078-2489/15/9/516/pdf?version=1724425794",
+    "archive",
+    false
+   ]
+  ]
+ },
+ {
+  "n": 24,
+  "doi": "10.3390/forecast4020024",
+  "oa_status": "gold",
+  "file": "fulltext/24.pdf",
+  "tried": [
+   [
+    "https://www.mdpi.com/2571-9394/4/2/24/pdf?version=1649229685",
+    "403",
+    false
+   ],
+   [
+    "https://doaj.org/article/f7527483ee784bcc991b20b4cb3e2b2a",
+    "403",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://www.mdpi.com/2571-9394/4/2/24/pdf?version=1649229685",
+    "archive",
+    true
+   ]
+  ]
+ },
+ {
+  "n": 25,
+  "doi": "10.3390/forecast4030036",
+  "oa_status": "gold",
+  "file": "fulltext/25.pdf",
+  "tried": [
+   [
+    "https://www.mdpi.com/2571-9394/4/3/36/pdf?version=1658411586",
+    "403",
+    false
+   ],
+   [
+    "https://doaj.org/article/b04e34b9696543b8b73c8dd6d082949b",
+    "403",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://www.mdpi.com/2571-9394/4/3/36/pdf?version=1658411586",
+    "archive",
+    true
+   ]
+  ]
+ },
+ {
+  "n": 26,
+  "doi": "10.55677/ijssers/v03i3y2023-20",
+  "oa_status": "hybrid",
+  "file": "fulltext/26.pdf",
+  "tried": [
+   [
+    "https://ijssers.org/wp-content/uploads/2023/03/20-2103-2023.pdf",
+    "200",
+    true
+   ]
+  ]
+ },
+ {
+  "n": 27,
+  "doi": "10.3390/su18115503",
+  "oa_status": "gold",
+  "file": null,
+  "tried": [
+   [
+    "https://doi.org/10.3390/su18115503",
+    "403",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://doi.org/10.3390/su18115503",
+    "archive",
+    false
+   ]
+  ]
+ },
+ {
+  "n": 28,
+  "doi": "10.3390/su17104272",
+  "oa_status": "gold",
+  "file": "fulltext/28.pdf",
+  "tried": [
+   [
+    "https://www.mdpi.com/2071-1050/17/10/4272/pdf?version=1746707602",
+    "403",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://www.mdpi.com/2071-1050/17/10/4272/pdf?version=1746707602",
+    "archive",
+    true
+   ]
+  ]
+ },
+ {
+  "n": 29,
+  "doi": "10.24288/jttr.1252689",
+  "oa_status": "gold",
+  "file": "fulltext/29.pdf",
+  "tried": [
+   [
+    "http://dx.doi.org/10.24288/jttr.1252689",
+    "403",
+    false
+   ],
+   [
+    "https://dergipark.org.tr/en/download/article-file/2959108",
+    "200",
+    true
+   ]
+  ]
+ },
+ {
+  "n": 30,
+  "doi": "10.3390/su17146351",
+  "oa_status": "gold",
+  "file": "fulltext/30.pdf",
+  "tried": [
+   [
+    "https://www.mdpi.com/2071-1050/17/14/6351/pdf?version=1752214061",
+    "403",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://www.mdpi.com/2071-1050/17/14/6351/pdf?version=1752214061",
+    "archive",
+    true
+   ]
+  ]
+ },
+ {
+  "n": 31,
+  "doi": "10.3390/su18126245",
+  "oa_status": "gold",
+  "file": null,
+  "tried": [
+   [
+    "https://www.mdpi.com/2071-1050/18/12/6245/pdf?version=1781701997",
+    "403",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://www.mdpi.com/2071-1050/18/12/6245/pdf?version=1781701997",
+    "archive",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://www.mdpi.com/2071-1050/18/12/6245/pdf?version=1781701997",
+    "archive",
+    false
+   ]
+  ]
+ },
+ {
+  "n": 32,
+  "doi": "10.1177/13548166231174812",
+  "oa_status": "closed",
+  "file": null,
+  "tried": []
+ },
+ {
+  "n": 33,
+  "doi": "10.1007/s11356-023-25545-0",
+  "oa_status": "closed",
+  "file": null,
+  "tried": []
+ },
+ {
+  "n": 34,
+  "doi": "10.21511/ppm.24(2).2026.09",
+  "oa_status": "gold",
+  "file": "fulltext/34.pdf",
+  "tried": [
+   [
+    "https://www.businessperspectives.org/images/pdf/applications/publishing/templates/article/assets/24257/PPM_2026_02_Harazneh.pdf",
+    "200",
+    true
+   ]
+  ]
+ },
+ {
+  "n": 35,
+  "doi": "10.3390/su14137834",
+  "oa_status": "gold",
+  "file": "fulltext/35.pdf",
+  "tried": [
+   [
+    "https://www.mdpi.com/2071-1050/14/13/7834/pdf?version=1656331944",
+    "403",
+    false
+   ],
+   [
+    "https://doaj.org/article/89ddb4567c2549e188173cdd0726fa57",
+    "403",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://www.mdpi.com/2071-1050/14/13/7834/pdf?version=1656331944",
+    "archive",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://www.mdpi.com/2071-1050/14/13/7834/pdf?version=1656331944",
+    "archive",
+    true
+   ]
+  ]
+ },
+ {
+  "n": 36,
+  "doi": "10.1504/ijssoc.2016.079082",
+  "oa_status": "closed",
+  "file": null,
+  "tried": []
+ },
+ {
+  "n": 37,
+  "doi": "10.33948/esj-ksu-17-2-8",
+  "oa_status": "bronze",
+  "file": "fulltext/37.pdf",
+  "tried": [
+   [
+    "https://japksu.com/index.php/esj/article/download/714/109",
+    "200",
+    true
+   ]
+  ]
+ },
+ {
+  "n": 38,
+  "doi": "10.1080/1331677x.2021.1985577",
+  "oa_status": "hybrid",
+  "file": null,
+  "tried": [
+   [
+    "https://www.tandfonline.com/doi/pdf/10.1080/1331677X.2021.1985577?needAccess=true",
+    "403",
+    false
+   ],
+   [
+    "https://hrcak.srce.hr/302498",
+    "200",
+    false
+   ],
+   [
+    "https://doi.org/10.1080/1331677X.2021.1985577",
+    "403",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://www.tandfonline.com/doi/pdf/10.1080/1331677X.2021.1985577?needAccess=true",
+    "archive",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://www.tandfonline.com/doi/pdf/10.1080/1331677X.2021.1985577?needAccess=true",
+    "archive",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://hrcak.srce.hr/302498",
+    "archive",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://doi.org/10.1080/1331677X.2021.1985577",
+    "archive",
+    false
+   ]
+  ]
+ },
+ {
+  "n": 39,
+  "doi": "10.1016/j.igd.2024.100203",
+  "oa_status": "gold",
+  "file": null,
+  "tried": [
+   [
+    "https://doi.org/10.1016/j.igd.2024.100203",
+    "200",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://doi.org/10.1016/j.igd.2024.100203",
+    "archive",
+    false
+   ]
+  ]
+ },
+ {
+  "n": 40,
+  "doi": "10.30892/gtg.27417-436",
+  "oa_status": "gold",
+  "file": null,
+  "tried": [
+   [
+    "https://doi.org/10.30892/gtg.27417-436",
+    "403",
+    false
+   ],
+   [
+    "https://doaj.org/article/bdd59ac31e9744e1801c5ceea4726bd5",
+    "403",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://doi.org/10.30892/gtg.27417-436",
+    "archive",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://doi.org/10.30892/gtg.27417-436",
+    "archive",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://doaj.org/article/bdd59ac31e9744e1801c5ceea4726bd5",
+    "archive",
+    false
+   ]
+  ]
+ },
+ {
+  "n": 41,
+  "doi": "10.3390/su15064919",
+  "oa_status": "gold",
+  "file": "fulltext/41.pdf",
+  "tried": [
+   [
+    "https://www.mdpi.com/2071-1050/15/6/4919/pdf?version=1678415890",
+    "403",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://www.mdpi.com/2071-1050/15/6/4919/pdf?version=1678415890",
+    "archive",
+    true
+   ]
+  ]
+ },
+ {
+  "n": 42,
+  "doi": "10.18488/31.v11i2.3808",
+  "oa_status": "gold",
+  "file": "fulltext/42.pdf",
+  "tried": [
+   [
+    "https://archive.conscientiabeam.com/index.php/31/article/download/3808/8180",
+    "200",
+    true
+   ]
+  ]
+ },
+ {
+  "n": 43,
+  "doi": "10.3390/su15043474",
+  "oa_status": "gold",
+  "file": "fulltext/43.pdf",
+  "tried": [
+   [
+    "https://www.mdpi.com/2071-1050/15/4/3474/pdf?version=1676361300",
+    "403",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://www.mdpi.com/2071-1050/15/4/3474/pdf?version=1676361300",
+    "archive",
+    true
+   ]
+  ]
+ },
+ {
+  "n": 44,
+  "doi": "10.35631/jthem.1039004",
+  "oa_status": "gold",
+  "file": "fulltext/44.pdf",
+  "tried": [
+   [
+    "https://gaexcellence.com/jthem/article/download/4877/4505",
+    "200",
+    true
+   ]
+  ]
+ },
+ {
+  "n": 45,
+  "doi": "10.1016/j.annals.2020.102892",
+  "oa_status": "closed",
+  "file": null,
+  "tried": []
+ },
+ {
+  "n": 46,
+  "doi": "10.1016/j.heliyon.2023.e18385",
+  "oa_status": "gold",
+  "file": null,
+  "tried": [
+   [
+    "https://doi.org/10.1016/j.heliyon.2023.e18385",
+    "200",
+    false
+   ],
+   [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10375847/pdf/main.pdf",
+    "200",
+    false
+   ],
+   [
+    "https://doaj.org/article/26bb0585aff1486fb09a511ac109efd5",
+    "403",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://doi.org/10.1016/j.heliyon.2023.e18385",
+    "archive",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://pmc.ncbi.nlm.nih.gov/articles/PMC10375847/pdf/main.pdf",
+    "archive",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://pmc.ncbi.nlm.nih.gov/articles/PMC10375847/pdf/main.pdf",
+    "archive",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://doaj.org/article/26bb0585aff1486fb09a511ac109efd5",
+    "archive",
+    false
+   ]
+  ]
+ },
+ {
+  "n": 47,
+  "doi": "10.1080/02508281.2014.11081329",
+  "oa_status": "closed",
+  "file": null,
+  "tried": []
+ },
+ {
+  "n": 48,
+  "doi": "10.18089/tms.20240304",
+  "oa_status": "gold",
+  "file": "fulltext/48.pdf",
+  "tried": [
+   [
+    "https://doi.org/10.18089/tms.20240304",
+    "200",
+    false
+   ],
+   [
+    "https://dialnet.unirioja.es/descarga/articulo/9532037.pdf",
+    "200",
+    true
+   ]
+  ]
+ },
+ {
+  "n": 49,
+  "doi": "10.1108/tr-07-2022-0367",
+  "oa_status": "closed",
+  "file": null,
+  "tried": []
+ },
+ {
+  "n": 50,
+  "doi": "10.1177/1354816618812588",
+  "oa_status": "closed",
+  "file": null,
+  "tried": []
+ },
+ {
+  "n": 51,
+  "doi": "10.1016/j.tourman.2020.104245",
+  "oa_status": "closed",
+  "file": null,
+  "tried": []
+ },
+ {
+  "n": 52,
+  "doi": "10.1016/j.jclepro.2021.129278",
+  "oa_status": "closed",
+  "file": null,
+  "tried": []
+ },
+ {
+  "n": 53,
+  "doi": "10.1177/1354816618810564",
+  "oa_status": "closed",
+  "file": null,
+  "tried": []
+ },
+ {
+  "n": 54,
+  "doi": "10.1080/1528008x.2023.2266861",
+  "oa_status": "closed",
+  "file": null,
+  "tried": []
+ },
+ {
+  "n": 55,
+  "doi": "10.3390/ijerph192416663",
+  "oa_status": "gold",
+  "file": "fulltext/55.pdf",
+  "tried": [
+   [
+    "https://www.mdpi.com/1660-4601/19/24/16663/pdf?version=1670822668",
+    "403",
+    false
+   ],
+   [
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/9778874",
+    "200",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://www.mdpi.com/1660-4601/19/24/16663/pdf?version=1670822668",
+    "archive",
+    true
+   ]
+  ]
+ },
+ {
+  "n": 56,
+  "doi": "10.1080/09669582.2023.2246681",
+  "oa_status": "hybrid",
+  "file": "fulltext/56.pdf",
+  "tried": [
+   [
+    "https://www.tandfonline.com/doi/pdf/10.1080/09669582.2023.2246681?needAccess=true&role=button",
+    "403",
+    false
+   ],
+   [
+    "https://eprints.whiterose.ac.uk/id/eprint/202487/1/Intelligent_automation_for_sustainable_tourism_a_systematic_review.pdf",
+    "200",
+    true
+   ]
+  ]
+ },
+ {
+  "n": 57,
+  "doi": "10.1108/tr-07-2021-0310",
+  "oa_status": "closed",
+  "file": null,
+  "tried": []
+ },
+ {
+  "n": 58,
+  "doi": "10.1016/j.tourman.2014.04.005",
+  "oa_status": "green",
+  "file": null,
+  "tried": [
+   [
+    "http://hdl.handle.net/10397/9005",
+    "403",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/http://hdl.handle.net/10397/9005",
+    "archive",
+    false
+   ]
+  ]
+ },
+ {
+  "n": 59,
+  "doi": "10.1080/09669582.2020.1775621",
+  "oa_status": "closed",
+  "file": null,
+  "tried": []
+ },
+ {
+  "n": 60,
+  "doi": "10.1177/1354816621999968",
+  "oa_status": "closed",
+  "file": null,
+  "tried": []
+ },
+ {
+  "n": 61,
+  "doi": "10.18280/ijsdp.200333",
+  "oa_status": "hybrid",
+  "file": "fulltext/61.pdf",
+  "tried": [
+   [
+    "https://iieta.org/download/file/fid/162908",
+    "200",
+    true
+   ]
+  ]
+ },
+ {
+  "n": 62,
+  "doi": "10.1016/j.annals.2022.103409",
+  "oa_status": "closed",
+  "file": null,
+  "tried": []
+ },
+ {
+  "n": 63,
+  "doi": "10.2112/si103-217.1",
+  "oa_status": "closed",
+  "file": null,
+  "tried": []
+ },
+ {
+  "n": 64,
+  "doi": "10.1016/j.annals.2018.12.001",
+  "oa_status": "bronze",
+  "file": null,
+  "tried": [
+   [
+    "https://www.sciencedirect.com/science/article/pii/S0160738318301312",
+    "403",
+    false
+   ],
+   [
+    "http://ira.lib.polyu.edu.hk/bitstream/10397/99278/1/Song_Review_Research_Tourism.pdf",
+    "403",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://www.sciencedirect.com/science/article/pii/S0160738318301312",
+    "archive",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://www.sciencedirect.com/science/article/pii/S0160738318301312",
+    "archive",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/http://ira.lib.polyu.edu.hk/bitstream/10397/99278/1/Song_Review_Research_Tourism.pdf",
+    "archive",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/http://ira.lib.polyu.edu.hk/bitstream/10397/99278/1/Song_Review_Research_Tourism.pdf",
+    "archive",
+    false
+   ]
+  ]
+ },
+ {
+  "n": 65,
+  "doi": "10.1016/j.annals.2022.103502",
+  "oa_status": "closed",
+  "file": null,
+  "tried": []
+ },
+ {
+  "n": 66,
+  "doi": "10.1108/tr-03-2023-0169",
+  "oa_status": "closed",
+  "file": null,
+  "tried": []
+ },
+ {
+  "n": 67,
+  "doi": "10.1177/10963480231223151",
+  "oa_status": "hybrid",
+  "file": null,
+  "tried": [
+   [
+    "https://doi.org/10.1177/10963480231223151",
+    "403",
+    false
+   ],
+   [
+    "http://ira.lib.polyu.edu.hk/bitstream/10397/107074/1/Wu_Tourism_Hospitality_Forecasting.pdf",
+    "403",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://doi.org/10.1177/10963480231223151",
+    "archive",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/http://ira.lib.polyu.edu.hk/bitstream/10397/107074/1/Wu_Tourism_Hospitality_Forecasting.pdf",
+    "archive",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/http://ira.lib.polyu.edu.hk/bitstream/10397/107074/1/Wu_Tourism_Hospitality_Forecasting.pdf",
+    "archive",
+    false
+   ]
+  ]
+ },
+ {
+  "n": 68,
+  "doi": "10.3390/su12041328",
+  "oa_status": "gold",
+  "file": "fulltext/68.pdf",
+  "tried": [
+   [
+    "https://www.mdpi.com/2071-1050/12/4/1328/pdf?version=1581991799",
+    "403",
+    false
+   ],
+   [
+    "https://doaj.org/article/f78c2db43f304fc4a2a93fad7d1ef5b7",
+    "403",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://www.mdpi.com/2071-1050/12/4/1328/pdf?version=1581991799",
+    "archive",
+    true
+   ]
+  ]
+ },
+ {
+  "n": 69,
+  "doi": "10.1016/j.tmp.2020.100715",
+  "oa_status": "green",
+  "file": null,
+  "tried": [
+   [
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/7334661",
+    "200",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://www.ncbi.nlm.nih.gov/pmc/articles/7334661",
+    "archive",
+    false
+   ]
+  ]
+ },
+ {
+  "n": 70,
+  "doi": "10.1080/07350015.1995.10524599",
+  "oa_status": "closed",
+  "file": null,
+  "tried": []
+ },
+ {
+  "n": 71,
+  "doi": "10.1002/jrsm.1378",
+  "oa_status": "hybrid",
+  "file": "fulltext/71.pdf",
+  "tried": [
+   [
+    "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/jrsm.1378",
+    "403",
+    false
+   ],
+   [
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/7079055",
+    "200",
+    false
+   ],
+   [
+    "https://epub.jku.at/doi/10.1002/jrsm.1378",
+    "200",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/jrsm.1378",
+    "archive",
+    true
+   ]
+  ]
+ },
+ {
+  "n": 72,
+  "doi": "10.3982/ecta5771",
+  "oa_status": "closed",
+  "file": null,
+  "tried": []
+ },
+ {
+  "n": 73,
+  "doi": "10.1016/j.ijforecast.2006.03.001",
+  "oa_status": "closed",
+  "file": null,
+  "tried": []
+ },
+ {
+  "n": 74,
+  "doi": "10.1016/j.annals.2019.01.014",
+  "oa_status": "green",
+  "file": null,
+  "tried": [
+   [
+    "https://figshare.com/articles/journal_contribution/Tourism_demand_forecasting_a_deep_learning_approach/20769325",
+    "202",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://figshare.com/articles/journal_contribution/Tourism_demand_forecasting_a_deep_learning_approach/20769325",
+    "archive",
+    false
+   ]
+  ]
+ },
+ {
+  "n": 75,
+  "doi": "10.1016/j.ijforecast.2019.04.014",
+  "oa_status": "hybrid",
+  "file": null,
+  "tried": [
+   [
+    "https://www.sciencedirect.com/science/article/pii/S0169207019301128/pdf",
+    "403",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://www.sciencedirect.com/science/article/pii/S0169207019301128/pdf",
+    "archive",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://www.sciencedirect.com/science/article/pii/S0169207019301128/pdf",
+    "archive",
+    false
+   ]
+  ]
+ },
+ {
+  "n": 76,
+  "doi": "10.1016/j.ijforecast.2021.11.013",
+  "oa_status": "hybrid",
+  "file": null,
+  "tried": [
+   [
+    "https://www.sciencedirect.com/science/article/pii/S0169207021001874/pdf",
+    "403",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://www.sciencedirect.com/science/article/pii/S0169207021001874/pdf",
+    "archive",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://www.sciencedirect.com/science/article/pii/S0169207021001874/pdf",
+    "archive",
+    false
+   ]
+  ]
+ },
+ {
+  "n": 77,
+  "doi": "10.1136/bmj.n71",
+  "oa_status": "hybrid",
+  "file": "fulltext/77.pdf",
+  "tried": [
+   [
+    "https://www.bmj.com/content/bmj/372/bmj.n71.full.pdf",
+    "403",
+    false
+   ],
+   [
+    "https://pure.amsterdamumc.nl/en/publications/8bf47ffe-a3c6-4217-8719-ea0043baec47",
+    "200",
+    false
+   ],
+   [
+    "https://portal.findresearcher.sdu.dk/da/publications/5b3f3557-9ca0-48a7-b1ba-f346b2eff8c1",
+    "200",
+    false
+   ],
+   [
+    "https://eprints.whiterose.ac.uk/id/eprint/173287/1/PIIS0895435621000731.pdf",
+    "200",
+    true
+   ]
+  ]
+ },
+ {
+  "n": 78,
+  "doi": "10.1136/bmj.n160",
+  "oa_status": "hybrid",
+  "file": "fulltext/78.pdf",
+  "tried": [
+   [
+    "https://www.bmj.com/content/bmj/372/bmj.n160.full.pdf",
+    "403",
+    false
+   ],
+   [
+    "https://eprints.whiterose.ac.uk/id/eprint/173314/1/bmj.n160.full.pdf",
+    "200",
+    true
+   ]
+  ]
+ },
+ {
+  "n": 79,
+  "doi": "10.1016/j.tourman.2018.07.010",
+  "oa_status": "closed",
+  "file": null,
+  "tried": []
+ },
+ {
+  "n": 80,
+  "doi": "10.7326/m18-0850",
+  "oa_status": "green",
+  "file": "fulltext/80.pdf",
+  "tried": [
+   [
+    "https://eprints.whiterose.ac.uk/id/eprint/136633/1/PRISMA_ScR_Manuscript_July6th_clean_1_.pdf",
+    "200",
+    true
+   ]
+  ]
+ },
+ {
+  "n": 81,
+  "doi": "10.7326/m18-1376",
+  "oa_status": "green",
+  "file": "fulltext/81.pdf",
+  "tried": [
+   [
+    "https://cris.maastrichtuniversity.nl/en/publications/c897360e-438a-4d50-8717-d4d0da5136fa",
+    "200",
+    false
+   ],
+   [
+    "https://research-information.bris.ac.uk/en/publications/c422892f-82b3-4a81-a5a6-c3c6151555d5",
+    "200",
+    false
+   ],
+   [
+    "http://eprints.keele.ac.uk/5884/1/R%20Riley%20-%20PROBAST%20A%20tool%20to%20assess%20the%20risk%20of%20bias....pdf",
+    "403",
+    false
+   ],
+   [
+    "https://dspace.library.uu.nl/handle/1874/378345",
+    "200",
+    false
+   ],
+   [
+    "https://research.birmingham.ac.uk/en/publications/84036269-b4f3-4f58-9c49-420d6917c657",
+    "200",
+    false
+   ],
+   [
+    "https://birmingham.elsevierpure.com/en/publications/84036269-b4f3-4f58-9c49-420d6917c657",
+    "200",
+    false
+   ],
+   [
+    "https://doi.org/10.17863/cam.38628",
+    "200",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://cris.maastrichtuniversity.nl/en/publications/c897360e-438a-4d50-8717-d4d0da5136fa",
+    "archive",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://research-information.bris.ac.uk/en/publications/c422892f-82b3-4a81-a5a6-c3c6151555d5",
+    "archive",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/http://eprints.keele.ac.uk/5884/1/R%20Riley%20-%20PROBAST%20A%20tool%20to%20assess%20the%20risk%20of%20bias....pdf",
+    "archive",
+    true
+   ]
+  ]
+ },
+ {
+  "n": 82,
+  "doi": "10.1177/0047287520919522",
+  "oa_status": "green",
+  "file": null,
+  "tried": [
+   [
+    "https://openresearch-repository.anu.edu.au/bitstreams/935b3d1f-941e-4b41-bde4-fee77214e6d0/download",
+    "503",
+    false
+   ],
+   [
+    "https://figshare.com/articles/journal_contribution/Tourism_Demand_Forecasting_A_Decomposed_Deep_Learning_Approach/20701177",
+    "202",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://openresearch-repository.anu.edu.au/bitstreams/935b3d1f-941e-4b41-bde4-fee77214e6d0/download",
+    "archive",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://openresearch-repository.anu.edu.au/bitstreams/935b3d1f-941e-4b41-bde4-fee77214e6d0/download",
+    "archive",
+    false
+   ],
+   [
+    "https://web.archive.org/web/2026id_/https://figshare.com/articles/journal_contribution/Tourism_Demand_Forecasting_A_Decomposed_Deep_Learning_Approach/20701177",
+    "archive",
+    false
+   ]
+  ]
+ }
+]

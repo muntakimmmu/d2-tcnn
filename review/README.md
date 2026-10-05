@@ -28,3 +28,6 @@ Eligibility decisions and abstract-level coding are hand-coded in `search/build_
 ## Positioning against prior reviews
 - `search/prior_reviews_search.py`, `search/fetch_closest_reviews.py`, `search/add_prior_bib.py`: Crossref search and verification of 25 closest prior reviews (`prior/`).
 - Paper Section 2 and Table 1 compare this review with them; `prior/novelty_assessment.md` gives the honest novelty/contribution assessment (verdict: MODIFY) and the upgrade path.
+
+## Structure and figures (aligned with competing reviews)
+Section order and figure types follow the downloaded competitor reviews (structures extracted in `prior/structure/competitor_structure.json`): Introduction → Literature background → Methodology (protocol, sources, search strategy table, inclusion/exclusion table, PRISMA flow, extraction form, appraisal, analysis) → Results (year-wise trend, journals, settings, keyword co-occurrence network, themes, methods-by-year, accuracy measures) → Discussion (implications, framework figure, future-research table) → Conclusions (limitations, contributions). Figures: `python3 search/make_figures.py` → `paper/figs/`.

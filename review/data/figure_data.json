@@ -1,0 +1,675 @@
+{
+ "nodes": {
+  "tourism demand": 12,
+  "tourist arrivals": 19,
+  "forecasting": 14,
+  "machine learning": 4,
+  "deep learning / ANN": 7,
+  "ARIMA / SARIMA": 5,
+  "ARDL / cointegration": 11,
+  "causality": 6,
+  "panel data": 6,
+  "CO2 emissions": 9,
+  "EKC": 3,
+  "energy": 9,
+  "economic growth": 13,
+  "sustainability": 14,
+  "COVID-19": 7,
+  "Vision 2030": 5,
+  "religious tourism": 8,
+  "geopolitical risk": 3,
+  "hotel": 4,
+  "search data": 3,
+  "Saudi Arabia": 15,
+  "Türkiye": 7,
+  "GCC": 5,
+  "seasonality": 6
+ },
+ "edges": [
+  [
+   "tourism demand",
+   "tourist arrivals",
+   8
+  ],
+  [
+   "tourism demand",
+   "forecasting",
+   8
+  ],
+  [
+   "tourism demand",
+   "machine learning",
+   2
+  ],
+  [
+   "tourism demand",
+   "deep learning / ANN",
+   5
+  ],
+  [
+   "tourism demand",
+   "ARIMA / SARIMA",
+   3
+  ],
+  [
+   "tourism demand",
+   "panel data",
+   2
+  ],
+  [
+   "tourism demand",
+   "economic growth",
+   4
+  ],
+  [
+   "tourism demand",
+   "sustainability",
+   3
+  ],
+  [
+   "tourism demand",
+   "COVID-19",
+   4
+  ],
+  [
+   "tourism demand",
+   "geopolitical risk",
+   2
+  ],
+  [
+   "tourism demand",
+   "search data",
+   3
+  ],
+  [
+   "tourism demand",
+   "Saudi Arabia",
+   2
+  ],
+  [
+   "tourism demand",
+   "Türkiye",
+   4
+  ],
+  [
+   "tourism demand",
+   "seasonality",
+   4
+  ],
+  [
+   "tourist arrivals",
+   "forecasting",
+   7
+  ],
+  [
+   "tourist arrivals",
+   "machine learning",
+   2
+  ],
+  [
+   "tourist arrivals",
+   "deep learning / ANN",
+   3
+  ],
+  [
+   "tourist arrivals",
+   "ARIMA / SARIMA",
+   3
+  ],
+  [
+   "tourist arrivals",
+   "ARDL / cointegration",
+   6
+  ],
+  [
+   "tourist arrivals",
+   "causality",
+   2
+  ],
+  [
+   "tourist arrivals",
+   "panel data",
+   4
+  ],
+  [
+   "tourist arrivals",
+   "CO2 emissions",
+   4
+  ],
+  [
+   "tourist arrivals",
+   "EKC",
+   3
+  ],
+  [
+   "tourist arrivals",
+   "energy",
+   3
+  ],
+  [
+   "tourist arrivals",
+   "economic growth",
+   6
+  ],
+  [
+   "tourist arrivals",
+   "sustainability",
+   7
+  ],
+  [
+   "tourist arrivals",
+   "COVID-19",
+   3
+  ],
+  [
+   "tourist arrivals",
+   "Vision 2030",
+   2
+  ],
+  [
+   "tourist arrivals",
+   "geopolitical risk",
+   2
+  ],
+  [
+   "tourist arrivals",
+   "search data",
+   3
+  ],
+  [
+   "tourist arrivals",
+   "Saudi Arabia",
+   6
+  ],
+  [
+   "tourist arrivals",
+   "Türkiye",
+   3
+  ],
+  [
+   "tourist arrivals",
+   "GCC",
+   3
+  ],
+  [
+   "tourist arrivals",
+   "seasonality",
+   4
+  ],
+  [
+   "forecasting",
+   "machine learning",
+   2
+  ],
+  [
+   "forecasting",
+   "deep learning / ANN",
+   7
+  ],
+  [
+   "forecasting",
+   "ARIMA / SARIMA",
+   5
+  ],
+  [
+   "forecasting",
+   "economic growth",
+   2
+  ],
+  [
+   "forecasting",
+   "sustainability",
+   2
+  ],
+  [
+   "forecasting",
+   "COVID-19",
+   5
+  ],
+  [
+   "forecasting",
+   "hotel",
+   2
+  ],
+  [
+   "forecasting",
+   "search data",
+   3
+  ],
+  [
+   "forecasting",
+   "Saudi Arabia",
+   2
+  ],
+  [
+   "forecasting",
+   "Türkiye",
+   4
+  ],
+  [
+   "forecasting",
+   "seasonality",
+   4
+  ],
+  [
+   "machine learning",
+   "ARIMA / SARIMA",
+   2
+  ],
+  [
+   "machine learning",
+   "sustainability",
+   2
+  ],
+  [
+   "machine learning",
+   "COVID-19",
+   2
+  ],
+  [
+   "machine learning",
+   "Saudi Arabia",
+   3
+  ],
+  [
+   "deep learning / ANN",
+   "ARIMA / SARIMA",
+   2
+  ],
+  [
+   "deep learning / ANN",
+   "COVID-19",
+   2
+  ],
+  [
+   "deep learning / ANN",
+   "Türkiye",
+   2
+  ],
+  [
+   "deep learning / ANN",
+   "seasonality",
+   2
+  ],
+  [
+   "ARIMA / SARIMA",
+   "economic growth",
+   2
+  ],
+  [
+   "ARIMA / SARIMA",
+   "sustainability",
+   2
+  ],
+  [
+   "ARIMA / SARIMA",
+   "COVID-19",
+   3
+  ],
+  [
+   "ARIMA / SARIMA",
+   "Saudi Arabia",
+   2
+  ],
+  [
+   "ARIMA / SARIMA",
+   "Türkiye",
+   2
+  ],
+  [
+   "ARDL / cointegration",
+   "causality",
+   2
+  ],
+  [
+   "ARDL / cointegration",
+   "panel data",
+   3
+  ],
+  [
+   "ARDL / cointegration",
+   "CO2 emissions",
+   4
+  ],
+  [
+   "ARDL / cointegration",
+   "EKC",
+   3
+  ],
+  [
+   "ARDL / cointegration",
+   "energy",
+   3
+  ],
+  [
+   "ARDL / cointegration",
+   "economic growth",
+   4
+  ],
+  [
+   "ARDL / cointegration",
+   "sustainability",
+   4
+  ],
+  [
+   "ARDL / cointegration",
+   "Vision 2030",
+   2
+  ],
+  [
+   "ARDL / cointegration",
+   "Saudi Arabia",
+   4
+  ],
+  [
+   "ARDL / cointegration",
+   "Türkiye",
+   2
+  ],
+  [
+   "ARDL / cointegration",
+   "GCC",
+   2
+  ],
+  [
+   "causality",
+   "CO2 emissions",
+   2
+  ],
+  [
+   "causality",
+   "energy",
+   2
+  ],
+  [
+   "causality",
+   "economic growth",
+   3
+  ],
+  [
+   "causality",
+   "sustainability",
+   4
+  ],
+  [
+   "causality",
+   "religious tourism",
+   2
+  ],
+  [
+   "causality",
+   "Saudi Arabia",
+   2
+  ],
+  [
+   "panel data",
+   "economic growth",
+   2
+  ],
+  [
+   "panel data",
+   "sustainability",
+   2
+  ],
+  [
+   "CO2 emissions",
+   "EKC",
+   2
+  ],
+  [
+   "CO2 emissions",
+   "energy",
+   8
+  ],
+  [
+   "CO2 emissions",
+   "economic growth",
+   7
+  ],
+  [
+   "CO2 emissions",
+   "sustainability",
+   4
+  ],
+  [
+   "CO2 emissions",
+   "religious tourism",
+   4
+  ],
+  [
+   "CO2 emissions",
+   "Saudi Arabia",
+   5
+  ],
+  [
+   "EKC",
+   "energy",
+   2
+  ],
+  [
+   "EKC",
+   "economic growth",
+   2
+  ],
+  [
+   "energy",
+   "economic growth",
+   8
+  ],
+  [
+   "energy",
+   "sustainability",
+   4
+  ],
+  [
+   "energy",
+   "religious tourism",
+   4
+  ],
+  [
+   "energy",
+   "Saudi Arabia",
+   5
+  ],
+  [
+   "energy",
+   "GCC",
+   2
+  ],
+  [
+   "economic growth",
+   "sustainability",
+   4
+  ],
+  [
+   "economic growth",
+   "COVID-19",
+   2
+  ],
+  [
+   "economic growth",
+   "religious tourism",
+   5
+  ],
+  [
+   "economic growth",
+   "Saudi Arabia",
+   6
+  ],
+  [
+   "economic growth",
+   "GCC",
+   2
+  ],
+  [
+   "sustainability",
+   "COVID-19",
+   2
+  ],
+  [
+   "sustainability",
+   "Vision 2030",
+   2
+  ],
+  [
+   "sustainability",
+   "religious tourism",
+   2
+  ],
+  [
+   "sustainability",
+   "Saudi Arabia",
+   7
+  ],
+  [
+   "sustainability",
+   "Türkiye",
+   2
+  ],
+  [
+   "sustainability",
+   "GCC",
+   2
+  ],
+  [
+   "COVID-19",
+   "Saudi Arabia",
+   2
+  ],
+  [
+   "Vision 2030",
+   "religious tourism",
+   2
+  ],
+  [
+   "Vision 2030",
+   "Saudi Arabia",
+   5
+  ],
+  [
+   "religious tourism",
+   "Saudi Arabia",
+   7
+  ],
+  [
+   "search data",
+   "seasonality",
+   2
+  ]
+ ],
+ "clusters": [
+  [
+   "ARIMA / SARIMA",
+   "COVID-19",
+   "Türkiye",
+   "deep learning / ANN",
+   "forecasting",
+   "geopolitical risk",
+   "hotel",
+   "machine learning",
+   "search data",
+   "seasonality",
+   "tourism demand",
+   "tourist arrivals"
+  ],
+  [
+   "ARDL / cointegration",
+   "CO2 emissions",
+   "EKC",
+   "GCC",
+   "Saudi Arabia",
+   "Vision 2030",
+   "causality",
+   "economic growth",
+   "energy",
+   "panel data",
+   "religious tourism",
+   "sustainability"
+  ]
+ ],
+ "vocabulary": {
+  "tourism demand": "tourism demand|demand for tourism",
+  "tourist arrivals": "tourist arrivals|international arrivals|visitor",
+  "forecasting": "forecast",
+  "machine learning": "machine learning|random forest|gradient boosting|xgboost|extra trees|svr|support vector",
+  "deep learning / ANN": "deep learning|lstm|neural network|\\bann\\b",
+  "ARIMA / SARIMA": "arima",
+  "ARDL / cointegration": "ardl|cointegrat|bounds test",
+  "causality": "causality|granger",
+  "panel data": "panel",
+  "CO2 emissions": "co2|co 2|carbon|emission",
+  "EKC": "kuznets",
+  "energy": "energy|fossil|electricity|petroleum",
+  "economic growth": "economic growth|gdp",
+  "sustainability": "sustainab",
+  "climate": "climat",
+  "COVID-19": "covid|pandemic",
+  "Vision 2030": "vision 2030",
+  "religious tourism": "religious|pilgrim|hajj|umrah|arbaeen",
+  "oil price": "oil price",
+  "geopolitical risk": "geopolitic|political risk|instability|crisis",
+  "hotel": "hotel",
+  "search data": "google|search quer|search data|internet search",
+  "Saudi Arabia": "saudi|makkah",
+  "Türkiye": "turk",
+  "GCC": "\\bgcc\\b|gulf",
+  "seasonality": "seasonal",
+  "infrastructure": "infrastructure",
+  "income / equality": "income equal|inequal|income distribution"
+ },
+ "journals": {
+  "Forecasting": 2,
+  "Journal of Global Tourism and Technology Research": 1,
+  "Journal of Tourism Futures": 1,
+  "Information": 1,
+  "Scientific Reports": 1,
+  "Journal of Hospitality and Tourism Management": 1,
+  "Sustainability": 10,
+  "INTERNATIONAL JOURNAL OF SOCIAL SCIENCE AND EDUCATION RESEARCH STUDIES": 1,
+  "International Journal of Electrical and Computer Engineering (IJECE)": 1,
+  "Theoretical Economics Letters": 1,
+  "Advances in Hospitality and Tourism Research (AHTR)": 1,
+  "TURKISH JOURNAL OF ELECTRICAL ENGINEERING & COMPUTER SCIENCES": 1,
+  "International Journal of Advanced Engineering Research and Applications": 1,
+  "alarbaeen": 1,
+  "International Journal of Culture, Tourism and Hospitality Research": 1,
+  "Tourism Analysis": 1,
+  "Tourism Economics": 3,
+  "Tourism and Hospitality Research": 1,
+  "The Romanian Economic Journal": 1,
+  "Journal of Cultural Analysis and Social Change": 1,
+  "Sustainable Development": 1,
+  "GeoJournal of Tourism and Geosites": 1,
+  "Journal of Tourism Theory and Research": 1,
+  "Journal of Tourism Management Research": 1,
+  "Problems and Perspectives in Management": 1,
+  "International Journal of Sustainable Society": 1,
+  "Innovation and Green Development": 1,
+  "Journal of Economic Studies": 1,
+  "Economic Research-Ekonomska Istraživanja": 1,
+  "Environmental Science and Pollution Research": 1
+ },
+ "settings": {
+  "UAE": 2,
+  "Türkiye": 9,
+  "Morocco": 2,
+  "Iran": 1,
+  "Saudi Arabia": 13,
+  "GCC (multi-country)": 5,
+  "Middle East / MENA (multi-country)": 6,
+  "Iraq": 1,
+  "Tunisia": 1,
+  "Jordan": 1,
+  "Qatar": 1
+ },
+ "measures": {
+  "MAPE": 5,
+  "RMSE": 3,
+  "MAE": 2,
+  "R²": 2,
+  "sMAPE": 1,
+  "MSE": 0
+ },
+ "measures_none": 5,
+ "n_with_abstract_F": 12
+}

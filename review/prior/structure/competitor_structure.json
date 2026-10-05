@@ -1,0 +1,226 @@
+{
+ "Ajuhari2023": {
+  "headings": [
+   "1. Introduction",
+   "2. Materials and Methods",
+   "1.   Google Scholar: A search was carried out for each keyword, and the results were",
+   "3. Results",
+   "3.1. Methods of Carrying Capacity Determination",
+   "3.2. Publication Trend of Each Method",
+   "3.3. Assessment of Carrying Capacity Made by Each Method",
+   "4. Discussion",
+   "4.1. The Differences between the Methods of Assessing Carrying Capacity",
+   "4.2. Limitations of the Two Fundamentals of Carrying Capacity",
+   "4.3. Issues in the Carrying Capacity of Tourism Destinations",
+   "4.4. Gaps in Carrying Capacity Research",
+   "5. Conclusions",
+   "5.1. Study Limitations",
+   "5.2. Contributions, Implications, and Future Studies",
+   "5.3. Conclusions"
+  ],
+  "figures": [
+   "Figure 1. Modified"
+  ],
+  "tables": [
+   "Table 1. The methods for carrying capacity determination.",
+   "Table 2. Publication details of the normative approach method.",
+   "Table 3. Publication details of Cifuentes Arias\u2019 method.",
+   "Table 3. Cont.",
+   "Table 4. Publication details of Cifuentes Arias\u2019 method + normative approach and other carrying",
+   "Table 5. Assessment of carrying capacity by normative approach method.",
+   "Table 6. Assessment of carrying capacity by Cifuentes Arias\u2019 method and Cifuentes Arias\u2019 + norma-",
+   "Table 7. Assessment of carrying capacity by other methods.",
+   "Table 7. Cont."
+  ]
+ },
+ "Alhejaili2025": {
+  "headings": [
+   "10 Studies are"
+  ],
+  "figures": [
+   "Figure 1: Hotel Market in Saudi Arabia",
+   "Figure 2: Steps of Review Process"
+  ],
+  "tables": [
+   "Table 1: Related Studies to ESG Practices",
+   "Table 1 presents a chronological overview of ESG-related studies, illustrating the progression"
+  ]
+ },
+ "Dowlut2023": {
+  "headings": [
+   "Author contribution statement",
+   "Declaration of competing interest"
+  ],
+  "figures": [
+   "Fig. 1: Paper selection process based on Wohlin's snowballing method [9].",
+   "Fig. 2: Distribution of the 50 selected studies across the last 5 years.",
+   "Fig. 3: Papers analysed per publication type.",
+   "Fig. 4: Distribution of the identified studies per Performance Measures.",
+   "Fig. 5: No. Studies by algorithms by year."
+  ],
+  "tables": [
+   "Table 1: PICOC criteria used to search papers for the start set.",
+   "Table 2: List of inclusion and exclusion criteria used to select the papers.",
+   "Table 3: List of papers in the in initial start set.",
+   "Table 4: Papers identified and selected during forward and backward snowballing.",
+   "Table 5: Data Extraction form.",
+   "Table 6: Variable Dimension Category of Selected studies.",
+   "Table 7: Input variables type.",
+   "Table 8: Causal econometrics variables.",
+   "Table 9: External/extrinsic variables.",
+   "Table 10: Search index intensity - tourism category.",
+   "Table 11: Deep learning algorithms.",
+   "Table 12: Deep learning algorithms.",
+   "Table 13: MAPE performance result of identified DL algorithms."
+  ]
+ },
+ "Henriques2024": {
+  "headings": [
+   "1. Introduction",
+   "2. Methodology",
+   "3. Results",
+   "3.1 Hotel revenue management demand forecasting",
+   "3.2 Hotel demand forecasting methods based on artificial intelligence",
+   "3.3 Hotel data set",
+   "3.4 Target forecast objectives",
+   "3.5 Comparative studies of forecasting methods",
+   "3.6 Artificial intelligence forecasting advantages",
+   "3.7 Analyses of forecasting methods by models, results, and limitations",
+   "3.8 Recommended future research",
+   "4. Discussion",
+   "4.1 Theoretical Implications",
+   "4.2 Practical Implications",
+   "5. Conclusions"
+  ],
+  "figures": [],
+  "tables": [
+   "Table 1: Articles by year",
+   "Table 2: Hotel Data Set Used",
+   "Table 3: Forecasting demand studies",
+   "Table 4: Forecasting Cancelations studies",
+   "Table 5: Forecasting pricing studies",
+   "Table 6: Future lines of research",
+   "Table 7: Studies per country"
+  ]
+ },
+ "Long2022": {
+  "headings": [
+   "2. Methodology",
+   "2.1. Mapping the Knowledge Domain",
+   "2.2. Collection of Literature Data",
+   "2.3. Analysis Methods",
+   "3. Results",
+   "3.1. Overview",
+   "1. Annual",
+   "3.2. Keyword Co-Occurrence Analysis",
+   "3.3. Overall keyword  co-occurrence",
+   "3.3. Co-Occurrence Analysis of Bursty Words",
+   "3.3. Co-Occurrence",
+   "3.4. LiteratureTools,",
+   "3.4.1. Conceptual Research",
+   "3.4.2. Evaluation Model Research",
+   "3.4.3. Application Research",
+   "3.4.4. Management Tools and Early Warning Research",
+   "3.5. Research Review",
+   "4. Discussion",
+   "4.1. Overview",
+   "2.     Sustainability, Wit Transactions on Ecology and The Environment, Tourism Manage-",
+   "4.     The concept of TECC originates from environmental carrying capacity, but in com-",
+   "4.2. Shortcomings of the Article",
+   "5. Conclusions"
+  ],
+  "figures": [
+   "Figure 2. Top 5 journals in terms of articles on the TECC.",
+   "Figure3. 3.The",
+   "Figure 4 ,destina-",
+   "Figure 4. Keyword co-occurrence analysis with 5 years as a time slice.",
+   "Figure  4. Keyword",
+   "Figure 5. Overall keyword co-occurrence analysis.",
+   "Figure 5. Co-Occurrence",
+   "Figure 6. Co-occurrence",
+   "Figure6. Co-occurrence analysis"
+  ],
+  "tables": [
+   "Table 1. Summary of 11 reviews on tourism carrying capacity.",
+   "Table 1. Cont."
+  ]
+ },
+ "Majid2023": {
+  "headings": [],
+  "figures": [
+   "Figure 1. PriSma flow diagram.",
+   "Figure 2. trend of year-wise publications.",
+   "Figure 2 shows an increasing trend of research interest in the field of intelligent automation",
+   "Figure 3. Keyword network analysis.",
+   "Figure 4. a) Discipline-by-discipline collaboration network; b) affiliation-by-affiliation collaboration network.",
+   "Figure 5. ai4Goodtourism framework: four pathways for ai-based innovations. De Carlo et al. (2021): ai to design collab-",
+   "Figure 4 b shows that disciplines such as psychology, sustainability, communication, and envi-"
+  ],
+  "tables": [
+   "Table 1. Summary of 12 aims for the sustainable tourism agenda.",
+   "Table 2. Search strategy."
+  ]
+ },
+ "Iqbal2025": {
+  "headings": [
+   "2.5 Data analysis",
+   "3. RESULTS",
+   "4. DISCUSSION",
+   "5. CONCLUSION"
+  ],
+  "figures": [
+   "Figure 1. PRISMA framework"
+  ],
+  "tables": [
+   "Table 1. Keywords and Boolean operations",
+   "Table 2. Databases and search string",
+   "Table 3. Inclusion and exclusion criteria",
+   "Table 4. Theme 1: Tourism and vision 2030",
+   "Table 5. Theme 2: Sustainable tourism and environmental sustainability challenges",
+   "Table 6. Theme 3: Community and tourism development"
+  ]
+ },
+ "Song2019": {
+  "headings": [],
+  "figures": [
+   "Figure 2 summarises the applications of various models in the pool of key studies (left panel),",
+   "Fig. 1. Time-series and econometric methods of tourism demand forecasting",
+   "Fig. 2. Method-performance profile (1968-2018)"
+  ],
+  "tables": [
+   "Table 1 Summary of 211 Key Studies"
+  ]
+ },
+ "Zhang2020km": {
+  "headings": [
+   "Authors' contributions list",
+   "Declaration of Competing Interest",
+   "Acknowledgements",
+   "Biographies",
+   "References"
+  ],
+  "figures": [
+   "Fig. 1: The integrated analysis framework.",
+   "Fig. 2: Time distribution of tourism demand forecasting literature, 1999\u20132018.",
+   "Fig. 3: Distribution of the main subjects of tourism demand forecasting literature.",
+   "Fig. 4: Network of documents' co-citation: 1999\u20132018.",
+   "Fig. 5: Network of journals' co-citation: 1999\u20132018.",
+   "Fig. 6: Network of author co-citation: 1999\u20132018.",
+   "Fig. 7: The network of countries for tourism demand forecasting research.",
+   "Fig. 8: The network of institutions for tourism demand forecasting research.",
+   "Fig. 9: Time zone view of institutions.",
+   "Fig. 10: Visualization of the author collaboration network.",
+   "Fig. 11: The network of keywords.",
+   "Fig. 12: Time zone map of keywords on tourism demand forecasting.",
+   "Fig. 13: Keyword clusters network.",
+   "Fig. 14: Document co-citation clusters network."
+  ],
+  "tables": [
+   "Table 1: High-yield journals in tourism demand forecasting.",
+   "Table 2: High-yield authors in the field of tourism demand forecasting, 1999\u20132018.",
+   "Table 3: High-yield institutions in tourism demand forecasting.",
+   "Table 4: Highly cited papers in the field of tourism demand forecasting.",
+   "Table 5: Documents co-citation clusters (1999\u20132018)."
+  ]
+ }
+}

@@ -10,11 +10,10 @@
 \usetikzlibrary{positioning,arrows.meta,shapes.geometric}
 \usepackage[authoryear,round]{natbib}
 \usepackage[hidelinks]{hyperref}
-\usepackage{xcolor,caption,setspace}
+\usepackage{xcolor,caption,setspace,graphicx}
 \captionsetup{font=small,labelfont=bf}
 \setlength{\parskip}{4pt}
 \input{numbers.tex}
-\input{dat_year.tex}
 \newcommand{\tbd}{\textcolor{red}{[to be completed]}}
 
 \title{Forecasting and Sustainability in Middle Eastern Tourism, with Emphasis on Saudi Arabia:\\ A PRISMA~2020 Systematic Review of the Empirical Literature, 2015--2026}
@@ -45,7 +44,7 @@ Saudi-focused work has examined tourism's contribution to Vision 2030 and SDG~8 
 \paragraph{Contributions relative to prior reviews.} Section~\ref{sec:prior} compares this review with the closest of \Npriorrev{} prior reviews whose bibliographic records were verified in Crossref. Against that set, the review contributes: (i) a joint, PRISMA-structured map of \emph{forecasting} and \emph{quantitative sustainability} evidence for Saudi Arabia and the Middle East, a scope that, among the reviews we located, is covered only in parts (global forecasting reviews; global tourism--carbon and carrying-capacity reviews; regional reviews of GCC or Saudi tourism without a forecasting lens); (ii) a cross-classification showing that the two literatures are largely disconnected in this region, together with a typology of the \emph{direction} of the tourism--environment links that are studied; (iii) a regional comparison of these findings with the global reviews; and (iv) a research agenda positioned against the existing carrying-capacity early-warning literature. Contribution (i) is a scope contribution, and (ii)--(iii) are synthesis contributions; we do not claim methodological novelty in review procedure.
 
 
-\section{Related reviews and positioning}\label{sec:prior}
+\section{Literature Background and Related Reviews}\label{sec:prior}
 We searched Crossref for prior reviews with 24 logged queries (review, bibliometric, meta-analysis and scoping-review terms combined with forecasting, sustainability, carbon, carrying capacity, Saudi Arabia, GCC and Middle East; \texttt{prior/prior\_search\_log.json}) and checked additional regional reviews by web search. This identified \Npriorrev{} closely related reviews; all are listed with their open-access status in the repository (\texttt{prior/}, \texttt{data/oa\_status.json}). To keep the reference list mostly open access, Table~\ref{tab:prior} shows the open-access reviews together with the three closed-access reviews that the novelty argument depends on \citep{Jiao2019,Sun2022,Saleh2021}. Omitting the other closed-access reviews does not change the conclusions below: none of them, judged from abstract or title, covers forecasting and sustainability together for this region. Scope is coded from the Crossref abstract where one is deposited and otherwise from the title; two entries rely on web-search snippets and are marked.
 
 \emph{Global forecasting reviews} synthesise models, data sources and accuracy \citep{Peng2014,Jiao2019,Song2019,Zhang2020km,Dowlut2023,Wu2024,Henriques2024}. Where abstracts are available, none indicates a regional focus on the Middle East or a sustainability dimension.
@@ -87,36 +86,61 @@ Review & Type, sample & Coverage & Region & F & S & F$\leftrightarrow$S & Scope 
 \end{table}
 \end{landscape}
 
-\section{Methods}
+\section{Methodology}
 The review follows the PRISMA~2020 statement; the completed checklist, with honest status per item, is in Appendix~A. Deviations are reported explicitly below and in Section~\ref{sec:limits}.
 
-\subsection{Protocol and registration}
+\subsection{Review Protocol and Registration}
 No protocol was registered. The inclusion criteria, search design and coding scheme were fixed before the eligibility stage and are archived with the code and data (Appendix~D). Registration on a general registry such as OSF is recommended before journal submission.
 
-\subsection{Eligibility criteria}
-Studies were eligible if they: (i) were peer-reviewed journal articles, 2015--2026; (ii) were reported in English; (iii) were set in the Middle East, defined here as Saudi Arabia, the other GCC states, MENA countries, T\"urkiye, Iran, Iraq and Israel (multi-country panels were eligible when Middle Eastern units were analysed); and (iv) were quantitative empirical studies falling under one of three themes: \textbf{F} -- forecasting of tourism or hospitality outcomes (arrivals, demand, spending, revenue, hotel price or occupancy); \textbf{D} -- econometric or statistical modelling of tourism demand or outcomes without a forecasting objective; \textbf{S} -- quantitative analysis of tourism together with a sustainability dimension (environmental, social or economic-sustainability variables). Excluded were studies that examined only the tourism--economic-growth nexus without a demand or sustainability outcome, perception or structural-equation surveys, qualitative or conceptual work, operational prediction such as crowd control or clinical outcomes during pilgrimage, non-journal records, and records whose region or tourism link could not be determined from the available metadata.
-
-\subsection{Information sources}
+\subsection{Information Sources}
 The primary source was the Crossref REST API (accessed 5 October 2026), filtered to journal articles published 1~January 2015 to 31~December 2026. Crossref was chosen because it was the only bibliographic index reachable from the execution environment; Scopus, Web of Science and Google Scholar were not accessible. Four earlier web-search screening passes (\emph{search snippets only}) produced candidate leads. These leads were not counted as identified records; they seeded targeted Crossref title searches (``other methods''), and every record that was retained had its metadata re-verified by DOI lookup in Crossref. Publisher full texts could not be retrieved because the environment's network policy returned errors for publisher and DOI-resolver hosts (Section~\ref{sec:limits}).
 
-\subsection{Search strategy}
+\subsection{Search Strategy}
 We ran \Nqueries{} queries using the \texttt{query.bibliographic} parameter with \texttt{rows}=100: eight concept strings (e.g. ``tourism demand forecasting'', ``tourism CO2 emissions'', ``sustainable tourism modelling'') crossed with four regional terms (Saudi Arabia, Middle East, GCC, Hajj/Umrah), plus ``tourism demand forecasting'' and ``tourism sustainability'' for 19 additional location terms (Appendix~C). Each query returned its 100 top-ranked records, so retrieval is capped and not exhaustive (Crossref's reported totals count fuzzy matches across all works and are not counts of relevant records) (Section~\ref{sec:limits}). The full list, dates and reported totals are in Appendix~C and \texttt{data/search\_log.json}. PRISMA-S was not formally applied; the limits of relying on a single index are discussed by \citet{Gusenbauer2020}.
 
-\subsection{Selection process}
+Table~\ref{tab:strings} summarises the strategy.
+
+\begin{table}[t]\centering\small
+\caption{Search strategy: databases, search strings and filters (full query log in Appendix~C).}\label{tab:strings}
+\begin{tabularx}{\linewidth}{@{}p{3.1cm}X@{}}
+\toprule
+Element & Specification\\
+\midrule
+Database & Crossref REST API (\texttt{query.bibliographic}); accessed 5 October 2026\\
+Concept block (8 strings) & ``tourism demand forecasting'', ``tourist arrivals forecasting'', ``tourism forecasting machine learning'', ``tourism forecasting deep learning'', ``hotel occupancy forecasting'', ``tourism sustainability prediction'', ``tourism CO2 emissions'', ``sustainable tourism modelling''\\
+Location block 1 (crossed with concepts) & Saudi Arabia; Middle East; GCC; Hajj Umrah\\
+Location block 2 (with ``tourism demand forecasting'' and ``tourism sustainability'') & Gulf Cooperation Council; GCC; Middle East; MENA; Dubai; UAE; United Arab Emirates; Qatar; Oman; Bahrain; Kuwait; Jordan; Egypt; Turkey; Iran; Morocco; Tunisia; Lebanon; Israel\\
+Filters & Document type = journal article; publication date 1 January 2015 -- 31 December 2026; top 100 records per query\\
+Other methods & Targeted Crossref title searches seeded by web-search leads; DOI verification of every retained record\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Inclusion and Exclusion Criteria}
+Studies were eligible if they: (i) were peer-reviewed journal articles, 2015--2026; (ii) were reported in English; (iii) were set in the Middle East, defined here as Saudi Arabia, the other GCC states, MENA countries, T\"urkiye, Iran, Iraq and Israel (multi-country panels were eligible when Middle Eastern units were analysed); and (iv) were quantitative empirical studies falling under one of three themes: \textbf{F} -- forecasting of tourism or hospitality outcomes (arrivals, demand, spending, revenue, hotel price or occupancy); \textbf{D} -- econometric or statistical modelling of tourism demand or outcomes without a forecasting objective; \textbf{S} -- quantitative analysis of tourism together with a sustainability dimension (environmental, social or economic-sustainability variables). Excluded were studies that examined only the tourism--economic-growth nexus without a demand or sustainability outcome, perception or structural-equation surveys, qualitative or conceptual work, operational prediction such as crowd control or clinical outcomes during pilgrimage, non-journal records, and records whose region or tourism link could not be determined from the available metadata.
+
+ The criteria are summarised in Table~\ref{tab:criteria}.
+
+\begin{table}[t]\centering\small
+\caption{Inclusion and exclusion criteria.}\label{tab:criteria}
+\begin{tabularx}{\linewidth}{@{}p{2.6cm}XX@{}}
+\toprule
+Criterion & Inclusion & Exclusion\\
+\midrule
+Publication type & Peer-reviewed journal article & Conference proceedings, book chapters, theses, preprints\\
+Period & 2015--2026 & Before 2015\\
+Language & English & Other languages\\
+Setting & Saudi Arabia, other GCC states, MENA, T\"urkiye, Iran, Iraq, Israel; multi-country panels with Middle Eastern units & No Middle Eastern unit analysed\\
+Design & Quantitative empirical study & Perception or SEM surveys, qualitative, conceptual or review papers\\
+Topic & F: forecasting a tourism or hospitality outcome; D: modelling tourism demand or outcomes; S: tourism with an environmental, social or economic-sustainability variable & Tourism--growth nexus only; crowd, health or operational prediction; non-tourism outcomes\\
+Information & Region and tourism link determinable from metadata or abstract & Region or tourism link not determinable\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+
+\subsection{Study Selection}\label{sec:selection}
 Selection had three stages. \emph{Stage 1} (automated): deduplication by DOI, then a rule-based filter requiring a tourism term, a Middle East location term and a forecasting or sustainability term in the title or abstract (\texttt{search/screen.py}). \emph{Stage 2} (automated): a method-term filter (forecast, predict, time series, ARDL, regression, machine learning and similar; \texttt{search/screen\_stage2.py}). \emph{Stage 3} (manual): title/abstract/metadata eligibility assessment of the remaining records, using the criteria above, with a reason recorded for every exclusion (Appendix~E). One reviewer, an AI agent, performed Stage~3; there was no independent duplicate screening. Because full texts were unavailable, ``reports assessed for eligibility'' in Figure~\ref{fig:prisma} means assessment of metadata and abstract, not full text.
-
-\subsection{Data collection and items}
-The same reviewer coded each included study from the abstract and bibliographic record (\texttt{data/included.json}): theme; country; outcome; data period and frequency; method family (classical statistical or econometric, machine or deep learning, hybrid, ensemble or multi-family comparison, grey); presence of a benchmark comparison; reporting of an accuracy metric; presence of a forward projection; and sustainability dimension. Items not visible in the abstract were coded ``n/r'' and never inferred. Open-access status was recorded for every included study with Unpaywall (\texttt{data/oa\_status.json}): 31 of the \Nincluded{} are open access and 11 are closed access. Access did not influence eligibility, because excluding closed-access studies would bias a systematic review. For \Nnnoabs{} of the \Nincluded{} included records, Crossref held no abstract; these were coded from title and metadata only and are flagged in the tables.
-
-\subsection{Study quality appraisal}
-A formal risk-of-bias tool for forecasting studies such as PROBAST \citep{Wolff2019} requires full-text information on participants, predictors and analysis, which was unavailable. We therefore applied a six-item \emph{reporting-transparency screen} to forecasting studies using abstract-visible information: data period and frequency stated; named benchmark comparison; accuracy metric reported; forward projection produced; sustainability link; and abstract available. This screen indicates reporting practice only; it is not a risk-of-bias judgment, and no study was excluded on this basis. Standard forecast-evaluation practice, namely out-of-sample accuracy measures and prediction intervals \citep{Hyndman2021fpp} and tests of predictive accuracy \citep{Diebold1995}, served as the reference for what a strong evaluation would report.
-
-\subsection{Synthesis methods}
-Studies were grouped by theme, country and method family and synthesised narratively with counts. No meta-analysis or effect-size pooling was attempted because outcomes, horizons and metrics are heterogeneous and most accuracy values are not visible in abstracts. Reporting-bias and certainty-of-evidence assessments (PRISMA items 14, 15, 21, 22) were not performed.
-
-\section{Results}
-\subsection{Study selection}
-The \Nqueries{} Crossref queries returned \Nretrieved{} records, of which \Ndups{} were duplicates, leaving \Nunique{} unique records. Four further records came from targeted searches and two others, found by those searches, had already been retrieved but removed by automated screening; \Nscreened{} records were therefore screened and \Nautoexcl{} were removed by the automated stages. Of \Nassessed{} records assessed at abstract level, \Nexclelig{} were excluded (Figure~\ref{fig:prisma}), leaving \Nincluded{} studies. Exclusion reasons were: not a quantitative forecasting, demand or sustainability study (\Nenotq{}); tourism--growth nexus only (\Negrowth{}); outside the Middle East (\Negeo{}); operational, crowd or health prediction (\Neoper{}); region or tourism link unconfirmed (\Neundet{}); and non-English or proceedings (\Nelang{}). The two records reinstated after automated exclusion show that the automated filters have imperfect recall (Section~\ref{sec:limits}).
 
 \begin{figure}[t]
 \centering
@@ -139,26 +163,79 @@ The \Nqueries{} Crossref queries returned \Nretrieved{} records, of which \Ndups
 \caption{PRISMA~2020 flow diagram. No full-text retrieval was possible, so eligibility was assessed on metadata and abstracts.}\label{fig:prisma}
 \end{figure}
 
-\subsection{Study characteristics}
-The \Nincluded{} included studies span 2016--2026; \Nyrecent{} appeared from 2020 and \Nyvrecent{} from 2025, so the corpus is recent (Figure~\ref{fig:char}). Saudi Arabia was the setting of \Nsaudiall{} studies and T\"urkiye of \Nturk{}. Forecasting studies outside Saudi Arabia concentrate on T\"urkiye and Morocco (Table~\ref{tab:forecast}).
 
-\begin{figure}[t]
-\centering
-\begin{tikzpicture}
-\begin{axis}[width=0.48\textwidth,height=5.2cm,ybar,bar width=7pt,xlabel={Publication year},ylabel={Studies},xtick={2016,2018,2020,2022,2024,2026},/pgf/number format/1000 sep={},ymin=0,enlarge x limits=0.08,title={(a) Publication year}]
-\addplot[fill=gray!60] coordinates {\datayear};
-\end{axis}
-\end{tikzpicture}\hfill
-\begin{tikzpicture}
-\begin{axis}[width=0.48\textwidth,height=5.2cm,xbar,bar width=8pt,xlabel={Studies},symbolic y coords={Saudi Arabia,T{\"u}rkiye,Other GCC,Other ME/MENA},ytick=data,xmin=0,title={(b) Setting}, nodes near coords, nodes near coords align={horizontal}]
-\addplot[fill=gray!60] coordinates {(13,Saudi Arabia)(9,T{\"u}rkiye)(8,Other GCC)(12,Other ME/MENA)};
-\end{axis}
-\end{tikzpicture}
-\caption{Characteristics of the included studies ($n=\Nincluded$). Panel (b) assigns each study to one setting; the single study spanning Saudi Arabia and T\"urkiye is counted under Saudi Arabia.}\label{fig:char}
+\subsection{Data Extraction}
+The same reviewer coded each included study from the abstract and bibliographic record (\texttt{data/included.json}): theme; country; outcome; data period and frequency; method family (classical statistical or econometric, machine or deep learning, hybrid, ensemble or multi-family comparison, grey); presence of a benchmark comparison; reporting of an accuracy metric; presence of a forward projection; and sustainability dimension. Items not visible in the abstract were coded ``n/r'' and never inferred. Open-access status was recorded for every included study with Unpaywall (\texttt{data/oa\_status.json}): 31 of the \Nincluded{} are open access and 11 are closed access. Access did not influence eligibility, because excluding closed-access studies would bias a systematic review. For \Nnnoabs{} of the \Nincluded{} included records, Crossref held no abstract; these were coded from title and metadata only and are flagged in the tables.
+
+The extraction form is shown in Table~\ref{tab:extraction}.
+
+\begin{table}[t]\centering\small
+\caption{Data extraction form (abstract-level; coding scheme in Appendix~B).}\label{tab:extraction}
+\begin{tabularx}{\linewidth}{@{}p{3.6cm}X@{}}
+\toprule
+Item & Values\\
+\midrule
+Bibliographic & Authors, year, journal, volume, pages, DOI (Crossref); open-access status (Unpaywall)\\
+Theme & F (forecasting), D (demand modelling), S (sustainability)\\
+Setting & Country or multi-country panel\\
+Outcome & e.g.\ arrivals, spending, revenue, hotel price or occupancy, CO$_2$, income equality\\
+Data & Period and frequency\\
+Method family & Classical; machine or deep learning; hybrid, ensemble or multi-family comparison; grey\\
+Evaluation (F only) & Benchmark comparison; accuracy measure named; forward projection or scenario\\
+Sustainability & Dimension stated (environmental, social, economic-sustainability, climate) or framing only\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Quality Appraisal}
+A formal risk-of-bias tool for forecasting studies such as PROBAST \citep{Wolff2019} requires full-text information on participants, predictors and analysis, which was unavailable. We therefore applied a six-item \emph{reporting-transparency screen} to forecasting studies using abstract-visible information: data period and frequency stated; named benchmark comparison; accuracy metric reported; forward projection produced; sustainability link; and abstract available. This screen indicates reporting practice only; it is not a risk-of-bias judgment, and no study was excluded on this basis. Standard forecast-evaluation practice, namely out-of-sample accuracy measures and prediction intervals \citep{Hyndman2021fpp} and tests of predictive accuracy \citep{Diebold1995}, served as the reference for what a strong evaluation would report.
+
+\subsection{Data Analysis}
+Following the competing reviews, the analysis has three parts. (i) A descriptive analysis of publication years, journals, settings, method families and accuracy measures (Figures~\ref{fig:trend}--\ref{fig:measures}). (ii) A keyword co-occurrence analysis: because author keywords are not deposited in Crossref, we applied a controlled vocabulary of 28 terms (\texttt{search/make\_figures.py}) to titles and abstracts, retained terms occurring in at least three studies, linked terms co-occurring in at least two, and detected clusters by greedy modularity maximisation (Figure~\ref{fig:keywords}). (iii) A thematic synthesis by theme (F, D, S), followed by a cross-theme analysis. No meta-analysis or effect-size pooling was attempted because outcomes, horizons and metrics are heterogeneous and most accuracy values are not visible in abstracts. Reporting-bias and certainty-of-evidence assessments (PRISMA items 14, 15, 21, 22) were not performed.
+
+\section{Results}
+\subsection{Overview of the Included Studies}
+The \Nqueries{} Crossref queries returned \Nretrieved{} records, of which \Ndups{} were duplicates, leaving \Nunique{} unique records. Four further records came from targeted searches and two others, found by those searches, had already been retrieved but removed by automated screening; \Nscreened{} records were therefore screened and \Nautoexcl{} were removed by the automated stages. Of \Nassessed{} records assessed at abstract level, \Nexclelig{} were excluded (Figure~\ref{fig:prisma}), leaving \Nincluded{} studies (Section~\ref{sec:selection}, Figure~\ref{fig:prisma}). Exclusion reasons were: not a quantitative forecasting, demand or sustainability study (\Nenotq{}); tourism--growth nexus only (\Negrowth{}); outside the Middle East (\Negeo{}); operational, crowd or health prediction (\Neoper{}); region or tourism link unconfirmed (\Neundet{}); and non-English or proceedings (\Nelang{}). The two records reinstated after automated exclusion show that the automated filters have imperfect recall (Section~\ref{sec:limits}).
+
+
+\begin{figure}[t]\centering
+\includegraphics[width=\linewidth]{figs/fig_trend.pdf}
+\caption{Year-wise distribution of the \Nincluded{} included studies by theme. Labels give annual totals.}\label{fig:trend}
 \end{figure}
 
-\subsection{Forecasting studies (Theme F)}
-\NnF{} studies forecast a tourism or hospitality outcome (Table~\ref{tab:forecast}). By method family, \NFm{} used machine or deep learning, \NFc{} classical models, \NFh{} hybrid or ensemble designs and \NFg{} grey model. Of the \NFabs{} studies whose abstracts were available, \NFbench{} compared several models or benchmarks, which is encouraging. \NFmetric{} abstracts named an accuracy metric (most often MAPE or RMSE), but only \NFfuture{} produced a forward projection or scenario. Saudi forecasting evidence is thin: \NsaudiF{} studies, covering annual Umrah visitors to 2030 \citep{Alamoudi2020}, spending and ARIMA projections to 2030 \citep{Louati2024}, a machine-learning demand model with a geopolitical-instability proxy \citep{Zamzami2026}, and a machine-learning growth model whose abstract was unavailable \citep{Alsulami2026}. GCC hotel price forecasting with deep learning \citep{AlShehhi2020} and MENA hotel prices \citep{AlShehhi2018} are outside the arrivals-demand focus but within Theme F. Search-data forecasting of Dubai tourism \citep{Rashad2022} and Marrakech arrivals \citep{Laaroussi2023} indicate that internet-search predictors, studied globally \citep{Wu2024}, have reached the region.
+\begin{figure}[t]\centering
+\includegraphics[width=\linewidth]{figs/fig_journals.pdf}
+\caption{Journals publishing the included studies. Journals with a single included study are pooled.}\label{fig:journals}
+\end{figure}
+
+\begin{figure}[t]\centering
+\includegraphics[width=\linewidth]{figs/fig_settings.pdf}
+\caption{Study setting by theme. Multi-country panels are shown separately; the study covering Saudi Arabia, T\"urkiye and Italy is counted under Saudi Arabia.}\label{fig:settings}
+\end{figure}
+
+The \Nincluded{} included studies span 2016--2026; \Nyrecent{} appeared from 2020 and \Nyvrecent{} from 2025 (Figure~\ref{fig:trend}). They appeared in 30 journals; \emph{Sustainability} published 10, \emph{Tourism Economics} 3 and \emph{Forecasting} 2, and the remaining 27 appeared in different journals (Figure~\ref{fig:journals}). Saudi Arabia was the most frequent setting (13 studies), followed by T\"urkiye (9), multi-country Middle East or MENA panels (6) and GCC panels (5) (Figure~\ref{fig:settings}). Forecasting studies concentrate on T\"urkiye (6) and Saudi Arabia (4); sustainability studies on Saudi Arabia and GCC panels.
+
+\subsection{Keyword Co-occurrence Analysis}
+The co-occurrence network has 24 terms and 106 links (Figure~\ref{fig:keywords}). Modularity clustering separates two groups. The first (blue) combines forecasting, tourism demand, tourist arrivals, ARIMA/SARIMA, machine and deep learning, search data, seasonality, COVID-19 and T\"urkiye. The second (orange) combines sustainability, CO$_2$ emissions, energy, EKC, economic growth, ARDL/cointegration, causality, panel data, religious tourism, Vision 2030, GCC and Saudi Arabia. Only 23\% of co-occurrence weight crosses the two clusters, and the strongest bridges pass through \emph{tourist arrivals}, which sustainability studies use as an explanatory variable rather than as a forecast target. The term \emph{forecasting} co-occurs with \emph{sustainability} in only two studies and with CO$_2$, energy or EKC terms in fewer than two. The network thus anticipates the thematic finding in Section~\ref{sec:split}.
+
+\begin{figure}[t]\centering
+\includegraphics[width=0.95\linewidth]{figs/fig_keywords.pdf}
+\caption{Keyword co-occurrence network of the included studies (controlled vocabulary applied to titles and abstracts). Node size reflects the number of studies containing the term (in brackets); line width reflects co-occurrence. Colours show the two modularity clusters: forecasting (blue) and sustainability--econometrics (orange).}\label{fig:keywords}
+\end{figure}
+
+\subsection{Theme 1: Forecasting Studies}
+\NnF{} studies forecast a tourism or hospitality outcome (Table~\ref{tab:forecast}). By method family (Figure~\ref{fig:methods}), \NFm{} used machine or deep learning, \NFc{} classical models, \NFh{} hybrid or ensemble designs and \NFg{} grey model. Of the \NFabs{} studies whose abstracts were available, \NFbench{} compared several models or benchmarks, which is encouraging. \NFmetric{} abstracts named an accuracy metric, most often MAPE (5) and RMSE (3) (Figure~\ref{fig:measures}), but only \NFfuture{} produced a forward projection or scenario. Saudi forecasting evidence is thin: \NsaudiF{} studies, covering annual Umrah visitors to 2030 \citep{Alamoudi2020}, spending and ARIMA projections to 2030 \citep{Louati2024}, a machine-learning demand model with a geopolitical-instability proxy \citep{Zamzami2026}, and a machine-learning growth model whose abstract was unavailable \citep{Alsulami2026}. GCC hotel price forecasting with deep learning \citep{AlShehhi2020} and MENA hotel prices \citep{AlShehhi2018} are outside the arrivals-demand focus but within Theme F. Search-data forecasting of Dubai tourism \citep{Rashad2022} and Marrakech arrivals \citep{Laaroussi2023} indicate that internet-search predictors, studied globally \citep{Wu2024}, have reached the region.
+
+
+\begin{figure}[t]\centering
+\includegraphics[width=\linewidth]{figs/fig_methods_year.pdf}
+\caption{Forecasting studies by method family and publication year ($n=\NnF$).}\label{fig:methods}
+\end{figure}
+
+\begin{figure}[t]\centering
+\includegraphics[width=\linewidth]{figs/fig_measures.pdf}
+\caption{Accuracy measures named in the abstracts of forecasting studies. A study can name several measures.}\label{fig:measures}
+\end{figure}
 
 \begin{landscape}
 \begin{table}[p]
@@ -168,7 +245,7 @@ The \Nincluded{} included studies span 2016--2026; \Nyrecent{} appeared from 202
 \end{table}
 \end{landscape}
 
-\subsection{Demand-modelling and sustainability studies (Themes D and S)}
+\subsection{Themes 2 and 3: Demand-Modelling and Sustainability Studies}
 The remaining \NnonFn{} studies are all classical econometric or statistical designs (ARDL, VECM, panel, gravity or spatial models; \NnonFecon{} of \NnonFn{}) and none evaluates out-of-sample forecast accuracy. One, \citet{Chouari2025}, simulates Saudi tourist flows under future climate scenarios (RCP~4.5 and 8.5), the closest example in the corpus to environment-aware projection; its link runs from climate to demand rather than from visitor numbers to environmental load. Theme~S studies (\NnS{}) mainly relate tourism to CO$_2$ emissions or environmental quality (\NSenv{} of \NnS{} include an environmental outcome), for example in GCC panels \citep{Farooq2023a,Zmami2024}, Middle East panels \citep{Voumik2023,BinSurayhid2026}, the UAE \citep{Majumdar2022}, T\"urkiye \citep{Bahar2023}, and Saudi pilgrimage tourism \citep{Naseem2025,Raihan2025}. Social outcomes appear less often, for example income equality in the GCC \citep{Alnafisah2025}. Demand-modelling studies address determinants such as oil prices \citep{Kisswani2020,Mabrouk2026}, geopolitical risk \citep{Hamida2025}, institutional quality \citep{Wada2021} and, for Saudi Arabia, climate \citep{Chouari2025,Abuhulaibah2026} and regional infrastructure \citep{Alfehaid2026}. Table~\ref{tab:other} lists them.
 
 \begin{landscape}
@@ -179,7 +256,7 @@ The remaining \NnonFn{} studies are all classical econometric or statistical des
 \end{table}
 \end{landscape}
 
-\subsection{Synthesis: the forecasting--sustainability split}
+\subsection{Cross-Theme Synthesis: The Forecasting--Sustainability Split}\label{sec:split}
 Cross-classifying the \Nincluded{} studies by whether they forecast and whether they include a sustainability dimension (stated environmental, social, economic-sustainability or climate content, excluding mere framing) gives Table~\ref{tab:split}. Only one study sits in the forecasting-with-sustainability cell \citep{Louati2024}, and its sustainability link is stated at the level of implications rather than constrained forecasting. Two further forecasting studies mention sustainability only as framing: \citet{Bilek2025} in its title and \citet{Zamzami2026} in its policy implications. The \NnonFsust{} sustainability-bearing non-forecasting studies explain past relationships; with the exception noted above they do not project the pressures that future arrivals will create.
 
 \begin{table}[t]
@@ -197,23 +274,52 @@ Does not forecast (D, S) & \NnonFsust{} & \NnonFnosust{}\\
 
 Two keyword checks were made on the \Nnabs{} available abstracts. No abstract mentions water or waste, and none quantifies a capacity limit; only \citet{Alamoudi2020} mentions utility and infrastructure capacity, as a policy recommendation. Prediction intervals or probabilistic forecasts are not named in any forecasting abstract, although absence from an abstract is weaker evidence than absence from the full text.
 
-\subsection{Reporting-transparency screen}
+\subsection{Reporting Quality of Forecasting Studies}
 Among the \NnF{} forecasting studies, \NFabs{} had abstracts permitting assessment. \NFbench{} of these reported a benchmark comparison, \NFmetric{} named an accuracy metric, and \NFfuture{} produced forward projections (the same studies need not overlap). Four forecasting studies had no abstract in the bibliographic record and were not assessable. We caution that these proportions describe abstract-level reporting, not methodological quality.
 
 \section{Discussion}
-\subsection{Principal findings}
+\subsection{Principal Findings}
 The retrieved Middle Eastern evidence base is recent, concentrated in Saudi Arabia and T\"urkiye, and split into two traditions that rarely meet. Forecasting studies employ increasingly modern machine-learning pipelines but target arrivals, spending or prices; sustainability studies use ARDL-type designs to explain emissions or development outcomes but, with one scenario-based exception, do not project forward. The links also run in different directions: sustainability studies ask how tourism affects the environment, the one scenario study asks how climate affects tourism, and no included study links forecast visitor numbers to future environmental load. This split, rather than any single method comparison, is the main insight of the review. It is consistent with the broader forecasting literature's focus on accuracy against benchmarks \citep{Makridakis2020,Makridakis2022}, which provides no mechanism for taking sustainability limits into account.
 
-\subsection{Comparison with prior reviews}
+\subsection{Comparison with Prior Reviews}
 Several regional findings agree with the global reviews, and some depart from them. The global reviews report the rise of AI and hybrid models \citep{Jiao2019}; in this corpus, \NFm{} machine- or deep-learning and \NFh{} hybrid or comparative designs make up most of the \NnF{} forecasting studies, which is consistent. Search-engine and internet data were identified as an emerging trend globally \citep{Wu2024}, yet only 3 of the \NnF{} regional forecasting abstracts use such data \citep{Rashad2022,Laaroussi2023,Bilek2025}, which suggests a lag in adoption. The conflicting tourism--emission results reported globally by \citet{Sun2022} recur regionally: in GCC data tourist arrivals and tourism receipts are reported with opposite associations with emissions \citep{Farooq2023a}. Relative to \citet{Saleh2021}, who found GCC tourism research to focus mostly on Dubai, Saudi Arabia is the most frequent setting here (\Nsaudiall{} of \Nincluded{} studies, 12 of them from 2020 onward), while only 2 included studies concern the UAE specifically. Differences in scope and inclusion criteria mean these contrasts describe the two corpora rather than establishing a trend.
 
-\subsection{A research agenda: capacity-aware forecasting}
+\subsection{Theoretical Implications: A Framework of Tourism--Environment Links}
+Figure~\ref{fig:framework} organises the included studies by the direction of the link they examine. Theme~F studies model drivers $\rightarrow$ demand and project demand forward; Theme~S studies estimate tourism $\rightarrow$ environment relationships ex post; one Theme~D study \citep{Chouari2025} projects climate $\rightarrow$ demand under scenarios. The link from \emph{forecast} demand to future environmental load or capacity is absent from the corpus.
+
+\begin{figure}[t]\centering
+\input{fig_framework.tex}
+\caption{Framework of the tourism--environment links examined by the included studies. Solid arrows are links studied (number of studies); the dashed arrow is the missing link proposed for future research.}\label{fig:framework}
+\end{figure}
+
+\paragraph{Capacity-aware forecasting.}
 We propose, as a \emph{hypothesised direction that has not been tested here}, that tourism forecasts for sustainability-sensitive destinations be evaluated not only by point accuracy but by the decision-relevant risk of exceeding capacity. Let $Y_{r,t+h}$ be visitors to region $r$ at horizon $h$, with predictive distribution $\hat F_{r,t+h}$ and environmental capacity $K_r$ (for example water, energy or site-carrying thresholds). The relevant quantity is the exceedance probability $\hat p_{r,t+h}=1-\hat F_{r,t+h}(K_r)$, assessed with proper scoring rules and calibration diagnostics. Such an agenda would require probabilistic forecasts, regionally disaggregated data and environmental indicators, none of which is combined in the included studies. The Saudi giga-project and heritage destinations make this question concrete, but testing it requires data not examined in this review. This agenda is not new in its aim: carrying-capacity research already builds early-warning indicator systems and forecasts them, for example with neural networks \citep{Ye2020}, and \citet{Long2022} call for dynamic forecasting of carrying capacity. The difference we propose is to derive warnings from probabilistic \emph{demand} forecasts, evaluated for calibration, rather than to forecast a composite warning index. Whether this improves decisions is an empirical question.
 
-\subsection{Implications}
+\subsection{Practical Implications}
 For researchers: report accuracy metrics, benchmarks and forecast horizons in abstracts, and compare forecasts using accepted predictive-accuracy tests \citep{Diebold1995}. For policy: forecasts used for Vision 2030 planning should be accompanied by environmental-capacity analysis; the existing nexus studies report tourism--emissions links in GCC and UAE data, with signs that differ across tourism indicators and sustainability pillars \citep{Farooq2023a,Zmami2024,Majumdar2022}.
 
-\section{Limitations}\label{sec:limits}
+
+\subsection{Future Research Agenda}
+Table~\ref{tab:agenda} lists research directions that follow from the gaps identified, each linked to the evidence in this review.
+
+\begin{table}[t]\centering\small
+\caption{Future lines of research.}\label{tab:agenda}
+\begin{tabularx}{\linewidth}{@{}p{4.2cm}X@{}}
+\toprule
+Research line & Rationale from this review\\
+\midrule
+Probabilistic forecasts and prediction intervals & No forecasting abstract names prediction intervals or probabilistic forecasts (Section~\ref{sec:split}).\\
+Capacity-aware evaluation of demand forecasts & No study links forecast demand to environmental load or capacity (Figure~\ref{fig:framework}); early-warning research forecasts indices instead \citep{Ye2020,Long2022}.\\
+Forecast-based emission projections & Sustainability studies estimate tourism--emission elasticities ex post (\NnS{} studies) but none projects emissions from forecast arrivals.\\
+Saudi regional and event-based forecasting & Only \NsaudiF{} Saudi forecasting studies; regional spending varies strongly across 13 regions \citep{Alfehaid2026}; religious tourism has distinct dynamics \citep{Mabrouk2026}.\\
+Evaluation standards & Accuracy measures appear in only \NFmetric{} of \NFabs{} assessable abstracts (Figure~\ref{fig:measures}); benchmark and test reporting \citep{Hyndman2021fpp,Diebold1995}.\\
+Search and big data & Only 3 of \NnF{} forecasting studies use search data, against a global trend \citep{Wu2024}.\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Conclusions}
+\subsection{Limitations}\label{sec:limits}
 \begin{enumerate}
 \item \textbf{No full-text assessment.} The execution environment blocked publisher and DOI-resolver hosts, so all eligibility decisions and data extraction rest on Crossref metadata and abstracts. \Nnnoabs{} included records had no abstract. Extracted items marked n/r were never inferred.
 \item \textbf{Single database, capped retrieval.} Crossref only; each query returned at most 100 records, although every query had more matches. Scopus, Web of Science, IEEE Xplore, Arabic-language and regional databases and grey literature were not searched.
@@ -225,7 +331,11 @@ For researchers: report accuracy metrics, benchmarks and forecast horizons in ab
 \end{enumerate}
 Because of limitations 1--4, the review should be read as a systematic mapping of a retrievable subset of the literature, and the paper requires full-text verification and, ideally, a second reviewer before submission to a journal.
 
-\section{Conclusions}
+\subsection{Contributions}
+The review contributes a joint map of forecasting and sustainability evidence for Saudi Arabia and the Middle East, a quantified forecasting--sustainability split supported by both thematic coding and keyword co-occurrence, a framework of link directions, and a research agenda positioned against prior reviews and early-warning research.
+
+\subsection{Concluding Remarks}
+
 Within the retrievable Middle Eastern literature (\Nincluded{} studies), tourism forecasting and tourism-sustainability analysis are largely separate: forecasting studies seldom include sustainability and sustainability studies rarely project forward. Saudi Arabia has a growing but thin forecasting base. A capacity-aware, probabilistic forecasting agenda could connect the two. Verification against full texts, a second reviewer and additional databases are the necessary next steps.
 
 \section*{Declarations}
@@ -243,27 +353,27 @@ Item & Topic & Status & Where / comment\\
 \midrule\endhead
 1 & Title & Reported & Title identifies a systematic review.\\
 2 & Abstract & Reported & Structured; PRISMA~2020 for Abstracts elements.\\
-3 & Rationale & Reported & Section 1.\\
+3 & Rationale & Reported & Sections 1--2.\\
 4 & Objectives & Reported & RQ1--RQ4, Section 1.\\
-5 & Eligibility criteria & Reported & Section 2.2.\\
-6 & Information sources & Partial & Crossref only; date stated (Section 2.3).\\
-7 & Search strategy & Reported & Section 2.4, Appendix C; PRISMA-S not fully met.\\
-8 & Selection process & Partial & Single AI reviewer; no duplicate (Section 2.5).\\
-9 & Data collection process & Partial & Single reviewer, abstract-level (Section 2.6).\\
-10a/b & Data items & Reported & Section 2.6.\\
-11 & Study risk of bias assessment & Partial/Not done & Reporting-transparency screen only (Section 2.7).\\
+5 & Eligibility criteria & Reported & Section 3.4, Table~\ref{tab:criteria}.\\
+6 & Information sources & Partial & Crossref only; date stated (Section 3.2).\\
+7 & Search strategy & Reported & Section 3.3, Table~\ref{tab:strings}, Appendix C; PRISMA-S not fully met.\\
+8 & Selection process & Partial & Single AI reviewer; no duplicate (Section 3.5).\\
+9 & Data collection process & Partial & Single reviewer, abstract-level (Section 3.6).\\
+10a/b & Data items & Reported & Section 3.6, Table~\ref{tab:extraction}.\\
+11 & Study risk of bias assessment & Partial/Not done & Reporting-transparency screen only (Section 3.7).\\
 12 & Effect measures & Not applicable & No pooling.\\
-13a--f & Synthesis methods & Reported & Narrative counts (Section 2.8).\\
+13a--f & Synthesis methods & Reported & Descriptive, keyword and thematic analysis (Section 3.8).\\
 14 & Reporting bias assessment & Not done & --\\
 15 & Certainty assessment & Not done & --\\
-16a/b & Study selection & Reported & Figure 1, Appendix E.\\
-17 & Study characteristics & Reported & Tables 1--2, Figure 2.\\
-18 & Risk of bias in studies & Partial & Section 3.6.\\
+16a/b & Study selection & Reported & Figure~\ref{fig:prisma}, Section 4.1, Appendix E.\\
+17 & Study characteristics & Reported & Figures~\ref{fig:trend}--\ref{fig:settings}, Tables~\ref{tab:forecast}--\ref{tab:other}.\\
+18 & Risk of bias in studies & Partial & Section 4.6.\\
 19 & Results of individual studies & Partial & Abstract-level only.\\
-20a--d & Results of syntheses & Partial & Section 3.5; no meta-analysis.\\
+20a--d & Results of syntheses & Partial & Sections 4.2--4.5; no meta-analysis.\\
 21 & Reporting biases & Not done & --\\
 22 & Certainty of evidence & Not done & --\\
-23a--d & Discussion & Reported & Sections 4--5.\\
+23a--d & Discussion & Reported & Sections 5--6.\\
 24a--c & Registration and protocol & Not done & Not registered.\\
 25 & Support & Reported & None declared \tbd.\\
 26 & Competing interests & Reported & None declared \tbd.\\
@@ -273,7 +383,7 @@ Item & Topic & Status & Where / comment\\
 
 \normalsize
 \section{Coding scheme}
-Theme: F, D or S (Section 2.2). Method family: C (classical statistical or econometric), M (machine or deep learning), H (hybrid, ensemble or multi-family comparison, e.g.\ classical versus neural models), G (grey). Benchmark: abstract names a comparison of models or benchmarks (y), none (n), unknown (n/r). Forward projection: a forecast beyond the sample or scenarios stated in the abstract. Sustainability: stated dimension; ``framing'' denotes the word ``sustainable'' used without a sustainability variable.
+Theme: F, D or S (Section 3.4). Method family: C (classical statistical or econometric), M (machine or deep learning), H (hybrid, ensemble or multi-family comparison, e.g.\ classical versus neural models), G (grey). Benchmark: abstract names a comparison of models or benchmarks (y), none (n), unknown (n/r). Forward projection: a forecast beyond the sample or scenarios stated in the abstract. Sustainability: stated dimension; ``framing'' denotes the word ``sustainable'' used without a sustainability variable.
 
 \section{Search log}\small
 \input{tab_search.tex}

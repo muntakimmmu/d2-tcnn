@@ -26,7 +26,7 @@ N.update(saudi_all=sum("Saudi" in i["country"] for i in inc), saudi_F=sum("Saudi
   nonF_fut=sum(i["future"].startswith("y") for i in nonF), nonF_econ=sum(i["family"]=="C" for i in nonF), nonFn=len(nonF),
   prerecent=sum(i["year"]<2020 for i in inc), yrecent=sum(i["year"]>=2020 for i in inc), yvrecent=sum(i["year"]>=2025 for i in inc),
   S_env=sum("environ" in i["sustainability"] for i in inc if i["theme"]=="S"))
-open("paper/numbers.tex","w").write("".join("\\newcommand{\\N%s}{%s}\n" % (k.replace("_","").replace("1","one"), f"{v:,}".replace(",","{,}") if isinstance(v,int) else v) for k,v in N.items()))
+open("paper/numbers.tex","w").write("\\newcommand{\\Npriorrev}{25}\n"+"".join("\\newcommand{\\N%s}{%s}\n" % (k.replace("_","").replace("1","one"), f"{v:,}".replace(",","{,}") if isinstance(v,int) else v) for k,v in N.items()))
 json.dump(N, open("data/final_numbers.json","w"), indent=1)
 # ---- tables
 def au(i):

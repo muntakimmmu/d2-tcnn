@@ -24,3 +24,7 @@ Eligibility decisions and abstract-level coding are hand-coded in `search/build_
 - All 42 included studies and 18 background references had their bibliographic metadata retrieved from Crossref by DOI/title match. Exception: authors of Hansen, Lunde & Nason (2011) were missing in Crossref and added manually.
 - `data/stream*.json` are unverified web-search snippet records from earlier passes; used only to seed targeted searches, not as evidence.
 - Items required before submission: full-text verification of every included study, second independent reviewer, additional databases (Scopus/WoS), registration (e.g. OSF), author/funding/COI fields, journal template.
+
+## Positioning against prior reviews
+- `search/prior_reviews_search.py`, `search/fetch_closest_reviews.py`, `search/add_prior_bib.py`: Crossref search and verification of 25 closest prior reviews (`prior/`).
+- Paper Section 2 and Table 1 compare this review with them; `prior/novelty_assessment.md` gives the honest novelty/contribution assessment (verdict: MODIFY) and the upgrade path.

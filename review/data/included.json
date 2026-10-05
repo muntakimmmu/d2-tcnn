@@ -50,7 +50,7 @@
   "data": "monthly, 2002-01 to 2023-08",
   "family": "C",
   "benchmark": "y",
-  "metrics": "n/r",
+  "metrics": "MAPE, RMSE",
   "future": "n",
   "sustainability": "none",
   "from_pool": true
@@ -106,7 +106,7 @@
   "data": "2020-2023 (small sample)",
   "family": "G",
   "benchmark": "y",
-  "metrics": "MAE, RMSE",
+  "metrics": "MAE, MAPE, RMSE",
   "future": "y (2024-26)",
   "sustainability": "none",
   "from_pool": true
@@ -260,7 +260,7 @@
   "benchmark": "y",
   "metrics": "MAE, RMSE, R2",
   "future": "n",
-  "sustainability": "none (instability proxy)",
+  "sustainability": "framing (implications only)",
   "from_pool": true
  },
  {
@@ -284,7 +284,7 @@
   "data": "monthly, 2008-2022",
   "family": "M",
   "benchmark": "n",
-  "metrics": "n/r",
+  "metrics": "R2",
   "future": "n",
   "sustainability": "none",
   "from_pool": true
@@ -372,9 +372,9 @@
   "country": "Turkiye",
   "outcome": "tourism revenues",
   "data": "n/r",
-  "family": "M",
+  "family": "H",
   "benchmark": "y",
-  "metrics": "n/r",
+  "metrics": "MAPE",
   "future": "n",
   "sustainability": "none",
   "from_pool": true
@@ -464,7 +464,7 @@
   "data": "n/r",
   "family": "H",
   "benchmark": "y",
-  "metrics": "n/r",
+  "metrics": "MAPE, sMAPE",
   "future": "y (scenarios)",
   "sustainability": "none",
   "from_pool": true
@@ -494,7 +494,7 @@
   "data": "annual, 33 years",
   "family": "C",
   "benchmark": "y",
-  "metrics": "n/r",
+  "metrics": "MAPE",
   "future": "y (2020-30)",
   "sustainability": "none (Vision 2030 target only)",
   "from_pool": false
@@ -727,7 +727,7 @@
   "family": "C",
   "benchmark": "n",
   "metrics": "n/a",
-  "future": "n",
+  "future": "y (climate scenarios)",
   "sustainability": "environmental (climate)",
   "from_pool": true
  },

@@ -13,7 +13,7 @@ R5 = "Non-English full record or conference proceedings"
 R6 = "Eligibility not determinable from metadata (region or tourism link unconfirmed)"
 reason = {}
 for i in (15,16,36,43,50): reason[i] = R1
-for i in (3,9,10,34,46,71,86,90,91): reason[i] = R3
+for i in (3,10,34,46,71,86,90,91): reason[i] = R3  # index 9 re-included after second-pass check (CO2 variable)
 for i in (55,56,61,64): reason[i] = R4
 for i in (32,88): reason[i] = R5
 for i in (42,47): reason[i] = R6
@@ -63,6 +63,7 @@ INC = [
 ("Naseem2025","10.33948/esj-ksu-17-2-8","S","Saudi Arabia","CO2 emissions (pilgrimage)","annual, 1996-2022","C","n","n/a","n","environmental"),
 ("Ozturk2021","10.1080/1331677x.2021.1985577","S","Saudi Arabia","CO2 emissions (pilgrimage)","n/r (abstract unavailable)","C","n/r","n/a","n","environmental (title)"),
 ("Farooq2023b","10.1007/s11356-023-25545-0","S","GCC","environmental quality","n/r (abstract unavailable)","C","n/r","n/a","n","environmental (title)"),
+("Jamel2020","10.34021/ve.2020.03.04(2)","S","Saudi Arabia","tourism-growth nexus with CO2 emissions (VAR, Granger)","annual, 1990-2018","C","n","n/a","n","environmental (CO2 as exogenous variable)"),
 ]
 def meta(doi):
     r = cand[doi]; au = r.get("author", [])
@@ -80,6 +81,20 @@ dl = {r["doi"].lower(): r for r in json.load(open("data/download_log.json"))}
 for i in inc:
     i["fulltext_retrieved"] = bool(dl.get(i["doi"], {}).get("file"))
     i["fulltext_confirmed"] = i["fulltext_retrieved"] and i["key"] not in FT_EXCLUDE
+# --- Full-text overlay: where a full text was extracted (data/ft_extract_*.json), full-text values replace abstract coding
+import glob as _g
+FT = {r["key"]: r for f in sorted(_g.glob("data/ft_extract_*.json")) for r in json.load(open(f))}
+for i in inc:
+    r = FT.get(i["key"]); i["coding_source"] = "full text" if r else "abstract"
+    if not r: continue
+    if r.get("F"):
+        f = r["F"]; ea = (f.get("ex_ante_forecast") or {})
+        i["future"] = "y (" + str(ea.get("detail", "")).strip()[:30] + ")" if str(ea.get("value", "")).startswith("Y") else "n"
+        i["benchmark"] = "y" if (f.get("benchmarks") or []) else "n"
+        ms = sorted({str(a.get("measure")) for a in f.get("accuracy", []) if a.get("measure") and a.get("measure") != "n/r"})
+        i["metrics"] = ", ".join(ms) if ms else "n/r"
+    if r.get("E"):
+        i["future"] = "y" if str((r["E"].get("out_of_sample_forecast") or {}).get("value", "")).startswith("Y") else ("y (climate scenarios)" if i["future"].startswith("y") else "n")
 json.dump(inc, open("data/included_abstract_stage.json","w"), indent=1)
 ft_excluded = [i for i in inc if i["key"] in FT_EXCLUDE]
 inc = [i for i in inc if i["key"] not in FT_EXCLUDE]

@@ -30,7 +30,27 @@ N.update(saudi_all=sum("Saudi" in i["country"] for i in inc), saudi_F=sum("Saudi
   nonF_fut=sum(i["future"].startswith("y") for i in nonF), nonF_econ=sum(i["family"]=="C" for i in nonF), nonFn=len(nonF),
   prerecent=sum(i["year"]<2020 for i in inc), yrecent=sum(i["year"]>=2020 for i in inc), yvrecent=sum(i["year"]>=2025 for i in inc),
   S_env=sum("environ" in i["sustainability"] for i in inc if i["theme"]=="S"))
-open("paper/numbers.tex","w").write("\\newcommand{\\Npriorrev}{25}\n"+"".join("\\newcommand{\\N%s}{%s}\n" % (k.replace("_","").replace("1","one"), f"{v:,}".replace(",","{,}") if isinstance(v,int) else v) for k,v in N.items()))
+
+# --- full-text RoB summary and sensitivity analyses (macros)
+import os as _os
+if _os.path.exists("data/ft_summary.json"):
+    fs = json.load(open("data/ft_summary.json"))
+    N.update(ftF=fs["nF"], ftE=fs["nE"])
+    for k, v in fs["F"].items(): N["rob" + k.split("_")[0]] = v["Yes"]; N["rob" + k.split("_")[0] + "no"] = v["No"]; N["rob" + k.split("_")[0] + "unc"] = v["Unclear"]
+    for k, v in fs["E"].items(): N["rob" + k.split("_")[0]] = v["Yes"]; N["rob" + k.split("_")[0] + "no"] = v["No"]; N["rob" + k.split("_")[0] + "na"] = v["NA"]
+if _os.path.exists("data/sensitivity.json"):
+    sv = json.load(open("data/sensitivity.json"))
+    for tag, k in [("sa", "S0_main"), ("sb", "S1_plus_growth_nexus"), ("sc", "S2_without_Turkiye"), ("sd", "S3_fulltext_confirmed_only")]:
+        for f in ("n", "F", "F_sust", "nonF", "nonF_sust", "nonF_forward"): N[tag + f.replace("_", "")] = sv[k][f]
+N.update(Denv=sum(1 for i in inc if i["theme"]=="D" and sust_flag(i)), Dscen=sum(1 for i in inc if i["theme"]=="D" and i["future"].startswith("y")))
+if _os.path.exists("data/extra_db/log.json"):
+    xl = json.load(open("data/extra_db/log.json")); xs = json.load(open("data/extra_db/screen_stats.json")) if _os.path.exists("data/extra_db/screen_stats.json") else {}
+    xe = json.load(open("data/extra_db/eligibility.json")) if _os.path.exists("data/extra_db/eligibility.json") else {"included": [], "excluded": []}
+    N.update(squeries=len({l["query"] for l in xl if l["db"] == "s2" and l["ok"]}), sretr=sum(l["retrieved"] for l in xl if l["db"] == "s2" and l["ok"]),
+             suniq=xs.get("identified_unique", 0), sdup=xs.get("duplicates_of_crossref", 0),
+             sauto=sum(v for k, v in xs.items() if k.startswith("excl_")), sassess=xs.get("to_manual_eligibility", 0),
+             sincl=len(xe["included"]), sexcl=len(xe["excluded"]))
+open("paper/numbers.tex","w").write("\\newcommand{\\Npriorrev}{25}\n"+"".join("\\newcommand{\\N%s}{%s}\n" % (k.replace("_","").translate(str.maketrans("1234567","ABCDEFG")), f"{v:,}".replace(",","{,}") if isinstance(v,int) else v) for k,v in N.items()))
 json.dump(N, open("data/final_numbers.json","w"), indent=1)
 # ---- tables
 def au(i):

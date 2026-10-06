@@ -1,0 +1,420 @@
+[
+ {
+  "key": "Majumdar2022",
+  "file": "35.pdf",
+  "theme_confirmed": "S",
+  "setting": "United Arab Emirates (single-country time series)",
+  "data_source": "CO2: EDGAR; GDP per capita, bank credit, urbanization: World Bank; tourist arrivals: UNWTO (inbound visitors into Dubai); electricity use: IEA",
+  "period": "1984-2019",
+  "frequency": "annual (\"Yearly data on emissions of CO2\"; Table 1, p.5)",
+  "n_obs": "n/r",
+  "outcome_variables": [
+   "CO2 emissions (lnCO2)"
+  ],
+  "methods": [
+   "ADF unit root test",
+   "ARDL bounds test (Pesaran et al.)",
+   "ARDL long-run and short-run estimation",
+   "Granger causality (VAR framework)",
+   "ARCH LM, Breusch-Pagan, Breusch-Godfrey, CUSUM diagnostics"
+  ],
+  "F": null,
+  "E": {
+   "estimator": "ARDL (bounds testing; long-run coefficients from ARDL/ECM), Granger causality in VAR",
+   "tourism_variables": [
+    "TA: international tourism arrivals proxied by inbound visitors into Dubai (lnT/lnTA)"
+   ],
+   "dependent_variable": "lnCO2 (yearly CO2 emissions, EDGAR)",
+   "key_results": [
+    {
+     "variable": "lnT (tourist arrivals)",
+     "horizon": "long-run",
+     "coefficient": "0.29974",
+     "sign": "+",
+     "significance": "*** (t = 5.17, p = 0.000)",
+     "evidence": "LONG RUN ESTIMATES ... lnT 0.29974 *** 5.17 0.000 (Table 3, p.7)"
+    },
+    {
+     "variable": "lnT (tourist arrivals) D1",
+     "horizon": "short-run",
+     "coefficient": "-0.2086518",
+     "sign": "ns",
+     "significance": "p = 0.126",
+     "evidence": "lnT D1 −0.2086518 −1.60 0.126 (Table 3, p.7)"
+    },
+    {
+     "variable": "lnT (tourist arrivals) LD",
+     "horizon": "short-run",
+     "coefficient": "-0.1004792",
+     "sign": "ns",
+     "significance": "p = 0.437",
+     "evidence": "LD −0.1004792 −0.79 0.437 (Table 3, p.7)"
+    },
+    {
+     "variable": "lnY / lnY2 (EKC terms)",
+     "horizon": "long-run",
+     "coefficient": "16.76206 / -0.80095",
+     "sign": "+",
+     "significance": "** (p = 0.019 / 0.019); inverted-U EKC confirmed",
+     "evidence": "lnY 16.76206 ** 2.55 0.019; lnY2 −0.80095 ** −2.56 0.019 (Table 3, p.7)"
+    }
+   ],
+   "aviation_emissions_included": "n/r",
+   "out_of_sample_forecast": {
+    "value": "No",
+    "evidence": "No forecasting reported; analysis limited to ARDL bounds test, long-run coefficients and Granger causality (Sections 4.1-4.3, pp.6-10)."
+   }
+  },
+  "rob_forecasting": null,
+  "rob_econometric": {
+   "E1_unit_root_tests": {
+    "rating": "Yes",
+    "evidence": "The results for the ADF test indicated that none of our variables were stationary at levels I(0), but all were stationary at their first differences (p.6)"
+   },
+   "E2_cointegration_or_long_run_test": {
+    "rating": "Yes",
+    "evidence": "PSS Bounds F-statistic 3.747 [upper bound 3.61] ... this confirms the presence of a long-run cointegration relationship between variables (Table 3, p.7)"
+   },
+   "E3_structural_breaks": {
+    "rating": "No",
+    "evidence": "No structural break test or break dummies reported; only ADF unit root, ARDL bounds, diagnostics and Granger causality tests are described (Sections 3-4)."
+   },
+   "E4_cross_sectional_dependence_or_heterogeneity": {
+    "rating": "NA (not panel)",
+    "evidence": "we employed a tourism-induced Environmental Kuznets Curve (EKC) model for the UAE from 1984 to 2019 (Abstract, p.1)"
+   },
+   "E5_endogeneity_or_omitted_variables_addressed": {
+    "rating": "Yes",
+    "evidence": "Thirdly, the ARDL bound test fully solves the autocorrelation and endogeneity of variables (p.6); controls (bank credit, urbanization, energy use) motivated in Introduction (p.2)"
+   },
+   "E6_diagnostics_stability": {
+    "rating": "Yes",
+    "evidence": "ARCH LM test 0.442 0.5061; Breusch Pagan test 0.75 0.3869; Breusch Godfrey test 0.289 0.5905; CUSUM test 0.3396 0.9479 (Table 3, p.7)"
+   },
+   "E7_data_source_and_period": {
+    "rating": "Yes",
+    "evidence": "Table 1 lists sources (EDGAR, World Bank, UNWTO, IEA); \"for the UAE from 1984 to 2019\" (pp.1, 5)"
+   }
+  },
+  "notes": "Tourism proxy is inbound visitors into Dubai only, not UAE-wide arrivals (Table 1). Internal inconsistencies in Table 3: lnF coefficient 0.36091 reported with t = -2.81 and lnU -0.03481 with t = 3.95 (signs of coefficient and t-statistic disagree). Text says diagnostic results 'rejected all the respective null hypotheses' although p-values (0.39-0.95) indicate non-rejection (p.8). Unedited journal-template sentence left in Section 4.1 ('Authors should discuss the results...', p.6). CO2 is total EDGAR emissions; aviation/jet fuel is only discussed qualitatively (Dubai airport, p.8), not separately measured. Number of observations not reported. Granger causality: bidirectional between tourist arrivals and CO2 (Table 4, p.10)."
+ },
+ {
+  "key": "Naseem2025",
+  "file": "37.pdf",
+  "theme_confirmed": "S",
+  "setting": "Saudi Arabia (single-country time series; pilgrimage/Hajj tourism)",
+  "data_source": "CO2 emissions and energy consumption: BP Statistics; GDP (current US$): World Development Indicators; foreign pilgrims: Saudi General Authority for Statistics (Hajj statistics)",
+  "period": "1996-2022",
+  "frequency": "annual",
+  "n_obs": "n/r",
+  "outcome_variables": [
+   "CO2 emissions (lnc)"
+  ],
+  "methods": [
+   "ADF and Phillips-Perron unit root tests",
+   "VAR lag selection (AIC/SIC/HQIC)",
+   "Johansen cointegration",
+   "VECM",
+   "Granger causality",
+   "Cholesky variance decomposition",
+   "LM serial correlation, Breusch-Pagan, Jarque-Bera residual tests"
+  ],
+  "F": null,
+  "E": {
+   "estimator": "Johansen cointegration + Vector Error Correction Model (maximum likelihood), lag 2",
+   "tourism_variables": [
+    "lnnp: number of foreign pilgrims' arrival (Hajj)"
+   ],
+   "dependent_variable": "lnc (log CO2 emissions)",
+   "key_results": [
+    {
+     "variable": "lnnp (foreign pilgrims' arrival)",
+     "horizon": "long-run",
+     "coefficient": "0.0719 (normalized cointegrating vector; paper states signs should be reversed)",
+     "sign": "-",
+     "significance": "(0.000)",
+     "evidence": "number of foreign pilgrims' arrival has a negative and significant impact on lnc in the long run (p.282); Table 4: lnnp 0.0719 (0.000)"
+    },
+    {
+     "variable": "lnnp (foreign pilgrims' arrival)",
+     "horizon": "short-run",
+     "coefficient": "0.114",
+     "sign": "+",
+     "significance": "n/r",
+     "evidence": "However, for every percentage point of foreign pilgrims' arrival, carbon emissions go up by 0.114% (p.282)"
+    },
+    {
+     "variable": "lnnp => lnc (Granger)",
+     "horizon": "n/a",
+     "coefficient": "F = 0.20198",
+     "sign": "ns",
+     "significance": "p = 0.8196",
+     "evidence": "lnnp≠>lnc 0.20198 0.8196 (Table 5, p.283)"
+    }
+   ],
+   "aviation_emissions_included": "n/r",
+   "out_of_sample_forecast": {
+    "value": "No",
+    "evidence": "Only Cholesky variance decomposition over periods 1-8 is reported (Table 6, p.283); no out-of-sample forecasting."
+   }
+  },
+  "rob_forecasting": null,
+  "rob_econometric": {
+   "E1_unit_root_tests": {
+    "rating": "Yes",
+    "evidence": "According to the results, all the series contain unit roots at the level and become stationary when the first differences are taken (p.280, Table 1 ADF & PP)"
+   },
+   "E2_cointegration_or_long_run_test": {
+    "rating": "Yes",
+    "evidence": "the study concludes that there is a long run relationship between carbon emissions, energy consumption, economic growth and foreign pilgrims' arrival in Saudi Arabia (Johansen, Table 3, p.281)"
+   },
+   "E3_structural_breaks": {
+    "rating": "No",
+    "evidence": "No structural break tests or break dummies reported; tests listed are ADF, PP, Johansen, VECM, Granger, variance decomposition and residual tests (p.284)."
+   },
+   "E4_cross_sectional_dependence_or_heterogeneity": {
+    "rating": "NA (not panel)",
+    "evidence": "using annual time series data from 1996 to 2022 (Abstract, p.273)"
+   },
+   "E5_endogeneity_or_omitted_variables_addressed": {
+    "rating": "Unclear",
+    "evidence": "Only energy consumption and GDP included as regressors, following Ozturk et al (2021): \"econometric models used by Ozturk et al (2021) before\" (p.279); no endogeneity discussion."
+   },
+   "E6_diagnostics_stability": {
+    "rating": "Yes",
+    "evidence": "The tests return, in that order, p - values of 0.2168, 0.4378, and 0.70740 [serial correlation, heteroscedasticity, normality] (p.283, Table 7)"
+   },
+   "E7_data_source_and_period": {
+    "rating": "Yes",
+    "evidence": "Statistics on energy consumption and carbon dioxide emissions are from BP ... Saudi Arabia from 1996-2022 (p.278)"
+   }
+  },
+  "notes": "Contradictory reporting of the tourism effect: long-run pilgrims coefficient described as negative ('Carbon emission is negatively correlated with number of pilgrims arrival'), short-run +0.114, abstract says pilgrims 'negatively affects carbon emissions' yet 'still contributes significantly to carbon emissions'; conclusion also says 'Pilgrimage tourism growth will drop by 0.07 percent as carbon dioxide levels rise'. Johansen interpretation is questionable (null said rejected when statistics are below critical values, p.281). Jarque-Bera H0 mis-stated as 'Residuals are not normally distributed' (Table 7). Conclusion mentions an impulse response function that is not reported. Short-run coefficient significance not reported. Short sample (1996-2022), n_obs not stated. CO2 measure from BP (energy-related); aviation emissions not separated."
+ },
+ {
+  "key": "Voumik2023",
+  "file": "41.pdf",
+  "theme_confirmed": "S",
+  "setting": "Panel of top 10 Arab/Middle East tourist destinations: Saudi Arabia, Qatar, UAE, Iran, Israel, Jordan, Bahrain, Oman, Lebanon, Egypt",
+  "data_source": "World Bank, World Development Indicators (WDI 2022)",
+  "period": "1997-2019",
+  "frequency": "annual",
+  "n_obs": "167 (AMG observations, Table 7); summary statistics N ranges 190-244 by variable (Table 2)",
+  "outcome_variables": [
+   "CO2 emissions (kiloton, lnCO2)"
+  ],
+  "methods": [
+   "Pesaran CSD test",
+   "Pesaran-Yamagata slope homogeneity test",
+   "CIPS unit root test",
+   "Westerlund panel cointegration",
+   "Augmented Mean Group (AMG)",
+   "Mean Group (MG) and CCEMG robustness"
+  ],
+  "F": null,
+  "E": {
+   "estimator": "Augmented Mean Group (AMG); robustness with MG and CCEMG",
+   "tourism_variables": [
+    "lnTA: total international tourist arrivals"
+   ],
+   "dependent_variable": "lnCO2 (total CO2 emissions, kiloton)",
+   "key_results": [
+    {
+     "variable": "lnTA (AMG)",
+     "horizon": "long-run",
+     "coefficient": "-0.0120 (SE 0.0564)",
+     "sign": "-",
+     "significance": "** (p < 0.05)",
+     "evidence": "lnTA −0.0120 ** (0.0564) (Table 7, p.11)"
+    },
+    {
+     "variable": "lnTA (MG robustness)",
+     "horizon": "long-run",
+     "coefficient": "-0.0331 (SE 0.0361)",
+     "sign": "ns",
+     "significance": "not significant",
+     "evidence": "lnTA −0.0331 (0.0361) −0.207 * (0.354) [MG, CCEMG] (Table 8, p.12)"
+    },
+    {
+     "variable": "lnTA (CCEMG robustness)",
+     "horizon": "long-run",
+     "coefficient": "-0.207 (SE 0.354)",
+     "sign": "-",
+     "significance": "* (p < 0.1)",
+     "evidence": "lnTA −0.0331 (0.0361) −0.207 * (0.354) [MG, CCEMG] (Table 8, p.12)"
+    },
+    {
+     "variable": "lnGDP / lnGDP2 (EKC terms, AMG)",
+     "horizon": "long-run",
+     "coefficient": "-10.59 / 0.586",
+     "sign": "ns",
+     "significance": "both insignificant; EKC not supported",
+     "evidence": "Yet, both coefficients are insignificant. The EKC hypothesis does not hold in this paper (p.10)"
+    }
+   ],
+   "aviation_emissions_included": "n/r",
+   "out_of_sample_forecast": {
+    "value": "No",
+    "evidence": "No forecasting reported; results limited to CSD, SH, CIPS, Westerlund, AMG, MG and CCEMG estimates (Sections 4.1-4.5)."
+   }
+  },
+  "rob_forecasting": null,
+  "rob_econometric": {
+   "E1_unit_root_tests": {
+    "rating": "Yes",
+    "evidence": "Four of the variables are stationary at level or I (O) and another four are stationary at first difference (p.9)"
+   },
+   "E2_cointegration_or_long_run_test": {
+    "rating": "Yes",
+    "evidence": "Westerlund Test for Cointegration: Gt −2.252 3.953 0.00; Ga −1.158 4.869 0.000; Pt −0.513 6.745 0.59; Pa −2.170 4.786 1.00 (Table 6, p.10)"
+   },
+   "E3_structural_breaks": {
+    "rating": "No",
+    "evidence": "No structural break test or break dummies reported; Westerlund test reported is Gt/Ga/Pt/Pa without breaks (Table 6, p.10)."
+   },
+   "E4_cross_sectional_dependence_or_heterogeneity": {
+    "rating": "Yes",
+    "evidence": "the CSD test developed by Pesaran [87] was utilized ... the Hashem Pesaran and Yamagata [88] method was conducted [slope homogeneity] (pp.8-9, Tables 3-4)"
+   },
+   "E5_endogeneity_or_omitted_variables_addressed": {
+    "rating": "Yes",
+    "evidence": "Endogeneity, slope heterogeneity, cross-sectional dependence, and mixed-order unit root were all safeguarded by a unique AMG approach used in this investigation (pp.7-8)"
+   },
+   "E6_diagnostics_stability": {
+    "rating": "No",
+    "evidence": "No residual diagnostics or stability (CUSUM) tests reported; robustness limited to MG and CCEMG re-estimation (Table 8, p.12)."
+   },
+   "E7_data_source_and_period": {
+    "rating": "Yes",
+    "evidence": "Examining the yearly time series from 1997 to 2019 ... The World Bank data were used in this study (pp.5-6; Source: WDI (2022))"
+   }
+  },
+  "notes": "Panel includes non-Gulf MENA countries (Iran, Israel, Jordan, Lebanon, Egypt) alongside GCC states. AMG tourism coefficient -0.0120 is flagged ** although its reported standard error (0.0564) is much larger than the coefficient, an apparent inconsistency; MG estimate is not significant and CCEMG only at 10%. Westerlund Pt and Pa statistics are not significant (p = 0.59, 1.00), so cointegration evidence is mixed despite text claiming 'strong cointegrating relationship'. Slope-homogeneity statistics (0.228, 0.591) marked significant at 1% without p-values. GDP is total GDP (constant 2015 USD), not per capita. Conclusion describes a U-shaped pattern though both GDP terms are insignificant. Aviation emissions not separated. Data available on request only."
+ },
+ {
+  "key": "Zmami2024",
+  "file": "42.pdf",
+  "theme_confirmed": "S",
+  "setting": "Panel of six GCC countries (Bahrain, Kuwait, Oman, Qatar, Saudi Arabia, United Arab Emirates)",
+  "data_source": "Tourist arrivals: World Tourism Organization; GDP, GOV, POP, GCF, GDP growth, GDP per capita: WDI; employment: Conference Board TED; ecological footprint: Global Footprint Network; capital stock: Penn World Table; KOF globalization index; energy consumption: U.S. EIA",
+  "period": "2000-2021",
+  "frequency": "annual (not explicitly labelled; GDP growth listed as 'Annual %')",
+  "n_obs": "n/r",
+  "outcome_variables": [
+   "Economic sustainability: lnGDP",
+   "Social sustainability: lnEMP (total employment)",
+   "Environmental sustainability: lnEF (ecological footprint)"
+  ],
+  "methods": [
+   "Breusch-Pagan LM and bias-corrected scaled LM CSD tests",
+   "CIPS panel unit root test",
+   "Demeaned Kao, demeaned Pedroni and Westerlund ECM panel cointegration tests",
+   "PMG-ARDL (pooled mean group)",
+   "Country-by-country short-run PMG estimates",
+   "Pesaran CSD test in residuals"
+  ],
+  "F": null,
+  "E": {
+   "estimator": "PMG-ARDL (pooled mean group panel ARDL)",
+   "tourism_variables": [
+    "lnTOUR: international tourist arrivals, overnight visitors (UNWTO)"
+   ],
+   "dependent_variable": "lnGDP (Model 1), lnEMP (Model 2), lnEF ecological footprint (Model 3)",
+   "key_results": [
+    {
+     "variable": "lnTOUR -> lnEF",
+     "horizon": "long-run",
+     "coefficient": "-0.109",
+     "sign": "-",
+     "significance": "** (p = 0.039)",
+     "evidence": "Environmental sustainability (Dependent variable: lnEF) lnTOUR -0.109** 0.039 0.064*** 0.000 (Table 5, p.160)"
+    },
+    {
+     "variable": "lnTOUR -> lnEF",
+     "horizon": "short-run",
+     "coefficient": "0.064",
+     "sign": "+",
+     "significance": "*** (p = 0.000)",
+     "evidence": "Environmental sustainability (Dependent variable: lnEF) lnTOUR -0.109** 0.039 0.064*** 0.000 (Table 5, p.160)"
+    },
+    {
+     "variable": "lnTOUR -> lnGDP",
+     "horizon": "long-run",
+     "coefficient": "-0.0013",
+     "sign": "ns",
+     "significance": "p = 0.872",
+     "evidence": "Economic sustainability (Dependent variable: lnGDP) lnTOUR -0.0013 0.872 0.039*** 0.000 (Table 5, p.160)"
+    },
+    {
+     "variable": "lnTOUR -> lnGDP",
+     "horizon": "short-run",
+     "coefficient": "0.039",
+     "sign": "+",
+     "significance": "*** (p = 0.000)",
+     "evidence": "Economic sustainability (Dependent variable: lnGDP) lnTOUR -0.0013 0.872 0.039*** 0.000 (Table 5, p.160)"
+    },
+    {
+     "variable": "lnTOUR -> lnEMP",
+     "horizon": "long-run",
+     "coefficient": "0.160",
+     "sign": "+",
+     "significance": "** (p = 0.035)",
+     "evidence": "Social sustainability (Dependent variable: lnEMP) lnTOUR 0.160** 0.035 0.012 0.278 (Table 5, p.160)"
+    },
+    {
+     "variable": "lnTOUR -> lnEMP",
+     "horizon": "short-run",
+     "coefficient": "0.012",
+     "sign": "ns",
+     "significance": "p = 0.278",
+     "evidence": "Social sustainability (Dependent variable: lnEMP) lnTOUR 0.160** 0.035 0.012 0.278 (Table 5, p.160)"
+    },
+    {
+     "variable": "lnTOUR -> lnEF, country-specific (Bahrain, Kuwait, Oman, Qatar, Saudi Arabia, UAE)",
+     "horizon": "short-run",
+     "coefficient": "0.079, 0.063, 0.043, 0.027, 0.060, 0.113",
+     "sign": "+",
+     "significance": "*** in all six countries",
+     "evidence": "lnTOUR 0.079*** 0.006 0.063*** 0.000 0.043*** 0.002 0.027*** 0.000 0.060*** 0.000 0.113*** 0.000 (Table 6, p.162)"
+    }
+   ],
+   "aviation_emissions_included": "n/r",
+   "out_of_sample_forecast": {
+    "value": "No",
+    "evidence": "No forecasting reported; analysis comprises CSD, CIPS, cointegration tests and PMG-ARDL estimates (Section 4, pp.158-163)."
+   }
+  },
+  "rob_forecasting": null,
+  "rob_econometric": {
+   "E1_unit_root_tests": {
+    "rating": "Yes",
+    "evidence": "We implement the CIPS unit root test, given the existence of CSD ... Therefore, all variables under study are I(0) or I(1) (p.159)"
+   },
+   "E2_cointegration_or_long_run_test": {
+    "rating": "Yes",
+    "evidence": "we employ three cointegration tests: the demeaned Kao residual-based panel cointegration test, the demeaned Pedroni panel cointegration test, and the Westerlund ECM panel cointegration test (p.159)"
+   },
+   "E3_structural_breaks": {
+    "rating": "No",
+    "evidence": "No structural break tests or break dummies reported (Sections 3-4)."
+   },
+   "E4_cross_sectional_dependence_or_heterogeneity": {
+    "rating": "Yes",
+    "evidence": "This study employs the Breusch-Pagan LM test and the Bias-corrected scaled LM tests ... The null hypothesis of no CSD between countries is rejected for all variables (p.158)"
+   },
+   "E5_endogeneity_or_omitted_variables_addressed": {
+    "rating": "Yes",
+    "evidence": "Control variables justified per model, e.g. \"total energy consumption is considered the most important variable inducing environmental degradation, particularly in GCC countries\" (p.157); no IV/GMM."
+   },
+   "E6_diagnostics_stability": {
+    "rating": "Yes",
+    "evidence": "the Pesaran CSD test results in residuals reported at the bottom of Table 5 indicate no evidence of CSD in estimated residuals for the three models (p.161)"
+   },
+   "E7_data_source_and_period": {
+    "rating": "Yes",
+    "evidence": "The study investigates the impact of tourism on sustainable development in six GCC countries between 2000 and 2021 ... Table 1 reports the definitions and sources (pp.156-157)"
+   }
+  },
+  "notes": "Environmental outcome is ecological footprint (not CO2). Theme S with additional economic (GDP) and social (employment) models. Cointegration for the environmental model is supported by Kao/Pedroni but not by the Westerlund ECM test (variance ratio -0.797, p = 0.212). Kao ADF statistic for Model 3 (-0.849) reported with p = 0.0197, which looks inconsistent. Residual diagnostics limited to Pesaran CSD in residuals (environmental model p = 0.090); no serial-correlation, normality, CUSUM or Hausman (PMG vs MG) tests reported; no slope-heterogeneity test. Kuwait social-model ECT is positive (0.265***). Number of observations not stated. Aviation emissions not separated."
+ }
+]

@@ -7,12 +7,12 @@
   "deep learning / ANN": 7,
   "ARIMA / SARIMA": 5,
   "ARDL / cointegration": 11,
-  "causality": 5,
+  "causality": 6,
   "panel data": 6,
-  "CO2 emissions": 9,
+  "CO2 emissions": 10,
   "EKC": 3,
   "energy": 9,
-  "economic growth": 13,
+  "economic growth": 14,
   "sustainability": 13,
   "COVID-19": 7,
   "Vision 2030": 5,
@@ -20,7 +20,7 @@
   "geopolitical risk": 3,
   "hotel": 4,
   "search data": 3,
-  "Saudi Arabia": 14,
+  "Saudi Arabia": 15,
   "Türkiye": 7,
   "GCC": 5,
   "seasonality": 6
@@ -374,7 +374,7 @@
   [
    "causality",
    "CO2 emissions",
-   2
+   3
   ],
   [
    "causality",
@@ -384,12 +384,17 @@
   [
    "causality",
    "economic growth",
-   3
+   4
   ],
   [
    "causality",
    "sustainability",
    3
+  ],
+  [
+   "causality",
+   "Saudi Arabia",
+   2
   ],
   [
    "panel data",
@@ -414,7 +419,7 @@
   [
    "CO2 emissions",
    "economic growth",
-   7
+   8
   ],
   [
    "CO2 emissions",
@@ -429,7 +434,7 @@
   [
    "CO2 emissions",
    "Saudi Arabia",
-   5
+   6
   ],
   [
    "EKC",
@@ -484,7 +489,7 @@
   [
    "economic growth",
    "Saudi Arabia",
-   6
+   7
   ],
   [
    "economic growth",
@@ -631,14 +636,15 @@
   "Innovation and Green Development": 1,
   "Journal of Economic Studies": 1,
   "Economic Research-Ekonomska Istraživanja": 1,
-  "Environmental Science and Pollution Research": 1
+  "Environmental Science and Pollution Research": 1,
+  "Virtual Economics": 1
  },
  "settings": {
   "UAE": 2,
   "Türkiye": 9,
   "Morocco": 2,
   "Iran": 1,
-  "Saudi Arabia": 12,
+  "Saudi Arabia": 13,
   "GCC (multi-country)": 5,
   "Middle East / MENA (multi-country)": 6,
   "Iraq": 1,
@@ -647,13 +653,15 @@
   "Qatar": 1
  },
  "measures": {
-  "MAPE": 5,
-  "RMSE": 3,
-  "MAE": 2,
-  "R²": 2,
+  "MAPE": 10,
+  "RMSE": 9,
+  "MAE": 7,
+  "R2": 4,
+  "MSE": 2,
   "sMAPE": 1,
-  "MSE": 0
+  "MAD": 2,
+  "Theil's U": 2
  },
- "measures_none": 5,
- "n_with_abstract_F": 12
+ "measures_none": 0,
+ "n_with_abstract_F": 13
 }

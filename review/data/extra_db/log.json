@@ -1,0 +1,488 @@
+[
+ {
+  "db": "s2",
+  "query": "tourism demand forecasting Saudi Arabia",
+  "ok": true,
+  "reported_total": 2,
+  "retrieved": 2,
+  "error": null,
+  "time": "2026-10-06T06:17:04.729389"
+ },
+ {
+  "db": "s2",
+  "query": "tourism demand forecasting Middle East",
+  "ok": true,
+  "reported_total": 3,
+  "retrieved": 3,
+  "error": null,
+  "time": "2026-10-06T06:17:09.057146"
+ },
+ {
+  "db": "s2",
+  "query": "tourism demand forecasting GCC",
+  "ok": true,
+  "reported_total": 0,
+  "retrieved": 0,
+  "error": null,
+  "time": "2026-10-06T06:17:43.797552"
+ },
+ {
+  "db": "s2",
+  "query": "tourism demand forecasting Hajj Umrah",
+  "ok": true,
+  "reported_total": 0,
+  "retrieved": 0,
+  "error": null,
+  "time": "2026-10-06T06:17:48.607990"
+ },
+ {
+  "db": "s2",
+  "query": "tourism demand forecasting UAE",
+  "ok": true,
+  "reported_total": 0,
+  "retrieved": 0,
+  "error": null,
+  "time": "2026-10-06T06:17:53.413597"
+ },
+ {
+  "db": "s2",
+  "query": "tourism demand forecasting Qatar",
+  "ok": true,
+  "reported_total": 1,
+  "retrieved": 1,
+  "error": null,
+  "time": "2026-10-06T06:17:58.227757"
+ },
+ {
+  "db": "s2",
+  "query": "tourism demand forecasting Oman",
+  "ok": true,
+  "reported_total": 2,
+  "retrieved": 2,
+  "error": null,
+  "time": "2026-10-06T06:18:33.028941"
+ },
+ {
+  "db": "s2",
+  "query": "tourism demand forecasting Jordan",
+  "ok": true,
+  "reported_total": 0,
+  "retrieved": 0,
+  "error": null,
+  "time": "2026-10-06T06:18:37.368542"
+ },
+ {
+  "db": "s2",
+  "query": "tourism demand forecasting Egypt",
+  "ok": true,
+  "reported_total": 1,
+  "retrieved": 1,
+  "error": null,
+  "time": "2026-10-06T06:18:41.743065"
+ },
+ {
+  "db": "s2",
+  "query": "tourism demand forecasting Turkey",
+  "ok": true,
+  "reported_total": 9,
+  "retrieved": 9,
+  "error": null,
+  "time": "2026-10-06T06:19:16.590884"
+ },
+ {
+  "db": "s2",
+  "query": "tourism demand forecasting Iran",
+  "ok": true,
+  "reported_total": 1,
+  "retrieved": 1,
+  "error": null,
+  "time": "2026-10-06T06:19:20.849416"
+ },
+ {
+  "db": "s2",
+  "query": "tourism demand forecasting Morocco",
+  "ok": true,
+  "reported_total": 2,
+  "retrieved": 2,
+  "error": null,
+  "time": "2026-10-06T06:19:25.218935"
+ },
+ {
+  "db": "s2",
+  "query": "tourism demand forecasting Tunisia",
+  "ok": true,
+  "reported_total": 0,
+  "retrieved": 0,
+  "error": null,
+  "time": "2026-10-06T06:19:29.485613"
+ },
+ {
+  "db": "s2",
+  "query": "tourism demand forecasting Bahrain",
+  "ok": true,
+  "reported_total": 0,
+  "retrieved": 0,
+  "error": null,
+  "time": "2026-10-06T06:19:33.759861"
+ },
+ {
+  "db": "s2",
+  "query": "tourism demand forecasting Kuwait",
+  "ok": true,
+  "reported_total": 0,
+  "retrieved": 0,
+  "error": null,
+  "time": "2026-10-06T06:19:38.009118"
+ },
+ {
+  "db": "s2",
+  "query": "tourism demand forecasting Lebanon",
+  "ok": true,
+  "reported_total": 0,
+  "retrieved": 0,
+  "error": null,
+  "time": "2026-10-06T06:19:42.268925"
+ },
+ {
+  "db": "s2",
+  "query": "tourism demand forecasting Iraq",
+  "ok": true,
+  "reported_total": 2,
+  "retrieved": 2,
+  "error": null,
+  "time": "2026-10-06T06:19:46.948053"
+ },
+ {
+  "db": "s2",
+  "query": "tourist arrivals forecasting Saudi Arabia",
+  "ok": true,
+  "reported_total": 2,
+  "retrieved": 2,
+  "error": null,
+  "time": "2026-10-06T06:19:51.762371"
+ },
+ {
+  "db": "s2",
+  "query": "tourist arrivals forecasting Middle East",
+  "ok": true,
+  "reported_total": 1,
+  "retrieved": 1,
+  "error": null,
+  "time": "2026-10-06T06:19:56.314860"
+ },
+ {
+  "db": "s2",
+  "query": "tourist arrivals forecasting GCC",
+  "ok": true,
+  "reported_total": 0,
+  "retrieved": 0,
+  "error": null,
+  "time": "2026-10-06T06:20:00.579390"
+ },
+ {
+  "db": "s2",
+  "query": "tourist arrivals forecasting Hajj Umrah",
+  "ok": true,
+  "reported_total": 0,
+  "retrieved": 0,
+  "error": null,
+  "time": "2026-10-06T06:20:04.893550"
+ },
+ {
+  "db": "s2",
+  "query": "tourist arrivals forecasting UAE",
+  "ok": true,
+  "reported_total": 0,
+  "retrieved": 0,
+  "error": null,
+  "time": "2026-10-06T06:20:09.176590"
+ },
+ {
+  "db": "s2",
+  "query": "tourist arrivals forecasting Qatar",
+  "ok": true,
+  "reported_total": 1,
+  "retrieved": 1,
+  "error": null,
+  "time": "2026-10-06T06:20:14.017689"
+ },
+ {
+  "db": "s2",
+  "query": "tourist arrivals forecasting Oman",
+  "ok": true,
+  "reported_total": 0,
+  "retrieved": 0,
+  "error": null,
+  "time": "2026-10-06T06:20:18.386437"
+ },
+ {
+  "db": "s2",
+  "query": "tourist arrivals forecasting Jordan",
+  "ok": true,
+  "reported_total": 1,
+  "retrieved": 1,
+  "error": null,
+  "time": "2026-10-06T06:20:22.640425"
+ },
+ {
+  "db": "s2",
+  "query": "tourist arrivals forecasting Egypt",
+  "ok": true,
+  "reported_total": 0,
+  "retrieved": 0,
+  "error": null,
+  "time": "2026-10-06T06:20:27.272375"
+ },
+ {
+  "db": "s2",
+  "query": "tourist arrivals forecasting Turkey",
+  "ok": true,
+  "reported_total": 1,
+  "retrieved": 1,
+  "error": null,
+  "time": "2026-10-06T06:20:31.520727"
+ },
+ {
+  "db": "s2",
+  "query": "tourist arrivals forecasting Iran",
+  "ok": true,
+  "reported_total": 1,
+  "retrieved": 1,
+  "error": null,
+  "time": "2026-10-06T06:20:35.803411"
+ },
+ {
+  "db": "s2",
+  "query": "tourist arrivals forecasting Morocco",
+  "ok": true,
+  "reported_total": 1,
+  "retrieved": 1,
+  "error": null,
+  "time": "2026-10-06T06:20:40.664780"
+ },
+ {
+  "db": "s2",
+  "query": "tourist arrivals forecasting Tunisia",
+  "ok": true,
+  "reported_total": 0,
+  "retrieved": 0,
+  "error": null,
+  "time": "2026-10-06T06:20:44.916303"
+ },
+ {
+  "db": "s2",
+  "query": "tourist arrivals forecasting Bahrain",
+  "ok": true,
+  "reported_total": 0,
+  "retrieved": 0,
+  "error": null,
+  "time": "2026-10-06T06:20:49.552168"
+ },
+ {
+  "db": "s2",
+  "query": "tourist arrivals forecasting Kuwait",
+  "ok": true,
+  "reported_total": 0,
+  "retrieved": 0,
+  "error": null,
+  "time": "2026-10-06T06:20:53.823951"
+ },
+ {
+  "db": "s2",
+  "query": "tourist arrivals forecasting Lebanon",
+  "ok": true,
+  "reported_total": 0,
+  "retrieved": 0,
+  "error": null,
+  "time": "2026-10-06T06:20:58.098321"
+ },
+ {
+  "db": "s2",
+  "query": "tourist arrivals forecasting Iraq",
+  "ok": true,
+  "reported_total": 1,
+  "retrieved": 1,
+  "error": null,
+  "time": "2026-10-06T06:21:02.362878"
+ },
+ {
+  "db": "s2",
+  "query": "tourism forecasting machine learning Saudi Arabia",
+  "ok": true,
+  "reported_total": 3,
+  "retrieved": 3,
+  "error": null,
+  "time": "2026-10-06T06:21:06.613879"
+ },
+ {
+  "db": "s2",
+  "query": "tourism forecasting machine learning Middle East",
+  "ok": true,
+  "reported_total": 1,
+  "retrieved": 1,
+  "error": null,
+  "time": "2026-10-06T06:21:10.869986"
+ },
+ {
+  "db": "s2",
+  "query": "tourism forecasting machine learning GCC",
+  "ok": true,
+  "reported_total": 0,
+  "retrieved": 0,
+  "error": null,
+  "time": "2026-10-06T06:21:15.424935"
+ },
+ {
+  "db": "s2",
+  "query": "tourism forecasting machine learning Hajj Umrah",
+  "ok": true,
+  "reported_total": 1,
+  "retrieved": 1,
+  "error": null,
+  "time": "2026-10-06T06:21:19.833315"
+ },
+ {
+  "db": "s2",
+  "query": "tourism forecasting machine learning UAE",
+  "ok": true,
+  "reported_total": 0,
+  "retrieved": 0,
+  "error": null,
+  "time": "2026-10-06T06:21:24.638873"
+ },
+ {
+  "db": "s2",
+  "query": "tourism forecasting machine learning Qatar",
+  "ok": true,
+  "reported_total": 0,
+  "retrieved": 0,
+  "error": null,
+  "time": "2026-10-06T06:21:28.882354"
+ },
+ {
+  "db": "s2",
+  "query": "tourism forecasting machine learning Oman",
+  "ok": true,
+  "reported_total": 0,
+  "retrieved": 0,
+  "error": null,
+  "time": "2026-10-06T06:22:03.707521"
+ },
+ {
+  "db": "s2",
+  "query": "tourism forecasting machine learning Jordan",
+  "ok": true,
+  "reported_total": 1,
+  "retrieved": 1,
+  "error": null,
+  "time": "2026-10-06T06:22:38.546355"
+ },
+ {
+  "db": "s2",
+  "query": "tourism forecasting machine learning Egypt",
+  "ok": true,
+  "reported_total": 0,
+  "retrieved": 0,
+  "error": null,
+  "time": "2026-10-06T06:23:13.321770"
+ },
+ {
+  "db": "s2",
+  "query": "tourism forecasting machine learning Turkey",
+  "ok": true,
+  "reported_total": 2,
+  "retrieved": 2,
+  "error": null,
+  "time": "2026-10-06T06:23:48.329572"
+ },
+ {
+  "db": "s2",
+  "query": "tourism forecasting machine learning Iran",
+  "ok": true,
+  "reported_total": 0,
+  "retrieved": 0,
+  "error": null,
+  "time": "2026-10-06T06:23:52.641022"
+ },
+ {
+  "db": "s2",
+  "query": "tourism forecasting machine learning Morocco",
+  "ok": true,
+  "reported_total": 1,
+  "retrieved": 1,
+  "error": null,
+  "time": "2026-10-06T06:23:57.020695"
+ },
+ {
+  "db": "s2",
+  "query": "tourism forecasting machine learning Tunisia",
+  "ok": true,
+  "reported_total": 0,
+  "retrieved": 0,
+  "error": null,
+  "time": "2026-10-06T06:24:01.270352"
+ },
+ {
+  "db": "s2",
+  "query": "tourism forecasting machine learning Bahrain",
+  "ok": true,
+  "reported_total": 0,
+  "retrieved": 0,
+  "error": null,
+  "time": "2026-10-06T06:24:05.504963"
+ },
+ {
+  "db": "s2",
+  "query": "tourism forecasting machine learning Kuwait",
+  "ok": true,
+  "reported_total": 0,
+  "retrieved": 0,
+  "error": null,
+  "time": "2026-10-06T06:24:09.887492"
+ },
+ {
+  "db": "s2",
+  "query": "tourism forecasting machine learning Lebanon",
+  "ok": true,
+  "reported_total": 0,
+  "retrieved": 0,
+  "error": null,
+  "time": "2026-10-06T06:24:14.236106"
+ },
+ {
+  "db": "s2",
+  "query": "tourism forecasting machine learning Iraq",
+  "ok": true,
+  "reported_total": 0,
+  "retrieved": 0,
+  "error": null,
+  "time": "2026-10-06T06:24:18.652014"
+ },
+ {
+  "db": "s2",
+  "query": "hotel occupancy forecasting Saudi Arabia",
+  "ok": true,
+  "reported_total": 0,
+  "retrieved": 0,
+  "error": null,
+  "time": "2026-10-06T06:24:23.526887"
+ },
+ {
+  "db": "s2",
+  "query": "hotel occupancy forecasting Middle East",
+  "ok": true,
+  "reported_total": 0,
+  "retrieved": 0,
+  "error": null,
+  "time": "2026-10-06T06:24:27.808705"
+ },
+ {
+  "db": "s2",
+  "query": "hotel occupancy forecasting GCC",
+  "ok": true,
+  "reported_total": 0,
+  "retrieved": 0,
+  "error": null,
+  "time": "2026-10-06T06:24:32.035496"
+ }
+]

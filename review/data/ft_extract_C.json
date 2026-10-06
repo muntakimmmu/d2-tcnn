@@ -1,0 +1,636 @@
+[
+ {
+  "key": "Wada2021",
+  "file": "11.pdf",
+  "theme_confirmed": "D",
+  "setting": "8 MENA countries: Algeria, Egypt, Iran, Jordan, Kuwait, Lebanon, Sudan, Tunisia (panel)",
+  "data_source": "World Bank WDI (FDI, domestic credit, international tourist arrivals, real GDP); Worldwide Governance Indicators (institutional quality, PCA-aggregated)",
+  "period": "2002-2018 (body/conclusion); abstract states 2012 to 2018",
+  "frequency": "n/r (annual implied by t = 2002 - 2018; not explicitly stated)",
+  "n_obs": "n/r",
+  "outcome_variables": [
+   "LNFDI (Model 1)",
+   "LNDC financial development (Model 2)",
+   "LNITA international tourist arrivals (Model 3)",
+   "LNGDP real GDP (Model 4)"
+  ],
+  "methods": [
+   "Panel ARDL pooled mean group (PSS 1999), ARDL(1,1,1,1,1)",
+   "Dumitrescu-Hurlin panel Granger causality",
+   "PCA index of institutional quality",
+   "95% confidence ellipse coefficient plot"
+  ],
+  "F": null,
+  "E": {
+   "estimator": "Pooled mean group (PMG) panel ARDL",
+   "tourism_variables": [
+    "LNITA (international tourist arrivals)"
+   ],
+   "dependent_variable": "Four models: LNFDI, LNDC, LNITA, LNGDP (tourism-growth model = Model 4, dependent LNGDP)",
+   "key_results": [
+    {
+     "variable": "LNITA -> LNGDP (Model 4)",
+     "horizon": "long-run",
+     "coefficient": "0.293604***",
+     "sign": "+",
+     "significance": "1%",
+     "evidence": "Table 1 (p.6), Long Run Equation, LNITA row, Model 4 column: 0.293604***; Note: ***, **, and * indicate significant at 1%, 5% and 10%"
+    },
+    {
+     "variable": "LNITA -> LNFDI (Model 1)",
+     "horizon": "long-run",
+     "coefficient": "0.502269***",
+     "sign": "+",
+     "significance": "1%",
+     "evidence": "a 1 % increase in international tourist arrival and output growth increases FDI by around 0.50% and 2.06% in the long-run (p.6)"
+    },
+    {
+     "variable": "LNITA -> LNDC (Model 2)",
+     "horizon": "long-run",
+     "coefficient": "0.008320",
+     "sign": "ns",
+     "significance": "not significant",
+     "evidence": "Table 1 (p.6), Long Run Equation, LNITA row, Model 2 column: 0.008320 (no significance stars)"
+    },
+    {
+     "variable": "D(LNITA) -> D(LNDC) (Model 2)",
+     "horizon": "short-run",
+     "coefficient": "-0.709050**",
+     "sign": "-",
+     "significance": "5%",
+     "evidence": "a 1% increase in international tourist arrival results in about 0.72% decrease in financial development (p.7)"
+    },
+    {
+     "variable": "D(LNITA) -> D(LNGDP) (Model 4)",
+     "horizon": "short-run",
+     "coefficient": "0.132952",
+     "sign": "ns",
+     "significance": "not significant",
+     "evidence": "Table 1 (p.6), Short Run Equation, D(LNITA) row, Model 4 column: 0.132952 (no significance stars)"
+    },
+    {
+     "variable": "ISQ -> LNITA (Model 3, tourism as dependent)",
+     "horizon": "long-run",
+     "coefficient": "-0.190937**",
+     "sign": "-",
+     "significance": "5%",
+     "evidence": "1% increase in institutional quality decreases international tourist arrival by 0.19% in the long-run (p.8)"
+    },
+    {
+     "variable": "LNGDP -> LNITA (Model 3, tourism as dependent)",
+     "horizon": "long-run",
+     "coefficient": "0.271202**",
+     "sign": "+",
+     "significance": "5%",
+     "evidence": "a 1% increase in real output growth, FDI, and financial development means international tourist arrival rises by about 0.27%; 0.035%, and 0.27% (p.8)"
+    }
+   ],
+   "aviation_emissions_included": "n/a",
+   "out_of_sample_forecast": {
+    "value": "No",
+    "evidence": "No forecasting reported; analysis limited to 'The PSS (1999) panel ARDL Estimates' (Table 1) and 'Pairwise Dumitrescu Hurlin Panel Causality Tests' (Table 2)"
+   }
+  },
+  "rob_forecasting": null,
+  "rob_econometric": {
+   "E1_unit_root_tests": {
+    "rating": "No",
+    "evidence": "No panel unit root test reported; paper states method 'is applicable even with mixed integration order' (p.3) without testing integration order"
+   },
+   "E2_cointegration_or_long_run_test": {
+    "rating": "Unclear",
+    "evidence": "No formal cointegration test; long run inferred from ECT: 'the equilibrium adjustment term is as expected, negative and significant' (p.7)"
+   },
+   "E3_structural_breaks": {
+    "rating": "No",
+    "evidence": "No structural break tests or break dummies reported in the methods or Table 1 (p.4-7)"
+   },
+   "E4_cross_sectional_dependence_or_heterogeneity": {
+    "rating": "No",
+    "evidence": "No cross-sectional dependence or slope homogeneity test reported; only 'the coefficient of the cross-sectional regression is allowed to differ across the sample' for causality (p.10)"
+   },
+   "E5_endogeneity_or_omitted_variables_addressed": {
+    "rating": "No",
+    "evidence": "No IV/GMM or endogeneity discussion; four PMG models with the same five variables (Table 1, p.6)"
+   },
+   "E6_diagnostics_stability": {
+    "rating": "No",
+    "evidence": "Only a coefficient ellipse plot: 'the 95% confidence ellipse plot reveals that the regressors are not serially correlated and highly robust' (p.5); no residual tests or CUSUM"
+   },
+   "E7_data_source_and_period": {
+    "rating": "Yes",
+    "evidence": "FDI, financial development (FD), international tourist arrival (ITA), and real gross domestic product (GDP) obtained from the World Bank Development Indicator (WDI) (p.5)"
+   }
+  },
+  "notes": "Period inconsistency: abstract says 'from 2012 to 2018' but body says 't = 2002 – 2018' and conclusion 'from 2002 to 2018'. Table 1 Model 1 LNDC long-run is -0.782121*** but text says positive (FD raises FDI ~0.78%). Conclusion says institutional quality 'exerts positive impact' in all models, contradicting the negative long-run ISQ estimates in Models 1-3. Text refers to causality 'Table 4' but table is labelled Table 2. Tourism-led growth: LNITA long-run +0.293604*** on LNGDP; DH causality LNITA->LNGDP not significant (p=0.6810). Short-run country-specific results not reported. No environmental variable; theme D (tourism-growth/FDI/finance nexus)."
+ },
+ {
+  "key": "Alnafisah2025",
+  "file": "28.pdf",
+  "theme_confirmed": "S (social sustainability: tourism and income equality; equality proxied by education expenditure per capita)",
+  "setting": "6 GCC countries: UAE, Bahrain, Oman, Kuwait, Qatar, Saudi Arabia (panel)",
+  "data_source": "World Bank WDI (tourism receipts, government effectiveness), Ministries of Finance (education expenditure), UNCTAD (FDI), UN Tourism/UNWTO (international arrivals)",
+  "period": "2014Q1-2023Q4 (abstract, intro, conclusion); methods section states 2014Q1 to 2020Q4",
+  "frequency": "Quarterly",
+  "n_obs": "218 (descriptive statistics, Table 2)",
+  "outcome_variables": [
+   "EDU (education expenditure per capita, proxy for income equality)"
+  ],
+  "methods": [
+   "CSD tests (Breusch-Pagan LM, Pesaran scaled LM, bias-corrected scaled LM, Pesaran CD)",
+   "Slope homogeneity (Delta tilde)",
+   "CIPS unit root",
+   "CS-ARDL",
+   "Dumitrescu-Hurlin panel causality",
+   "Generalized linear model (GLM) robustness check"
+  ],
+  "F": null,
+  "E": {
+   "estimator": "CS-ARDL (cross-sectionally augmented ARDL)",
+   "tourism_variables": [
+    "TOU (international tourism receipts, log)",
+    "TOU2 (squared tourism receipts)",
+    "TRAV (international tourist arrivals, log)"
+   ],
+   "dependent_variable": "EDU (log education expenditure per capita, proxy for income equality)",
+   "key_results": [
+    {
+     "variable": "TOU",
+     "horizon": "long-run",
+     "coefficient": "0.146502***",
+     "sign": "+",
+     "significance": "1% (p = 0.0038)",
+     "evidence": "Table 6 Panel B (p.18): TOU 0.146502 *** 0.049763 2.943988 0.0038"
+    },
+    {
+     "variable": "TOU2",
+     "horizon": "long-run",
+     "coefficient": "-0.016888",
+     "sign": "ns",
+     "significance": "p = 0.3848",
+     "evidence": "The squared term TOU2 is negative and insignificant, providing no evidence of a Kuznets-type inverted U-shape (p.19)"
+    },
+    {
+     "variable": "TRAV",
+     "horizon": "long-run",
+     "coefficient": "-0.077711*",
+     "sign": "-",
+     "significance": "10% (p = 0.0878)",
+     "evidence": "Table 6 Panel B (p.18): TRAV −0.077711 * 0.04518 −1.720035 0.0878"
+    },
+    {
+     "variable": "ΔTOU(−1)",
+     "horizon": "short-run",
+     "coefficient": "0.07139**",
+     "sign": "+",
+     "significance": "5% (p = 0.0182)",
+     "evidence": "its lagged value (∆TOU(−1)) shows a positive and significant impact at the 5% level (p.18)"
+    },
+    {
+     "variable": "ΔTOU",
+     "horizon": "short-run",
+     "coefficient": "-0.022925",
+     "sign": "ns",
+     "significance": "p = 0.5763",
+     "evidence": "tourism revenue has a negative but not significant impact on income equality in the short run (p.18)"
+    },
+    {
+     "variable": "ΔTOU2",
+     "horizon": "short-run",
+     "coefficient": "0.011071*",
+     "sign": "+",
+     "significance": "10% (p = 0.0756)",
+     "evidence": "The squared term of tourism (∆TOU2 ) is significant at the 10% level, indicating potential nonlinear effects (p.18)"
+    },
+    {
+     "variable": "ΔTRV",
+     "horizon": "short-run",
+     "coefficient": "-0.102749",
+     "sign": "ns",
+     "significance": "p = 0.2064",
+     "evidence": "Tourist arrivals (TRV) exert no meaningful influence in either the current or lagged periods (p.18)"
+    },
+    {
+     "variable": "TOU (GLM robustness)",
+     "horizon": "n/a",
+     "coefficient": "1.38***",
+     "sign": "+",
+     "significance": "1%",
+     "evidence": "Table 8 GLM robustness check (p.20): TOU 1.38 *** 0.14 9.60 0.00"
+    },
+    {
+     "variable": "TRAV (GLM robustness)",
+     "horizon": "n/a",
+     "coefficient": "-0.33***",
+     "sign": "-",
+     "significance": "1%",
+     "evidence": "Table 8 GLM robustness check (p.20): TRAV −0.33 *** 0.09 −3.66 0.00"
+    }
+   ],
+   "aviation_emissions_included": "n/a",
+   "out_of_sample_forecast": {
+    "value": "No",
+    "evidence": "No forecasting reported; analysis comprises CSD, SH, CIPS, CS-ARDL (Table 6), Dumitrescu–Hurlin causality (Table 7) and GLM robustness (Table 8)"
+   }
+  },
+  "rob_forecasting": null,
+  "rob_econometric": {
+   "E1_unit_root_tests": {
+    "rating": "Yes",
+    "evidence": "Table 5. Second generation (CIPS unit root test) (p.17)"
+   },
+   "E2_cointegration_or_long_run_test": {
+    "rating": "Unclear",
+    "evidence": "Abstract claims 'panel cointegration tests' but none reported; only ECM(−1) −0.120618 ** (p = 0.0238) in Table 6 (p.18)"
+   },
+   "E3_structural_breaks": {
+    "rating": "No",
+    "evidence": "No structural break test or COVID-19 break dummy reported in methods or results (p.13-20)"
+   },
+   "E4_cross_sectional_dependence_or_heterogeneity": {
+    "rating": "Yes",
+    "evidence": "Table 3. Cross-sectional dependence (CSD) test ... Table 4 confirms the presence of heterogeneous slope coefficients (p.17)"
+   },
+   "E5_endogeneity_or_omitted_variables_addressed": {
+    "rating": "Unclear",
+    "evidence": "the possibility of reverse causality or omitted variables cannot be fully ruled out. Future studies should consider instrument variable approaches (p.21-22)"
+   },
+   "E6_diagnostics_stability": {
+    "rating": "No",
+    "evidence": "No residual diagnostics or CUSUM reported; only 'As a robustness check, the generalized linear model (GLM) was estimated' (p.20)"
+   },
+   "E7_data_source_and_period": {
+    "rating": "Yes",
+    "evidence": "Tourism revenue and the governance index were obtained from the World Bank’s World Development Indicators. Education expenditure was sourced from the ministries of finance (p.14)"
+   }
+  },
+  "notes": "Outcome is a proxy: education expenditure per capita stands in for income equality (author lists as key limitation). Period inconsistency: methods say 2014Q1 to 2020Q4, elsewhere 2014Q1-2023Q4; 218 observations vs 6 x 40 quarters = 240. Quarterly frequency claimed although sources (WDI, WGI) are typically annual; no interpolation method described. Text refers to GDP and TRADE (Table 5 text; discussion says 'GDP per capita emerged as the most significant long-term determinant') but neither is in the model or tables. CIPS table: TOU2 and FDI reported stationary at level while text says I(1). Pesaran CD for FDI (p=0.558) and GI (p=0.341) not significant, contrary to text claim all variables exhibit CSD. Discussion claims significance of squared term in long run, contradicting Table 6 (p=0.3848). Variable named GI in model but 'governance index' and 'government effectiveness' used interchangeably."
+ },
+ {
+  "key": "Bahar2023",
+  "file": "29.pdf",
+  "theme_confirmed": "S (tourism-CO2 emissions nexus)",
+  "setting": "Turkey (Turkiye), single-country time series",
+  "data_source": "World Bank",
+  "period": "1984-2021",
+  "frequency": "Annual",
+  "n_obs": "38 (Table 3 'Observation Count:38'; bounds test table reports n=40)",
+  "outcome_variables": [
+   "lnCO2 (CO2 emissions, tons)"
+  ],
+  "methods": [
+   "ADF unit root",
+   "ARDL bounds test (Pesaran et al. 2001), ARDL(1,0,0) with trend and 2008 crisis dummy",
+   "Error correction model",
+   "Breusch-Godfrey, Breusch-Pagan-Godfrey, Ramsey RESET, Jarque-Bera",
+   "CUSUM and CUSUM of squares"
+  ],
+  "F": null,
+  "E": {
+   "estimator": "ARDL bounds testing / ECM",
+   "tourism_variables": [
+    "lnTR (tourism revenue, USD)",
+    "lnITA (international tourist arrivals, number)"
+   ],
+   "dependent_variable": "lnCO2 (CO2 emissions, tons)",
+   "key_results": [
+    {
+     "variable": "lnITA (reported as DLITA)",
+     "horizon": "long-run",
+     "coefficient": "0.246618",
+     "sign": "+",
+     "significance": "p = 0.0005",
+     "evidence": "Table 6 (p.57): DLITA 0.246618 0.063955 3.856097 0.0005"
+    },
+    {
+     "variable": "lnTR (reported as DLTR)",
+     "horizon": "long-run",
+     "coefficient": "-0.153087",
+     "sign": "-",
+     "significance": "p = 0.0294",
+     "evidence": "Table 6 (p.57): DLTR -0.153087 0.067028 -2.283924 0.0294"
+    },
+    {
+     "variable": "DLITA",
+     "horizon": "short-run",
+     "coefficient": "0.146503",
+     "sign": "+",
+     "significance": "p = 0.0141",
+     "evidence": "Table 5 ARDL model results (p.57): DLITA 0.146503 0.056284 2.602946 0.0141"
+    },
+    {
+     "variable": "DLTR",
+     "horizon": "short-run",
+     "coefficient": "-0.090941",
+     "sign": "-",
+     "significance": "p = 0.0905 (10%)",
+     "evidence": "Table 5 ARDL model results (p.57): DLTR -0.090941 0.052047 -1.747300 0.0905"
+    },
+    {
+     "variable": "CointEq(-1)",
+     "horizon": "short-run",
+     "coefficient": "-0.594050",
+     "sign": "-",
+     "significance": "p = 0.0000",
+     "evidence": "Table 7 (p.57): CointEq(-1)* -0.594050 0.112664 -5.272743 0.0000"
+    }
+   ],
+   "aviation_emissions_included": "n/r",
+   "out_of_sample_forecast": {
+    "value": "No",
+    "evidence": "No out-of-sample forecasting; CUSUM used 'to control the stability of short- and long-term forecasts' (p.56) refers to coefficient stability only"
+   }
+  },
+  "rob_forecasting": null,
+  "rob_econometric": {
+   "E1_unit_root_tests": {
+    "rating": "Yes",
+    "evidence": "Table 4. ADF Unit Root Results (p.57); lnCO2 stationary at level, lnITA and lnTR stationary at first differences"
+   },
+   "E2_cointegration_or_long_run_test": {
+    "rating": "Yes",
+    "evidence": "F-statistic 8.705619 ... the null hypothesis indicating no co-integration between variables is rejected (p.56-57)"
+   },
+   "E3_structural_breaks": {
+    "rating": "Yes",
+    "evidence": "there is one dummy variable in the analysis. This dummy variable represents the 2008 Global Financial Crisis (p.55)"
+   },
+   "E4_cross_sectional_dependence_or_heterogeneity": {
+    "rating": "NA (not panel)",
+    "evidence": "Single-country time series: 'effects of tourism on CO2 emissions in Turkey from 1984 to 2021' (p.55)"
+   },
+   "E5_endogeneity_or_omitted_variables_addressed": {
+    "rating": "No",
+    "evidence": "Three variables are included in the analysis (p.55): CO2, TR, ITA only; no income, energy or other controls and no endogeneity treatment"
+   },
+   "E6_diagnostics_stability": {
+    "rating": "Yes",
+    "evidence": "Table 8 Breusch-Godfrey F 0.532113 Prob. 0.5930; Breusch-Pagan-Godfrey Prob. 0.5853; Ramsey Reset 0.8860; CUSUM within critical boundaries (p.58)"
+   },
+   "E7_data_source_and_period": {
+    "rating": "Yes",
+    "evidence": "the data used were obtained from the World Bank (p.55); 'utilizing annual data between 1984 and 2021' (p.55)"
+   }
+  },
+  "notes": "Bivariate-regressor model (TR, ITA) with trend and 2008 dummy; no GDP/energy controls, so omitted-variable bias likely. Long-run regressors labelled DLITA/DLTR (difference notation) though described as long-run elasticities. Bounds F = 8.705619 is below the 1% I(1) bound in Table 6 (8.803) but above the 1% I(1) bound in Table 7 (7.52); text claims significance at 5% and 10%. Observation count inconsistent (38 vs n=40). Conclusion: 1% increase in TR decreases CO2 by 0.15%, 1% increase in ITA increases CO2 by 0.24%. CO2 is total national emissions; aviation not discussed."
+ },
+ {
+  "key": "Bildirici2025",
+  "file": "30.pdf",
+  "theme_confirmed": "S (tourism-environment-health nexus: CO2, PM2.5, life expectancy)",
+  "setting": "Italy, Saudi Arabia, Türkiye (separate country-level time series)",
+  "data_source": "EDGAR (CO2, PM2.5), WDI (life expectancy, real GDP), STATISTA and UNWTO (tourist arrivals), BP (petroleum consumption)",
+  "period": "1975-2019",
+  "frequency": "Annual",
+  "n_obs": "n/r",
+  "outcome_variables": [
+   "CO (CO2 emissions, kilotons)",
+   "PM (PM2.5 exposure)",
+   "LE (life expectancy)",
+   "TR",
+   "PC",
+   "Y (system of six equations)"
+  ],
+  "methods": [
+   "Fourier ADF unit root",
+   "Johansen cointegration with Fourier terms",
+   "Fourier VAR (FVAR, k = 1)",
+   "Fourier Granger causality"
+  ],
+  "F": null,
+  "E": {
+   "estimator": "Fourier-augmented VAR (FVAR) and Fourier Granger causality (no cointegration found, so no long-run estimates)",
+   "tourism_variables": [
+    "TR (number of international tourist arrivals, proxy for religious tourism)"
+   ],
+   "dependent_variable": "COt vector (CO2 emissions) and PMt vector (PM2.5); also LE, TR, PC, Y vectors",
+   "key_results": [
+    {
+     "variable": "TRt−1 -> COt (Italy)",
+     "horizon": "short-run",
+     "coefficient": "0.236273**",
+     "sign": "+",
+     "significance": "5%",
+     "evidence": "the parameters for TRt−1 and TRt−2 are 0.236273 and 0.293544, and are significant at the 5% level of significance (p.9)"
+    },
+    {
+     "variable": "TRt−2 -> COt (Italy)",
+     "horizon": "short-run",
+     "coefficient": "0.293544**",
+     "sign": "+",
+     "significance": "5%",
+     "evidence": "the parameters for TRt−1 and TRt−2 are 0.236273 and 0.293544, and are significant at the 5% level of significance (p.9)"
+    },
+    {
+     "variable": "Accumulated TR -> CO (Italy)",
+     "horizon": "n/a",
+     "coefficient": "0.529817",
+     "sign": "+",
+     "significance": "based on two 5%-significant lags",
+     "evidence": "accumulated long-run response of COt to tourism as 0.236273 + 0.293544 = 0.529817 (p.9)"
+    },
+    {
+     "variable": "TRt−1 -> COt (Saudi Arabia)",
+     "horizon": "short-run",
+     "coefficient": "0.013429**",
+     "sign": "+",
+     "significance": "5%",
+     "evidence": "Table 6 (p.10), TRt-1 row, COt column: 0.013429 ** (2.22086)"
+    },
+    {
+     "variable": "TRt−2 -> COt (Saudi Arabia)",
+     "horizon": "short-run",
+     "coefficient": "0.147423**",
+     "sign": "+",
+     "significance": "5%",
+     "evidence": "Table 6 (p.10), TRt-2 row, COt column: 0.147423 ** (2.22517)"
+    },
+    {
+     "variable": "TRt−1 -> COt (Türkiye)",
+     "horizon": "short-run",
+     "coefficient": "0.183585***",
+     "sign": "+",
+     "significance": "1%",
+     "evidence": "Table 7 (p.11), TRt−1 row, COt column: 0.183585 *** (3.01162)"
+    },
+    {
+     "variable": "TRt−2 -> COt (Türkiye)",
+     "horizon": "short-run",
+     "coefficient": "0.204643***",
+     "sign": "+",
+     "significance": "1%",
+     "evidence": "Table 7 (p.11), TRt−2 row, COt column: 0.204643 *** (3.14716)"
+    },
+    {
+     "variable": "Accumulated TR -> CO (Türkiye)",
+     "horizon": "n/a",
+     "coefficient": "0.387",
+     "sign": "+",
+     "significance": "based on two 1%-significant lags",
+     "evidence": "a 1% point increase in TR leads to an accumulated effect of 0.387% point increase in COt (p.12)"
+    },
+    {
+     "variable": "TR -> CO and TR -> PM Granger causality (all three countries)",
+     "horizon": "n/a",
+     "coefficient": "n/r",
+     "sign": "+",
+     "significance": "unidirectional Granger causality",
+     "evidence": "The results indicate unilateral causal links for all countries from TR to PM and to CO (p.12)"
+    }
+   ],
+   "aviation_emissions_included": "n/r",
+   "out_of_sample_forecast": {
+    "value": "No",
+    "evidence": "No forecasting reported; empirical analysis 'proceeds in three stages' of unit root, FVAR estimation and Fourier Granger causality (p.8)"
+   }
+  },
+  "rob_forecasting": null,
+  "rob_econometric": {
+   "E1_unit_root_tests": {
+    "rating": "Yes",
+    "evidence": "Fourier unit root tests were conducted, and the results are presented in Table 3 ... indicating that all series are I(1) processes (p.8)"
+   },
+   "E2_cointegration_or_long_run_test": {
+    "rating": "Yes",
+    "evidence": "The Johansen cointegration test indicates no cointegration for all variables in all the countries examined (p.8)"
+   },
+   "E3_structural_breaks": {
+    "rating": "Yes",
+    "evidence": "The model incorporates Fourier terms to control for structural breaks and is particularly advantageous for datasets with short time periods (p.8)"
+   },
+   "E4_cross_sectional_dependence_or_heterogeneity": {
+    "rating": "NA (not panel)",
+    "evidence": "Separate FVAR estimations per country: 'The FVAR estimation results are presented in Tables 5–7 for the separate countries' (p.9)"
+   },
+   "E5_endogeneity_or_omitted_variables_addressed": {
+    "rating": "Yes",
+    "evidence": "The FVAR model provides insights into the statistical significance and magnitude of the effects. The method handles endogeneity and feedback (p.8)"
+   },
+   "E6_diagnostics_stability": {
+    "rating": "No",
+    "evidence": "Tables 5–7 'Diagnostics' report only A.R2, F, LL, AIC, SC; no residual autocorrelation, heteroskedasticity or stability tests reported"
+   },
+   "E7_data_source_and_period": {
+    "rating": "Yes",
+    "evidence": "The dataset comprises annual data for 1975–2019 on CO2 emissions, air quality measured as PM2.5, religious tourism measured as international tourist arrivals, real GDP and petroleum consumption (p.6)"
+   }
+  },
+  "notes": "No cointegration found, so no long-run coefficients; the 'accumulated long-run response' figures (Italy 0.529817, Türkiye 0.387) are sums of lagged VAR coefficients computed by the authors. Model equations (3)-(8) are written in first differences with an ecm term, but ecm is dropped given no cointegration. Tourist arrivals used as a proxy for religious tourism (no religious-tourism data). Fourier unit root critical values not reported in Table 3. Sample ends 2019 to exclude COVID-19. Some Granger-causality summaries in text (e.g., TR->CO for all countries) are drawn from Table 8 sign patterns."
+ },
+ {
+  "key": "Harazneh2026",
+  "file": "34.pdf",
+  "theme_confirmed": "S (sustainability and innovation as drivers of tourism/hotel recovery; tourism is the dependent variable, sustainability indicators are regressors)",
+  "setting": "Jordan, single-country national time series",
+  "data_source": "UNWTO, World Bank WDI, Jordan Ministry of Tourism and Antiquities, Global Innovation Index, Environmental Performance Index; dataset archived on Zenodo",
+  "period": "2010-2024",
+  "frequency": "Annual",
+  "n_obs": "n/r",
+  "outcome_variables": [
+   "Tourism Recovery Index (TRI, % of 2019 baseline)"
+  ],
+  "methods": [
+   "Descriptive statistics",
+   "Pearson correlation",
+   "Fixed-effects regression with INN x SUS interaction",
+   "Random effects, CO2 proxy and lagged TRI robustness",
+   "Pairwise Granger causality",
+   "VIF, Shapiro-Wilk, Breusch-Pagan, Durbin-Watson"
+  ],
+  "F": null,
+  "E": {
+   "estimator": "Fixed-effects regression (STATA 17) on single-country annual series",
+   "tourism_variables": [
+    "Tourism Recovery Index (dependent variable; built from arrivals and hotel occupancy relative to 2019)"
+   ],
+   "dependent_variable": "TRI (Tourism Recovery Index)",
+   "key_results": [
+    {
+     "variable": "Innovation Indicators (INN) -> TRI",
+     "horizon": "n/a",
+     "coefficient": "0.41",
+     "sign": "+",
+     "significance": "p = 0.001",
+     "evidence": "Table 3 (p.126): Innovation Indicators (INN) 0.41 0.09 4.56 0.001**"
+    },
+    {
+     "variable": "Sustainability Indicators (SUS) -> TRI",
+     "horizon": "n/a",
+     "coefficient": "0.34",
+     "sign": "+",
+     "significance": "p = 0.032",
+     "evidence": "Table 3 (p.126): Sustainability Indicators (SUS) 0.34 0.12 2.83 0.032*"
+    },
+    {
+     "variable": "INN x SUS -> TRI",
+     "horizon": "n/a",
+     "coefficient": "0.48",
+     "sign": "+",
+     "significance": "p = 0.009",
+     "evidence": "The interaction between innovation and sustainability is positive and statistically significant (coefficient 0.48, probability value 0.009) (p.120)"
+    },
+    {
+     "variable": "Exchange-rate stability -> TRI",
+     "horizon": "n/a",
+     "coefficient": "0.19",
+     "sign": "+",
+     "significance": "p = 0.021",
+     "evidence": "Exchange rate stability supports recovery (coefficient 0.19, probability value 0.021) (p.120)"
+    },
+    {
+     "variable": "GDP per capita -> TRI",
+     "horizon": "n/a",
+     "coefficient": "0.22",
+     "sign": "ns",
+     "significance": "p = 0.051",
+     "evidence": "Table 3 (p.126): GDP per capita 0.22 0.10 2.10 0.051"
+    },
+    {
+     "variable": "SUS (CO2 proxy) -> TRI",
+     "horizon": "n/a",
+     "coefficient": "0.31*",
+     "sign": "+",
+     "significance": "p < 0.05",
+     "evidence": "Table 4 (p.126): CO₂ proxy 0.38** 0.31* 0.46** 0.69 Alternative sustainability measure"
+    }
+   ],
+   "aviation_emissions_included": "n/a",
+   "out_of_sample_forecast": {
+    "value": "No",
+    "evidence": "No forecasting reported; analysis 'proceeds from descriptive profiling and bivariate associations to multivariate fixed-effects estimation, followed by robustness checks' (p.124)"
+   }
+  },
+  "rob_forecasting": null,
+  "rob_econometric": {
+   "E1_unit_root_tests": {
+    "rating": "No",
+    "evidence": "No unit root or stationarity tests reported; methods list only descriptive statistics, correlation analysis and fixed-effects estimation (p.124)"
+   },
+   "E2_cointegration_or_long_run_test": {
+    "rating": "No",
+    "evidence": "No cointegration or long-run test reported; static model: \"The empirical relationship is estimated using a fixed-effects specification\" (p.124)"
+   },
+   "E3_structural_breaks": {
+    "rating": "No",
+    "evidence": "No COVID-19 break dummy or break test reported despite sample covering 'pre-shock conditions, the disruption period, and subsequent recovery' (p.124)"
+   },
+   "E4_cross_sectional_dependence_or_heterogeneity": {
+    "rating": "NA (not panel)",
+    "evidence": "Single-country annual series: 'Annual data for 2010–2024 are compiled' for Jordan (p.120); model indexed by t only"
+   },
+   "E5_endogeneity_or_omitted_variables_addressed": {
+    "rating": "Unclear",
+    "evidence": "Internal validity is improved through the inclusion of macroeconomic controls to reduce confounding from general economic trends (p.124); no IV/GMM"
+   },
+   "E6_diagnostics_stability": {
+    "rating": "Unclear",
+    "evidence": "Diagnostics named (VIF, Shapiro–Wilk, Breusch–Pagan, Durbin–Watson) with 'key assumptions for linear estimation were adequately satisfied' (p.124-125), but no statistics reported"
+   },
+   "E7_data_source_and_period": {
+    "rating": "Yes",
+    "evidence": "Annual data for 2010–2024 are compiled from the United Nations World Tourism Organization, the World Bank World Development Indicators, the Jordan Ministry of Tourism and Antiquities (p.120)"
+   }
+  },
+  "notes": "Tourism is the outcome (recovery index) rather than a regressor, so no tourism->sustainability coefficient. 'Fixed-effects' model is applied to a single-country annual series indexed only by t (about 15 years implied but n_obs not reported), so unit fixed effects are not identifiable as described; small-sample concerns with 6 regressors plus interaction. Composite INN and SUS index construction (weights) not reported. Robustness Table 4 notes column labels 'Lagged Tourism Recovery Index (TRI) (t-1)' as persistence check while text says lagged innovation. Diagnostics described but not quantified."
+ }
+]

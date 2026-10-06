@@ -1,0 +1,948 @@
+[
+ {
+  "key": "AlShehhi2018",
+  "file": "13.pdf",
+  "theme_confirmed": "F",
+  "setting": "Luxury and Upper Upscale hotels in eight MENA cities: Dubai, Jeddah, Manama, Muscat, Kuwait, Beirut, Amman, Sharm El Sheikh",
+  "data_source": "STR (Smith Travel Research) daily hotel data; economic variables from World Bank, World Tourism Organization, World Economic Forum, US Energy Information Administration",
+  "period": "January 2010 - August 2017 (1-Jan-10 to 31-Aug-17)",
+  "frequency": "daily (macro variables annual/monthly converted to daily)",
+  "n_obs": "2800",
+  "outcome_variables": [
+   "hotel room average daily rate (ADR)"
+  ],
+  "methods": [
+   "simple moving average",
+   "ARIMA",
+   "radial basis function (RBF) neural network",
+   "support vector machine (SVM/SVR)"
+  ],
+  "F": {
+   "holdout": {
+    "value": "Yes",
+    "detail": "Training 1-Jan-10 to 31-Dec-15 (2191 obs); Test (out of sample) 1-Jan-16 to 31-Aug-17 (609 obs)",
+    "evidence": "Training set 2191 1-Jan-10 31-Dec-15 ... Test set (out of sample) 609 1-Jan-16 31-Aug-17 (Table 1, p. 1628)"
+   },
+   "horizon": "n/r",
+   "forecast_origin": "n/r",
+   "benchmarks": [
+    "simple moving average",
+    "ARIMA"
+   ],
+   "best_model": "SVM",
+   "accuracy": [
+    {
+     "model": "Simple Moving Average (Amman)",
+     "measure": "MAPE",
+     "value": "0.029",
+     "set": "n/r",
+     "evidence": "Table 4. Performance for all cities. [Amman] MAPE 0.029 0.0376 0.0287 0.0221 (columns: Simple Average, ARIMA, RBF, SVM) (pp. 1632-1633)"
+    },
+    {
+     "model": "ARIMA (Amman)",
+     "measure": "MAPE",
+     "value": "0.0376",
+     "set": "n/r",
+     "evidence": "Table 4. Performance for all cities. [Amman] MAPE 0.029 0.0376 0.0287 0.0221 (columns: Simple Average, ARIMA, RBF, SVM) (pp. 1632-1633)"
+    },
+    {
+     "model": "RBF (Amman)",
+     "measure": "MAPE",
+     "value": "0.0287",
+     "set": "n/r",
+     "evidence": "Table 4. Performance for all cities. [Amman] MAPE 0.029 0.0376 0.0287 0.0221 (columns: Simple Average, ARIMA, RBF, SVM) (pp. 1632-1633)"
+    },
+    {
+     "model": "SVM (Amman)",
+     "measure": "MAPE",
+     "value": "0.0221",
+     "set": "n/r",
+     "evidence": "Table 4. Performance for all cities. [Amman] MAPE 0.029 0.0376 0.0287 0.0221 (columns: Simple Average, ARIMA, RBF, SVM) (pp. 1632-1633)"
+    },
+    {
+     "model": "Simple Moving Average (Kuwait)",
+     "measure": "MAPE",
+     "value": "0.0433",
+     "set": "n/r",
+     "evidence": "Table 4. Performance for all cities. [Kuwait] MAPE 0.0433 0.0541 0.0412 0.0421 (columns: Simple Average, ARIMA, RBF, SVM) (pp. 1632-1633)"
+    },
+    {
+     "model": "ARIMA (Kuwait)",
+     "measure": "MAPE",
+     "value": "0.0541",
+     "set": "n/r",
+     "evidence": "Table 4. Performance for all cities. [Kuwait] MAPE 0.0433 0.0541 0.0412 0.0421 (columns: Simple Average, ARIMA, RBF, SVM) (pp. 1632-1633)"
+    },
+    {
+     "model": "RBF (Kuwait)",
+     "measure": "MAPE",
+     "value": "0.0412",
+     "set": "n/r",
+     "evidence": "Table 4. Performance for all cities. [Kuwait] MAPE 0.0433 0.0541 0.0412 0.0421 (columns: Simple Average, ARIMA, RBF, SVM) (pp. 1632-1633)"
+    },
+    {
+     "model": "SVM (Kuwait)",
+     "measure": "MAPE",
+     "value": "0.0421",
+     "set": "n/r",
+     "evidence": "Table 4. Performance for all cities. [Kuwait] MAPE 0.0433 0.0541 0.0412 0.0421 (columns: Simple Average, ARIMA, RBF, SVM) (pp. 1632-1633)"
+    },
+    {
+     "model": "Simple Moving Average (Beirut)",
+     "measure": "MAPE",
+     "value": "0.0345",
+     "set": "n/r",
+     "evidence": "Table 4. Performance for all cities. [Beirut] MAPE 0.0345 0.0441 0.0296 0.0257 (columns: Simple Average, ARIMA, RBF, SVM) (pp. 1632-1633)"
+    },
+    {
+     "model": "ARIMA (Beirut)",
+     "measure": "MAPE",
+     "value": "0.0441",
+     "set": "n/r",
+     "evidence": "Table 4. Performance for all cities. [Beirut] MAPE 0.0345 0.0441 0.0296 0.0257 (columns: Simple Average, ARIMA, RBF, SVM) (pp. 1632-1633)"
+    },
+    {
+     "model": "RBF (Beirut)",
+     "measure": "MAPE",
+     "value": "0.0296",
+     "set": "n/r",
+     "evidence": "Table 4. Performance for all cities. [Beirut] MAPE 0.0345 0.0441 0.0296 0.0257 (columns: Simple Average, ARIMA, RBF, SVM) (pp. 1632-1633)"
+    },
+    {
+     "model": "SVM (Beirut)",
+     "measure": "MAPE",
+     "value": "0.0257",
+     "set": "n/r",
+     "evidence": "Table 4. Performance for all cities. [Beirut] MAPE 0.0345 0.0441 0.0296 0.0257 (columns: Simple Average, ARIMA, RBF, SVM) (pp. 1632-1633)"
+    },
+    {
+     "model": "Simple Moving Average (Manama)",
+     "measure": "MAPE",
+     "value": "0.0551",
+     "set": "n/r",
+     "evidence": "Table 4. Performance for all cities. [Manama] MAPE 0.0551 0.0589 0.0421 0.0382 (columns: Simple Average, ARIMA, RBF, SVM) (pp. 1632-1633)"
+    },
+    {
+     "model": "ARIMA (Manama)",
+     "measure": "MAPE",
+     "value": "0.0589",
+     "set": "n/r",
+     "evidence": "Table 4. Performance for all cities. [Manama] MAPE 0.0551 0.0589 0.0421 0.0382 (columns: Simple Average, ARIMA, RBF, SVM) (pp. 1632-1633)"
+    },
+    {
+     "model": "RBF (Manama)",
+     "measure": "MAPE",
+     "value": "0.0421",
+     "set": "n/r",
+     "evidence": "Table 4. Performance for all cities. [Manama] MAPE 0.0551 0.0589 0.0421 0.0382 (columns: Simple Average, ARIMA, RBF, SVM) (pp. 1632-1633)"
+    },
+    {
+     "model": "SVM (Manama)",
+     "measure": "MAPE",
+     "value": "0.0382",
+     "set": "n/r",
+     "evidence": "Table 4. Performance for all cities. [Manama] MAPE 0.0551 0.0589 0.0421 0.0382 (columns: Simple Average, ARIMA, RBF, SVM) (pp. 1632-1633)"
+    },
+    {
+     "model": "Simple Moving Average (Dubai)",
+     "measure": "MAPE",
+     "value": "0.0345",
+     "set": "n/r",
+     "evidence": "Table 4. Performance for all cities. [Dubai] MAPE 0.0345 0.0521 0.0289 0.0222 (columns: Simple Average, ARIMA, RBF, SVM) (pp. 1632-1633)"
+    },
+    {
+     "model": "ARIMA (Dubai)",
+     "measure": "MAPE",
+     "value": "0.0521",
+     "set": "n/r",
+     "evidence": "Table 4. Performance for all cities. [Dubai] MAPE 0.0345 0.0521 0.0289 0.0222 (columns: Simple Average, ARIMA, RBF, SVM) (pp. 1632-1633)"
+    },
+    {
+     "model": "RBF (Dubai)",
+     "measure": "MAPE",
+     "value": "0.0289",
+     "set": "n/r",
+     "evidence": "Table 4. Performance for all cities. [Dubai] MAPE 0.0345 0.0521 0.0289 0.0222 (columns: Simple Average, ARIMA, RBF, SVM) (pp. 1632-1633)"
+    },
+    {
+     "model": "SVM (Dubai)",
+     "measure": "MAPE",
+     "value": "0.0222",
+     "set": "n/r",
+     "evidence": "Table 4. Performance for all cities. [Dubai] MAPE 0.0345 0.0521 0.0289 0.0222 (columns: Simple Average, ARIMA, RBF, SVM) (pp. 1632-1633)"
+    },
+    {
+     "model": "Simple Moving Average (Muscat)",
+     "measure": "MAPE",
+     "value": "0.0421",
+     "set": "n/r",
+     "evidence": "Table 4. Performance for all cities. [Muscat] MAPE 0.0421 0.0444 0.0315 0.0301 (columns: Simple Average, ARIMA, RBF, SVM) (pp. 1632-1633)"
+    },
+    {
+     "model": "ARIMA (Muscat)",
+     "measure": "MAPE",
+     "value": "0.0444",
+     "set": "n/r",
+     "evidence": "Table 4. Performance for all cities. [Muscat] MAPE 0.0421 0.0444 0.0315 0.0301 (columns: Simple Average, ARIMA, RBF, SVM) (pp. 1632-1633)"
+    },
+    {
+     "model": "RBF (Muscat)",
+     "measure": "MAPE",
+     "value": "0.0315",
+     "set": "n/r",
+     "evidence": "Table 4. Performance for all cities. [Muscat] MAPE 0.0421 0.0444 0.0315 0.0301 (columns: Simple Average, ARIMA, RBF, SVM) (pp. 1632-1633)"
+    },
+    {
+     "model": "SVM (Muscat)",
+     "measure": "MAPE",
+     "value": "0.0301",
+     "set": "n/r",
+     "evidence": "Table 4. Performance for all cities. [Muscat] MAPE 0.0421 0.0444 0.0315 0.0301 (columns: Simple Average, ARIMA, RBF, SVM) (pp. 1632-1633)"
+    },
+    {
+     "model": "Simple Moving Average (Jeddah)",
+     "measure": "MAPE",
+     "value": "0.0665",
+     "set": "n/r",
+     "evidence": "Table 4. Performance for all cities. [Jeddah] MAPE 0.0665 0.0885 0.0665 0.0602 (columns: Simple Average, ARIMA, RBF, SVM) (pp. 1632-1633)"
+    },
+    {
+     "model": "ARIMA (Jeddah)",
+     "measure": "MAPE",
+     "value": "0.0885",
+     "set": "n/r",
+     "evidence": "Table 4. Performance for all cities. [Jeddah] MAPE 0.0665 0.0885 0.0665 0.0602 (columns: Simple Average, ARIMA, RBF, SVM) (pp. 1632-1633)"
+    },
+    {
+     "model": "RBF (Jeddah)",
+     "measure": "MAPE",
+     "value": "0.0665",
+     "set": "n/r",
+     "evidence": "Table 4. Performance for all cities. [Jeddah] MAPE 0.0665 0.0885 0.0665 0.0602 (columns: Simple Average, ARIMA, RBF, SVM) (pp. 1632-1633)"
+    },
+    {
+     "model": "SVM (Jeddah)",
+     "measure": "MAPE",
+     "value": "0.0602",
+     "set": "n/r",
+     "evidence": "Table 4. Performance for all cities. [Jeddah] MAPE 0.0665 0.0885 0.0665 0.0602 (columns: Simple Average, ARIMA, RBF, SVM) (pp. 1632-1633)"
+    },
+    {
+     "model": "Simple Moving Average (Sharm)",
+     "measure": "MAPE",
+     "value": "0.0213",
+     "set": "n/r",
+     "evidence": "Table 4. Performance for all cities. [Sharm] MAPE 0.0213 0.0541 0.0345 0.0123 (columns: Simple Average, ARIMA, RBF, SVM) (pp. 1632-1633)"
+    },
+    {
+     "model": "ARIMA (Sharm)",
+     "measure": "MAPE",
+     "value": "0.0541",
+     "set": "n/r",
+     "evidence": "Table 4. Performance for all cities. [Sharm] MAPE 0.0213 0.0541 0.0345 0.0123 (columns: Simple Average, ARIMA, RBF, SVM) (pp. 1632-1633)"
+    },
+    {
+     "model": "RBF (Sharm)",
+     "measure": "MAPE",
+     "value": "0.0345",
+     "set": "n/r",
+     "evidence": "Table 4. Performance for all cities. [Sharm] MAPE 0.0213 0.0541 0.0345 0.0123 (columns: Simple Average, ARIMA, RBF, SVM) (pp. 1632-1633)"
+    },
+    {
+     "model": "SVM (Sharm)",
+     "measure": "MAPE",
+     "value": "0.0123",
+     "set": "n/r",
+     "evidence": "Table 4. Performance for all cities. [Sharm] MAPE 0.0213 0.0541 0.0345 0.0123 (columns: Simple Average, ARIMA, RBF, SVM) (pp. 1632-1633)"
+    },
+    {
+     "model": "SVM (Dubai)",
+     "measure": "RMSE",
+     "value": "197.61%",
+     "set": "n/r",
+     "evidence": "Table 4 [Dubai] RMSE 204.87% 234.76% 201.76% 197.61% (p. 1632)"
+    },
+    {
+     "model": "SVM (Dubai)",
+     "measure": "MAD",
+     "value": "0.0345",
+     "set": "n/r",
+     "evidence": "Table 4 [Dubai] MAD 0.0435 0.0534 0.0356 0.0345 (p. 1632)"
+    }
+   ],
+   "ex_ante_forecast": {
+    "value": "No",
+    "detail": "no forecasts beyond August 2017 reported",
+    "evidence": "The study shows that SVM is the leading model in “luxury and upscale” hotel room price forecasting, followed by RBF and then ARIMA (p. 1633)"
+   },
+   "sustainability_variables": "none"
+  },
+  "E": null,
+  "rob_forecasting": {
+   "F1_holdout_reported": {
+    "rating": "Yes",
+    "evidence": "Test set (out of sample) 609 1-Jan-16 31-Aug-17 (Table 1, p. 1628)"
+   },
+   "F2_naive_or_seasonal_naive_benchmark": {
+    "rating": "No",
+    "evidence": "These methods include linear models (simple moving average and ARIMA) and non-linear models (radial basis function (RBF) and the support vector machine (SVM) (p. 1624)"
+   },
+   "F3_scale_free_or_relative_measure": {
+    "rating": "Yes",
+    "evidence": "MAPE 0.0345 0.0521 0.0289 0.0222 (Table 4. Performance for all cities, Dubai row, p. 1632)"
+   },
+   "F4_statistical_test_of_accuracy": {
+    "rating": "No",
+    "evidence": "When comparing the forecasting accuracy of different models and for the eight different cities, it was found that SVM and RBF performed better than ARIMA (p. 1633)"
+   },
+   "F5_no_information_leakage": {
+    "rating": "No",
+    "evidence": "The inclusion of external economic factors could also be one reason why these models outperformed the conventional models. (p. 1633)"
+   },
+   "F6_horizon_specified": {
+    "rating": "No",
+    "evidence": "The data split is done to test the models’ performance in predicting unknown observations (p. 1627)"
+   },
+   "F7_prediction_intervals": {
+    "rating": "No",
+    "evidence": "The following table (Table 4) represents the result of the models’ performance measures for each city as a measure of forecasting accuracy. (p. 1631)"
+   }
+  },
+  "rob_econometric": null,
+  "notes": "Table 4 does not label whether errors are test or training; Figure 3 is titled 'Out of Sample Data'. Error magnitudes appear to be on a transformed (first-differenced) scale; RMSE printed as percentages >100% and some MSE>RMSE^2 inconsistencies (e.g., Beirut ARIMA MAD 0.7123, RBF MSE 0.342) suggest reporting errors. Annual macro indicators (GDP growth, inflation, oil price, WEF indices) held constant within each year and arrivals = annual/365, so test-period values of annual indicators would not be known at the forecast origin; exact ML input set not listed. Only MAPE (all cities) plus selected Dubai SVM values extracted; MAD/MSE/RMSE for all cities are in Table 4. Hypotheses H1/H2 claims (moderation) are not formally tested."
+ },
+ {
+  "key": "Alamoudi2020",
+  "file": "15.pdf",
+  "theme_confirmed": "F",
+  "setting": "International (outside) Umrah visitors to Makkah, Saudi Arabia",
+  "data_source": "Number of Umrah visas (Ministry of Hajj & Umrah; Ministry of Interior, General Directorate of Passports); data gathered via ministries/authorities incl. General Authority for Statistics",
+  "period": "1987-2019",
+  "frequency": "annual",
+  "n_obs": "33 years",
+  "outcome_variables": [
+   "annual number of international (outside) Umrah visitors"
+  ],
+  "methods": [
+   "ARIMA (2,2,2)",
+   "ARIMA (1,2,2)",
+   "Holt's linear exponential smoothing",
+   "single exponential smoothing",
+   "moving averages MA 2",
+   "moving averages MA 3",
+   "double moving averages DMA 2,2",
+   "simple linear regression"
+  ],
+  "F": {
+   "holdout": {
+    "value": "No",
+    "detail": "models fitted and evaluated on full 1987-2019 sample (in-sample residual measures); no test period",
+    "evidence": "Applying the best fitted forecasting technique to find the forecast Umrah visitors for the period of (1987-2019) and evaluate the results by taking the residuals’ randomness. (p. 140)"
+   },
+   "horizon": "11 years (2020-2030), annual",
+   "forecast_origin": "n/r",
+   "benchmarks": [
+    "moving averages MA 2",
+    "moving averages MA 3",
+    "double moving averages DMA 2,2",
+    "single exponential smoothing",
+    "Holt's linear exponential smoothing",
+    "simple linear regression"
+   ],
+   "best_model": "ARIMA (2,2,2)",
+   "accuracy": [
+    {
+     "model": "ARIMA (2,2,2)",
+     "measure": "MAPE",
+     "value": "9%",
+     "set": "train",
+     "evidence": "ARIMA (2,2,2) 180,908 72,153,531,464 9 (Table 1, MAD MSE MAPE (%), p. 142)"
+    },
+    {
+     "model": "ARIMA (2,2,2)",
+     "measure": "MAD",
+     "value": "180,908",
+     "set": "train",
+     "evidence": "Mean Absolute Deviation (MAD) = 180,908 (p. 142)"
+    },
+    {
+     "model": "ARIMA (2,2,2)",
+     "measure": "MSE",
+     "value": "72,153,531,464",
+     "set": "train",
+     "evidence": "Mean Square Error (MSE) = 72,153,531,464 (p. 142)"
+    },
+    {
+     "model": "ARIMA (1,2,2)",
+     "measure": "MAPE",
+     "value": "11%",
+     "set": "train",
+     "evidence": "ARIMA (1,2,2) 206,289 89,447,586,059 11 (Table 1, p. 142)"
+    },
+    {
+     "model": "Holt's Linear Exponential Smoothing",
+     "measure": "MAPE",
+     "value": "13%",
+     "set": "train",
+     "evidence": "Holt’s Linear Exponential Smoothing 216,749 92,339,600,000 13 (Table 1, p. 142)"
+    },
+    {
+     "model": "Single Exponential Smoothing",
+     "measure": "MAPE",
+     "value": "12%",
+     "set": "train",
+     "evidence": "Single Exponential Smoothing 267,964 138,744,000,000 12 (Table 1, p. 142)"
+    },
+    {
+     "model": "Moving Averages MA 2",
+     "measure": "MAPE",
+     "value": "14%",
+     "set": "train",
+     "evidence": "Moving Averages MA 2 341,650 207,158,000,000 14 (Table 1, p. 142)"
+    },
+    {
+     "model": "Double Moving Averages DMA 2,2",
+     "measure": "MAPE",
+     "value": "17%",
+     "set": "train",
+     "evidence": "Double Moving Averages DMA 2,2 445,119 317,970,817,345 17 (Table 1, p. 142)"
+    },
+    {
+     "model": "Moving Averages MA 3",
+     "measure": "MAPE",
+     "value": "17%",
+     "set": "train",
+     "evidence": "Moving Averages MA 3 445,230 316,579,000,000 17 (Table 1, p. 142)"
+    },
+    {
+     "model": "Simple Linear Regression",
+     "measure": "MAPE",
+     "value": "32%",
+     "set": "train",
+     "evidence": "Simple Linear Regression 511,563 335,436,000,000 32 (Table 1, p. 142)"
+    }
+   ],
+   "ex_ante_forecast": {
+    "value": "Yes",
+    "detail": "2020-2030: 7,628,163 (2020) to 12,353,853 (2030) with 95% limits",
+    "evidence": "annual number of international Umrah visitors will increase from 7.6 million in 2020 to 12.3 million in 2030. (p. 148)"
+   },
+   "sustainability_variables": "none"
+  },
+  "E": null,
+  "rob_forecasting": {
+   "F1_holdout_reported": {
+    "rating": "No",
+    "evidence": "Applying the best fitted forecasting technique to find the forecast Umrah visitors for the period of (1987-2019) and evaluate the results by taking the residuals’ randomness. (p. 140)"
+   },
+   "F2_naive_or_seasonal_naive_benchmark": {
+    "rating": "No",
+    "evidence": "a number of suggested techniques ... include moving averages, Holt’s linear exponential smoothing, simple regression, growth curves, exponential models, and autoregressive integrated moving average (ARIMA) models (p. 142)"
+   },
+   "F3_scale_free_or_relative_measure": {
+    "rating": "Yes",
+    "evidence": "Mean Absolute Percentage Error (MAPE) = 9% (p. 142)"
+   },
+   "F4_statistical_test_of_accuracy": {
+    "rating": "No",
+    "evidence": "The methods were ranked in ascending order starting from the lowest in all methods and the best forecasting methods among them all is ARIMA (2,2,2) (p. 142)"
+   },
+   "F5_no_information_leakage": {
+    "rating": "Yes",
+    "evidence": "The time series in this study is a univariate time series (p. 140)"
+   },
+   "F6_horizon_specified": {
+    "rating": "Yes",
+    "evidence": "forecasted to predict the annual number of Umrah visitors for the next 11 years. (Abstract, p. 137)"
+   },
+   "F7_prediction_intervals": {
+    "rating": "Yes",
+    "evidence": "The forecasting for the period from 2020 to 2030 via ARIMA(2,2,2) is shown below in table 4 with upper and lower limits of 95%. (p. 146)"
+   }
+  },
+  "rob_econometric": null,
+  "notes": "Accuracy measures are in-sample fit residual measures (no hold-out); set coded 'train' because the paper evaluates fit over 1987-2019. ARIMA(1,2,1) and (2,2,1) rejected for residual autocorrelation at lag 4. Text says first difference data are random yet uses d=2. Constant SE 8.7 (t=3410.18) looks anomalous. COVID-19 (2020) not considered. Ex-ante forecasts carry 95% limits (e.g., 2030: 11,615,324-13,092,381)."
+ },
+ {
+  "key": "Alsulami2026",
+  "file": "16.pdf",
+  "theme_confirmed": "F",
+  "setting": "Saudi Arabia, city-level tourist arrivals (Vision 2030); external validation on Thailand domestic tourism data",
+  "data_source": "Collected in collaboration with the Saudi Arabia Council’s Tourist Authority; data availability cites Saudi Ministry of Tourism domestic tourism dashboard (mt.gov.sa); external: Thailand Domestic Tourism Statistics Dataset",
+  "period": "2021-2023 (Saudi); January 2019 - February 2023 (Thailand external dataset)",
+  "frequency": "monthly, per city",
+  "n_obs": "468 (Datasets 1 and 2); 1,554 after SMOGN augmentation (Dataset 3); 30,800 records (Thailand)",
+  "outcome_variables": [
+   "number of tourists (No Tourist), max-normalised",
+   "k-means cluster label (Scenario F classification)"
+  ],
+  "methods": [
+   "Random Forest",
+   "Gradient Boosting",
+   "HistGradientBoosting",
+   "ExtraTrees",
+   "Bagging",
+   "AdaBoost",
+   "Decision Tree",
+   "Stacking ensembles (Stacking1, Stacking2)",
+   "Voting ensembles (VotingR1, VotingR2)",
+   "ARIMAX",
+   "Prophet",
+   "SMOGN augmentation",
+   "k-means clustering",
+   "SHAP"
+  ],
+  "F": {
+   "holdout": {
+    "value": "Yes",
+    "detail": "Scenario A: 80/20 random split mixing years (374/94); Scenario B: train 2021-2022, test 2023 (312/156); Scenario C: 10-fold TimeSeriesSplit; Scenario D: SMOGN 1243/311",
+    "evidence": "Dataset 2 used data from 2021 to 2022 for training and 2023 for testing, representing a realistic year-ahead forecasting scenario (p. 5)"
+   },
+   "horizon": "year-ahead (2023 test, Scenario B); long-horizon projections 2024-2034",
+   "forecast_origin": "fixed (Scenario B); expanding-window TimeSeriesSplit (Scenario C)",
+   "benchmarks": [
+    "ARIMAX",
+    "Prophet",
+    "Decision Tree (baseline)"
+   ],
+   "best_model": "VotingR2 ensemble",
+   "accuracy": [
+    {
+     "model": "VotingR2 (Scenario B, Dataset 2)",
+     "measure": "R2",
+     "value": "0.873587",
+     "set": "test",
+     "evidence": "VotingR2 0.007494 0.000235 0.968884 0.033969 0.004909 0.873587 (Table 6, p. 12)"
+    },
+    {
+     "model": "VotingR2 (Scenario B, Dataset 2)",
+     "measure": "MAE",
+     "value": "0.033969",
+     "set": "test",
+     "evidence": "VotingR2 0.007494 0.000235 0.968884 0.033969 0.004909 0.873587 (Table 6, p. 12)"
+    },
+    {
+     "model": "VotingR2 (Scenario B, Dataset 2)",
+     "measure": "MSE",
+     "value": "0.004909",
+     "set": "test",
+     "evidence": "VotingR2 0.007494 0.000235 0.968884 0.033969 0.004909 0.873587 (Table 6, p. 12)"
+    },
+    {
+     "model": "GB (Scenario B, Dataset 2)",
+     "measure": "MAE",
+     "value": "0.029108",
+     "set": "test",
+     "evidence": "GB 0.002063 0.000041 0.998128 0.029108 0.005993 0.845658 (Table 6, p. 12)"
+    },
+    {
+     "model": "GB (Scenario B, Dataset 2)",
+     "measure": "R2",
+     "value": "0.845658",
+     "set": "test",
+     "evidence": "GB 0.002063 0.000041 0.998128 0.029108 0.005993 0.845658 (Table 6, p. 12)"
+    },
+    {
+     "model": "VotingR2 (Scenario A, Dataset 1)",
+     "measure": "R2",
+     "value": "0.960107",
+     "set": "test",
+     "evidence": "VotingR2 0.012164 0.000556 0.969693 0.013309 0.000790 0.960107 (Table 4, p. 9)"
+    },
+    {
+     "model": "VotingR2 (Scenario A, Dataset 1)",
+     "measure": "MAE",
+     "value": "0.013309",
+     "set": "test",
+     "evidence": "VotingR2 0.012164 0.000556 0.969693 0.013309 0.000790 0.960107 (Table 4, p. 9)"
+    },
+    {
+     "model": "ARIMAX (Scenario A, Dataset 1)",
+     "measure": "MAE",
+     "value": "0.444400",
+     "set": "test",
+     "evidence": "ARIMAX 0.105600 0.016900 0.905800 0.444400 0.242400 0.615300 (Table 4, p. 9)"
+    },
+    {
+     "model": "ARIMAX (Scenario A, Dataset 1)",
+     "measure": "R2",
+     "value": "0.615300",
+     "set": "test",
+     "evidence": "ARIMAX 0.105600 0.016900 0.905800 0.444400 0.242400 0.615300 (Table 4, p. 9)"
+    },
+    {
+     "model": "Prophet (Scenario A, Dataset 1)",
+     "measure": "MAE",
+     "value": "0.274700",
+     "set": "test",
+     "evidence": "Prophet 0.017300 0.000600 0.996800 0.274700 0.196900 0.681000 (Table 4, p. 9)"
+    },
+    {
+     "model": "Prophet (Scenario A, Dataset 1)",
+     "measure": "R2",
+     "value": "0.681000",
+     "set": "test",
+     "evidence": "Prophet 0.017300 0.000600 0.996800 0.274700 0.196900 0.681000 (Table 4, p. 9)"
+    },
+    {
+     "model": "VotingR2 (Scenario C, 10-fold TSS)",
+     "measure": "MAE",
+     "value": "0.00464 ± 0.00375",
+     "set": "test",
+     "evidence": "VotingR2 ... 0.00464 ± 0.00375 0.00047 ± 0.00064 0.95782 ± 0.05873 (Table 8 test columns, p. 15)"
+    },
+    {
+     "model": "VotingR2 (Scenario C, 10-fold TSS)",
+     "measure": "R2",
+     "value": "0.95782 ± 0.05873",
+     "set": "test",
+     "evidence": "VotingR2 ... 0.00464 ± 0.00375 0.00047 ± 0.00064 0.95782 ± 0.05873 (Table 8 test columns, p. 15)"
+    },
+    {
+     "model": "VotingR2 (Scenario E, Thailand)",
+     "measure": "R2",
+     "value": "0.8443",
+     "set": "test",
+     "evidence": "VotingR2 0.0000 0.00000 1.0000 5.8789 80.17950 0.8443 (Table 11, p. 17)"
+    }
+   ],
+   "ex_ante_forecast": {
+    "value": "Yes",
+    "detail": "2024-2034 projections; VotingR2 from roughly 35 million (2024) to nearly 88 million (2034)",
+    "evidence": "forecasting an increase from roughly 35 million tourists in 2024 to nearly 88 million by 2034. (p. 14)"
+   },
+   "sustainability_variables": "none"
+  },
+  "E": null,
+  "rob_forecasting": {
+   "F1_holdout_reported": {
+    "rating": "Yes",
+    "evidence": "models are trained exclusively on historical data (2021–2022) and tested on the unseen year 2023 using Dataset 2 (p. 11)"
+   },
+   "F2_naive_or_seasonal_naive_benchmark": {
+    "rating": "No",
+    "evidence": "the traditional time series models, ARIMAX and Prophet (p. 9)"
+   },
+   "F3_scale_free_or_relative_measure": {
+    "rating": "No",
+    "evidence": "Key metrics such as MAE, MSE, R² scores, precision, and F1-scores are employed to assess predictive accuracy and robustness. (p. 9)"
+   },
+   "F4_statistical_test_of_accuracy": {
+    "rating": "No",
+    "evidence": "the VotingR2 ensemble maintained the best overall performance (MAE = 0.0339, R2 = 0.8736), as shown in Table 6. (p. 12)"
+   },
+   "F5_no_information_leakage": {
+    "rating": "No",
+    "evidence": "Total Expenditure (Cost): Total spending associated with the visit. (p. 5)"
+   },
+   "F6_horizon_specified": {
+    "rating": "Yes",
+    "evidence": "Scenario B evaluates the model’s ability to perform forward-looking, year-ahead forecasting (p. 11)"
+   },
+   "F7_prediction_intervals": {
+    "rating": "No",
+    "evidence": "The final results were reported as the mean and standard deviation across all folds (p. 15)"
+   }
+  },
+  "rob_econometric": null,
+  "notes": "Contemporaneous 'Cost' (total visitor expenditure, same month/city) is the dominant predictor and its actual test-period values are used for test predictions; for 2024-2034 Cost was itself forecast with Prophet. Errors are on max-normalised scale. Scenario A uses random mixed-year split (temporal leakage). Text is internally inconsistent on long-horizon method ('controlled linear increments (0.05/year)' and Fig. 7/8 captions vs Prophet-driven feature extrapolation). R2 0.8735 in abstract vs 0.873587 in Table 6. Dataset only 3 years; ARIMAX/Prophet evaluated only under random split (Table 4). Publication year 2026 (Sci Rep 16:2556)."
+ },
+ {
+  "key": "Bilek2025",
+  "file": "17.pdf",
+  "theme_confirmed": "F",
+  "setting": "Turkey, international tourist arrivals from 100 countries in five regions; country-level models for Germany, Russia, UK, Bulgaria, Iran, Georgia; regional models",
+  "data_source": "Tourist arrivals source n/r; exchange rates and Turkey inflation from Central Bank of the Republic of Turkey; source-country inflation from respective central banks; Google Trends",
+  "period": "January 2008 - September 2024",
+  "frequency": "monthly",
+  "n_obs": "201",
+  "outcome_variables": [
+   "monthly tourist arrivals to Turkey (total, by country, by region)"
+  ],
+  "methods": [
+   "SARIMA",
+   "SARIMAX (exchange rates, inflation, Google Trends)"
+  ],
+  "F": {
+   "holdout": {
+    "value": "Yes",
+    "detail": "Train up to end of 2022; Test 2023 to September 2024",
+    "evidence": "the data are divided into “Train” (up to the end of 2022) and “Test” (from 2023 to 2024 September). (p. 7)"
+   },
+   "horizon": "test period 2023-September 2024 (horizon not stated in steps); ex-ante 10-year monthly forecasts 2025-2035",
+   "forecast_origin": "n/r",
+   "benchmarks": [
+    "SARIMA vs SARIMAX (no naive benchmark)"
+   ],
+   "best_model": "SARIMA (1,1,0)(1,1,0)12 (total arrivals)",
+   "accuracy": [
+    {
+     "model": "SARIMA (total)",
+     "measure": "RMSE",
+     "value": "437,254.2",
+     "set": "test",
+     "evidence": "RMSE 437,254.2 672,901.0 (Table 1, SARIMA vs SARIMAX, p. 8)"
+    },
+    {
+     "model": "SARIMAX (total)",
+     "measure": "RMSE",
+     "value": "672,901.0",
+     "set": "test",
+     "evidence": "RMSE 437,254.2 672,901.0 (Table 1, SARIMA vs SARIMAX, p. 8)"
+    },
+    {
+     "model": "SARIMA (total)",
+     "measure": "MAE",
+     "value": "351,647.9",
+     "set": "test",
+     "evidence": "MAE 351,647.9 512,397.5 (Table 1, p. 8)"
+    },
+    {
+     "model": "SARIMAX (total)",
+     "measure": "MAE",
+     "value": "512,397.5",
+     "set": "test",
+     "evidence": "MAE 351,647.9 512,397.5 (Table 1, p. 8)"
+    },
+    {
+     "model": "SARIMA (total)",
+     "measure": "MAPE",
+     "value": "9.18%",
+     "set": "test",
+     "evidence": "MAPE (%) 9.18 16.91 (Table 1, p. 8)"
+    },
+    {
+     "model": "SARIMAX (total)",
+     "measure": "MAPE",
+     "value": "16.91%",
+     "set": "test",
+     "evidence": "MAPE (%) 9.18 16.91 (Table 1, p. 8)"
+    },
+    {
+     "model": "SARIMA (total)",
+     "measure": "Theil's U",
+     "value": "0.5143",
+     "set": "test",
+     "evidence": "Theil’s U 0.5143 1.0319 (Table 1, p. 8)"
+    },
+    {
+     "model": "SARIMAX (total)",
+     "measure": "Theil's U",
+     "value": "1.0319",
+     "set": "test",
+     "evidence": "Theil’s U 0.5143 1.0319 (Table 1, p. 8)"
+    },
+    {
+     "model": "SARIMA (1,1,0)(1,1,0)12 (Germany)",
+     "measure": "MAPE",
+     "value": "11.06%",
+     "set": "test",
+     "evidence": "The SARIMA model also exhibits a lower MAPE (11.06%) compared to the SARIMAX model (18.44%) (p. 9)"
+    },
+    {
+     "model": "SARIMAX (1,1,0)(1,1,0)12 (Germany)",
+     "measure": "MAPE",
+     "value": "18.44%",
+     "set": "test",
+     "evidence": "The SARIMA model also exhibits a lower MAPE (11.06%) compared to the SARIMAX model (18.44%) (p. 9)"
+    },
+    {
+     "model": "SARIMA (Germany)",
+     "measure": "RMSE",
+     "value": "70,399.9",
+     "set": "test",
+     "evidence": "the SARIMA model yields a lower RMSE (70,399.9) and MAE (50,904.09) than the SARIMAX model (RMSE = 101,003.8 and MAE = 81,152.37). (p. 9)"
+    },
+    {
+     "model": "SARIMA (Germany)",
+     "measure": "Theil's U",
+     "value": "0.3944",
+     "set": "test",
+     "evidence": "Theil’s U statistic for the SARIMA model (0.3944) is significantly lower than that of the SARIMAX model (0.5719) (p. 10)"
+    },
+    {
+     "model": "SARIMAX (Germany)",
+     "measure": "Theil's U",
+     "value": "0.5719",
+     "set": "test",
+     "evidence": "Theil’s U statistic for the SARIMA model (0.3944) is significantly lower than that of the SARIMAX model (0.5719) (p. 10)"
+    },
+    {
+     "model": "SARIMA (1,1,1)(0,1,1)12 (Bulgaria)",
+     "measure": "RMSE",
+     "value": "52,508.79",
+     "set": "test",
+     "evidence": "lower RMSE (52,508.79 vs. 60,651.02) and Theil’s U statistic (1.1663 vs. 1.4844) compared to the SARIMAX (1,1,1)(0,1,1) model. (p. 12)"
+    },
+    {
+     "model": "SARIMA (1,1,1)(0,1,1)12 (Bulgaria)",
+     "measure": "Theil's U",
+     "value": "1.1663",
+     "set": "test",
+     "evidence": "lower RMSE (52,508.79 vs. 60,651.02) and Theil’s U statistic (1.1663 vs. 1.4844) compared to the SARIMAX (1,1,1)(0,1,1) model. (p. 12)"
+    },
+    {
+     "model": "SARIMA (1,1,0)(1,1,0)12 (Iran)",
+     "measure": "RMSE",
+     "value": "42,061.35",
+     "set": "test",
+     "evidence": "In Iran, SARIMA (1,1,0)(1,1,0)12 produces lower RMSE (42,061.35 vs. 106,692.8) and Theil’s U statistic (0.7323 vs. 1.7663) (p. 12)"
+    },
+    {
+     "model": "SARIMA (1,1,0)(1,1,0)12 (Iran)",
+     "measure": "Theil's U",
+     "value": "0.7323",
+     "set": "test",
+     "evidence": "In Iran, SARIMA (1,1,0)(1,1,0)12 produces lower RMSE (42,061.35 vs. 106,692.8) and Theil’s U statistic (0.7323 vs. 1.7663) (p. 12)"
+    },
+    {
+     "model": "SARIMA (1,1,1)(0,1,1)12 (Georgia)",
+     "measure": "RMSE",
+     "value": "24,570.7",
+     "set": "test",
+     "evidence": "Georgia’s SARIMA (1,1,1)(0,1,1)12 model achieves lower RMSE (24,570.7 vs. 50,383.12) and Theil’s U statistic (1.4347 vs. 3.0489). (p. 12)"
+    },
+    {
+     "model": "SARIMA (1,1,1)(0,1,1)12 (Georgia)",
+     "measure": "Theil's U",
+     "value": "1.4347",
+     "set": "test",
+     "evidence": "Georgia’s SARIMA (1,1,1)(0,1,1)12 model achieves lower RMSE (24,570.7 vs. 50,383.12) and Theil’s U statistic (1.4347 vs. 3.0489). (p. 12)"
+    }
+   ],
+   "ex_ante_forecast": {
+    "value": "Yes",
+    "detail": "monthly forecasts 2025-2035 from SARIMA (1,1,0)(1,1,0)12; annual total ~53.8 million (2025) to 72.6 million (2035)",
+    "evidence": "The annual total number of visitors is projected to increase steadily, from approximately 53.8 million in 2025 to 72.6 million by 2035 (p. 8)"
+   },
+   "sustainability_variables": "none"
+  },
+  "E": null,
+  "rob_forecasting": {
+   "F1_holdout_reported": {
+    "rating": "Yes",
+    "evidence": "the data are divided into “Train” (up to the end of 2022) and “Test” (from 2023 to 2024 September). (p. 7)"
+   },
+   "F2_naive_or_seasonal_naive_benchmark": {
+    "rating": "No",
+    "evidence": "By leveraging the SARIMA and SARIMAX models, this study compares the predictive power of intrinsic seasonal patterns against external economic and behavioral factors. (p. 5)"
+   },
+   "F3_scale_free_or_relative_measure": {
+    "rating": "Yes",
+    "evidence": "The performance metrics included are as follows: Root Mean Square Error (RMSE); Mean Absolute Error (MAE); Mean Absolute Percentage Error (MAPE); Theil’s U statistic. (p. 7)"
+   },
+   "F4_statistical_test_of_accuracy": {
+    "rating": "No",
+    "evidence": "These results show that SARIMA has lower errors across all metrics, especially in terms of RMSE and MAE (p. 7)"
+   },
+   "F5_no_information_leakage": {
+    "rating": "No",
+    "evidence": "the parameters of the SARIMA and SARIMAX models are identified by selecting the configurations that yield the lowest error terms on the Test data (p. 7)"
+   },
+   "F6_horizon_specified": {
+    "rating": "Yes",
+    "evidence": "Figure 3 illustrates the 10-year forecasts of monthly tourist arrivals in Turkey from 2025 to 203 based on SARIMA (1,1,0)(1,1,0)12 . (p. 8)"
+   },
+   "F7_prediction_intervals": {
+    "rating": "No",
+    "evidence": "Consistent with the error metrics, Figure 2 also shows that the SARIMA outperforms SARIMAX, as its predictions on Test data are closer to the observed values (p. 7)"
+   }
+  },
+  "rob_econometric": null,
+  "notes": "Setting is Turkey (check MENA eligibility). Model orders selected on Test-set error (test set not a true hold-out). SARIMAX uses contemporaneous exogenous regressors (Xt: exchange rates, inflation, Google Trends) with no statement on how test-period values were obtained. Model assumption checks not reported ('not included in detail'). Text typo '2025 to 203' for the ex-ante horizon. Test period includes post-COVID recovery; training includes 2020 shock without intervention dummies (n/r). Regional SARIMA/SARIMAX error values not reported numerically. Tourist arrivals data source not stated."
+ },
+ {
+  "key": "Cuhadar2020",
+  "file": "19.pdf",
+  "theme_confirmed": "F",
+  "setting": "Turkey, inbound tourism revenues",
+  "data_source": "TurkStat",
+  "period": "2003-Q1 to 2019-Q4",
+  "frequency": "quarterly",
+  "n_obs": "69",
+  "outcome_variables": [
+   "quarterly inbound tourism revenues (US dollars)"
+  ],
+  "methods": [
+   "Holt-Winter's multiplicative-seasonal exponential smoothing",
+   "Box-Jenkins SARIMA (1,0,0)(1,1,1)4 with intervention terms",
+   "MLP-ANN [4-5-1] (back-propagation, Levenberg-Marquardt)"
+  ],
+  "F": {
+   "holdout": {
+    "value": "Unclear",
+    "detail": "ANN: 16 observations training and 53 test (as stated); no split described for exponential smoothing or SARIMA; Table 6 set not labelled",
+    "evidence": "16 observations of the current 69 quarter-year data are grouped as training, and 53 observations are grouped as test data. (p. 248)"
+   },
+   "horizon": "n/r",
+   "forecast_origin": "n/r",
+   "benchmarks": [
+    "Holt-Winter's multiplicative-seasonal exponential smoothing",
+    "SARIMA (1,0,0)(1,1,1)4"
+   ],
+   "best_model": "MLP-ANN [4-5-1]",
+   "accuracy": [
+    {
+     "model": "MLP-ANN [4-5-1]",
+     "measure": "MAPE",
+     "value": "8.06%",
+     "set": "n/r",
+     "evidence": "MLP-ANN [4-5-1] Model 8.06 (Table 6. Accuracy Comparisons of Forecasting Models, MAPE (%), p. 250)"
+    },
+    {
+     "model": "Box-Jenkins (1,0,0)(1,1,1)4",
+     "measure": "MAPE",
+     "value": "8.1%",
+     "set": "n/r",
+     "evidence": "Box-Jenkins (1,0,0)(1,1,1)4 Model 8.1 (Table 6, p. 250)"
+    },
+    {
+     "model": "Holt-Winter's Multiplicative-Seasonal",
+     "measure": "MAPE",
+     "value": "9.34%",
+     "set": "n/r",
+     "evidence": "Holt-Winter’s Multiplicative-Seasonal 9.34 Model (Table 6, p. 250)"
+    }
+   ],
+   "ex_ante_forecast": {
+    "value": "No",
+    "detail": "no forecasts beyond 2019-Q4 reported; authors state model can be applied ex-ante",
+    "evidence": "These results demonstrate that constructed [4:5:1] MLP-ANN model can be successfully applied in forecasting future (ex-ante) tourism revenues in Turkey. (p. 251)"
+   },
+   "sustainability_variables": "none"
+  },
+  "E": null,
+  "rob_forecasting": {
+   "F1_holdout_reported": {
+    "rating": "Unclear",
+    "evidence": "16 observations of the current 69 quarter-year data are grouped as training, and 53 observations are grouped as test data. (p. 248)"
+   },
+   "F2_naive_or_seasonal_naive_benchmark": {
+    "rating": "No",
+    "evidence": "comparing the performances of three different methods namely Exponential Smoothing, Box-Jenkins and ANNs for forecasting Turkey’s tourism revenues. (Abstract, p. 235)"
+   },
+   "F3_scale_free_or_relative_measure": {
+    "rating": "Yes",
+    "evidence": "Forecasting performances of the models were measured by MAPE statistics. (Abstract, p. 235)"
+   },
+   "F4_statistical_test_of_accuracy": {
+    "rating": "No",
+    "evidence": "Among the alternative forecasting models obtained, the model that provides the lowest MAPE value is the ANN model. (p. 249)"
+   },
+   "F5_no_information_leakage": {
+    "rating": "Yes",
+    "evidence": "only monthly tourism income data and its lagged values were used without considering other important factors affecting tourism demand. (p. 253)"
+   },
+   "F6_horizon_specified": {
+    "rating": "No",
+    "evidence": "n is the length of forecasting horizon. (p. 244)"
+   },
+   "F7_prediction_intervals": {
+    "rating": "No",
+    "evidence": "Forecasting performances of the applied methods were measured by “Mean Absolute Percentage Error (MAPE)” statistic. (p. 243)"
+   }
+  },
+  "rob_econometric": null,
+  "notes": "Setting is Turkey (check MENA eligibility). Hold-out unclear: stated ANN split (16 train / 53 test) is unusual and no split is given for ES/SARIMA; MAPE in Table 6 described as 'ex-post forecasting performances' without stating the evaluation window. ANN architecture chosen by comparing test-process forecasts with actual values (selection on test data). Text mentions 4 lags (y t-3, t-6, t-9, t-12) while saying '3 lagged observation values'. Limitations section calls data 'monthly' though data are quarterly. SARIMA includes intervention terms for Q2-2016 and Q3-2016; ADF and Ljung-Box tests reported. MAPE differences tiny (8.06 vs 8.1) with no significance test."
+ }
+]

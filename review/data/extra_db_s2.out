@@ -1,0 +1,54 @@
+s2 tourism demand forecasting Saudi Arabia 2 unique 2
+s2 tourism demand forecasting Middle East 3 unique 4
+s2 tourism demand forecasting GCC 0 unique 4
+s2 tourism demand forecasting Hajj Umrah 0 unique 4
+s2 tourism demand forecasting UAE 0 unique 4
+s2 tourism demand forecasting Qatar 1 unique 4
+s2 tourism demand forecasting Oman 2 unique 6
+s2 tourism demand forecasting Jordan 0 unique 6
+s2 tourism demand forecasting Egypt 1 unique 7
+s2 tourism demand forecasting Turkey 9 unique 16
+s2 tourism demand forecasting Iran 1 unique 17
+s2 tourism demand forecasting Morocco 2 unique 19
+s2 tourism demand forecasting Tunisia 0 unique 19
+s2 tourism demand forecasting Bahrain 0 unique 19
+s2 tourism demand forecasting Kuwait 0 unique 19
+s2 tourism demand forecasting Lebanon 0 unique 19
+s2 tourism demand forecasting Iraq 2 unique 21
+s2 tourist arrivals forecasting Saudi Arabia 2 unique 22
+s2 tourist arrivals forecasting Middle East 1 unique 23
+s2 tourist arrivals forecasting GCC 0 unique 23
+s2 tourist arrivals forecasting Hajj Umrah 0 unique 23
+s2 tourist arrivals forecasting UAE 0 unique 23
+s2 tourist arrivals forecasting Qatar 1 unique 24
+s2 tourist arrivals forecasting Oman 0 unique 24
+s2 tourist arrivals forecasting Jordan 1 unique 25
+s2 tourist arrivals forecasting Egypt 0 unique 25
+s2 tourist arrivals forecasting Turkey 1 unique 25
+s2 tourist arrivals forecasting Iran 1 unique 26
+s2 tourist arrivals forecasting Morocco 1 unique 26
+s2 tourist arrivals forecasting Tunisia 0 unique 26
+s2 tourist arrivals forecasting Bahrain 0 unique 26
+s2 tourist arrivals forecasting Kuwait 0 unique 26
+s2 tourist arrivals forecasting Lebanon 0 unique 26
+s2 tourist arrivals forecasting Iraq 1 unique 26
+s2 tourism forecasting machine learning Saudi Arabia 3 unique 28
+s2 tourism forecasting machine learning Middle East 1 unique 28
+s2 tourism forecasting machine learning GCC 0 unique 28
+s2 tourism forecasting machine learning Hajj Umrah 1 unique 28
+s2 tourism forecasting machine learning UAE 0 unique 28
+s2 tourism forecasting machine learning Qatar 0 unique 28
+s2 tourism forecasting machine learning Oman 0 unique 28
+s2 tourism forecasting machine learning Jordan 1 unique 28
+s2 tourism forecasting machine learning Egypt 0 unique 28
+s2 tourism forecasting machine learning Turkey 2 unique 29
+s2 tourism forecasting machine learning Iran 0 unique 29
+s2 tourism forecasting machine learning Morocco 1 unique 29
+s2 tourism forecasting machine learning Tunisia 0 unique 29
+s2 tourism forecasting machine learning Bahrain 0 unique 29
+s2 tourism forecasting machine learning Kuwait 0 unique 29
+s2 tourism forecasting machine learning Lebanon 0 unique 29
+s2 tourism forecasting machine learning Iraq 0 unique 29
+s2 hotel occupancy forecasting Saudi Arabia 0 unique 29
+s2 hotel occupancy forecasting Middle East 0 unique 29
+s2 hotel occupancy forecasting GCC 0 unique 29

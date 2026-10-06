@@ -1,0 +1,129 @@
+[
+ {
+  "key": "Jamel2020",
+  "file": "R9_Jamel2020.pdf",
+  "theme_confirmed": "mismatch (assigned S, but this is a tourism-led-growth study: the endogenous variables are tourist arrivals and GDP growth, and CO2 per capita enters only as an exogenous regressor, so no environmental outcome is modelled)",
+  "setting": "Saudi Arabia (single-country time series)",
+  "data_source": "World Bank databases (Table 1 original sources: World Bank/OECD national accounts; World Tourism Organization; World Federation of Exchanges; IMF IFS; CDIAC, Oak Ridge National Laboratory)",
+  "period": "1990-2018",
+  "frequency": "annual",
+  "n_obs": "29 (Table 2); 27 in Granger tests (Table 7)",
+  "outcome_variables": [
+   "NTA (international tourism, number of arrivals)",
+   "GDP (GDP growth, annual %)"
+  ],
+  "methods": [
+   "Descriptive statistics",
+   "Pearson correlation matrix",
+   "ADF unit root test",
+   "VAR lag order selection (LR, FPE, AIC, SC, HQ)",
+   "VAR(4) with exogenous CO2, FD, TO",
+   "Variance decomposition",
+   "Impulse response functions",
+   "Pairwise Granger causality"
+  ],
+  "F": null,
+  "E": {
+   "estimator": "VAR(4) in levels (endogenous: NTA, GDP; exogenous: CO2, FD, TO) + pairwise Granger causality",
+   "tourism_variables": [
+    "NTA: international inbound tourists (overnight visitors), number of arrivals"
+   ],
+   "dependent_variable": "NTA and GDP growth (annual %) equations; CO2 emissions (metric tons per capita) is an exogenous regressor",
+   "key_results": [
+    {
+     "variable": "NTA(-1) -> GDP",
+     "horizon": "short-run",
+     "coefficient": "0.011089",
+     "sign": "+",
+     "significance": "* (1%), t = 5.41437",
+     "evidence": "NTA(-1) ... 0.011089 [5.41437]* (Table 6, GDP equation, p.41)"
+    },
+    {
+     "variable": "NTA(-2) -> GDP",
+     "horizon": "short-run",
+     "coefficient": "0.010192",
+     "sign": "+",
+     "significance": "* (1%), t = 3.26119",
+     "evidence": "NTA(-2) ... 0.010192 [3.26119]* (Table 6, GDP equation, p.41)"
+    },
+    {
+     "variable": "NTA(-3) / NTA(-4) -> GDP",
+     "horizon": "short-run",
+     "coefficient": "-0.018737 / 0.009102",
+     "sign": "ns",
+     "significance": "t = -0.58849 / 0.49521",
+     "evidence": "NTA(-3) -0.018737 [-0.58849]; NTA(-4) 0.009102 [ 0.49521] (Table 6, GDP equation, p.41)"
+    },
+    {
+     "variable": "CO2 (exogenous) -> NTA",
+     "horizon": "short-run",
+     "coefficient": "24.12230",
+     "sign": "+",
+     "significance": "* (1%), t = 2.90869",
+     "evidence": "CO2 24.12230 [ 2.90869]* 0.709785 [2.97199]* (Table 6, NTA and GDP equations, p.41)"
+    },
+    {
+     "variable": "CO2 (exogenous) -> GDP",
+     "horizon": "short-run",
+     "coefficient": "0.709785",
+     "sign": "+",
+     "significance": "* (1%), t = 2.97199",
+     "evidence": "CO2 24.12230 [ 2.90869]* 0.709785 [2.97199]* (Table 6, NTA and GDP equations, p.41)"
+    },
+    {
+     "variable": "Granger: NTA -> GDP / GDP -> NTA",
+     "horizon": "n/a",
+     "coefficient": "F = 21.9395 / 18.6017",
+     "sign": "+",
+     "significance": "p = 0.0000 / 0.0000 (bidirectional)",
+     "evidence": "GDP does not Granger Cause NTA 27 18.6017 0.0000*; NTA does not Granger Cause GDP 21.9395 0.0000* (Table 7, p.44)"
+    },
+    {
+     "variable": "Granger: CO2 -> NTA / NTA -> CO2",
+     "horizon": "n/a",
+     "coefficient": "F = 0.07314 / 0.02863",
+     "sign": "ns",
+     "significance": "p = 0.9297 / 0.9718",
+     "evidence": "CO2 does not Granger Cause NTA 27 0.07314 0.9297; NTA does not Granger Cause CO2 0.02863 0.9718 (Table 7, p.44)"
+    }
+   ],
+   "aviation_emissions_included": "n/r",
+   "out_of_sample_forecast": {
+    "value": "No",
+    "evidence": "Only in-sample VAR estimates, variance decomposition and impulse responses over 10 periods (Figures 1-2) are reported; no out-of-sample forecasting."
+   }
+  },
+  "rob_forecasting": null,
+  "rob_econometric": {
+   "E1_unit_root_tests": {
+    "rating": "Yes",
+    "evidence": "only the variable GDP is stationary in the level according to the Augmented Dickey-Fuller test but all the variables are stationary in first difference (p.37, Table 4)"
+   },
+   "E2_cointegration_or_long_run_test": {
+    "rating": "No",
+    "evidence": "No cointegration or long-run test is reported; after ADF tests 'there is built a VAR (Vector Auto Regressive) model' (p.38) directly."
+   },
+   "E3_structural_breaks": {
+    "rating": "No",
+    "evidence": "No structural break tests or break dummies reported (Sections 4-5)."
+   },
+   "E4_cross_sectional_dependence_or_heterogeneity": {
+    "rating": "NA (not panel)",
+    "evidence": "VAR model and Granger Causality test ... for the annual data of Saudi Arabia in the period from 1990 to 2018 (p.44)"
+   },
+   "E5_endogeneity_or_omitted_variables_addressed": {
+    "rating": "No",
+    "evidence": "we use CO2 emissions, financial development, and trade openness as exogenous variables (p.35); exogeneity is assumed without justification or testing."
+   },
+   "E6_diagnostics_stability": {
+    "rating": "No",
+    "evidence": "No residual diagnostics or stability tests on the VAR; the paper only asserts 'The unit root test confirms the stability of the VAR model' (p.37)."
+   },
+   "E7_data_source_and_period": {
+    "rating": "Yes",
+    "evidence": "There were used the annual data obtained from the World Bank databases ... from 1990 to 2018 (p.36); sources listed in Table 1 (p.35)"
+   }
+  },
+  "notes": "Eligibility: CO2 enters only as an exogenous regressor in a tourism-growth VAR; no environmental outcome, so theme S fit is weak and the result may only be usable as tourism-growth evidence or excluded. VAR estimated in levels although NTA, TO, CO2 and FD are I(1) per ADF, and no cointegration test is done. Variable 'TO' is labelled trade openness but defined in Table 1 as 'Stocks traded, total value (% of GDP)'. Table 7 tests 'FDI' while the model uses FD (domestic credit). GDP equation reports R-squared 0.832525 with F-statistic 0.900774, which looks inconsistent. The NTA mean dependent in Table 6 (74.74685) does not match the level mean in Table 2 (9207963), so variable scaling is unclear. Text gives the TO effect as '1.19E-056' while Table 6 shows -1.19E-05. The conclusion contradicts itself on the TO effect on tourism (negative, then 'impact positively'). The CO2 measure is per capita fossil fuel and cement CO2 (CDIAC), aviation emissions are not mentioned."
+ }
+]

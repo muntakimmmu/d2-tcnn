@@ -1,0 +1,806 @@
+[
+ {
+  "key": "Kayral2023",
+  "file": "20.pdf",
+  "theme_confirmed": "F",
+  "setting": "Turkey (national inbound tourism)",
+  "data_source": "Turkish Statistical Institute (tourist arrivals, tourism income); Central Bank of the Republic of Turkey (USD/TRY)",
+  "period": "2010-2021",
+  "frequency": "quarterly",
+  "n_obs": "n/r",
+  "outcome_variables": [
+   "tourist arrival volumes",
+   "tourism income"
+  ],
+  "methods": [
+   "ETS",
+   "ARIMA",
+   "TRAMO-SEATS",
+   "X13 (ARIMA SEATS)",
+   "X11",
+   "STL",
+   "Grey model GM(1,1)",
+   "ANN (MLP) hybrids of each statistical method with exogenous variables"
+  ],
+  "F": {
+   "holdout": {
+    "value": "Unclear",
+    "detail": "ANN models: 70% training / 30% testing (periods not stated); no holdout described for the single statistical models; set on which reported MAPE/sMAPE are computed not stated",
+    "evidence": "The model is trained on 70% of the available data and tested on the remaining 30%. (p. 11)"
+   },
+   "horizon": "next four quarters (2022/Q1 to 2022/Q4) for ex-ante forecasts; evaluation horizon n/r",
+   "forecast_origin": "n/r",
+   "benchmarks": [
+    "ETS",
+    "ARIMA",
+    "TRAMO-SEATS",
+    "X13",
+    "X11",
+    "STL",
+    "Grey (single models compared with hybrid ANN models)"
+   ],
+   "best_model": "ETS (lowest MAPE and sMAPE for both tourist arrivals and tourism income)",
+   "accuracy": [
+    {
+     "model": "ETS",
+     "measure": "MAPE",
+     "value": "10.60% (tourist arrivals)",
+     "set": "n/r",
+     "evidence": "ETS is the best method for predicting tourist arrival volumes, with the lowest MAPE of 10.60% (p. 10)"
+    },
+    {
+     "model": "ETS",
+     "measure": "sMAPE",
+     "value": "10.29% (tourist arrivals)",
+     "set": "n/r",
+     "evidence": "Table 5 Tourist Arrival Volumes: ETS MAPE 10.60, sMAPE 10.29 (p. 13)"
+    },
+    {
+     "model": "ETS",
+     "measure": "MAPE",
+     "value": "13.89% (tourism income)",
+     "set": "n/r",
+     "evidence": "The best two methods are the same for tourism income, with the following errors: 13.89% for ETS and 25.22% for the grey model. (p. 10)"
+    },
+    {
+     "model": "ETS",
+     "measure": "sMAPE",
+     "value": "13.08% (tourism income)",
+     "set": "n/r",
+     "evidence": "Table 5 Tourism Income: ETS MAPE 13.89, sMAPE 13.08 (p. 13)"
+    },
+    {
+     "model": "Hybrid ETS-ANN",
+     "measure": "MAPE",
+     "value": "13.07% (arrivals); 14.55% (income)",
+     "set": "n/r",
+     "evidence": "Table 5: Hybrid ETS-ANN 13.07 / 11.79 (arrivals); Hybrid ETS-ANN 14.55 / 14.22 (income) (p. 13)"
+    },
+    {
+     "model": "Hybrid Grey-ANN",
+     "measure": "MAPE",
+     "value": "15.59% (arrivals); 19.21% (income)",
+     "set": "n/r",
+     "evidence": "Table 5: Hybrid Grey-ANN 15.59 / 14.53 (arrivals); Hybrid Grey-ANN 19.21 / 17.18 (income) (p. 13)"
+    },
+    {
+     "model": "Hybrid ARIMA-ANN",
+     "measure": "MAPE",
+     "value": "19.81% (arrivals); 29.89% (income)",
+     "set": "n/r",
+     "evidence": "Table 5: Hybrid ARIMA-ANN 19.81 / 18.12 (arrivals); Hybrid ARIMA-ANN 29.89 / 26.21 (income) (p. 13)"
+    },
+    {
+     "model": "Grey",
+     "measure": "MAPE",
+     "value": "23.61% (arrivals); 25.22% (income)",
+     "set": "n/r",
+     "evidence": "the grey model, which drops from 23.61% to 19.73% for tourist arrival volumes and from 25.22% to 21.47% for tourism income (p. 13)"
+    },
+    {
+     "model": "ARIMA",
+     "measure": "MAPE",
+     "value": "38.27% (arrivals); 35.56% (income)",
+     "set": "n/r",
+     "evidence": "Table 1: ARIMA 38.27 (Tourist Arrival Volumes MAPE); ARIMA 35.56 (Tourism Income MAPE) (p. 10)"
+    }
+   ],
+   "ex_ante_forecast": {
+    "value": "Yes",
+    "detail": "2022/Q1-2022/Q4 under war / no-war (Russia-Ukraine) scenarios",
+    "evidence": "The top five models listed in Table 5 are used to forecast tourist arrival volumes and tourism income for the next four quarters, from 2022/Q1 to 2022/Q4. (p. 13)"
+   },
+   "sustainability_variables": "none"
+  },
+  "E": null,
+  "rob_forecasting": {
+   "F1_holdout_reported": {
+    "rating": "Unclear",
+    "evidence": "The model is trained on 70% of the available data and tested on the remaining 30%. (ANN only; test period and set of reported MAPE not stated)"
+   },
+   "F2_naive_or_seasonal_naive_benchmark": {
+    "rating": "No",
+    "evidence": "The forecasting models constructed in this study are based on the following statistical models: ETS, ARIMA, TRAMO-SEATS, X13 (ARIMA SEATS), X11, STL, and the grey model."
+   },
+   "F3_scale_free_or_relative_measure": {
+    "rating": "Yes",
+    "evidence": "Step 4: Finding the best performed models based on MAPE and robustness check the determined best performed models based on sMAPE"
+   },
+   "F4_statistical_test_of_accuracy": {
+    "rating": "No",
+    "evidence": "The method resulting in the lowest MAPE value is considered the most accurate forecasting method. (no formal accuracy test reported)"
+   },
+   "F5_no_information_leakage": {
+    "rating": "Unclear",
+    "evidence": "the inputs include the exogenous variables as well as the backward forecasts for the previous quarters provided by each statistical method."
+   },
+   "F6_horizon_specified": {
+    "rating": "Yes",
+    "evidence": "forecast tourist arrival volumes and tourism income for the next four quarters, from 2022/Q1 to 2022/Q4."
+   },
+   "F7_prediction_intervals": {
+    "rating": "No",
+    "evidence": "The resulting forecast values are summarized in Table 6. (point forecasts only; no intervals reported)"
+   }
+  },
+  "rob_econometric": null,
+  "notes": "Accuracy table values reported as 'average of forecasts' over 10 ANN runs; whether MAPE is in-sample or test-set is not stated, and authors judge accuracy by overlap of actual and fitted 2010-2021 graphs. Exogenous inputs: GFC, Turkey-Russia warplane crisis, COVID-19 dummies and USD/TRY (future USD/TRY from CBRT expectations). Ex-ante 2022 forecasts are scenario-based."
+ },
+ {
+  "key": "Kurtulay2024",
+  "file": "21.pdf",
+  "theme_confirmed": "F",
+  "setting": "Turkiye (international tourists in Ministry-certified accommodation)",
+  "data_source": "Monthly number of foreign tourists staying in Culture and Tourism Ministry-certified accommodation establishments (source agency as stated)",
+  "period": "January 2002 - August 2023",
+  "frequency": "monthly",
+  "n_obs": "n/r",
+  "outcome_variables": [
+   "number of international (foreign) tourists staying in certified accommodation"
+  ],
+  "methods": [
+   "trend analysis (least squares)",
+   "seasonal decomposition",
+   "Naive III",
+   "simple moving average (n=2,3,4)",
+   "double moving average (judged unsuitable)",
+   "multiplicative Holt-Winters seasonal exponential smoothing",
+   "NAR artificial neural network (Matlab ntstool)"
+  ],
+  "F": {
+   "holdout": {
+    "value": "Yes",
+    "detail": "Accuracy measured against actual data September 2021 - August 2023 (last 24 months); NAR networks used automatic random 70/30, 80/20 (and 80-10-10, 70-15-15, 75-15-15) splits",
+    "evidence": "using the actual data observed throughout the time period from September 2021 to August 2023. (p. 19)"
+   },
+   "horizon": "n/r",
+   "forecast_origin": "n/r",
+   "benchmarks": [
+    "Naive III",
+    "simple moving average",
+    "Holt-Winters seasonal exponential smoothing"
+   ],
+   "best_model": "NAR artificial neural network No. 1 (10 hidden neurons, 15 delays)",
+   "accuracy": [
+    {
+     "model": "NAR ANN No.1 (10 neurons, 15 delays)",
+     "measure": "MAPE",
+     "value": "%10,63",
+     "set": "test",
+     "evidence": "Table 3: 1 10 15 yt %10,63 170263 80-10-10 (p. 23)"
+    },
+    {
+     "model": "NAR ANN No.1 (10 neurons, 15 delays)",
+     "measure": "RMSE",
+     "value": "170263",
+     "set": "test",
+     "evidence": "Table 3: 1 10 15 yt %10,63 170263 80-10-10 (p. 23)"
+    },
+    {
+     "model": "Naive III",
+     "measure": "MAPE",
+     "value": "34,41%",
+     "set": "test",
+     "evidence": "MAPE = 34,41% RMSE = 179616 (p. 19)"
+    },
+    {
+     "model": "Naive III",
+     "measure": "RMSE",
+     "value": "179616",
+     "set": "test",
+     "evidence": "MAPE = 34,41% RMSE = 179616 (p. 19)"
+    },
+    {
+     "model": "Simple moving average n=2 / n=3 / n=4",
+     "measure": "MAPE",
+     "value": "41,09% / 55,15% / 67,40%",
+     "set": "test",
+     "evidence": "n=2 n=3 n=4 MAPE= 41,09% 55,15% 67,40% RMSE= 211737 257728 296281 (p. 20)"
+    },
+    {
+     "model": "Holt-Winters (multiplicative)",
+     "measure": "MAPE",
+     "value": "22,74%",
+     "set": "test",
+     "evidence": "The overall forecasting performance of the model, MAPE= 22,74% RMSE= 280399 (p. 21)"
+    },
+    {
+     "model": "Holt-Winters (multiplicative) with outlier data included",
+     "measure": "MAPE",
+     "value": "21,01%",
+     "set": "test",
+     "evidence": "The model's overall prediction ability has been raised due to the new results. MAPE= 21,01% RMSE= 240057 (p. 21)"
+    }
+   ],
+   "ex_ante_forecast": {
+    "value": "No",
+    "detail": "No forecasts beyond August 2023 reported",
+    "evidence": "The models used were compared according to their Mean Absolute Percentage Error (MAPE) and Root Mean Square Error (RMSE) values. (p. 24)"
+   },
+   "sustainability_variables": "none"
+  },
+  "E": null,
+  "rob_forecasting": {
+   "F1_holdout_reported": {
+    "rating": "Yes",
+    "evidence": "the predicted values were compared to the actual values acquired over the last 24 months, and the prediction accuracy of the models was measured. (p. 15)"
+   },
+   "F2_naive_or_seasonal_naive_benchmark": {
+    "rating": "Yes",
+    "evidence": "the series had seasonal characteristics and had an increasing trend. Therefore, the Naive III model was chosen for the series. (p. 19)"
+   },
+   "F3_scale_free_or_relative_measure": {
+    "rating": "Yes",
+    "evidence": "The models' performance was compared using MAPE and RMSE measurements. (p. 16)"
+   },
+   "F4_statistical_test_of_accuracy": {
+    "rating": "No",
+    "evidence": "NAR network number 1 ... displayed the lowest MAPE value. (ranking by MAPE only; no formal test)"
+   },
+   "F5_no_information_leakage": {
+    "rating": "Yes",
+    "evidence": "The program was designed to use the series' past values to create predictions. (univariate); note random automatic split for NAR"
+   },
+   "F6_horizon_specified": {
+    "rating": "Unclear",
+    "evidence": "The results that were obtained were compared with the data from the previous 24 months. (step-ahead horizon not stated)"
+   },
+   "F7_prediction_intervals": {
+    "rating": "No",
+    "evidence": "Table 5. Comparison of Network Outputs and Actual Values (point outputs only; no intervals reported)"
+   }
+  },
+  "rob_econometric": null,
+  "notes": "NAR train/test/validation partition 'automatically done by the computer' (random), so the 24 evaluation months may overlap NAR training data; whether Naive/MA/HW were re-estimated or one-step-ahead not stated. Decimal commas copied as printed. Holt-Winters MAPE 21,01% after including 'outlier data' for COVID-19."
+ },
+ {
+  "key": "Laaroussi2023",
+  "file": "22.pdf",
+  "theme_confirmed": "F",
+  "setting": "Marrakech, Morocco (city)",
+  "data_source": "Tourism Observatory in Morocco (tourist arrivals); Google Trends via PyTrends (search query data)",
+  "period": "January 2012 - August 2019",
+  "frequency": "monthly",
+  "n_obs": "92 months",
+  "outcome_variables": [
+   "monthly tourist arrivals to Marrakech"
+  ],
+  "methods": [
+   "autoencoder feature extraction",
+   "stacked LSTM (1-7 layers)",
+   "PCA-based hybrids",
+   "RNN",
+   "LSTM",
+   "SVR",
+   "ANN"
+  ],
+  "F": {
+   "holdout": {
+    "value": "Yes",
+    "detail": "80% training / 20% test (periods not stated); train and test errors reported separately",
+    "evidence": "In this study 80% of the data was set to train the models and the rest is used to test the performance of the models. (p. 1993)"
+   },
+   "horizon": "n/r",
+   "forecast_origin": "n/r",
+   "benchmarks": [
+    "RNN",
+    "LSTM",
+    "PCA-RNN",
+    "PCA-LSTM",
+    "SVR",
+    "ANN",
+    "PCA-SVR",
+    "PCA-ANN",
+    "AE-RNN"
+   ],
+   "best_model": "AE-3 layer stacked LSTM",
+   "accuracy": [
+    {
+     "model": "AE-3 layer LSTM",
+     "measure": "MAE",
+     "value": "0.024431",
+     "set": "test",
+     "evidence": "AE-3 layer LSTM 97.45 0.021153 0.000992 96.52 0.024431 0.001169 (Table 2, p. 1994)"
+    },
+    {
+     "model": "AE-3 layer LSTM",
+     "measure": "RMSE",
+     "value": "0.001169",
+     "set": "test",
+     "evidence": "AE-3 layer LSTM 97.45 0.021153 0.000992 96.52 0.024431 0.001169 (Table 2, p. 1994)"
+    },
+    {
+     "model": "AE-3 layer LSTM",
+     "measure": "R2",
+     "value": "96.52",
+     "set": "test",
+     "evidence": "AE-3 layer LSTM 97.45 0.021153 0.000992 96.52 0.024431 0.001169 (Table 2, p. 1994)"
+    },
+    {
+     "model": "LSTM",
+     "measure": "MAE",
+     "value": "0.027096",
+     "set": "test",
+     "evidence": "LSTM 96.74 0.025742 0.001035 95.63 0.027096 0.001379 (Table 2)"
+    },
+    {
+     "model": "SVR",
+     "measure": "MAE",
+     "value": "0.033936",
+     "set": "test",
+     "evidence": "SVR 95.54 0.028326 0.001489 94.73 0.033936 0.002159 (Table 2)"
+    },
+    {
+     "model": "ANN",
+     "measure": "MAE",
+     "value": "0.034905",
+     "set": "test",
+     "evidence": "ANN 95.29 0.030582 0.001687 94.47 0.034905 0.002974 (Table 2)"
+    },
+    {
+     "model": "RNN",
+     "measure": "MAE",
+     "value": "0.036290",
+     "set": "test",
+     "evidence": "RNN 95.16 0.031904 0.001749 94.36 0.036290 0.003107 (Table 2)"
+    }
+   ],
+   "ex_ante_forecast": {
+    "value": "No",
+    "detail": "No forecasts beyond August 2019 reported",
+    "evidence": "Figure 6 displays the forecasting curves to show the difference between the developed models. (p. 1993)"
+   },
+   "sustainability_variables": "none"
+  },
+  "E": null,
+  "rob_forecasting": {
+   "F1_holdout_reported": {
+    "rating": "Yes",
+    "evidence": "80% of the data was set to train the models and the rest is used to test the performance of the models."
+   },
+   "F2_naive_or_seasonal_naive_benchmark": {
+    "rating": "No",
+    "evidence": "In this paper, an RNN, ANN, and support vector regression (SVR) was adopted, as a benchmark model."
+   },
+   "F3_scale_free_or_relative_measure": {
+    "rating": "No",
+    "evidence": "we adopted three main evaluation criteria mean absolute error (MAE), root mean square error (RMSE), and R2."
+   },
+   "F4_statistical_test_of_accuracy": {
+    "rating": "No",
+    "evidence": "The most appropriate forecasting model is the one that records the lowest MAE and highest R2 values."
+   },
+   "F5_no_information_leakage": {
+    "rating": "Unclear",
+    "evidence": "We use data from Google Trends as an additional variable with the monthly tourist arrivals (lag/timing of search data relative to target not stated)"
+   },
+   "F6_horizon_specified": {
+    "rating": "No",
+    "evidence": "No forecast horizon stated; only 'the rest is used to test the performance of the models.'"
+   },
+   "F7_prediction_intervals": {
+    "rating": "No",
+    "evidence": "We plot the predicted values against actual values. (point forecasts only)"
+   }
+  },
+  "rob_econometric": null,
+  "notes": "Errors reported on min-max normalised [0,1] scale; R2 reported as percentage. Whether the 80/20 split is chronological is not stated; autoencoder fitted to 701-input search data (763 keywords found) - unclear if fitted on full sample. Abstract mentions Morocco, Marrakech city-level."
+ },
+ {
+  "key": "Ouassou2022",
+  "file": "24.pdf",
+  "theme_confirmed": "F",
+  "setting": "Marrakech-Safi region, Morocco",
+  "data_source": "Department of Economic Studies and Financial Forecast, Ministry of Economy and Finance (Morocco)",
+  "period": "1999-2018",
+  "frequency": "annual",
+  "n_obs": "19 observations (as stated by authors)",
+  "outcome_variables": [
+   "number of tourist arrivals to the Marrakech-Safi region"
+  ],
+  "methods": [
+   "ARIMA",
+   "AR",
+   "univariate linear regression",
+   "SVR",
+   "XGBoost",
+   "LSTM",
+   "stacked-generalization ensembles with LASSO meta-model (LSTM_AR, LSTM_Linear, LSTM_ARIMA, XGBoost_ARIMA)"
+  ],
+  "F": {
+   "holdout": {
+    "value": "Yes",
+    "detail": "Training 1999-2008; testing 2009-2018 (50/50 split)",
+    "evidence": "that is, data from 1999 to 2008 as training data and data from 2009 to 2018 as testing data. (p. 422)"
+   },
+   "horizon": "n/r",
+   "forecast_origin": "n/r",
+   "benchmarks": [
+    "ARIMA",
+    "AR",
+    "linear regression",
+    "SVR",
+    "XGBoost",
+    "LSTM"
+   ],
+   "best_model": "LSTM_AR hybrid (ensemble)",
+   "accuracy": [
+    {
+     "model": "LSTM_AR",
+     "measure": "MAPE",
+     "value": "6.127097",
+     "set": "test",
+     "evidence": "Table 4: LSTM_AR MAE 128,462.6305 RMSE 149,117.1278 MAPE (%) 6.127097 (p. 432)"
+    },
+    {
+     "model": "LSTM_AR",
+     "measure": "RMSE",
+     "value": "149,117.1278",
+     "set": "test",
+     "evidence": "Table 4: LSTM_AR MAE 128,462.6305 RMSE 149,117.1278 MAPE (%) 6.127097 (p. 432)"
+    },
+    {
+     "model": "LSTM_LINEAR",
+     "measure": "MAPE",
+     "value": "6.538672",
+     "set": "test",
+     "evidence": "Table 4: LSTM_LINEAR 133,713.4925 169,222.7763 6.538672"
+    },
+    {
+     "model": "LSTM_ARIMA",
+     "measure": "MAPE",
+     "value": "7.548610",
+     "set": "test",
+     "evidence": "Table 4: LSTM_ARIMA 165,065.2356 211,778.9905 7.548610"
+    },
+    {
+     "model": "XGBOOST_ARIMA",
+     "measure": "MAPE",
+     "value": "9.800446",
+     "set": "test",
+     "evidence": "the MAPE of the XGBoost model goes from 9.69% individually to 9.80% when combined with the ARIMA model (p. 432)"
+    },
+    {
+     "model": "LSTM",
+     "measure": "MAPE",
+     "value": "6.272656",
+     "set": "test",
+     "evidence": "The LTSM model shows superior results with the lowest MAPE (6.27%), RMSE (154,514.3182), the MAE (130,324.425) values (p. 431)"
+    },
+    {
+     "model": "Linear regression",
+     "measure": "MAPE",
+     "value": "7.195004",
+     "set": "test",
+     "evidence": "the linear regression model shows superior results with the lowest MAPE (7.19%), RMSE (185,612.9382), and the MAE (154,085.0944). (p. 431)"
+    },
+    {
+     "model": "XGBoost",
+     "measure": "MAPE",
+     "value": "9.692244",
+     "set": "test",
+     "evidence": "Table 2: XGBoost 211,996.5625 259,479.9072 9.692244"
+    },
+    {
+     "model": "ARIMA",
+     "measure": "MAPE",
+     "value": "10.841468",
+     "set": "test",
+     "evidence": "Table 2: ARIMA 214,158.6175 241,754.5817 10.841468"
+    },
+    {
+     "model": "SVR",
+     "measure": "MAPE",
+     "value": "11.876725",
+     "set": "test",
+     "evidence": "Table 2: SVR 262,583.4312 347,404.7287 11.876725"
+    },
+    {
+     "model": "AR",
+     "measure": "MAPE",
+     "value": "12.99072",
+     "set": "test",
+     "evidence": "Table 2: AR 269,820.0817 303,538.1567 12.99072"
+    }
+   ],
+   "ex_ante_forecast": {
+    "value": "No",
+    "detail": "No forecasts beyond 2018; COVID-19 period out of scope",
+    "evidence": "It is beyond the scope of this study to capture the impact of COVID-19 due to the restricted regional data availability after 2018 (p. 434)"
+   },
+   "sustainability_variables": "none"
+  },
+  "E": null,
+  "rob_forecasting": {
+   "F1_holdout_reported": {
+    "rating": "Yes",
+    "evidence": "data from 1999 to 2008 as training data and data from 2009 to 2018 as testing data."
+   },
+   "F2_naive_or_seasonal_naive_benchmark": {
+    "rating": "No",
+    "evidence": "We choose three conventional techniques, namely ARIMA ..., autoregressive (AR), and univariate linear regression. (no naive/random walk)"
+   },
+   "F3_scale_free_or_relative_measure": {
+    "rating": "Yes",
+    "evidence": "The prediction accuracy of all models was assessed using three different measures: MAE, RMSE, and MAPE (see Table 2)."
+   },
+   "F4_statistical_test_of_accuracy": {
+    "rating": "No",
+    "evidence": "The lowest RMSE means that more forecasted data are close to the real data. (no Diebold-Mariano or similar test)"
+   },
+   "F5_no_information_leakage": {
+    "rating": "Unclear",
+    "evidence": "this blending sets out a second-level model ... which uses the first-level predictions as training (data used to fit LASSO meta-model not stated); base models univariate"
+   },
+   "F6_horizon_specified": {
+    "rating": "Unclear",
+    "evidence": "Test period 2009-2018 stated, but whether forecasts are one-step-ahead or 10-step-ahead is not stated."
+   },
+   "F7_prediction_intervals": {
+    "rating": "No",
+    "evidence": "Figure 6. Forecasting results for the Marrakech-Safi region using the hybrid models. (point forecasts only)"
+   }
+  },
+  "rob_econometric": null,
+  "notes": "Inconsistency: Table 2 / text show linear regression best among conventional models, but Conclusions state 'the AR model had the most significant results among the conventional techniques'. Authors state 'only 19 observations in total' for 1999-2018. Authors 'tried different split scenarios; the split selected was used for comparisons' (possible selection on test performance). Very small sample."
+ },
+ {
+  "key": "Rashad2022",
+  "file": "25.pdf",
+  "theme_confirmed": "F",
+  "setting": "Dubai, UAE (UK source market)",
+  "data_source": "Dubai Department of Economy and Tourism (UK overnight visitors); Destination Insights with Google (travel search); ONS (UK monthly GDP); BIS (UAE dirham REER)",
+  "period": "January 2019 - April 2022",
+  "frequency": "monthly",
+  "n_obs": "N = 36 (Equation 1), N = 35 (Equation 2) estimation sample; 4 out-of-sample points",
+  "outcome_variables": [
+   "number of overnight UK visitors to Dubai"
+  ],
+  "methods": [
+   "time series regression with AR(1), first-differenced UK GDP and REER, COVID-19 dummy, monthly dummies",
+   "Google-augmented model with regime-specific lagged Google search variables"
+  ],
+  "F": {
+   "holdout": {
+    "value": "Yes",
+    "detail": "Estimation January 2019 - December 2021; out-of-sample January 2022 - April 2022 (4 points)",
+    "evidence": "The two regression models run over the period from January 2019 up through December 2021. We saved the remaining four data points for forecasting assessment purposes. (p. 677)"
+   },
+   "horizon": "first four months of 2022 (January-April 2022)",
+   "forecast_origin": "fixed",
+   "benchmarks": [
+    "traditional model (AR(1) + UK GDP + REER + COVID dummy + monthly dummies)"
+   ],
+   "best_model": "Google-augmented model",
+   "accuracy": [
+    {
+     "model": "Google-augmented model",
+     "measure": "RMSE",
+     "value": "8768.5453",
+     "set": "test",
+     "evidence": "Table 2: RMSE 17,056.596 8768.5453 (Traditional / Google-Augmented) (p. 681)"
+    },
+    {
+     "model": "Google-augmented model",
+     "measure": "MAE",
+     "value": "6279.5498",
+     "set": "test",
+     "evidence": "Table 2: MAE 13,754.121 6279.5498 (p. 681)"
+    },
+    {
+     "model": "Google-augmented model",
+     "measure": "MAPE",
+     "value": "0.06003952",
+     "set": "test",
+     "evidence": "Table 2: MAPE 0.18682039 0.06003952 (p. 681)"
+    },
+    {
+     "model": "Google-augmented model",
+     "measure": "Theil's U",
+     "value": "0.28564777",
+     "set": "test",
+     "evidence": "Table 2: Theil's U 0.4030308 0.28564777 (p. 681)"
+    },
+    {
+     "model": "Traditional model",
+     "measure": "RMSE",
+     "value": "17,056.596",
+     "set": "test",
+     "evidence": "Table 2: RMSE 17,056.596 8768.5453 (p. 681)"
+    },
+    {
+     "model": "Traditional model",
+     "measure": "MAE",
+     "value": "13,754.121",
+     "set": "test",
+     "evidence": "Table 2: MAE 13,754.121 6279.5498 (p. 681)"
+    },
+    {
+     "model": "Traditional model",
+     "measure": "MAPE",
+     "value": "0.18682039",
+     "set": "test",
+     "evidence": "Table 2: MAPE 0.18682039 0.06003952 (p. 681)"
+    },
+    {
+     "model": "Traditional model",
+     "measure": "Theil's U",
+     "value": "0.4030308",
+     "set": "test",
+     "evidence": "Table 2: Theil's U 0.4030308 0.28564777 (p. 681)"
+    }
+   ],
+   "ex_ante_forecast": {
+    "value": "No",
+    "detail": "No forecasts beyond April 2022",
+    "evidence": "The two models forecast the number of UK visitors to Dubai in the first four months of the year 2022 (p. 680)"
+   },
+   "sustainability_variables": "none"
+  },
+  "E": null,
+  "rob_forecasting": {
+   "F1_holdout_reported": {
+    "rating": "Yes",
+    "evidence": "Equations (1) and (2) use data up to December 2021, and this leaves four out-of-sample observations to use in estimating RMSE, MAE, MAPE, and Theil's U."
+   },
+   "F2_naive_or_seasonal_naive_benchmark": {
+    "rating": "No",
+    "evidence": "compares the forecast accuracy of the traditional model ..., which relies on traditional economic variables such as UK GDP, and REER with the Google-augmented model"
+   },
+   "F3_scale_free_or_relative_measure": {
+    "rating": "Yes",
+    "evidence": "The measures of out-of-sample forecast accuracy, root mean squared error (RMSE), mean absolute error (MAE), mean absolute percentage error (MAPE), and Theil's U"
+   },
+   "F4_statistical_test_of_accuracy": {
+    "rating": "No",
+    "evidence": "According to the Table 2 results, there is no ambiguity in deciding which model has better forecasting performance. (no formal test)"
+   },
+   "F5_no_information_leakage": {
+    "rating": "Unclear",
+    "evidence": "Yt = β1 Yt−1 + β2 ∆GDP + β3 ∆REER + β4 Covid + ... (contemporaneous ΔGDP, ΔREER; source of their test-period values not stated; Google lagged)"
+   },
+   "F6_horizon_specified": {
+    "rating": "Yes",
+    "evidence": "The two models forecast the number of UK visitors to Dubai in the first four months of the year 2022"
+   },
+   "F7_prediction_intervals": {
+    "rating": "No",
+    "evidence": "Figure 4 provides a visual description of the forecasting performance (point forecasts only; no intervals reported)"
+   }
+  },
+  "rob_econometric": null,
+  "notes": "Only 4 out-of-sample points. Stationarity tests mentioned for GDP and REER. Google variable split into three break regimes (pre-COVID, Feb 2020-Jul 2021, Aug 2021 onwards). Whether AR(1) forecasts are static or dynamic is not stated. Source market UK only."
+ },
+ {
+  "key": "Tuncsiper2023",
+  "file": "26.pdf",
+  "theme_confirmed": "F",
+  "setting": "Turkiye (national)",
+  "data_source": "Central Bank of Turkiye EVDS (originating from Ministry of Culture and Tourism and Turkish Statistical Institute)",
+  "period": "2008M01-2022M12",
+  "frequency": "monthly",
+  "n_obs": "n/r",
+  "outcome_variables": [
+   "number of tourists (tourism demand)",
+   "tourism revenue"
+  ],
+  "methods": [
+   "STL decomposition (descriptive)",
+   "autoregressive MLP artificial neural network (4 lags, 1 hidden layer of 50 neurons, tanh)"
+  ],
+  "F": {
+   "holdout": {
+    "value": "Unclear",
+    "detail": "70% training / 30% test via train_test_split; test periods not stated; set on which Table 1 metrics are computed not stated",
+    "evidence": "The 70% of the available data are taken as the training data while the remaining 30% is used as the test data (p. 525)"
+   },
+   "horizon": "n/r",
+   "forecast_origin": "n/r",
+   "benchmarks": [],
+   "best_model": "autoregressive MLP ANN (only model)",
+   "accuracy": [
+    {
+     "model": "Autoregressive MLP ANN (tourism demand)",
+     "measure": "MAPE",
+     "value": "10.387%",
+     "set": "n/r",
+     "evidence": "Table 1: Tourism demand 0.949 0.339 0.198 10.387% (R2, RMSE, MAE, MAPE) (p. 526)"
+    },
+    {
+     "model": "Autoregressive MLP ANN (tourism demand)",
+     "measure": "RMSE",
+     "value": "0.339",
+     "set": "n/r",
+     "evidence": "Table 1: Tourism demand 0.949 0.339 0.198 10.387% (p. 526)"
+    },
+    {
+     "model": "Autoregressive MLP ANN (tourism demand)",
+     "measure": "MAE",
+     "value": "0.198",
+     "set": "n/r",
+     "evidence": "Table 1: Tourism demand 0.949 0.339 0.198 10.387% (p. 526)"
+    },
+    {
+     "model": "Autoregressive MLP ANN (tourism demand)",
+     "measure": "R2",
+     "value": "0.949",
+     "set": "n/r",
+     "evidence": "the developed autoregressive ANN provides coefficient of determination values of R2=0.949 and R2=0.840 (p. 526)"
+    },
+    {
+     "model": "Autoregressive MLP ANN (tourism revenue)",
+     "measure": "MAPE",
+     "value": "14.152%",
+     "set": "n/r",
+     "evidence": "Table 1: Tourism revenue 0.840 462.735 281.229 14.152% (p. 526)"
+    },
+    {
+     "model": "Autoregressive MLP ANN (tourism revenue)",
+     "measure": "RMSE",
+     "value": "462.735",
+     "set": "n/r",
+     "evidence": "Table 1: Tourism revenue 0.840 462.735 281.229 14.152% (p. 526)"
+    }
+   ],
+   "ex_ante_forecast": {
+    "value": "No",
+    "detail": "No forecasts beyond 2022M12 reported",
+    "evidence": "The actual and the ANN model results of the tourism demand data are given in Fig. 8. (p. 525)"
+   },
+   "sustainability_variables": "none"
+  },
+  "E": null,
+  "rob_forecasting": {
+   "F1_holdout_reported": {
+    "rating": "Unclear",
+    "evidence": "The test_train_split function is utilized for an objective splitting the data as the training and the test data (no test period; metric set not stated)"
+   },
+   "F2_naive_or_seasonal_naive_benchmark": {
+    "rating": "No",
+    "evidence": "An autoregressive multilayer perceptron type ANN model is utilized for the modelling of the tourism demand and the tourism revenue data (no comparator models)"
+   },
+   "F3_scale_free_or_relative_measure": {
+    "rating": "Yes",
+    "evidence": "coefficient of determination (R2), mean absolute error (MAE), mean absolute percentage error (MAPE) and the root mean square error (RMSE)"
+   },
+   "F4_statistical_test_of_accuracy": {
+    "rating": "No",
+    "evidence": "The performance metric given in Table 1 show that the developed ANN structure models both the tourism demand and the tourism revenue data successfully."
+   },
+   "F5_no_information_leakage": {
+    "rating": "Yes",
+    "evidence": "The inputs of the ANN is the past four values of the modelled tourism demand or the tourism revenue data (univariate); split method may not be chronological"
+   },
+   "F6_horizon_specified": {
+    "rating": "No",
+    "evidence": "No forecast horizon stated; output 'is the tourism demand or the tourism revenue data shown by yn'."
+   },
+   "F7_prediction_intervals": {
+    "rating": "No",
+    "evidence": "The actual and predicted values of the tourism revenue data are plotted in Fig. 9. (point values only)"
+   }
+  },
+  "rob_econometric": null,
+  "notes": "Introduction says previous values of tourism revenue and number of tourists are independent variables, while Methods/Conclusions describe univariate autoregressive inputs (inconsistency). RMSE/MAE for demand (0.339/0.198) appear to be on a scaled basis (not stated). No benchmark model; essentially a single-model fit/forecast exercise. train_test_split shuffling not stated."
+ }
+]

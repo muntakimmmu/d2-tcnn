@@ -66,17 +66,19 @@ for k, b in enumerate(bottom): ax.text(k, b + 0.08, str(b), ha="center", va="bot
 ax.set_ylabel("Forecasting studies"); ax.yaxis.grid(True, color=GRID, lw=0.6); ax.set_axisbelow(True); ax.set_ylim(0, max(bottom) + 1.2)
 ax.legend(ncol=2, loc="upper left", fontsize=7.5); save(fig, "fig_methods_year")
 
-# --- Fig: performance measures named in forecasting abstracts (cf. Dowlut et al. Fig. 4)
-meas = {"MAPE": r"\bMAPE\b", "RMSE": r"\bRMSE\b", "MAE": r"\bMAE\b", "R²": r"\bR2\b|R²", "sMAPE": r"sMAPE", "MSE": r"\bMSE\b"}
-withab = [i for i in F if abstract(i)]
-mc = {k: sum(1 for i in withab if re.search(p, abstract(i))) for k, p in meas.items()}
-none = sum(1 for i in withab if not any(re.search(p, abstract(i)) for p in meas.values()))
-items = sorted([(k, v) for k, v in mc.items() if v], key=lambda x: x[1]) ; items = [("None named", none)] + items
-fig, ax = plt.subplots(figsize=(6.2, 2.2))
+# --- Fig: accuracy measures reported by forecasting studies (full text where extracted, else abstract; cf. Dowlut et al. Fig. 4)
+meas = ["MAPE", "RMSE", "MAE", "R2", "MSE", "sMAPE", "MAD", "Theil's U"]
+known = [i for i in F if i["metrics"] not in ("n/r",) or i.get("coding_source") == "full text"]
+mc = {m: sum(1 for i in known if m in [x.strip() for x in i["metrics"].split(",")]) for m in meas}
+none = sum(1 for i in known if i["metrics"] == "n/r")
+items = sorted([(k.replace("R2", "R²"), v) for k, v in mc.items() if v], key=lambda x: x[1]); items = [("None reported", none)] + items
+fig, ax = plt.subplots(figsize=(6.2, 2.4))
 ax.barh([k for k, _ in items], [v for _, v in items], color=[MUTED] + [S1] * (len(items) - 1), height=0.6)
 for k, (_, v) in enumerate(items): ax.text(v + 0.1, k, str(v), va="center", fontsize=8, color=INK)
-ax.set_xlabel(f"Forecasting studies with an abstract (n = {len(withab)})"); ax.xaxis.grid(True, color=GRID, lw=0.6); ax.set_axisbelow(True)
+ax.set_xlabel(f"Forecasting studies with assessable reporting (n = {len(known)}; full text for {sum(1 for i in known if i.get('coding_source') == 'full text')})")
+ax.xaxis.grid(True, color=GRID, lw=0.6); ax.set_axisbelow(True)
 save(fig, "fig_measures")
+withab = known
 
 # --- Fig: keyword co-occurrence network (controlled vocabulary over titles + abstracts)
 VOC = {"tourism demand": r"tourism demand|demand for tourism", "tourist arrivals": r"tourist arrivals|international arrivals|visitor", "forecasting": r"forecast",

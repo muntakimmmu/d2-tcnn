@@ -1525,5 +1525,19 @@
     false
    ]
   ]
+ },
+ {
+  "n": "R9",
+  "doi": "10.34021/ve.2020.03.04(2)",
+  "oa_status": "gold",
+  "file": "fulltext/R9_Jamel2020.pdf",
+  "tried": [
+   [
+    "https://virtual-economics.eu/index.php/VE/article/download/83/60",
+    "direct",
+    true
+   ]
+  ],
+  "note": "re-included after second-pass screening check"
  }
 ]

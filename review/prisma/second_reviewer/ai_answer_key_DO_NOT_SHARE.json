@@ -1,0 +1,688 @@
+[
+ {
+  "record_id": "R001",
+  "doi": "10.3390/su15064919",
+  "ai_decision": "Include",
+  "ai_theme": "S",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R002",
+  "doi": "10.54493/jgttr.1408566",
+  "ai_decision": "Include",
+  "ai_theme": "F",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R003",
+  "doi": "10.3390/su151310013",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)"
+ },
+ {
+  "record_id": "R004",
+  "doi": "10.24818/rej/2021/81/01",
+  "ai_decision": "Include",
+  "ai_theme": "D",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R005",
+  "doi": "10.30892/gtg.634spl28-1643",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)"
+ },
+ {
+  "record_id": "R006",
+  "doi": "10.32479/ijeep.14410",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Eligibility not determinable from metadata (region or tourism link unconfirmed)"
+ },
+ {
+  "record_id": "R007",
+  "doi": "10.46593/ijaera.2020.v06i08.001",
+  "ai_decision": "Include",
+  "ai_theme": "F",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R008",
+  "doi": "10.3390/su17052328",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)"
+ },
+ {
+  "record_id": "R009",
+  "doi": "10.3390/forecast4020024",
+  "ai_decision": "Include",
+  "ai_theme": "F",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R010",
+  "doi": "10.21833/ijaas.2021.09.008",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)"
+ },
+ {
+  "record_id": "R011",
+  "doi": "10.1177/1354816619836338",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Tourism-growth nexus only (no demand forecasting/modelling of tourism outcome, no sustainability dimension)"
+ },
+ {
+  "record_id": "R012",
+  "doi": "10.1177/14673584251350551",
+  "ai_decision": "Include",
+  "ai_theme": "D",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R013",
+  "doi": "10.30892/gtg.43321-915",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)"
+ },
+ {
+  "record_id": "R014",
+  "doi": "10.1108/jhti-03-2024-0223",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)"
+ },
+ {
+  "record_id": "R015",
+  "doi": "10.30892/gtg.58105-1390",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)"
+ },
+ {
+  "record_id": "R016",
+  "doi": "10.3390/info15090516",
+  "ai_decision": "Include",
+  "ai_theme": "F",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R017",
+  "doi": "10.3390/su162310760",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Eligibility not determinable from metadata (region or tourism link unconfirmed)"
+ },
+ {
+  "record_id": "R018",
+  "doi": "10.1016/j.ijhm.2026.104745",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R019",
+  "doi": "10.1016/j.igd.2024.100203",
+  "ai_decision": "Include",
+  "ai_theme": "S",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R020",
+  "doi": "10.1504/ijssoc.2016.079082",
+  "ai_decision": "Include",
+  "ai_theme": "S",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R021",
+  "doi": "10.3727/108354215x14464845877995",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Tourism-growth nexus only (no demand forecasting/modelling of tourism outcome, no sustainability dimension)"
+ },
+ {
+  "record_id": "R022",
+  "doi": "10.3390/su8070605",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Tourism-growth nexus only (no demand forecasting/modelling of tourism outcome, no sustainability dimension)"
+ },
+ {
+  "record_id": "R023",
+  "doi": "10.3390/su17146351",
+  "ai_decision": "Include",
+  "ai_theme": "S",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R024",
+  "doi": "10.3390/forecast4030036",
+  "ai_decision": "Include",
+  "ai_theme": "F",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R025",
+  "doi": "10.3390/su18157602",
+  "ai_decision": "Include",
+  "ai_theme": "D",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R026",
+  "doi": "10.3727/108354220x15758301241891",
+  "ai_decision": "Include",
+  "ai_theme": "D",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R027",
+  "doi": "10.1016/j.eswa.2023.122204",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)"
+ },
+ {
+  "record_id": "R028",
+  "doi": "10.1177/1354816620901956",
+  "ai_decision": "Include",
+  "ai_theme": "D",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R029",
+  "doi": "10.1109/access.2025.3532385",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Operational/crowd/health prediction, not tourism demand or sustainability"
+ },
+ {
+  "record_id": "R030",
+  "doi": "10.29313/amwaluna.v8i1.3476",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)"
+ },
+ {
+  "record_id": "R031",
+  "doi": "10.38035/jgia.v3i4.568",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)"
+ },
+ {
+  "record_id": "R032",
+  "doi": "10.3906/elk-1311-134",
+  "ai_decision": "Include",
+  "ai_theme": "F",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R033",
+  "doi": "10.1177/13548166211055985",
+  "ai_decision": "Include",
+  "ai_theme": "D",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R034",
+  "doi": "10.30519/ahtr.990903",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Outside geographic scope (not Middle East)"
+ },
+ {
+  "record_id": "R035",
+  "doi": "10.11591/ijece.v13i2.pp1989-1996",
+  "ai_decision": "Include",
+  "ai_theme": "F",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R036",
+  "doi": "10.55041/ijsrem37043",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)"
+ },
+ {
+  "record_id": "R037",
+  "doi": "10.34190/eckm.27.1.4788",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Non-English full record or conference proceedings"
+ },
+ {
+  "record_id": "R038",
+  "doi": "10.53596/ma0frs79",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)"
+ },
+ {
+  "record_id": "R039",
+  "doi": "10.1177/13548166231174812",
+  "ai_decision": "Include",
+  "ai_theme": "S",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R040",
+  "doi": "10.18488/31.v12i2.4595",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)"
+ },
+ {
+  "record_id": "R041",
+  "doi": "10.24922/eot.v6i2.53474",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)"
+ },
+ {
+  "record_id": "R042",
+  "doi": "10.1109/access.2024.3394905",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Operational/crowd/health prediction, not tourism demand or sustainability"
+ },
+ {
+  "record_id": "R043",
+  "doi": "10.3390/su18126245",
+  "ai_decision": "Include",
+  "ai_theme": "S",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R044",
+  "doi": "10.3390/su18063124",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)"
+ },
+ {
+  "record_id": "R045",
+  "doi": "10.47259/ijrebs.2025.634",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)"
+ },
+ {
+  "record_id": "R046",
+  "doi": "10.1002/sd.70756",
+  "ai_decision": "Include",
+  "ai_theme": "D",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R047",
+  "doi": "10.3390/admsci12040168",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)"
+ },
+ {
+  "record_id": "R048",
+  "doi": "10.33948/esj-ksu-17-2-8",
+  "ai_decision": "Include",
+  "ai_theme": "S",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R049",
+  "doi": "10.3390/su18126295",
+  "ai_decision": "Include",
+  "ai_theme": "D",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R050",
+  "doi": "10.31201/ijhmt.696185",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)"
+ },
+ {
+  "record_id": "R051",
+  "doi": "10.18092/ulikidince.442734",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Tourism-growth nexus only (no demand forecasting/modelling of tourism outcome, no sustainability dimension)"
+ },
+ {
+  "record_id": "R052",
+  "doi": "10.1016/j.jhtm.2019.11.003",
+  "ai_decision": "Include",
+  "ai_theme": "F",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R053",
+  "doi": "10.55677/gjefr/10-2024-vol01e7",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Tourism-growth nexus only (no demand forecasting/modelling of tourism outcome, no sustainability dimension)"
+ },
+ {
+  "record_id": "R054",
+  "doi": "10.55677/gjefr/02-2025-vol02e10",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)"
+ },
+ {
+  "record_id": "R055",
+  "doi": "10.1080/1528008x.2025.2599751",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)"
+ },
+ {
+  "record_id": "R056",
+  "doi": "10.24288/jttr.1252689",
+  "ai_decision": "Include",
+  "ai_theme": "S",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R057",
+  "doi": "10.1080/1331677x.2021.1985577",
+  "ai_decision": "Include",
+  "ai_theme": "S",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R058",
+  "doi": "10.1108/ijcthr-03-2017-0030",
+  "ai_decision": "Include",
+  "ai_theme": "D",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R059",
+  "doi": "10.21580/nw.2025.19.1.26704",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)"
+ },
+ {
+  "record_id": "R060",
+  "doi": "10.1038/s41598-025-32509-6",
+  "ai_decision": "Include",
+  "ai_theme": "F",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R061",
+  "doi": "10.14505/jemt.v14.4(68).03",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Tourism-growth nexus only (no demand forecasting/modelling of tourism outcome, no sustainability dimension)"
+ },
+ {
+  "record_id": "R062",
+  "doi": "10.4236/tel.2018.89104",
+  "ai_decision": "Include",
+  "ai_theme": "F",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R063",
+  "doi": "10.30892/gtg.27417-436",
+  "ai_decision": "Include",
+  "ai_theme": "S",
+  "ai_reason": "Full text: tourism-growth nexus only (Hajj pilgrims vs non-oil GDP causality); 'sustainable development' used as framing only"
+ },
+ {
+  "record_id": "R064",
+  "doi": "10.1371/journal.pone.0328456",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Outside geographic scope (not Middle East)"
+ },
+ {
+  "record_id": "R065",
+  "doi": "10.34021/ve.2020.03.04(2)",
+  "ai_decision": "Include",
+  "ai_theme": "S",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R066",
+  "doi": "10.18488/31.v11i2.3808",
+  "ai_decision": "Include",
+  "ai_theme": "S",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R067",
+  "doi": "10.3390/su17104272",
+  "ai_decision": "Include",
+  "ai_theme": "S",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R068",
+  "doi": "10.64704/alarbaeen.202604020435",
+  "ai_decision": "Include",
+  "ai_theme": "D",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R069",
+  "doi": "10.63556/jotags.2026.1930",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Non-English full record or conference proceedings"
+ },
+ {
+  "record_id": "R070",
+  "doi": "10.3390/su17115058",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Outside geographic scope (not Middle East)"
+ },
+ {
+  "record_id": "R071",
+  "doi": "10.3390/su18115503",
+  "ai_decision": "Include",
+  "ai_theme": "F",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R072",
+  "doi": "10.1007/s11356-023-25545-0",
+  "ai_decision": "Include",
+  "ai_theme": "S",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R073",
+  "doi": "10.3390/su152215924",
+  "ai_decision": "Include",
+  "ai_theme": "F",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R074",
+  "doi": "10.18089/tms.2022.180302",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)"
+ },
+ {
+  "record_id": "R075",
+  "doi": "10.61132/wjilt.v2i3.434",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)"
+ },
+ {
+  "record_id": "R076",
+  "doi": "10.1108/jtf-10-2024-0219",
+  "ai_decision": "Include",
+  "ai_theme": "F",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R077",
+  "doi": "10.24114/cess.v7i2.33959",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Outside geographic scope (not Middle East)"
+ },
+ {
+  "record_id": "R078",
+  "doi": "10.30892/gtg.662spl37-1798",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)"
+ },
+ {
+  "record_id": "R079",
+  "doi": "10.3390/economies9030117",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Tourism-growth nexus only (no demand forecasting/modelling of tourism outcome, no sustainability dimension)"
+ },
+ {
+  "record_id": "R080",
+  "doi": "10.21511/ppm.24(2).2026.09",
+  "ai_decision": "Include",
+  "ai_theme": "S",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R081",
+  "doi": "10.52133/ijrsp.v6.71.6",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)"
+ },
+ {
+  "record_id": "R082",
+  "doi": "10.55677/ijssers/v03i3y2023-20",
+  "ai_decision": "Include",
+  "ai_theme": "F",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R083",
+  "doi": "10.1016/j.aej.2025.12.032",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Operational/crowd/health prediction, not tourism demand or sustainability"
+ },
+ {
+  "record_id": "R084",
+  "doi": "10.3390/su11071907",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)"
+ },
+ {
+  "record_id": "R085",
+  "doi": "10.5339/jist.2025.12",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)"
+ },
+ {
+  "record_id": "R086",
+  "doi": "10.3390/su14137834",
+  "ai_decision": "Include",
+  "ai_theme": "S",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R087",
+  "doi": "10.3727/154427320x15828792518754",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)"
+ },
+ {
+  "record_id": "R088",
+  "doi": "10.47747/ijmhrr.v5i2.1705",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)"
+ },
+ {
+  "record_id": "R089",
+  "doi": "10.14505//jemt.v12.2(50).29",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Tourism-growth nexus only (no demand forecasting/modelling of tourism outcome, no sustainability dimension)"
+ },
+ {
+  "record_id": "R090",
+  "doi": "10.30519/ahtr.765394",
+  "ai_decision": "Include",
+  "ai_theme": "F",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R091",
+  "doi": "10.30892/gtg.50403-1121",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)"
+ },
+ {
+  "record_id": "R092",
+  "doi": "10.55908/sdgs.v11i11.1639",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)"
+ },
+ {
+  "record_id": "R093",
+  "doi": "10.64753/jcasc.v10i3.2758",
+  "ai_decision": "Include",
+  "ai_theme": "D",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R094",
+  "doi": "10.3390/su17041396",
+  "ai_decision": "Include",
+  "ai_theme": "F",
+  "ai_reason": ""
+ },
+ {
+  "record_id": "R095",
+  "doi": "10.24191/idealogy.v10i2.834",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)"
+ },
+ {
+  "record_id": "R096",
+  "doi": "10.1016/j.aej.2025.06.043",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Operational/crowd/health prediction, not tourism demand or sustainability"
+ },
+ {
+  "record_id": "R097",
+  "doi": "10.3390/su12229620",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)"
+ },
+ {
+  "record_id": "R098",
+  "doi": "10.3390/su132313372",
+  "ai_decision": "Exclude",
+  "ai_theme": "",
+  "ai_reason": "Outside geographic scope (not Middle East)"
+ }
+]

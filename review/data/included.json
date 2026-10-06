@@ -20,12 +20,13 @@
   "data": "monthly, 2019-01 to 2022-04",
   "family": "C",
   "benchmark": "y",
-  "metrics": "n/r",
+  "metrics": "MAE, MAPE, RMSE, Theil's U",
   "future": "n",
   "sustainability": "none",
   "from_pool": true,
   "fulltext_retrieved": true,
-  "fulltext_confirmed": true
+  "fulltext_confirmed": true,
+  "coding_source": "full text"
  },
  {
   "title": "Forecasting T\u00fcrkiye's International Tourism Demand",
@@ -57,7 +58,8 @@
   "sustainability": "none",
   "from_pool": true,
   "fulltext_retrieved": true,
-  "fulltext_confirmed": true
+  "fulltext_confirmed": true,
+  "coding_source": "full text"
  },
  {
   "title": "Forecasting Regional Tourism Demand in Morocco from Traditional and AI-Based Methods to Ensemble Modeling",
@@ -84,12 +86,13 @@
   "data": "annual, 1999-2018",
   "family": "H",
   "benchmark": "y",
-  "metrics": "n/r",
+  "metrics": "MAPE, RMSE",
   "future": "n",
   "sustainability": "none",
   "from_pool": true,
   "fulltext_retrieved": true,
-  "fulltext_confirmed": true
+  "fulltext_confirmed": true,
+  "coding_source": "full text"
  },
  {
   "title": "Forecasting inbound tourist arrivals to Iran post-COVID-19 pandemic: a small data approach using grey models",
@@ -117,7 +120,8 @@
   "sustainability": "none",
   "from_pool": true,
   "fulltext_retrieved": false,
-  "fulltext_confirmed": false
+  "fulltext_confirmed": false,
+  "coding_source": "abstract"
  },
  {
   "title": "Machine Learning and Artificial Intelligence for a Sustainable Tourism: A Case Study on Saudi Arabia",
@@ -169,7 +173,8 @@
   "sustainability": "economic, sustainable development (stated)",
   "from_pool": true,
   "fulltext_retrieved": false,
-  "fulltext_confirmed": false
+  "fulltext_confirmed": false,
+  "coding_source": "abstract"
  },
  {
   "title": "Predicting tourism growth in Saudi Arabia with machine learning models for vision 2030 perspective",
@@ -211,13 +216,14 @@
   "outcome": "tourism growth",
   "data": "n/r (abstract unavailable)",
   "family": "M",
-  "benchmark": "n/r",
-  "metrics": "n/r",
-  "future": "n/r",
+  "benchmark": "y",
+  "metrics": "MAE, MSE, R2",
+  "future": "y (2024-2034 projections; VotingR)",
   "sustainability": "none (not assessable)",
   "from_pool": true,
   "fulltext_retrieved": true,
-  "fulltext_confirmed": true
+  "fulltext_confirmed": true,
+  "coding_source": "full text"
  },
  {
   "title": "Forecasting hotel room prices in selected GCC cities using deep learning",
@@ -249,7 +255,8 @@
   "sustainability": "none (not assessable)",
   "from_pool": true,
   "fulltext_retrieved": false,
-  "fulltext_confirmed": false
+  "fulltext_confirmed": false,
+  "coding_source": "abstract"
  },
  {
   "title": "Machine Learning-Based Tourism Demand Prediction Using Tourism Instability Indicators",
@@ -277,7 +284,8 @@
   "sustainability": "framing (implications only)",
   "from_pool": true,
   "fulltext_retrieved": false,
-  "fulltext_confirmed": false
+  "fulltext_confirmed": false,
+  "coding_source": "abstract"
  },
  {
   "title": "Forecasting the Tourism Demand of T\u00fcrkiye Using Artificial Neural Network (ANN) Approach",
@@ -300,12 +308,13 @@
   "data": "monthly, 2008-2022",
   "family": "M",
   "benchmark": "n",
-  "metrics": "R2",
+  "metrics": "MAE, MAPE, R2, RMSE",
   "future": "n",
   "sustainability": "none",
   "from_pool": true,
   "fulltext_retrieved": true,
-  "fulltext_confirmed": true
+  "fulltext_confirmed": true,
+  "coding_source": "full text"
  },
  {
   "title": "A novel hybrid deep learning approachfor tourism demand forecasting",
@@ -336,12 +345,13 @@
   "data": "monthly",
   "family": "H",
   "benchmark": "y",
-  "metrics": "n/r",
+  "metrics": "MAE, R2, RMSE",
   "future": "n",
   "sustainability": "none",
   "from_pool": true,
   "fulltext_retrieved": true,
-  "fulltext_confirmed": true
+  "fulltext_confirmed": true,
+  "coding_source": "full text"
  },
  {
   "title": "Forecasting Hotel Prices in Selected Middle East and North Africa Region (MENA) Cities with New Forecasting Tools",
@@ -367,13 +377,14 @@
   "outcome": "hotel prices",
   "data": "n/r (abstract unavailable)",
   "family": "M",
-  "benchmark": "n/r",
-  "metrics": "n/r",
-  "future": "n/r",
+  "benchmark": "y",
+  "metrics": "MAD, MAPE, RMSE",
+  "future": "n",
   "sustainability": "none (not assessable)",
   "from_pool": true,
   "fulltext_retrieved": true,
-  "fulltext_confirmed": true
+  "fulltext_confirmed": true,
+  "coding_source": "full text"
  },
  {
   "title": "A Comparative Study on Modelling and Forecasting Tourism Revenues: The Case of Turkey",
@@ -401,7 +412,8 @@
   "sustainability": "none",
   "from_pool": true,
   "fulltext_retrieved": true,
-  "fulltext_confirmed": true
+  "fulltext_confirmed": true,
+  "coding_source": "full text"
  },
  {
   "title": "Tourism demand modelling and forecasting using data mining techniques in multivariate time series: a case study in Turkey",
@@ -433,7 +445,8 @@
   "sustainability": "none (not assessable)",
   "from_pool": true,
   "fulltext_retrieved": false,
-  "fulltext_confirmed": false
+  "fulltext_confirmed": false,
+  "coding_source": "abstract"
  },
  {
   "title": "Modeling Tourism Demand in Turkey (2008\u20132024): Time-Series Approaches for Sustainable Growth",
@@ -456,12 +469,13 @@
   "data": "monthly, 2008-2024",
   "family": "C",
   "benchmark": "y",
-  "metrics": "n/r",
-  "future": "n",
+  "metrics": "MAE, MAPE, RMSE, Theil's U",
+  "future": "y (monthly forecasts 2025-2035 fr)",
   "sustainability": "framing only (\"sustainable growth\")",
   "from_pool": true,
   "fulltext_retrieved": true,
-  "fulltext_confirmed": true
+  "fulltext_confirmed": true,
+  "coding_source": "full text"
  },
  {
   "title": "Forecasting the Tourist Arrival Volumes and Tourism Income with Combined ANN Architecture in the Post COVID-19 Period: The Case of Turkey",
@@ -493,11 +507,12 @@
   "family": "H",
   "benchmark": "y",
   "metrics": "MAPE, sMAPE",
-  "future": "y (scenarios)",
+  "future": "y (2022/Q1-2022/Q4 under war / no)",
   "sustainability": "none",
   "from_pool": true,
   "fulltext_retrieved": true,
-  "fulltext_confirmed": true
+  "fulltext_confirmed": true,
+  "coding_source": "full text"
  },
  {
   "title": "Forecasting The Number of International Muslims Umrah Visitors in Makkah to 2030",
@@ -524,12 +539,13 @@
   "data": "annual, 33 years",
   "family": "C",
   "benchmark": "y",
-  "metrics": "MAPE",
-  "future": "y (2020-30)",
+  "metrics": "MAD, MAPE, MSE",
+  "future": "y (2020-2030: 7,628,163 (2020) to)",
   "sustainability": "none (Vision 2030 target only)",
   "from_pool": false,
   "fulltext_retrieved": true,
-  "fulltext_confirmed": true
+  "fulltext_confirmed": true,
+  "coding_source": "full text"
  },
  {
   "title": "The seasonality of religious tourism and the impact of the Arbaeen pilgrimage on hotel occupancy in Karbala",
@@ -557,7 +573,8 @@
   "sustainability": "none",
   "from_pool": true,
   "fulltext_retrieved": false,
-  "fulltext_confirmed": false
+  "fulltext_confirmed": false,
+  "coding_source": "abstract"
  },
  {
   "title": "Study of international tourism demand in Middle East by panel data model",
@@ -589,7 +606,8 @@
   "sustainability": "none",
   "from_pool": true,
   "fulltext_retrieved": false,
-  "fulltext_confirmed": false
+  "fulltext_confirmed": false,
+  "coding_source": "abstract"
  },
  {
   "title": "The Impacts of Oil Price Shocks on Tourism Receipts for Selected Middle East and North Africa (MENA) Countries: Do Structural Breaks Matter?",
@@ -625,7 +643,8 @@
   "sustainability": "none",
   "from_pool": true,
   "fulltext_retrieved": false,
-  "fulltext_confirmed": false
+  "fulltext_confirmed": false,
+  "coding_source": "abstract"
  },
  {
   "title": "Dynamics of tourism demand in Turkey: Panel data analysis using gravity model",
@@ -661,7 +680,8 @@
   "sustainability": "framing (\"sustainable tourism\")",
   "from_pool": true,
   "fulltext_retrieved": false,
-  "fulltext_confirmed": false
+  "fulltext_confirmed": false,
+  "coding_source": "abstract"
  },
  {
   "title": "The effect of tourism source market structure on international tourism revenues in Turkey",
@@ -689,7 +709,8 @@
   "sustainability": "none",
   "from_pool": true,
   "fulltext_retrieved": false,
-  "fulltext_confirmed": false
+  "fulltext_confirmed": false,
+  "coding_source": "abstract"
  },
  {
   "title": "Geopolitical and economic risks and tourism in Tunisia: A wavelet-based analysis",
@@ -721,7 +742,8 @@
   "sustainability": "none",
   "from_pool": true,
   "fulltext_retrieved": false,
-  "fulltext_confirmed": false
+  "fulltext_confirmed": false,
+  "coding_source": "abstract"
  },
  {
   "title": "Institutional Quality and Tourism Growth Nexus in MENA Countries",
@@ -749,7 +771,8 @@
   "sustainability": "none",
   "from_pool": true,
   "fulltext_retrieved": true,
-  "fulltext_confirmed": true
+  "fulltext_confirmed": true,
+  "coding_source": "full text"
  },
  {
   "title": "Climate and Tourist Location in Saudi Arabia: A Spatial and Econometric Analysis of the Climatic Determinants of Tourist Area Selection",
@@ -777,7 +800,8 @@
   "sustainability": "environmental (climate)",
   "from_pool": true,
   "fulltext_retrieved": false,
-  "fulltext_confirmed": false
+  "fulltext_confirmed": false,
+  "coding_source": "abstract"
  },
  {
   "title": "Reduced Climate Vulnerability, Visa Liberalization and Tourism Development in Saudi Arabia: Evidence Under Vision 2030 Framework",
@@ -805,7 +829,8 @@
   "sustainability": "environmental (climate vulnerability)",
   "from_pool": true,
   "fulltext_retrieved": false,
-  "fulltext_confirmed": false
+  "fulltext_confirmed": false,
+  "coding_source": "abstract"
  },
  {
   "title": "Hard, Green, and Heritage Infrastructure and Regional Tourism Spending in Saudi Arabia: Insights for Vision 2030 and SDG 11",
@@ -833,7 +858,8 @@
   "sustainability": "environmental (green infrastructure), SDG",
   "from_pool": true,
   "fulltext_retrieved": false,
-  "fulltext_confirmed": false
+  "fulltext_confirmed": false,
+  "coding_source": "abstract"
  },
  {
   "title": "Tourism Transformation and Oil Price Dynamics in Saudi Arabia: An ARDL Analysis of Religious and Non-Religious Tourism",
@@ -865,7 +891,8 @@
   "sustainability": "none",
   "from_pool": true,
   "fulltext_retrieved": false,
-  "fulltext_confirmed": false
+  "fulltext_confirmed": false,
+  "coding_source": "abstract"
  },
  {
   "title": "The Tourism\u2013Energy\u2013Trade Openness Nexus and Transport CO2 Emissions in the Middle East: Evidence from an ARDL Approach",
@@ -901,7 +928,8 @@
   "sustainability": "environmental",
   "from_pool": true,
   "fulltext_retrieved": false,
-  "fulltext_confirmed": false
+  "fulltext_confirmed": false,
+  "coding_source": "abstract"
  },
  {
   "title": "Modeling Energy, Education, Trade, and Tourism-Induced Environmental Kuznets Curve (EKC) Hypothesis: Evidence from the Middle East",
@@ -941,7 +969,8 @@
   "sustainability": "environmental",
   "from_pool": true,
   "fulltext_retrieved": true,
-  "fulltext_confirmed": true
+  "fulltext_confirmed": true,
+  "coding_source": "full text"
  },
  {
   "title": "The impact of tourism on carbon (CO2) Emissions: An empirical analysis of Turkiye",
@@ -973,7 +1002,8 @@
   "sustainability": "environmental",
   "from_pool": true,
   "fulltext_retrieved": true,
-  "fulltext_confirmed": true
+  "fulltext_confirmed": true,
+  "coding_source": "full text"
  },
  {
   "title": "The Role of Tourism Development in Promoting Income Equality: A Case Study of GCC Countries",
@@ -1001,7 +1031,8 @@
   "sustainability": "social",
   "from_pool": true,
   "fulltext_retrieved": true,
-  "fulltext_confirmed": true
+  "fulltext_confirmed": true,
+  "coding_source": "full text"
  },
  {
   "title": "The impact of tourism on sustainable development in GCC countries",
@@ -1033,7 +1064,8 @@
   "sustainability": "economic, social, environmental",
   "from_pool": true,
   "fulltext_retrieved": true,
-  "fulltext_confirmed": true
+  "fulltext_confirmed": true,
+  "coding_source": "full text"
  },
  {
   "title": "The Nexus between tourism-energy-environmental degradation: Does financial development matter in GCC countries?",
@@ -1077,7 +1109,8 @@
   "sustainability": "environmental",
   "from_pool": true,
   "fulltext_retrieved": false,
-  "fulltext_confirmed": false
+  "fulltext_confirmed": false,
+  "coding_source": "abstract"
  },
  {
   "title": "Sustainability of Tourism and Economic Development in Three Religious Tourism Destinations: The Critical Role of Fossil Fuel Energy on Air Pollution and Human Health",
@@ -1109,7 +1142,8 @@
   "sustainability": "environmental, social",
   "from_pool": true,
   "fulltext_retrieved": true,
-  "fulltext_confirmed": true
+  "fulltext_confirmed": true,
+  "coding_source": "full text"
  },
  {
   "title": "Environmental Impact of Urbanization, Bank Credits, and Energy Use in the UAE\u2014A Tourism-Induced EKC Model",
@@ -1141,7 +1175,8 @@
   "sustainability": "environmental",
   "from_pool": true,
   "fulltext_retrieved": true,
-  "fulltext_confirmed": true
+  "fulltext_confirmed": true,
+  "coding_source": "full text"
  },
  {
   "title": "Innovation and sustainability drivers of post-COVID tourism and hotel recovery in Jordan: Evidence from 2010\u20132024",
@@ -1189,7 +1224,8 @@
   "sustainability": "environmental (EPI), innovation",
   "from_pool": true,
   "fulltext_retrieved": true,
-  "fulltext_confirmed": true
+  "fulltext_confirmed": true,
+  "coding_source": "full text"
  },
  {
   "title": "Modelling the causality of sustainable tourism in Qatar: an empirical study",
@@ -1221,7 +1257,8 @@
   "sustainability": "sustainable tourism (title)",
   "from_pool": true,
   "fulltext_retrieved": false,
-  "fulltext_confirmed": false
+  "fulltext_confirmed": false,
+  "coding_source": "abstract"
  },
  {
   "title": "Saudi Arabia's path to carbon neutrality: Analysis of the role of Hajj pilgrimage, energy consumption, and economic growth",
@@ -1257,7 +1294,8 @@
   "sustainability": "environmental (title)",
   "from_pool": false,
   "fulltext_retrieved": false,
-  "fulltext_confirmed": false
+  "fulltext_confirmed": false,
+  "coding_source": "abstract"
  },
  {
   "title": "Pilgrimage Tourism, Economic growth & Energy consumption: Their Impact on Carbon Emission in Saudi Arabia \u0627\u0644\u0633\u064a\u0627\u062d\u0629 \u0627\u0644\u062f\u064a\u0646\u064a\u0629\u060c \u0627\u0644\u0646\u0645\u0648 \u0627\u0644\u0627\u0642\u062a\u0635\u0627\u062f\u064a \u0648\u0627\u0633\u062a\u0647\u0644\u0627\u0643 \u0627\u0644\u0637\u0627\u0642\u0629: \u062a\u0623\u062b\u064a\u0631\u0647\u0627 \u0639\u0644\u0649 \u0627\u0646\u0628\u0639\u0627\u062b \u0627\u0644\u0643\u0631\u0628\u0648\u0646 \u0641\u064a \u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u0627\u0644\u0633\u0639\u0648\u062f\u064a\u0629",
@@ -1285,7 +1323,8 @@
   "sustainability": "environmental",
   "from_pool": false,
   "fulltext_retrieved": true,
-  "fulltext_confirmed": true
+  "fulltext_confirmed": true,
+  "coding_source": "full text"
  },
  {
   "title": "Investigating the nexus between CO 2 emissions, economic growth, energy consumption and pilgrimage tourism in Saudi Arabia",
@@ -1321,7 +1360,8 @@
   "sustainability": "environmental (title)",
   "from_pool": false,
   "fulltext_retrieved": false,
-  "fulltext_confirmed": false
+  "fulltext_confirmed": false,
+  "coding_source": "abstract"
  },
  {
   "title": "Economic growth, foreign investment, tourism, and electricity production as determinants of environmental quality: empirical evidence from GCC region",
@@ -1365,6 +1405,36 @@
   "sustainability": "environmental (title)",
   "from_pool": false,
   "fulltext_retrieved": false,
-  "fulltext_confirmed": false
+  "fulltext_confirmed": false,
+  "coding_source": "abstract"
+ },
+ {
+  "title": "The Relation between Tourism and Economic Growth: A Case of Saudi Arabia as an Emerging Tourism Destination",
+  "authors": [
+   {
+    "family": "Jamel",
+    "given": "Lamia"
+   }
+  ],
+  "year": 2020,
+  "journal": "Virtual Economics",
+  "volume": "3",
+  "pages": "29-47",
+  "has_abstract": true,
+  "key": "Jamel2020",
+  "doi": "10.34021/ve.2020.03.04(2)",
+  "theme": "S",
+  "country": "Saudi Arabia",
+  "outcome": "tourism-growth nexus with CO2 emissions (VAR, Granger)",
+  "data": "annual, 1990-2018",
+  "family": "C",
+  "benchmark": "n",
+  "metrics": "n/a",
+  "future": "n",
+  "sustainability": "environmental (CO2 as exogenous variable)",
+  "from_pool": true,
+  "fulltext_retrieved": true,
+  "fulltext_confirmed": true,
+  "coding_source": "full text"
  }
 ]

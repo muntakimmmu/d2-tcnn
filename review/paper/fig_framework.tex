@@ -11,7 +11,7 @@
 \node[box, right=of fc, dashed, draw=red!70!black] (cap) {\textbf{Capacity / environmental load}\\ exceedance probability $1-\hat F(K)$};
 \draw[arr, cD] (drv) -- node[lab, above]{explain (D)\\ $n=$ \NnD{}} (dem);
 \draw[arr, cS] (dem) -- node[lab, above]{ex post (S)\\ $n=$ \NnS{}} (env);
-\draw[arr, cD] (cli) -- node[lab, right]{determinant; scenarios\\ $n=3$ (1 with scenarios)} (dem);
+\draw[arr, cD] (cli) -- node[lab, right]{determinant; scenarios\\ $n=$ \NDenv{} (\NDscen{} with scenarios)} (dem);
 \draw[arr, cF] (dem) -- node[lab, right]{forecast (F)\\ $n=$ \NnF{}} (fc);
 \draw[arr, dashed, red!70!black] (fc) -- node[lab, below=3pt]{missing link, $n=0$} (cap);
 \end{tikzpicture}

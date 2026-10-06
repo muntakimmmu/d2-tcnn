@@ -1,0 +1,17 @@
+\begin{tabular}{@{}p{3.2cm}p{4.2cm}p{4.6cm}p{5.0cm}p{1.6cm}@{}}
+\toprule
+Study & Best model (as reported) & Reported accuracy & Comparison models & Ex-ante forecast\\
+\midrule
+\citet{AlShehhi2018} & SVM & MAPE 0.0221; MAPE 0.0421 & simple moving average, ARIMA & No \\
+\citet{Alamoudi2020} & ARIMA (2,2,2) & MAPE 9\% (train); MAD 180,908 (train) & moving averages MA 2, moving averages MA 3, double moving av & Yes \\
+\citet{Alsulami2026} & VotingR2 ensemble & R2 0.873587 (test) & ARIMAX, Prophet, Decision Tree (baseline) & Yes \\
+\citet{Bilek2025} & SARIMA (1,1,0)(1,1,0)12 (total arrivals) & MAPE 11.06\% (test); RMSE 52,508.79 (test) & SARIMA vs SARIMAX (no naive benchmark) & Yes \\
+\citet{Cuhadar2020} & MLP-ANN [4-5-1] & MAPE 8.06\% & Holt-Winter's multiplicative-seasonal exponential smoothing, & No \\
+\citet{Kayral2023} & ETS (lowest MAPE and sMAPE for both tourist arrivals and tou & MAPE 10.60\% (tourist arrivals) & ETS, ARIMA, TRAMO-SEATS, X13, X11, STL, Grey (single models  & Yes \\
+\citet{Kurtulay2024} & NAR artificial neural network No. 1 (10 hidden neurons, 15 d & MAPE \%10,63 (test) & Naive III, simple moving average, Holt-Winters seasonal expo & No \\
+\citet{Laaroussi2023} & AE-3 layer stacked LSTM & MAE 0.024431 (test); RMSE 0.001169 (test) & RNN, LSTM, PCA-RNN, PCA-LSTM, SVR, ANN, PCA-SVR, PCA-ANN, AE & No \\
+\citet{Ouassou2022} & LSTM\_AR hybrid (ensemble) & MAPE 6.127097 (test) & ARIMA, AR, linear regression, SVR, XGBoost, LSTM & No \\
+\citet{Rashad2022} & Google-augmented model & RMSE 8768.5453 (test); MAE 6279.5498 (test) & traditional model (AR(1) + UK GDP + REER + COVID dummy + mon & No \\
+\citet{Tuncsiper2023} & autoregressive MLP ANN (only model) & MAPE 10.387\%; RMSE 0.339 & n/r & No \\
+\bottomrule
+\end{tabular}

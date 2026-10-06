@@ -1,0 +1,35 @@
+{
+ "S0_main": {
+  "n": 42,
+  "F": 16,
+  "F_sust": 1,
+  "nonF": 26,
+  "nonF_sust": 18,
+  "nonF_forward": 1
+ },
+ "S1_plus_growth_nexus": {
+  "n": 51,
+  "F": 16,
+  "F_sust": 1,
+  "nonF": 35,
+  "nonF_sust": 18,
+  "nonF_forward": 1
+ },
+ "S2_without_Turkiye": {
+  "n": 32,
+  "F": 10,
+  "F_sust": 1,
+  "nonF": 22,
+  "nonF_sust": 16,
+  "nonF_forward": 1
+ },
+ "S3_fulltext_confirmed_only": {
+  "n": 21,
+  "F": 11,
+  "F_sust": 0,
+  "nonF": 10,
+  "nonF_sust": 9,
+  "nonF_forward": 0
+ },
+ "growth_nexus_with_forecast_terms": []
+}

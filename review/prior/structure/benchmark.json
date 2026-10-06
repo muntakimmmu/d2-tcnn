@@ -1,0 +1,224 @@
+{
+ "Ajuhari2023": {
+  "pages": 20,
+  "figures": 1,
+  "tables": 7,
+  "prisma": true,
+  "dual": false,
+  "quality_tool": [
+   "QUALITY ASSESSMENT"
+  ],
+  "bibliometric_tool": [
+   "CiteSpace"
+  ],
+  "databases": [
+   "Scopus",
+   "Web of Science",
+   "Google Scholar",
+   "Springer",
+   "Crossref",
+   "PubMed",
+   "JSTOR",
+   "Wiley",
+   "SAGE"
+  ],
+  "words": 11852,
+  "n_claims": []
+ },
+ "Alhejaili2025": {
+  "pages": 14,
+  "figures": 2,
+  "tables": 1,
+  "prisma": false,
+  "dual": false,
+  "quality_tool": [],
+  "bibliometric_tool": [],
+  "databases": [
+   "Scopus",
+   "Web of Science",
+   "Google Scholar",
+   "Crossref",
+   "SAGE"
+  ],
+  "words": 4846,
+  "n_claims": []
+ },
+ "Dowlut2023": {
+  "pages": null,
+  "figures": 0,
+  "tables": 0,
+  "prisma": false,
+  "dual": true,
+  "quality_tool": [
+   "RISK OF BIAS"
+  ],
+  "bibliometric_tool": [],
+  "databases": [
+   "Google Scholar",
+   "IEEE",
+   "Taylor",
+   "Springer",
+   "Wiley",
+   "SAGE"
+  ],
+  "words": 15729,
+  "n_claims": [
+   "50",
+   "22",
+   "58"
+  ]
+ },
+ "Henriques2024": {
+  "pages": 13,
+  "figures": 1,
+  "tables": 7,
+  "prisma": true,
+  "dual": false,
+  "quality_tool": [],
+  "bibliometric_tool": [],
+  "databases": [
+   "Scopus",
+   "Web of Science",
+   "Springer"
+  ],
+  "words": 9888,
+  "n_claims": [
+   "20"
+  ]
+ },
+ "Long2022": {
+  "pages": 19,
+  "figures": 6,
+  "tables": 1,
+  "prisma": false,
+  "dual": false,
+  "quality_tool": [
+   "QUALITY ASSESSMENT"
+  ],
+  "bibliometric_tool": [
+   "CiteSpace",
+   "Citespace",
+   "VOSviewer",
+   "Vosviewer"
+  ],
+  "databases": [
+   "Scopus",
+   "Web of Science",
+   "IEEE",
+   "CNKI",
+   "Crossref",
+   "PubMed"
+  ],
+  "words": 11958,
+  "n_claims": []
+ },
+ "Majid2023": {
+  "pages": 22,
+  "figures": 5,
+  "tables": 2,
+  "prisma": true,
+  "dual": false,
+  "quality_tool": [],
+  "bibliometric_tool": [
+   "bibliometrix"
+  ],
+  "databases": [
+   "Scopus",
+   "Web of Science",
+   "Google Scholar",
+   "IEEE",
+   "Emerald",
+   "Taylor",
+   "Springer",
+   "Wiley",
+   "SAGE"
+  ],
+  "words": 10884,
+  "n_claims": []
+ },
+ "Iqbal2025": {
+  "pages": 7,
+  "figures": 1,
+  "tables": 6,
+  "prisma": true,
+  "dual": false,
+  "quality_tool": [],
+  "bibliometric_tool": [],
+  "databases": [
+   "Scopus",
+   "Web of Science",
+   "Google Scholar",
+   "ScienceDirect",
+   "ProQuest",
+   "Emerald"
+  ],
+  "words": 5756,
+  "n_claims": []
+ },
+ "Song2019": {
+  "pages": 59,
+  "figures": 2,
+  "tables": 0,
+  "prisma": false,
+  "dual": false,
+  "quality_tool": [],
+  "bibliometric_tool": [],
+  "databases": [
+   "Web of Science",
+   "Google Scholar",
+   "Springer",
+   "SAGE"
+  ],
+  "words": 20012,
+  "n_claims": [
+   "83"
+  ]
+ },
+ "Zhang2020km": {
+  "pages": null,
+  "figures": 0,
+  "tables": 0,
+  "prisma": false,
+  "dual": false,
+  "quality_tool": [],
+  "bibliometric_tool": [
+   "CiteSpace"
+  ],
+  "databases": [
+   "Scopus",
+   "Web of Science",
+   "EBSCO",
+   "ProQuest",
+   "Emerald",
+   "Taylor",
+   "PubMed",
+   "SAGE"
+  ],
+  "words": 10149,
+  "n_claims": []
+ },
+ "OURS": {
+  "pages": 29,
+  "figures": 8,
+  "tables": 8,
+  "prisma": true,
+  "dual": true,
+  "quality_tool": [
+   "PROBAST",
+   "RISK OF BIAS"
+  ],
+  "bibliometric_tool": [],
+  "databases": [
+   "Scopus",
+   "Web of Science",
+   "Google Scholar",
+   "IEEE",
+   "Crossref",
+   "PubMed"
+  ],
+  "words": 10608,
+  "n_claims": [
+   "41"
+  ]
+ }
+}

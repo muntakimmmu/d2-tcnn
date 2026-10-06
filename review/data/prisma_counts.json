@@ -14,7 +14,7 @@
  "pool_excluded": 55,
  "supp_assessed": 6,
  "supp_included": 5,
- "total_included": 42,
+ "total_included": 41,
  "excl_reasons": {
   "Not a quantitative forecasting, demand-modelling or tourism-sustainability study (perception/SEM, qualitative, conceptual, educational, technical non-tourism)": 33,
   "Tourism-growth nexus only (no demand forecasting/modelling of tourism outcome, no sustainability dimension)": 9,
@@ -26,7 +26,12 @@
  "theme": {
   "F": 16,
   "D": 11,
-  "S": 15
+  "S": 14
  },
- "has_abstract": 33
+ "has_abstract": 33,
+ "ft_sought": 42,
+ "ft_retrieved": 21,
+ "ft_excluded": 1,
+ "ft_confirmed": 20,
+ "abstract_only": 21
 }

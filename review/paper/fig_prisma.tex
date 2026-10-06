@@ -1,0 +1,36 @@
+% PRISMA 2020 flow diagram for new systematic reviews (databases and registers), drawn after the official template
+% (Page MJ, et al. BMJ 2021;372:n71; CC BY 4.0). Numbers are macros generated from data/ by search/gen_tex.py.
+\begin{tikzpicture}[font=\sffamily\scriptsize, node distance=5mm and 9mm,
+  box/.style={draw=black, thick, align=left, text width=5.2cm, minimum height=13mm, inner sep=4pt},
+  rbox/.style={draw=black, thick, align=left, text width=5.0cm, minimum height=13mm, inner sep=4pt},
+  arr/.style={-{Latex[length=2mm]}, thick}]
+\definecolor{prismaYellow}{HTML}{FFC000}\definecolor{prismaBlue}{HTML}{9DC3E6}\definecolor{prismaBlueLine}{HTML}{41719C}
+\node[box, minimum height=24mm] (id) {Records identified from*:\\[1pt]
+  Databases: Crossref (n = \Nretrieved{})\\
+  Registers (n = 0)\\
+  Targeted title searches (n = \Nother{})};
+\node[rbox, minimum height=24mm, right=of id] (rm) {Records removed \emph{before screening}:\\[1pt]
+  Duplicate records removed (n = \Ndupsall{})\\
+  Marked as ineligible by automation tools (n = \Nautonet{})$^{\dagger}$\\
+  Removed for other reasons (n = 0)};
+\node[box, below=9mm of id] (scr) {Records screened\\ (n = \Nassessed{})};
+\node[rbox, right=of scr] (exs) {Records excluded**\\ (n = \Nexclelig{})};
+\node[box, below=of scr] (sought) {Reports sought for retrieval\\ (n = \Nftsought{})};
+\node[rbox, right=of sought] (notr) {Reports not retrieved$^{\dagger\dagger}$\\ (n = \Nftnotret{})};
+\node[box, below=of sought] (ass) {Reports assessed for eligibility\\ (n = \Nftretr{})};
+\node[rbox, right=of ass] (exr) {Reports excluded:\\ Tourism--growth nexus only (n = \Nftexcl{})};
+\node[box, below=9mm of ass, minimum height=15mm] (inc) {Studies included in review (n = \Nincluded{})$^{\ddagger}$\\ Reports of included studies (n = \Nincluded{})};
+\draw[arr] (id) -- (rm); \draw[arr] (id) -- (scr); \draw[arr] (scr) -- (exs); \draw[arr] (scr) -- (sought);
+\draw[arr] (sought) -- (notr); \draw[arr] (sought) -- (ass); \draw[arr] (ass) -- (exr); \draw[arr] (ass) -- (inc);
+% header and phase bars
+\node[draw=prismaYellow!70!black, fill=prismaYellow, rounded corners=3pt, font=\sffamily\scriptsize\bfseries, minimum height=6mm,
+  fit={(id.west|-id.north) (rm.east|-id.north)}, inner sep=0pt, yshift=7mm] (hdr) {};
+\node[font=\sffamily\scriptsize\bfseries] at (hdr) {Identification of studies via databases and registers};
+\foreach \top/\bot/\lab in {id/id/Identification, scr/ass/Screening, inc/inc/Included}{
+  \path let \p1=(\top.north), \p2=(\bot.south) in
+    node[draw=prismaBlueLine, fill=prismaBlue, rounded corners=4pt, minimum width=6mm, minimum height={\y1-\y2}, anchor=north east]
+    at ([xshift=-4mm]\top.north west) {};
+  \path let \p1=(\top.north), \p2=(\bot.south) in
+    node[rotate=90, font=\sffamily\scriptsize\bfseries] at ([xshift=-7mm]$(\top.north west)!0.5!(\bot.south west)$) {\lab};
+}
+\end{tikzpicture}

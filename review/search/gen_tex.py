@@ -14,7 +14,11 @@ N = dict(queries=cnt["queries"], retrieved=cnt["retrieved"], dups=cnt["duplicate
   e_geo=cnt["excl_reasons"][[k for k in cnt["excl_reasons"] if k.startswith("Outside")][0]], e_lang=cnt["excl_reasons"][[k for k in cnt["excl_reasons"] if k.startswith("Non-English")][0]],
   e_undet=cnt["excl_reasons"][[k for k in cnt["excl_reasons"] if k.startswith("Eligibility")][0]]+1, e_oper=cnt["excl_reasons"][[k for k in cnt["excl_reasons"] if k.startswith("Operational")][0]])
 assert N["screened"]-N["auto_excl"]+N["other_reinst"]==N["assessed"], (N)
-assert N["assessed"]-N["excl_elig"]==N["included"]
+N.update(ftsought=cnt["ft_sought"], ftretr=cnt["ft_retrieved"], ftnotret=cnt["ft_sought"]-cnt["ft_retrieved"], ftexcl=cnt["ft_excluded"],
+  ftconf=cnt["ft_confirmed"], absonly=cnt["abstract_only"], dupsall=cnt["duplicates_removed"]+2, autonet=N["auto_excl"]-2, identified=cnt["retrieved"]+6)
+assert N["assessed"]-N["excl_elig"]==N["ftsought"]
+assert N["ftsought"]-N["ftexcl"]==N["included"] and N["ftconf"]+N["absonly"]==N["included"]
+assert N["identified"]-N["dupsall"]-N["autonet"]==N["assessed"]
 assert N["e_notq"]+N["e_growth"]+N["e_geo"]+N["e_lang"]+N["e_undet"]+N["e_oper"]==N["excl_elig"]
 F=[i for i in inc if i["theme"]=="F"]; nonF=[i for i in inc if i["theme"]!="F"]
 env=lambda i: any(w in i["sustainability"] for w in ("environ","economic","social","sustainable","SDG","climate"))
@@ -52,7 +56,7 @@ print(N); print(rc)
 # excluded table
 ex = [(r["doi"], r["title"], r["year"], r["reason"]) for r in rows]
 ex.append(("10.1016/j.ijhm.2026.104745", "Hybrid machine learning approaches for hotel occupancy forecasting: Evaluating gradient boosting and neural networks", "2026", "Eligibility not determinable from metadata (region or tourism link unconfirmed)"))
-short = {"Not a quant":"Not quantitative forecast/demand/sustainability study","Tourism-grow":"Growth nexus only","Outside geo":"Outside Middle East","Non-English":"Non-English / proceedings","Eligibility n":"Region/tourism link unconfirmed","Operational/":"Operational/crowd/health prediction"}
+short = {"Full text":"Full text: growth nexus only","Not a quant":"Not quantitative forecast/demand/sustainability study","Tourism-grow":"Growth nexus only","Outside geo":"Outside Middle East","Non-English":"Non-English / proceedings","Eligibility n":"Region/tourism link unconfirmed","Operational/":"Operational/crowd/health prediction"}
 def sh(r):
     for k,v in short.items():
         if r.startswith(k): return v

@@ -6,7 +6,7 @@
 - Search: Crossref REST API only (70 queries, top-100 each, journal articles 2015-2026), run 2026-10-05.
 - Screening: automated keyword stages (`search/screen.py`, `search/screen_stage2.py`) then manual title/abstract assessment by a single AI reviewer.
 - Coding: abstract-level only (publisher full texts were blocked by the network policy). Items not in the abstract are `n/r`.
-- 42 studies included (16 forecasting, 11 demand modelling, 15 sustainability nexus).
+- 41 studies included (16 forecasting, 11 demand modelling, 14 sustainability nexus); full texts retrieved and checked for 21 of 42 provisionally included (1 excluded).
 
 ## Reproduce
 ```
@@ -31,3 +31,8 @@ Eligibility decisions and abstract-level coding are hand-coded in `search/build_
 
 ## Structure and figures (aligned with competing reviews)
 Section order and figure types follow the downloaded competitor reviews (structures extracted in `prior/structure/competitor_structure.json`): Introduction → Literature background → Methodology (protocol, sources, search strategy table, inclusion/exclusion table, PRISMA flow, extraction form, appraisal, analysis) → Results (year-wise trend, journals, settings, keyword co-occurrence network, themes, methods-by-year, accuracy measures) → Discussion (implications, framework figure, future-research table) → Conclusions (limitations, contributions). Figures: `python3 search/make_figures.py` → `paper/figs/`.
+
+## PRISMA materials
+- `prisma/PRISMA_2020_flow_diagram_completed.docx` (+ .pdf): the supplied official template, filled by `search/fill_prisma_flow.py` from `data/final_numbers.json`.
+- `prisma/PRISMA_2020_Checklist_completed.docx` (+ .pdf): the supplied checklist (main + abstract), filled by `search/fill_prisma_checklist.py`.
+- Paper Figure 1 (`paper/fig_prisma.tex`) reproduces the template style with the same macros.

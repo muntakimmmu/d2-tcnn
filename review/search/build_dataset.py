@@ -74,14 +74,24 @@ for k,doi,theme,ctry,out,data,fam,bench,metric,fut,sust in INC:
     m = meta(doi); m.update(key=k,doi=doi,theme=theme,country=ctry,outcome=out,data=data,family=fam,benchmark=bench,metrics=metric,future=fut,sustainability=sust,
         from_pool = doi in {p["DOI"].lower() for p in pool}); inc.append(m)
 assert all(i["doi"] in cand for i in inc)
+# --- Stage 4: full-text eligibility check of the reports that could be retrieved (data/download_log.json)
+FT_EXCLUDE = {"Triki2019": "Full text: tourism-growth nexus only (Hajj pilgrims vs non-oil GDP causality); 'sustainable development' used as framing only"}
+dl = {r["doi"].lower(): r for r in json.load(open("data/download_log.json"))}
+for i in inc:
+    i["fulltext_retrieved"] = bool(dl.get(i["doi"], {}).get("file"))
+    i["fulltext_confirmed"] = i["fulltext_retrieved"] and i["key"] not in FT_EXCLUDE
+json.dump(inc, open("data/included_abstract_stage.json","w"), indent=1)
+ft_excluded = [i for i in inc if i["key"] in FT_EXCLUDE]
+inc = [i for i in inc if i["key"] not in FT_EXCLUDE]
 json.dump(inc, open("data/included.json","w"), indent=1)
-inc_dois = {i["doi"] for i in inc}
+inc_dois = {i["doi"] for i in inc} | {i["doi"] for i in ft_excluded}
 rows = []
 for i,p in enumerate(pool):
     if p["DOI"].lower() in inc_dois: continue
     rows.append((p["DOI"], " ".join(p["title"])[:140].replace("\n"," "), p.get("_year"), reason.get(i, R2)))
+rows_ft = [(i["doi"], i["title"][:140], i["year"], FT_EXCLUDE[i["key"]]) for i in ft_excluded]
 with open("data/excluded_eligibility.csv","w",newline="") as f:
-    w = csv.writer(f); w.writerow(["doi","title","year","reason"]); w.writerows(rows)
+    w = csv.writer(f); w.writerow(["doi","title","year","reason"]); w.writerows(rows + rows_ft)
 from collections import Counter
 rc = Counter(r[3] for r in rows)
 n_ret = log["n_retrieved_total"]; n_uniq = log["n_unique_doi"]
@@ -90,7 +100,9 @@ cnt = dict(queries=len(log["queries"]), retrieved=n_ret, duplicates_removed=n_re
   other_methods_records=len(cand)-len({p["DOI"].lower() for p in pool if p["DOI"].lower() in cand}),
   auto_excl_not_tourism=st["excl_not_tourism"], auto_excl_no_region=st["excl_no_region_signal"], auto_excl_no_forecast_sust=st["excl_no_forecast_or_sust"],
   auto_pass1=st["passed_rule_screen"], auto_excl_stage2=st["passed_rule_screen"]-len(pool), pool=len(pool),
-  pool_included=len(inc)-len(supp_in), pool_excluded=len(rows), supp_assessed=len(cand)-sum(1 for d in cand if d in {p["DOI"].lower() for p in pool}),
+  pool_included=len(inc)+len(ft_excluded)-len(supp_in), pool_excluded=len(rows), supp_assessed=len(cand)-sum(1 for d in cand if d in {p["DOI"].lower() for p in pool}),
   supp_included=len(supp_in), total_included=len(inc), excl_reasons=dict(rc),
-  theme=dict(Counter(i["theme"] for i in inc)), has_abstract=sum(i["has_abstract"] for i in inc))
+  theme=dict(Counter(i["theme"] for i in inc)), has_abstract=sum(i["has_abstract"] for i in inc),
+  ft_sought=len(inc)+len(ft_excluded), ft_retrieved=sum(i["fulltext_retrieved"] for i in inc)+len(ft_excluded),
+  ft_excluded=len(ft_excluded), ft_confirmed=sum(i["fulltext_confirmed"] for i in inc), abstract_only=sum(not i["fulltext_retrieved"] for i in inc))
 json.dump(cnt, open("data/prisma_counts.json","w"), indent=1); print(json.dumps(cnt, indent=1))

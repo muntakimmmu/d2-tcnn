@@ -7,20 +7,20 @@
   "deep learning / ANN": 7,
   "ARIMA / SARIMA": 5,
   "ARDL / cointegration": 11,
-  "causality": 6,
+  "causality": 5,
   "panel data": 6,
   "CO2 emissions": 9,
   "EKC": 3,
   "energy": 9,
   "economic growth": 13,
-  "sustainability": 14,
+  "sustainability": 13,
   "COVID-19": 7,
   "Vision 2030": 5,
-  "religious tourism": 8,
+  "religious tourism": 7,
   "geopolitical risk": 3,
   "hotel": 4,
   "search data": 3,
-  "Saudi Arabia": 15,
+  "Saudi Arabia": 14,
   "Türkiye": 7,
   "GCC": 5,
   "seasonality": 6
@@ -389,17 +389,7 @@
   [
    "causality",
    "sustainability",
-   4
-  ],
-  [
-   "causality",
-   "religious tourism",
-   2
-  ],
-  [
-   "causality",
-   "Saudi Arabia",
-   2
+   3
   ],
   [
    "panel data",
@@ -513,13 +503,8 @@
   ],
   [
    "sustainability",
-   "religious tourism",
-   2
-  ],
-  [
-   "sustainability",
    "Saudi Arabia",
-   7
+   6
   ],
   [
    "sustainability",
@@ -549,7 +534,7 @@
   [
    "religious tourism",
    "Saudi Arabia",
-   7
+   6
   ],
   [
    "search data",
@@ -639,7 +624,6 @@
   "The Romanian Economic Journal": 1,
   "Journal of Cultural Analysis and Social Change": 1,
   "Sustainable Development": 1,
-  "GeoJournal of Tourism and Geosites": 1,
   "Journal of Tourism Theory and Research": 1,
   "Journal of Tourism Management Research": 1,
   "Problems and Perspectives in Management": 1,
@@ -654,7 +638,7 @@
   "Türkiye": 9,
   "Morocco": 2,
   "Iran": 1,
-  "Saudi Arabia": 13,
+  "Saudi Arabia": 12,
   "GCC (multi-country)": 5,
   "Middle East / MENA (multi-country)": 6,
   "Iraq": 1,

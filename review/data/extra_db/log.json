@@ -484,5 +484,23 @@
   "retrieved": 0,
   "error": null,
   "time": "2026-10-06T06:24:32.035496"
+ },
+ {
+  "db": "s2",
+  "query": "hotel occupancy forecasting Hajj Umrah",
+  "ok": true,
+  "reported_total": 0,
+  "retrieved": 0,
+  "error": null,
+  "time": "2026-10-06T06:24:36.279323"
+ },
+ {
+  "db": "s2",
+  "query": "hotel occupancy forecasting UAE",
+  "ok": true,
+  "reported_total": 0,
+  "retrieved": 0,
+  "error": null,
+  "time": "2026-10-06T06:24:40.534973"
  }
 ]
